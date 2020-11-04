@@ -1,16 +1,8 @@
 import biblib.bib
 import biblib.messages
 import biblib.algo
-<<<<<<< HEAD
 
 import os.path
-=======
-import sys
-import yaml
-import os.path
-from os import path
-import glob
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
 
 from shutil import copyfile
 from utils import *
@@ -54,7 +46,6 @@ def clean_entry(ent):
 
     return to_return
 
-<<<<<<< HEAD
 def build_pub(entry, old_path_to_pdf, old_path_to_thumbnail, description, highlight=False): 
     
     entry_pdf_location, entry_pdf_name = get_entry_pdf_location(entry)
@@ -69,20 +60,6 @@ def build_pub(entry, old_path_to_pdf, old_path_to_thumbnail, description, highli
         "thumbnail":entry_thumbnail_name,
         "description":description,
         "highlight":int(highlight)
-=======
-def build_pub(entry, old_path_to_pdf, old_path_to_thumbnail): 
-    
-    entry_pdf_location = get_entry_pdf_location(entry)
-    copyfile(old_path_to_pdf,entry_pdf_location)
-
-    _, thumbnail_file_extension = os.path.splitext(old_path_to_thumbnail)
-    entry_thumbnail_location = get_entry_thumbnail_location(entry, thumbnail_file_extension)
-    copyfile(old_path_to_thumbnail, entry_thumbnail_location)
-
-    pub = {
-        "pdf":entry_pdf_location,
-        "thumbnail":entry_thumbnail_location,
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
     }
     pub.update(entry)
 
@@ -94,57 +71,35 @@ def get_entry_pdf_location(entry):
     jekyll_config = load_jeykll_config()
     pdf_dir = os.path.join(jekyll_config["RESOURCES_PATH"], "pubpdfs")
     entry_pdf_location = os.path.join(pdf_dir,entry.key + ".pdf")
-<<<<<<< HEAD
     return entry_pdf_location, entry.key + ".pdf"
 
-=======
-    return entry_pdf_location
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
 
 def get_entry_thumbnail_location(entry, file_extension):
     jekyll_config = load_jeykll_config()
     thumbnail_dir = os.path.join(jekyll_config["RESOURCES_PATH"], "thumbnails")
     entry_thumbnail_location = os.path.join(thumbnail_dir,entry.key + file_extension)
-<<<<<<< HEAD
     return entry_thumbnail_location, entry.key + file_extension
 
-=======
-    return entry_thumbnail_location
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
 
 def entry_to_pub_path(entry):
     return os.path.join(PUBS_PATH, "{ent.key}.md".format(ent = entry))
 
-<<<<<<< HEAD
 
 def pub_exists(entry):
     pub_path = entry_to_pub_path(entry)
     return os.path.exists(pub_path)
 
 
-=======
-def pub_exists(entry):
-    pub_path = entry_to_pub_path(entry)
-    return os.path.exists(pub_path)
-    
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
 if __name__ == "__main__":
     print("---------------------------")
     print("""This script adds a new publication to the site's 'Publications'
     section. Please provide the following information:""")
     print("---------------------------")
     
-<<<<<<< HEAD
     bibtex_path = input("Local path to a text file containing a bibtex item:").strip()
     while not os.path.exists(bibtex_path):
         print("Bibtex item not found. Please try again.")
         bibtex_path = input("Local path to a text file containing a bibtex item:")
-=======
-    bibtex_path = input("Path to a text file containing a bibtex item:").strip()
-    while not os.path.exists(bibtex_path):
-        print("Bibtex item not found. Please try again.")
-        bibtex_path = input("Path to a text file containing a bibtex item:")
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
     
     with open(bibtex_path) as bibtex_file:
         the_bib = bibtex_file.read()
@@ -159,7 +114,6 @@ if __name__ == "__main__":
         if not y_or_n("An entry for {ent.key} already exists. Do you want to overwrite it?".format(ent=entry)):
             exit()
     
-<<<<<<< HEAD
     highlight = y_or_n("Is this a recent publication that should be highlighted?")
     if highlight:
         description = input("Since you're highlighting the paper, provide a brief (50-100 words) description:")
@@ -178,19 +132,4 @@ if __name__ == "__main__":
         old_path_to_thumbnail = input("Local path to thumbnail image: ").strip()
     
     pub_path = build_pub(entry, old_path_to_pdf, old_path_to_thumbnail, description, highlight)
-=======
-    #TODO should this be optional?
-    old_path_to_pdf = input("Path to PDF: ").strip()
-    while not os.path.exists(old_path_to_pdf):
-        print("PDF not found. Please try again.")
-        old_path_to_pdf = input("Path to PDF: ")
-    
-    old_path_to_thumbnail = input("Path to thumbnail image: ").strip()
-    while not os.path.exists(old_path_to_thumbnail):
-        print("Thumbnail not found. Please try again.")
-        old_path_to_thumbnail = input("Path to thumbnail image: ").strip()
-    
-
-    pub_path = build_pub(entry, old_path_to_pdf, old_path_to_thumbnail)
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
     print("Sucessfully created publication entry at {}".format(pub_path))

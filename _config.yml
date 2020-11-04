@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -49,13 +48,3 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-=======
-name: Behavioral Data Science
-collections:
-  - publications
-  - pubpdfs
-  - people
-
-RESOURCES_PATH: ./resources
-# Could add individual pages for each pub pretty easily using output : true
->>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
