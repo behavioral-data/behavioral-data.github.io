@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+=======
+<html lang="en">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148707527-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-148707527-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:100,300|Barlow+Condensed|PT+Mono|PT+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="jumbotron">
+        
+                <div class="row">
+
+                    <div class="col-md-10" id="name">
+                        <h1>
+                            Behavioral Data Science @ UWCSE
+
+                        </h1>
+                    </div>
+
+                    </row>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9">
+                <h2>
+                    About Us
+                </h2>
+                <p>
+                    {% capture temp %}{% include about.md %}{% endcapture %} {{ temp | markdownify }}
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h2>
+                    Research Areas
+                </h2>
+                <ul>
+                    {% capture temp %}{% include interests.md %}{% endcapture %} {{ temp | markdownify }}
+                </ul>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12">
+                <h2>People</h2>
+                <div class="row text-center my-5">
+                    {% assign sorted_people = site.people | sort: 'priority' | reverse %} 
+                    {% for person in sorted_people %}
+                    <div class="col-lg-2 col-md-3 col-sm-6 mb-md-0 mb-5">
+                        <a href="{{person.site}}">
+                            <div class="mx-auto img-thumbnail">
+                                <img src = {{site.RESOURCES_PATH}}/headshots/{{person.headshot}} >
+                            </div>
+                            <h3>{{person.name}}</h3>
+                            <p>{{person.title}}</p>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Publications</h2>
+                {% assign sorted_pubs = site.publications | sort: 'year' | reverse %} 
+                {% for pub in sorted_pubs %}
+                <div class="row">
+                    <div class="col-md-2 hide-on-small">
+                        {% if pub.thumbnail %}
+                        <img src="{{pub.thumbnail}}" alt="..." class="img-thumbnail"> {% endif %}
+
+                    </div>
+                    <div class="col-md-10">
+                        <p><b>{{pub.title}}</b></p>
+                        <p>{{pub.author}}, {{pub.venue}}, {{pub.year}} {% if pub.pdf %}
+                            <a href="{{pub.pdf}}">[PDF]</a> {% endif %}
+                        </p>
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>
+>>>>>>> 5f7ea909ece63556f404588fb2803597781ac010
