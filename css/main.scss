@@ -1,4 +1,5 @@
-
+---
+---
     
 @import "bootstrap";
 
@@ -19,19 +20,6 @@ figcaption {
 }
 
 
-
-@media only screen and (max-width: 1000px){
-    h1  {
-            font-size: 80px;
-        }
-    .hide-on-small{
-        display: none;
-    }
-    #name{
-      padding-left: 0px; 
-    }
-
-}
 
 /* Top navigation bar */
 
