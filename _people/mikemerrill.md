@@ -1,5 +1,5 @@
 ---
-headshot: dubs.png
+headshot: mikemerrill.jpeg
 is_visiting: false
 name: Mike Merrill
 priority: 5
