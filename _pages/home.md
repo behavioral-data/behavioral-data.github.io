@@ -16,4 +16,4 @@ We are grateful for funding from... WHO FUNDS US.
 
 **TODO**: Tim will write 1 paragraph about the group
 
-**TODO**: Team members could be on home page
+{% include group.md %}
