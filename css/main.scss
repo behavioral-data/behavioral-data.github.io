@@ -40,13 +40,6 @@ p.byline {
   margin-bottom: 48px;
 }
 
-pubtit {
-  font-weight: bold;
-}
-
-firstp {
-}
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -97,6 +90,97 @@ firstp {
   margin-right: auto;
   display: block;
   text-align: center;
+}
+
+.bdata-pub-highlight {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  // background-color: #eee;
+  background-clip: border-box;
+  border: 1px solid #eee;
+  border-radius: $border-radius-base;
+  margin-bottom: $grid-gutter-width;
+  align-items: center;
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group:first-child {
+    .list-group-item:first-child {
+      border-radius: $border-radius-base;
+    }
+  }
+
+  > .list-group:last-child {
+    .list-group-item:last-child {
+      border-radius: $border-radius-base;
+    }
+  }
+}
+
+.bdata-pub-img-highlight {
+  width: 200px;
+  border-top-left-radius: $border-radius-base;
+  border-top-right-radius: $border-radius-base;
+  padding: 10px;
+}
+
+.bdata-pub-body {
+  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+  // as much space as possible, ensuring footers are aligned to the bottom.
+  flex: 1 1 auto;
+  padding: 0 $grid-gutter-width / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.bdata-pub-title-highlight {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  height: $line-height-computed;
+  font-weight: bold;
+}
+
+.bdata-pub-subtitle-highlight {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 2 * $line-height-computed;
+}
+
+.bdata-pub {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: $border-radius-base;
+  margin-bottom: $grid-gutter-width / 2;
+  align-items: flex-start;
+}
+
+.bdata-pub-img {
+  width: 100px;
+  border-top-left-radius: $border-radius-base;
+  border-top-right-radius: $border-radius-base;
+  padding: 10px;
+}
+
+.bdata-pub-title {
+  overflow: hidden;
+  font-weight: bold;
+  > p {
+    margin: 0;
+  }
 }
 
 #homeid img {
