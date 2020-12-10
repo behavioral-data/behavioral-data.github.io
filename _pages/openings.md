@@ -1,5 +1,5 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "Behavioral Data Science - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

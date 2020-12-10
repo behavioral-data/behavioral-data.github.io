@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Behavioral Data Science - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Behavioral Data Science -- Publications."
 sitemap: false
 permalink: /publications/
 ---
