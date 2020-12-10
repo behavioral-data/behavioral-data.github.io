@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Team"
+title: "Behavioral Data Science - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "Behavioral Data Science: Team members"
 sitemap: false
 permalink: /team/
 ---
