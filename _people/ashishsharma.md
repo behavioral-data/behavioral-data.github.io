@@ -6,6 +6,6 @@ priority: 5
 research_areas:
 - NLP
 - ' Computational Social Science'
-site: https://http://ash-shar.github.io/
+site: https://ash-shar.github.io/
 title: PhD Student
 ---

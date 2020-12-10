@@ -6,6 +6,6 @@ priority: 5
 research_areas:
 - causal inference
 - ' online communities'
-site: https://https://galenweld.com/
+site: https://galenweld.com/
 title: PhD Student
 ---
