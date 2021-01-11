@@ -46,12 +46,12 @@ permalink: /publications/
 {% for pub in sorted_pubs %}
 
 
-{% if pub.journal != blank %}
+{% if pub.journal %}
   {% assign venue = pub.journal %}
-{% elsif pub.booktitle  != blank %}
-    {% assign venue = pub.booktitle %}
+{% elsif pub.booktitle  %}
+  {% assign venue = pub.booktitle %}
 {% else %}
-  {% assign venue = "" %}
+  {% assign venue = "BLANK" %}
 {% endif %}
 
 

@@ -6,6 +6,7 @@ eprint: '2008.07045'
 highlight: 1
 pdf: suh2020populationscale.pdf
 primaryclass: cs.CY
+journal: WSDM
 thumbnail: suh2020populationscale.png
 title: 'Population-Scale Study of Human Needs During the COVID-19 Pandemic: Analysis
   and Implications'
