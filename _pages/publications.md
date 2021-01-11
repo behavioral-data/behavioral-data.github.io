@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Behavioral Data Science - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Behavioral Data Science -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -45,6 +45,16 @@ permalink: /publications/
 {% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
 
+
+{% if pub.journal != blank %}
+  {% assign venue = pub.journal %}
+{% elsif pub.booktitle  != blank %}
+    {% assign venue = pub.booktitle %}
+{% else %}
+  {% assign venue = "" %}
+{% endif %}
+
+
 <div class="col-md-12 clearfix">
 <div class="bdata-pub box-shadow">
 <img src="{{ site.url }}{{ site.baseurl }}/resources/thumbnails/{{ pub.thumbnail }}" class="bdata-pub-img"/>
@@ -52,8 +62,8 @@ permalink: /publications/
 <div class="bdata-pub-title">
 {{ pub.title }}
 </div>
-<p><em>{{ pub.author }}
-</em></p>
+<p><em>{{ pub.author }}</em>
+<br>{{venue}} {{ pub.year}}</p>  
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
 {% endif %}
