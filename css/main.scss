@@ -46,7 +46,7 @@ p.byline {
   max-width: 1000px; /* or 950px */
 }
 
-/* Home, News */
+/* Home, News */s
 .home {
   flex: 1;
   width: 100%;
@@ -63,6 +63,13 @@ p.byline {
 #newsid img {
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+#newslogo {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Team & Publications */
