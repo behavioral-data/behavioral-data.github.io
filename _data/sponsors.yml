@@ -1,0 +1,14 @@
+- path: /sponsor_logos/adobe.jpg
+  name: Adobe
+- path: /sponsor_logos/ai2.png
+  name: AI2
+- path: /sponsor_logos/gates.png
+  name: The Bill and Melinda Gates Foundation
+- path: /sponsor_logos/msr.gif
+  name: Microsoft Research
+- path: /sponsor_logos/nih.png
+  name: The National Institutes of Health
+- path: /sponsor_logos/nsf.png
+  name: The National Science Foundation
+- path: /sponsor_logos/onr.png
+  name: The Office of Naval Research
