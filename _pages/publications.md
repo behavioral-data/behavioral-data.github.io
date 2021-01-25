@@ -9,10 +9,10 @@ permalink: /publications/
 # Publications
 
 ## Group highlights
-
+Coming Soon!
 (For a full list see [below](#full-list))
 
-{% assign highlights = site.publications | where_exp:"pub","pub.highlight>=1"%}
+<!-- {% assign highlights = site.publications | where_exp:"pub","pub.highlight>=1"%} -->
 
 <div class="row">
 
