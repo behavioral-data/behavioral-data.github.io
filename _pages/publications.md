@@ -14,7 +14,7 @@ Coming Soon!
 
 <!-- {% assign highlights = site.publications | where_exp:"pub","pub.highlight>=1"%} -->
 
-<div class="row">
+<!-- <div class="row">
 
 {% for pub in highlights %}
 
@@ -37,7 +37,7 @@ Coming Soon!
 
 {% endfor %}
 
-</div>
+</div> -->
 
 ## Full List
 
