@@ -5,16 +5,24 @@ excerpt: "Behavioral Data Science -- Publications."
 sitemap: false
 permalink: /publications/
 ---
+<script>
+  $(document).ready(function(e) {
+    $('.open-link').click(function(e) {
+       var $wrapper = $(this).parent().find('.hider');
+	   $wrapper.css('max-height',$wrapper.find('p').height());
+       $(this).remove();
+    })
+});
+</script>
 
 # Publications
 
 ## Group highlights
-Coming Soon!
 (For a full list see [below](#full-list))
 
-<!-- {% assign highlights = site.publications | where_exp:"pub","pub.highlight>=1"%} -->
+{% assign highlights = site.publications | where_exp:"pub","pub.highlight>=1"%} 
 
-<!-- <div class="row">
+<div class="row">
 
 {% for pub in highlights %}
 
@@ -27,7 +35,7 @@ Coming Soon!
 </div>
 <p><em>{{ pub.author }}
 </em></p>
-<p class="bdata-pub-subtitle-highlight">{{ pub.description }}</p>
+<p class="bdata-pub-subtitle-highlight">{{ pub.description }} </p>
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
 {% endif %}
@@ -37,7 +45,7 @@ Coming Soon!
 
 {% endfor %}
 
-</div> -->
+</div>
 
 ## Full List
 
