@@ -24,12 +24,12 @@ abstractnote: As civil discourse increasingly takes place online, misinformation
 author: Weld, Galen and Glenski, Maria and Althoff, Tim
 description: ''
 highlight: 0
-journal: Proceedings of the International AAAI Conference on Web and Social Media
+journal: ICWSM 2021
 month: May
 number: '1'
 pages: 796-807
 pdf: Weld_Glenski_Althoff_2021.pdf
-thumbnail: Weld_Glenski_Althoff_2021.png
+thumbnail: Weld_Glenski_Althoff_2021.jpg
 title: Political Bias and Factualness in News Sharing across more than 100,000 Online
   Communities
 url: https://ojs.aaai.org/index.php/ICWSM/article/view/18104
