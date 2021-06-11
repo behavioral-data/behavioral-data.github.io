@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a research group at the [Paul G. Allen School of Computer Science of Engineering](http://cs.washington.edu). Our aim is to explore and understand behavioral through the lense of data science.
+We are a research group at the [Paul G. Allen School of Computer Science of Engineering](http://cs.washington.edu). Our aim is to explore and understand behavior through the lens of data science.
 
 The Behavioral Data Science Group develops computational methods that leverage large-scale behavioral data to extract actionable insights about our lives, health and happiness through combining techniques from data science, social network analysis, and natural language processing. We currently work on research related to mental health, misinformation online, scientific reproducibility, and informing the COVID-19 response.
 

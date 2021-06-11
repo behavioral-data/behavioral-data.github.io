@@ -46,8 +46,10 @@
 
 </div>
 
-<!-- Commenting out since we don't have any
-
 ## Alumni
 
-We don't currently have any! But we could add some using a `.yml` file in the `data` directory. -->
+<ul>
+{% for person in site.data.alumni %}
+<li><a href="{{ person.site }}" >{{ person.name }}</a></li>
+{% endfor %}
+</ul>

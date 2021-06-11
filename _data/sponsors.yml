@@ -1,0 +1,14 @@
+- path: /spons/adobe.jpg
+  name: Adobe
+- path: /spons/ai2.png
+  name: AI2
+- path: /spons/gates.png
+  name: The Bill and Melinda Gates Foundation
+- path: /spons/msr.gif
+  name: Microsoft Research
+- path: /spons/nih.png
+  name: The National Institutes of Health
+- path: /spons/nsf.png
+  name: The National Science Foundation
+- path: /spons/onr.png
+  name: The Office of Naval Research

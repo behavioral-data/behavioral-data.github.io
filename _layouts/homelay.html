@@ -8,5 +8,8 @@ layout: default
 	{{ content }}
   </div>
   <div id="newsid" class="col-sm-4" >
-	{% include news.html %}
+  <img  id = "newslogo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Bdata_text_below.png">
+  {% include news.html %}
+  <h3>Support From</h3> 
+  {% include sponsors.html %}
   </div>
