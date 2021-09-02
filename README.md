@@ -9,7 +9,7 @@ This website is powered by [Jekyll](https://jekyllrb.com/) and some Bootstrap. T
 Run `python add_person.py` from the root directory, and follow the prompts as they come up.
 
 ### Adding a publication 
-Run `python add_pub.py` from the root directory, and follow the prompts as they come up.
+Use `add_pub.py` from the root directory. 
 
 ### Adding a News Item
 News items should be manually edited in the `_data/news.yml` collection. 
