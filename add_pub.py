@@ -3,12 +3,15 @@ import biblib.messages
 import biblib.algo
 
 import os.path
+import pathlib
+import argparse
 
 from shutil import copyfile
 from utils import *
 
 PUBS_PATH = "./_publications"
 MONTHS = 'January February March April May June July August September October November December'.split()
+
 
 def clean_entry(ent):
 
@@ -91,45 +94,63 @@ def pub_exists(entry):
 
 
 if __name__ == "__main__":
-    print("---------------------------")
-    print("""This script adds a new publication to the site's 'Publications'
-    section. Please provide the following information:""")
-    print("---------------------------")
+    # print("---------------------------")
+    # print("""This script adds a new publication to the site's 'Publications'
+    # section. Please provide the following information:""")
+    # print("---------------------------")
     
-    bibtex_path = input("Local path to a text file containing a bibtex item:").strip()
-    while not os.path.exists(bibtex_path):
-        print("Bibtex item not found. Please try again.")
-        bibtex_path = input("Local path to a text file containing a bibtex item:")
+
+    parser = argparse.ArgumentParser(description='Add a paper to this website. ')
+    parser.add_argument('--bibtex_path', type=pathlib.Path, required=True,
+                        help="A path to a bibtex file describing your paper.")
+
+    parser.add_argument('--pdf_path', type=pathlib.Path, required=True,
+                        help="A path to a your paper's PDF.")
     
-    with open(bibtex_path) as bibtex_file:
+    parser.add_argument('--thumbnail_path', type=pathlib.Path, required=True,
+                        help="A pretty thumbnail for your paper.")
+    
+    parser.add_argument('--highlight', action="store_true", default=False, required=False,
+                        help="Whether or not to include your paper as a \"highlight\"")
+
+    parser.add_argument('--description', default=None, required=False,
+                        help="A description for your paper. Required if you're highlighting the paper.")
+    
+    
+    args = parser.parse_args()
+
+    if not os.path.exists(args.bibtex_path):
+        raise ValueError("Bibtex item not found. Please try again.")
+    
+    
+    with open(args.bibtex_path) as bibtex_file:
         the_bib = bibtex_file.read()
     db = biblib.bib.Parser().parse(the_bib).get_entries()
 
     try:
         entry = list(db.values())[0]
     except IndexError:
-        exit("Ooops! Something's wrong with your bibtex")
+        raise ValueError("Ooops! Something's wrong with your bibtex")
     
     if pub_exists(entry):
         if not y_or_n("An entry for {ent.key} already exists. Do you want to overwrite it?".format(ent=entry)):
             exit()
-    
-    highlight = y_or_n("Is this a recent publication that should be highlighted?")
-    if highlight:
-        description = input("Since you're highlighting the paper, provide a brief (50-100 words) description:")
+
+    if args.highlight and not (args.description or entry.get("description")):
+       raise ValueError("If you're going to highlight the paper you need to add a description with the --description argument or include a \"description\" flag in your bibtex.")
     else:
-        description = ""
+        description = args.description if args.description else entry.get("description")
 
     #TODO should this be optional?
-    old_path_to_pdf = input("Local path to PDF: ").strip()
-    while not os.path.exists(old_path_to_pdf):
-        print("PDF not found. Please try again.")
-        old_path_to_pdf = input("Local path to PDF: ")
+    old_path_to_pdf = args.pdf_path
+    if not os.path.exists(old_path_to_pdf):
+        raise ValueError("PDF not found. Please try again.")
     
-    old_path_to_thumbnail = input("Local path to thumbnail image: ").strip()
+    old_path_to_thumbnail = args.thumbnail_path
     while not os.path.exists(old_path_to_thumbnail):
-        print("Thumbnail not found. Please try again.")
-        old_path_to_thumbnail = input("Local path to thumbnail image: ").strip()
+        raise ValueError("Thumbnail not found. Please try again.")
+        
     
-    pub_path = build_pub(entry, old_path_to_pdf, old_path_to_thumbnail, description, highlight)
+    pub_path = build_pub(entry, old_path_to_pdf, old_path_to_thumbnail, description, args.highlight)
     print("Sucessfully created publication entry at {}".format(pub_path))
+ 
