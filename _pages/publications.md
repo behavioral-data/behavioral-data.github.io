@@ -26,6 +26,14 @@ permalink: /publications/
 
 {% for pub in highlights %}
 
+{% if pub.journal %}
+  {% assign venue = pub.journal %}
+{% elsif pub.booktitle  %}
+  {% assign venue = pub.booktitle %}
+{% else %}
+  {% assign venue = "BLANK" %}
+{% endif %}
+
 <div class="col-md-12 clearfix">
 <div class="bdata-pub-highlight box-shadow">
 <img src="{{ site.url }}{{ site.baseurl }}/resources/thumbnails/{{ pub.thumbnail }}" class="bdata-pub-img-highlight"/>
@@ -34,7 +42,8 @@ permalink: /publications/
 {{ pub.title }}
 </div>
 <p><em>{{ pub.author }}
-</em></p>
+</em>
+<br>{{venue}} {{ pub.year}}</p>  
 <p class="bdata-pub-subtitle-highlight">{{ pub.description }} </p>
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
