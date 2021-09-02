@@ -6,4 +6,5 @@ priority: 8
 research_areas: null
 site: https://joyheyueya.github.io
 title: Bachelor's Student
+inactive: true
 ---

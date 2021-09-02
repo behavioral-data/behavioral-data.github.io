@@ -6,4 +6,5 @@ priority: 5
 research_areas: null
 site: null
 title: PhD Student
+inactive: true
 ---
