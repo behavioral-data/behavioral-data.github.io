@@ -164,18 +164,18 @@ p.byline {
 }
 
 .bdata-pub-title-highlight {
-  overflow: hidden;
+  // overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  // -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  height: $line-height-computed;
+  // height: $line-height-computed;
   font-weight: bold;
 }
 
 .bdata-pub-subtitle-highlight {
-  overflow: hidden;
+  // overflow: hidden;
   // display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   // height: 5 * $line-height-computed;
 }
