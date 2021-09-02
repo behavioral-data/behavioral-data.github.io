@@ -28,7 +28,7 @@
 ## Current Visitors
 
 <div class="row">
-{% assign sorted_people = site.people | sort: 'priority' | where:"is_visiting","true"%}
+{% assign sorted_people = site.people | sort: 'priority' | where:"is_visiting","true" | where: 'inactive', nil%}
 {% for member in sorted_people %}
 <div class="col-sm-3 col-xs-6 clearfix">
 <div class="bdata-member">
