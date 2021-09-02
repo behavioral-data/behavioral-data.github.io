@@ -1,9 +1,9 @@
 ---
 headshot: innalin.jpg
-is_visiting: true
+is_visiting: false
 name: Inna Lin
-priority: 7
+priority: 5
 research_areas: null
 site: https://innalin.com
-title: Master's Student
+title: PhD Student
 ---
