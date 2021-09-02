@@ -1,6 +1,6 @@
 {
-    "python.pythonPath": "/usr/bin/python3",
-    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/michaelmerrill/anaconda3/envs/analysis/bin/python",
+    "python.linting.enabled": false,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true
 }
