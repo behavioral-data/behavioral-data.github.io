@@ -5,6 +5,9 @@ This is the website of our academic research group at UW CSE. It is based on the
 ## Modifying this Site
 This website is powered by [Jekyll](https://jekyllrb.com/) and some Bootstrap. To work on the site, clone this repo. If you want to preview your changes before committing them (recommended) you will need to install Jekyll and run a local server in your root directory with `jekyll serve`. 
 
+### Jerkyll Installation M1 Mac
+If you are having trouble installing Jerkyll on your m1 mac check out this [script](https://github.com/monfresh/laptop) which automatically installs it for you.
+
 ### Adding a Member
 Run `python add_person.py` from the root directory, and follow the prompts as they come up.
 
