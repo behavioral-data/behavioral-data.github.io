@@ -8,7 +8,7 @@
 
 {% assign sorted_people = site.people | sort: 'priority' | where:"is_visiting","false" | where: 'inactive', nil%}
 {% for member in sorted_people %}
-
+{% unless member.inactive %}
 <div class="col-sm-3 col-xs-6 clearfix">
 <div class="bdata-member">
 <img src= "{{ site.url }}{{ site.baseurl }}/{{site.RESOURCES_PATH}}/headshots/{{member.headshot}}" class="img-responsive bdata-img-headshot">
@@ -20,16 +20,18 @@
 </div>
 
 </div>
-
+{% endunless %}
 {% endfor %}
 
 </div>
 
+{% assign sorted_visitors = site.people | sort: 'priority' | where:"is_visiting","true" | where: 'inactive', nil%}
+{% if sorted_vistors %}
 ## Current Visitors
-
 <div class="row">
-{% assign sorted_people = site.people | sort: 'priority' | where:"is_visiting","true" | where: 'inactive', nil%}
-{% for member in sorted_people %}
+
+{% for member in sorted_visitors %}
+
 <div class="col-sm-3 col-xs-6 clearfix">
 <div class="bdata-member">
 <img src= "{{ site.url }}{{ site.baseurl }}/{{site.RESOURCES_PATH}}/headshots/{{member.headshot}}" class="img-responsive bdata-img-headshot">
@@ -39,13 +41,11 @@
 <i>{{ member.title }}</i>
 
 </div>
-
 </div>
-
 {% endfor %}
 
 </div>
-
+{% endif %}
 ## Alumni
 
 <ul>
