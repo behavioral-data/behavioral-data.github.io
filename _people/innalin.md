@@ -4,6 +4,6 @@ is_visiting: false
 name: Inna Lin
 priority: 5
 research_areas: null
-site: https://innalin.com
+site: https://innawy.github.io
 title: PhD Student
 ---
