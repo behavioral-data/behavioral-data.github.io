@@ -8,5 +8,6 @@ research_areas:
   - Human-Centered Design
   - Human-Centered AI
 site: https://www.microsoft.com/en-us/research/people/jinsuh/
-title: PhD Candidate
+title: PhD 
+inactive: true
 ---
