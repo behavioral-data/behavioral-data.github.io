@@ -9,7 +9,7 @@ key: xu2022GLOBEM
 keywords: 'Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Human-Computer
   Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information
   sciences, I.2.1; E.m, 68T09'
-pdf: xu2022GLOBEM.pdf
+pdf: resources/pubpdfs/xu2022GLOBEM.pdf
 publisher: arXiv
 thumbnail: xu2022GLOBEM.png
 title: '  Globem dataset: Multi-year datasets for longitudinal human behavior modeling
