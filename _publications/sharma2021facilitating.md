@@ -11,7 +11,7 @@ description: Access to mental health care is a global challenge that online peer
   make sentence-level edits to conversations in order to increase the expressed level
   of empathy while maintaining conversation quality through specificity, fluency,
   and diversity.
-highlight: 1
+highlight: 0
 pdf: sharma2021facilitating.pdf
 thumbnail: sharma2021facilitating.png
 title: 'Towards Facilitating Empathic Conversations in Online Mental Health Support:
