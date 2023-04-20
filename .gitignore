@@ -15,4 +15,6 @@ Thumbs.db
 
 biblib/__pycache__
 
+Gemfile.lock
+
 __pycache__
