@@ -8,6 +8,14 @@ This website is powered by [Jekyll](https://jekyllrb.com/) and some Bootstrap. T
 ### Jerkyll Installation M1 Mac
 If you are having trouble installing Jerkyll on your m1 mac check out this [script](https://github.com/monfresh/laptop) which automatically installs it for you.
 
+### Worked for Ken 04192023 M1 Mac
+Ran the below in the root project folder
+```
+gem install bundler jekyl
+bundle install
+bundle exec jekyll serve
+```
+
 ### Adding a Member
 Run `python add_person.py` from the root directory, and follow the prompts as they come up.
 
