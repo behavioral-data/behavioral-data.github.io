@@ -9,7 +9,7 @@
 {% assign sorted_people = site.people | sort: 'priority' | where:"is_visiting","false" | where: 'inactive', nil%}
 {% for member in sorted_people %}
 {% unless member.inactive %}
-<div class="col-sm-3 col-xs-6 clearfix">
+<div class="col-sm-4 col-xs-6 clearfix">
 <div class="bdata-member">
 <img src= "{{ site.url }}{{ site.baseurl }}/{{site.RESOURCES_PATH}}/headshots/{{member.headshot}}" class="img-responsive bdata-img-headshot">
 
@@ -32,7 +32,7 @@
 
 {% for member in sorted_visitors %}
 
-<div class="col-sm-3 col-xs-6 clearfix">
+<div class="col-sm-4 col-xs-6 clearfix">
 <div class="bdata-member">
 <img src= "{{ site.url }}{{ site.baseurl }}/{{site.RESOURCES_PATH}}/headshots/{{member.headshot}}" class="img-responsive bdata-img-headshot">
 
