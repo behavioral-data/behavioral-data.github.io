@@ -43,7 +43,11 @@ permalink: /publications/
 </div>
 <p><em>{{ pub.author }}
 </em>
-<br>{{venue}} {{ pub.year}}</p>  
+<br>{{venue}} {{ pub.year}}
+{% if pub.award %}
+<span class="award">🏆 {{ pub.award }}</span>
+{% endif %}
+</p>  
 <p class="bdata-pub-subtitle-highlight">{{ pub.description }} </p>
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
@@ -80,7 +84,13 @@ permalink: /publications/
 {{ pub.title }}
 </div>
 <p><em>{{ pub.author }}</em>
-<br>{{venue}} {{ pub.year}}</p>  
+<br>{{venue}} {{ pub.year}}
+{% if pub.award %}
+<span class="award">🏆 {{ pub.award }}</span>
+{% endif %}
+
+</p> 
+
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
 {% endif %}

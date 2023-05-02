@@ -2,6 +2,7 @@
 author: Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff,
   Tim
 booktitle: WWW
+award: Best Paper (single award across all 1736 submissions)
 description: Access to mental health care is a global challenge that online peer support
   platforms like TalkLife can help mitigate. Millions of people seek and provide support
   online but they struggle to have effective conversations. In this paper, we work
