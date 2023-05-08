@@ -15,10 +15,17 @@ abstract: 'Despite increased interest in wearables as tools for detecting variou
 author: Merrill, Mike A and Safranchik, Esteban and Kolbeinsson, Arinbjorn and Gade,
   Piyusha and Ramirez, Ernesto and Schmidt, Ludwig and Foshchini, Luca and Althoff,
   Tim
-description: null
+description: 'Despite increased interest in wearables as tools for detecting various
+  health conditions, there are not as of yet any large public benchmarks for such
+  mobile sensing data. Our dataset contains over 14 million hours of minute-level
+  multimodal FitBit data, symptom reports, and ground-truth laboratory PCR influenza
+  test results, along with an evaluation framework that mimics realistic model deployments
+  and efficiently characterizes statistical uncertainty in model selection in the
+  presence of extreme class imbalance.'
+highlight: 1
+code: https://github.com/behavioral-data/Homekit2020
 file: /Users/michaelmerrill/Zotero/storage/S72M77YC/Merrill et al. - Homekit2020 A
   Benchmark for Time Series Classific.pdf
-highlight: 0
 journal: Conference on Health, Inference, and Learning
 langid: english
 month: March

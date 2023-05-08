@@ -49,9 +49,9 @@ permalink: /publications/
 {% endif %}
 </p>  
 <p class="bdata-pub-subtitle-highlight">{{ pub.description }} </p>
-{% if pub.pdf %}
-<a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> 
-{% endif %}
+<p>
+  {% if pub.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/resources/pubpdfs/{{ pub.pdf }}">[PDF]</a> {% endif %}{% if pub.code %}<a href="{{ pub.code }}">[CODE]</a> {% endif %}
+</p>
 </div>
 </div>
 </div>
