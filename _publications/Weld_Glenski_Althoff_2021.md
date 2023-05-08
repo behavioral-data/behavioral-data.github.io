@@ -22,8 +22,8 @@ abstractnote: As civil discourse increasingly takes place online, misinformation
   in only 0.5% of communities, giving credence to the recent strategy of community-wide
   bans and quarantines.
 author: Weld, Galen and Glenski, Maria and Althoff, Tim
-description: ''
-highlight: 0
+description: Studying news shared online is challenging due to the massive volume of content which is shared. In this work, we conduct the largest study of news sharing to date, analyzing more than 550 million links to news articles posted on reddit over four years. Using non-partisan news source ratings of sources' political bias and factualness, we find that up- and down-voting mechanisms generally decrease the visibility of biased and low factual content, and that such content is very concentrated, being mostly shared in only a small fraction of all communities.
+highlight: 1
 journal: ICWSM
 month: May
 number: '1'

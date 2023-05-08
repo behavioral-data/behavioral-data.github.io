@@ -43,7 +43,7 @@ permalink: /publications/
 </div>
 <p><em>{{ pub.author }}
 </em>
-<br>{{venue}} {{ pub.year}}
+<br><b><it>{{venue}}</it> {{ pub.year}}</b>
 {% if pub.award %}
 <span class="award">🏆 {{ pub.award }}</span>
 {% endif %}
