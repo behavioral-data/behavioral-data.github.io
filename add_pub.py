@@ -116,6 +116,8 @@ if __name__ == "__main__":
     parser.add_argument('--description', default=None, required=False,
                         help="A description for your paper. Required if you're highlighting the paper.")
     
+    parser.add_argument('--remove_braces', action="store_true", default=False, required=False,
+                        help="Remove braces from the bibtex file. This is a hacky fix for a bug in biblib.")
     
     args = parser.parse_args()
 
@@ -129,6 +131,13 @@ if __name__ == "__main__":
 
     try:
         entry = list(db.values())[0]
+        # if args.remove_braces:
+        # For each key and value remove closed braces
+        for k,v in entry.items():
+            entry[k] = v.replace("}","").replace("{","")
+            
+                    
+
     except IndexError:
         raise ValueError("Ooops! Something's wrong with your bibtex")
     
