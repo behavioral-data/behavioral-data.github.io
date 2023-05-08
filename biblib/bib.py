@@ -11,7 +11,7 @@ __all__ = 'Parser Entry FieldError resolve_crossrefs'.split()
 import sys
 import re
 import collections
-import textwrap
+from collections.abc import Iterable
 
 from . import messages
 
@@ -94,7 +94,7 @@ class Parser:
         if isinstance(str_or_fp_or_iter, str):
             self.__data = str_or_fp_or_iter
             fname = name or '<string>'
-        elif isinstance(str_or_fp_or_iter, collections.Iterable) and \
+        elif isinstance(str_or_fp_or_iter, Iterable) and \
              not hasattr(str_or_fp_or_iter, 'read'):
             for obj in str_or_fp_or_iter:
                 with recoverer:
@@ -122,7 +122,7 @@ class Parser:
         recoverer.reraise()
         return self
 
-    def get_entries(self):
+    def     get_entries(self):
         """Return the entry database.
 
         The database is an ordered dictionary mapping from lower-cased
@@ -270,8 +270,8 @@ class Parser:
             fields.append((field, value))
             field_pos[field] = self.__pos_factory.offset_to_pos(field_off)
 
-        if key.lower() in self.__entries:
-            self._fail('repeated entry')
+        #if key.lower() in self.__entries:
+            # self._fail('repeated entry') 
         self.__entries[key.lower()] = Entry(fields, typ, key, pos, field_pos)
 
     def _scan_field_value(self):

@@ -29,7 +29,7 @@ def main():
         for key, ent in db.items():
             bib_path = os.path.join(args.out_path, key+".bib")
             with open(bib_path, 'a') as the_file:
-                the_file.write(ent.to_bib())
+                the_file.write(ent.to_bib(wrap_width=None))
         
     except biblib.messages.InputError:
         sys.exit(1)
