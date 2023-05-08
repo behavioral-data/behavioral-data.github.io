@@ -19,7 +19,7 @@ description: Data analyses are based on a series of “decision points” includ
 doi: 10.1145/3447548.3467455
 file: Merrill et al. - 2021 - MULTIVERSE Mining Collective Data Science Knowled.pdf:/Users/michaelmerrill/Zotero/storage/5SIZTGV6/Merrill
   et al. - 2021 - MULTIVERSE Mining Collective Data Science Knowled.pdf:application/pdf
-highlight: 1
+highlight: 0
 isbn: 978-1-4503-8332-5
 language: en
 month: August
