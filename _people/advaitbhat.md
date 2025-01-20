@@ -8,6 +8,6 @@ research_areas:
   - Human-Computer Interaction
   - Natural Language Processing
   - Computational Social Science
-site: advaitmb.com
+site: https://advaitmb.com/
 title: PhD Student
 --- 
