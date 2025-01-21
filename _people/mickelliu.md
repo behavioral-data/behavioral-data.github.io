@@ -1,5 +1,5 @@
 ---
-headshot: mickelliu.jpg
+headshot: mickelliu.png
 is_visiting: false
 name: Mickel Liu
 priority: 4
