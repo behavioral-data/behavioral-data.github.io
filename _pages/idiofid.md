@@ -29,7 +29,7 @@ IdioFid-A is a benchmark for evaluating how well AI agents can infer a specific 
     <div class="text-muted" style="font-size: 1rem;">No spam. One-time alert only.</div>
   </form>
 
-  <div class="text-muted" style="margin-top: 24px; font-size: 1em;">
+  <!-- <div class="text-muted" style="margin-top: 24px; font-size: 1em;">
     &copy; 2025 Idiographic Fidelity Benchmark · Research Release
-  </div>
+  </div> -->
 </div>
