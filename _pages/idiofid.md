@@ -53,7 +53,7 @@ permalink: /idiofid/
   <p>Drop your email if you’d like a one-time notification when it’s live.</p>
 
   <div class="card">
-    <form action="YOUR_WEB_APP_URL_HERE" method="POST">
+    <form action="https://script.google.com/macros/s/AKfycbwhYIjPdmTCjQyCg8kMdXu_95sUmUjgxkL1fol5ALOehcuOO-fOrVo4oc2IN7eack8r/exec" method="POST">
       <label for="email">Email address</label>
       <input
         type="email"
