@@ -47,25 +47,25 @@ permalink: /idiofid/
 }
 </style>
 
-<div class="idiofid-page">
-  <h1>Idiographic Benchmark</h1>
-  <p><strong>Coming soon.</strong> We’ll release the benchmark and code publicly soon.</p>
-  <p>Drop your email if you’d like a one-time notification when it’s live.</p>
+<div class="idiofid-page" markdown="0">
+<h1>Idiographic Benchmark</h1>
+<p><strong>Coming soon.</strong> We’ll release the benchmark and code publicly soon.</p>
+<p>Drop your email if you’d like a one-time notification when it’s live.</p>
 
-  <div class="card">
-    <form action="https://script.google.com/macros/s/AKfycbwhYIjPdmTCjQyCg8kMdXu_95sUmUjgxkL1fol5ALOehcuOO-fOrVo4oc2IN7eack8r/exec" method="POST">
-      <label for="email">Email address</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        required
-        placeholder="you@example.com"
-      />
-      <button type="submit">Notify me</button>
-      <div>
-        <small>We’ll only email about this benchmark and you can ignore us forever after.</small>
-      </div>
-    </form>
-  </div>
+<div class="card">
+  <form action="https://script.google.com/macros/s/AKfycbwhYIjPdmTCjQyCg8kMdXu_95sUmUjgxkL1fol5ALOehcuOO-fOrVo4oc2IN7eack8r/exec" method="POST">
+    <label for="email">Email address</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      placeholder="you@example.com"
+    />
+    <button type="submit">Notify me</button>
+    <div>
+      <small>We’ll only email about this benchmark and you can ignore us forever after.</small>
+    </div>
+  </form>
+</div>
 </div>
