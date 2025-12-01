@@ -26,7 +26,7 @@ IdioFid-A is a benchmark for evaluating how well AI agents can infer a specific 
       />
       <button type="submit" class="btn btn-primary">Notify me</button>
     </div>
-    <div class="text-muted" style="font-size: 1rem;">No spam. One-time alert only.</div>
+    <div class="text-muted" style="font-size: 1rem;">We’ll only email about this benchmark.</div>
   </form>
 
   <!-- <div class="text-muted" style="margin-top: 24px; font-size: 1em;">
