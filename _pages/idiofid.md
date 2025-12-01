@@ -20,16 +20,13 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 /* Layout Container */
 .wrapper {
   width: 100%;
   max-width: 560px;
-  padding: 2rem;
+  padding: 6rem 2rem 5rem;
+  margin: 0 auto;
 }
 /* Typography Hierarchy */
 .badge {
@@ -131,7 +128,8 @@ button:hover {
 /* Responsive */
 @media (max-width: 480px) {
   .wrapper {
-    padding: 1.5rem;
+    padding: 4.5rem 1.5rem 3.5rem;
+    margin: 0 auto;
   }
   .form-row {
     flex-direction: column;
