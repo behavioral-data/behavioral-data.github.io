@@ -1,237 +1,179 @@
 ---
-title: "Idiographic Benchmark – Updates"
+title: "Idiographic Fidelity Benchmark – Updates"
 layout: textlay
-excerpt: "Notification page for the Idiographic Benchmark release."
+excerpt: "Notification page for the Idiographic Fidelity Benchmark release."
 sitemap: false
 permalink: /idiofid/
 ---
 
 <style>
-.idiofid-page {
-  --text-main: #111827;
-  --text-muted: #6b7280;
-  --border-subtle: #e5e7eb;
-  --accent: #2563eb;
-  --accent-soft: #eff6ff;
-
-  min-height: 100vh;
+/* Modern Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 16px;
-  margin: 0;
-  box-sizing: border-box;
-  background: #ffffff;
-  color: var(--text-main);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
-.idiofid-shell {
+/* Layout Container */
+.wrapper {
   width: 100%;
-  max-width: 640px;
+  max-width: 560px;
+  padding: 2rem;
 }
-.idiofid-header {
-  margin-bottom: 24px;
-}
-.idiofid-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+/* Typography Hierarchy */
+.badge {
+  display: inline-block;
   font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  background: #f9fafb;
-  border-radius: 999px;
-  padding: 4px 10px;
-  border: 1px solid #f3f4f6;
-}
-.idiofid-eyebrow-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 999px;
-  background: var(--accent);
-}
-.idiofid-title {
-  margin: 12px 0 4px;
-  font-size: clamp(1.9rem, 3vw, 2.3rem);
   font-weight: 600;
-  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 6px 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #000;
 }
-.idiofid-subtitle {
-  margin: 4px 0 0;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  max-width: 36rem;
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin: 0 0 1.5rem 0;
+  color: #000;
 }
-.idiofid-card {
-  margin-top: 24px;
-  border-radius: 16px;
-  border: 1px solid var(--border-subtle);
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
-  padding: 20px 20px 18px;
-  background: #ffffff;
+.subtitle {
+  font-size: 1.125rem;
+  color: #555;
+  margin: 0 0 1.5rem 0;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 90%;
 }
-.idiofid-card-title {
-  font-size: 0.95rem;
+/* Form Section */
+.signup-section {
+  border-top: 1px solid #eaeaea;
+  padding-top: 1.5rem;
+}
+.input-label {
+  display: block;
+  font-size: 0.875rem;
   font-weight: 500;
-  margin: 0 0 10px;
+  margin-bottom: 0.75rem;
+  color: #000;
 }
-.idiofid-form {
-  margin: 0;
+.form-row {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
-.idiofid-label {
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-.idiofid-input-row {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.idiofid-input {
-  width: 100%;
-  padding: 10px 11px;
-  font: inherit;
-  border-radius: 10px;
-  border: 1px solid var(--border-subtle);
-  background: #ffffff;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-}
-.idiofid-input::placeholder {
-  color: #9ca3af;
-}
-.idiofid-input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent-soft);
-  background: #ffffff;
-}
-.idiofid-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-}
-.idiofid-button {
-  border: none;
-  border-radius: 999px;
-  padding: 9px 18px;
-  font: inherit;
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  background: var(--accent);
-  color: #ffffff;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: transform 0.08s ease-out, box-shadow 0.1s ease-out, background-color 0.1s ease-out;
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
-}
-.idiofid-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 16px 35px rgba(37, 99, 235, 0.25);
-  background-color: #1d4ed8;
-}
-.idiofid-button:active {
-  transform: translateY(0);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
-}
-.idiofid-button-chevron {
+input[type="email"] {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 0.875rem 1rem;
   font-size: 1rem;
-  translate: 0 0;
-  transition: translate 0.12s ease;
+  color: #000;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
 }
-.idiofid-button:hover .idiofid-button-chevron {
-  translate: 2px 0;
+input[type="email"]:focus {
+  outline: none;
+  border-color: #000;
 }
-.idiofid-hint {
+input[type="email"]::placeholder {
+  color: #999;
+}
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+button:hover {
+  background: #333;
+  border-color: #333;
+}
+.helper-text {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: #888;
 }
-.idiofid-footer {
-  margin-top: 18px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
+/* Footer */
+.footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  color: #bbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.idiofid-footer span {
-  background: #f9fafb;
-  padding: 3px 9px;
-  border-radius: 999px;
-  border: 1px solid #f3f4f6;
-}
-@media (min-width: 640px) {
-  .idiofid-card {
-    padding: 22px 22px 20px;
+/* Responsive */
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 1.5rem;
   }
-  .idiofid-form {
+  .form-row {
     flex-direction: column;
   }
-  .idiofid-input-row {
-    flex-direction: row;
-    align-items: center;
-  }
-  .idiofid-input-row .idiofid-label {
-    flex: 0 0 140px;
-    margin-bottom: 0;
-  }
-  .idiofid-input-row .idiofid-input {
-    flex: 1;
-  }
-  .idiofid-actions {
-    margin-top: 4px;
+  button {
+    padding: 0.875rem;
+    width: 100%;
   }
 }
 </style>
 
-<div class="idiofid-page" markdown="0">
-  <div class="idiofid-shell">
-    <header class="idiofid-header">
-      <div class="idiofid-eyebrow">
-        <span class="idiofid-eyebrow-dot"></span>
-        <span>Benchmark release notification</span>
+<div class="wrapper" markdown="0">
+  <header>
+    <span class="badge">Benchmark Release</span>
+    <h1>Idiographic Fidelity Benchmark – Attitude (IdioFid-A)</h1>
+    <p class="subtitle">
+      IdioFid-A is a benchmark for evaluating how well AI agents can infer a specific person’s attitudes from their real social media history. Leave your email to get a one-time notification when the benchmark, dataset, and code are public.
+    </p>
+  </header>
+
+  <section class="signup-section">
+    <form action="https://script.google.com/macros/s/AKfycbwhYIjPdmTCjQyCg8kMdXu_95sUmUjgxkL1fol5ALOehcuOO-fOrVo4oc2IN7eack8r/exec" method="POST">
+      <label for="email" class="input-label">Enter email for release update</label>
+      <div class="form-row">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email here"
+          required
+          autocomplete="email"
+        />
+        <button type="submit">Notify me</button>
       </div>
-      <h1 class="idiofid-title">Idiographic Benchmark</h1>
-      <p class="idiofid-subtitle">
-        We’re preparing a public release of the dataset and code. Leave your email to
-        get a one-time notification when everything is live.
-      </p>
-    </header>
+      <div class="helper-text">
+        No spam. One-time alert only.
+      </div>
+    </form>
+  </section>
 
-    <section class="idiofid-card">
-      <p class="idiofid-card-title">Get a release notification</p>
-      <form class="idiofid-form" action="https://script.google.com/macros/s/AKfycbwhYIjPdmTCjQyCg8kMdXu_95sUmUjgxkL1fol5ALOehcuOO-fOrVo4oc2IN7eack8r/exec" method="POST">
-        <div class="idiofid-input-row">
-          <label class="idiofid-label" for="email">Email address</label>
-          <input
-            class="idiofid-input"
-            type="email"
-            id="email"
-            name="email"
-            required
-            autocomplete="email"
-            placeholder="you@example.org"
-          />
-        </div>
-        <div class="idiofid-actions">
-          <button class="idiofid-button" type="submit">
-            Notify me
-            <span class="idiofid-button-chevron">↗</span>
-          </button>
-          <span class="idiofid-hint">
-            We’ll only email you about this benchmark release.
-          </span>
-        </div>
-      </form>
-    </section>
-
-    <footer class="idiofid-footer">
-      <span>Coming soon · research benchmark</span>
-    </footer>
-  </div>
+  <footer class="footer">
+    <span>&copy; 2025 Idiographic Fidelity Benchmark</span>
+    <span>Research Release</span>
+  </footer>
 </div>
