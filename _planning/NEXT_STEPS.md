@@ -19,7 +19,20 @@ Before starting the maintenance pilot, settle preprint inclusion, lab-work attri
 
 ## Work items
 
+| Work item | GitHub issue |
+| --- | --- |
+| 1. Verify the lab roster and publication attribution rules | [#22](https://github.com/behavioral-data/behavioral-data.github.io/issues/22) |
+| 2. Backfill missing publications and reconcile existing metadata | [#23](https://github.com/behavioral-data/behavioral-data.github.io/issues/23) |
+| 3. Verify and backfill awards and news with shared records | [#24](https://github.com/behavioral-data/behavioral-data.github.io/issues/24) |
+| 4. Review original page content, recruitment, sponsors, and barebones layout | [#25](https://github.com/behavioral-data/behavioral-data.github.io/issues/25) |
+| 5. Complete browser, accessibility, route, and signup checks | [#26](https://github.com/behavioral-data/behavioral-data.github.io/issues/26) |
+| 6. Implement publication discovery, normalization, and deduplication | [#27](https://github.com/behavioral-data/behavioral-data.github.io/issues/27) |
+| 7. Create weekly review batches, contributor intake, and monitoring | [#28](https://github.com/behavioral-data/behavioral-data.github.io/issues/28) |
+| 8. Launch React on GitHub Pages and document maintainer handoff | [#29](https://github.com/behavioral-data/behavioral-data.github.io/issues/29) |
+
 ### 1. Verify the lab roster and publication attribution rules
+
+GitHub: [#22](https://github.com/behavioral-data/behavioral-data.github.io/issues/22)
 
 Phase: Before launch. Dependencies: none.
 
@@ -35,6 +48,8 @@ Done when the roster and attribution policy are approved and each profile lists 
 
 ### 2. Backfill missing publications and reconcile existing metadata
 
+GitHub: [#23](https://github.com/behavioral-data/behavioral-data.github.io/issues/23)
+
 Phase: Before launch. Dependencies: 1.
 
 The migrated archive contains 47 papers spanning 2014–2024. It needs a verified backfill, beginning with 2025 onward and then older omissions.
@@ -48,6 +63,8 @@ The migrated archive contains 47 papers spanning 2014–2024. It needs a verifie
 Done when an agreed bibliography has been reconciled, omissions or conflicts are recorded, and approved papers appear consistently in the archive and profiles.
 
 ### 3. Verify and backfill awards and news with shared records
+
+GitHub: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issues/24)
 
 Phase: Before launch. Dependencies: 1, 2.
 
@@ -63,6 +80,8 @@ Done when the lab approves the initial backfill and editing one award updates al
 
 ### 4. Review original page content, recruitment, sponsors, and barebones layout
 
+GitHub: [#25](https://github.com/behavioral-data/behavioral-data.github.io/issues/25)
+
 Phase: Before launch. Dependencies: none.
 
 The React draft intentionally uses original site prose and logos. Some original claims are old, including recruiting availability and research themes. Research, pictures, and about-website routes currently have only titles.
@@ -76,6 +95,8 @@ The React draft intentionally uses original site prose and logos. Some original 
 Done when the lab has approved the minimal content and navigation and no unverified current opening is advertised.
 
 ### 5. Complete browser, accessibility, route, and signup checks
+
+GitHub: [#26](https://github.com/behavioral-data/behavioral-data.github.io/issues/26)
 
 Phase: Before launch. Dependencies: 4.
 
@@ -92,6 +113,8 @@ Done when launch-critical routes and interactions pass, the signup flow is verif
 
 ### 6. Implement publication discovery, normalization, and deduplication
 
+GitHub: [#27](https://github.com/behavioral-data/behavioral-data.github.io/issues/27)
+
 Phase: Maintenance pilot. Dependencies: 1, 2.
 
 scripts/prepare_publication.py currently prepares a local proposal from one Crossref DOI. It does not discover papers or edit approved content.
@@ -106,6 +129,8 @@ scripts/prepare_publication.py currently prepares a local proposal from one Cros
 Done when fixture and live pilot runs produce evidence-backed candidates, repeat runs produce no duplicate changes, and no candidate publishes automatically.
 
 ### 7. Create weekly review batches, contributor intake, and monitoring
+
+GitHub: [#28](https://github.com/behavioral-data/behavioral-data.github.io/issues/28)
 
 Phase: Maintenance pilot. Dependencies: 3, 6.
 
@@ -122,6 +147,8 @@ The agreed policy is one weekly batch for human review before publication. No sc
 Done when the pilot demonstrates reliable collection and human-reviewed publication, with a documented operating owner. Automatic publication remains out of scope.
 
 ### 8. Launch React on GitHub Pages and document maintainer handoff
+
+GitHub: [#29](https://github.com/behavioral-data/behavioral-data.github.io/issues/29)
 
 Phase: Launch. Dependencies: 1, 2, 3, 4, 5.
 
