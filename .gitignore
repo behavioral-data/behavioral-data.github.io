@@ -1,20 +1,12 @@
-_site/*
-_theme_packages/*
-
-Thumbs.db
+node_modules/
+.next/
+out/
+_review/
 .DS_Store
+__pycache__/
+*.pyc
+.env*
+!.env.example
 
-!.gitkeep
-
-.rbenv-version
-.rvmrc
-
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-
-biblib/__pycache__
-
-Gemfile.lock
-
-__pycache__
+# Machine-local pre-migration recovery inventory
+_planning/migration-backup.json

@@ -1,0 +1,472 @@
+[
+  {
+    "id": "advaitbhat",
+    "name": "Advait Bhat",
+    "role": "PhD Student",
+    "website": "https://advaitmb.com/",
+    "image": "/resources/headshots/advait.jpeg",
+    "status": "member",
+    "priority": 5,
+    "topics": [
+      "Human-AI Interaction",
+      "Human-Computer Interaction",
+      "Natural Language Processing",
+      "Computational Social Science"
+    ],
+    "legacy": {
+      "headshot": "advait.jpeg",
+      "is_visiting": false,
+      "name": "Advait Bhat",
+      "priority": 5,
+      "research_areas": [
+        "Human-AI Interaction",
+        "Human-Computer Interaction",
+        "Natural Language Processing",
+        "Computational Social Science"
+      ],
+      "site": "https://advaitmb.com/",
+      "title": "PhD Student"
+    }
+  },
+  {
+    "id": "antoniasaravanou",
+    "name": "Antonia Saravanou",
+    "role": "Visiting Researcher",
+    "website": "https://antonia42.github.io/",
+    "image": "/resources/headshots/antoniasaravanou.jpg",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [],
+    "legacy": {
+      "headshot": "antoniasaravanou.jpg",
+      "is_visiting": false,
+      "name": "Antonia Saravanou",
+      "priority": 5,
+      "research_areas": null,
+      "site": "https://antonia42.github.io/",
+      "title": "Visiting Researcher",
+      "inactive": true
+    }
+  },
+  {
+    "id": "ashishsharma",
+    "name": "Ashish Sharma",
+    "role": "PhD Student",
+    "website": "https://ash-shar.github.io/",
+    "image": "/resources/headshots/ashishsharma.png",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "NLP",
+      "Computational Social Science"
+    ],
+    "legacy": {
+      "headshot": "ashishsharma.png",
+      "is_visiting": false,
+      "name": "Ashish Sharma",
+      "priority": 5,
+      "research_areas": [
+        "NLP",
+        "Computational Social Science"
+      ],
+      "site": "https://ash-shar.github.io/",
+      "title": "PhD Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "bretnestor",
+    "name": "Bret Nestor",
+    "role": "Postdoc",
+    "website": "http://www.cs.toronto.edu/~bretnestor/",
+    "image": "/resources/headshots/bretnestor.jpg",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [],
+    "legacy": {
+      "headshot": "bretnestor.jpg",
+      "is_visiting": false,
+      "name": "Bret Nestor",
+      "priority": 5,
+      "research_areas": null,
+      "site": "http://www.cs.toronto.edu/~bretnestor/",
+      "title": "Postdoc",
+      "inactive": true
+    }
+  },
+  {
+    "id": "chengli",
+    "name": "Cheng Li",
+    "role": "PhD Student",
+    "website": "https://chengli0228.github.io/",
+    "image": "/resources/headshots/cl.png",
+    "status": "member",
+    "priority": 6,
+    "topics": [],
+    "legacy": {
+      "name": "Cheng Li",
+      "title": "PhD Student",
+      "site": "https://chengli0228.github.io/",
+      "headshot": "cl.png",
+      "research_areas": null,
+      "priority": 6,
+      "is_visiting": false
+    }
+  },
+  {
+    "id": "deniznazarova",
+    "name": "Deniz Nazarova",
+    "role": "PhD Student",
+    "website": "https://gonzoden.github.io/",
+    "image": "/resources/headshots/deniz.jpeg",
+    "status": "member",
+    "priority": 5,
+    "topics": [
+      "AI in Therapy",
+      "NLP",
+      "Multilingual NLP",
+      "AI Bias",
+      "HCI"
+    ],
+    "legacy": {
+      "headshot": "deniz.jpeg",
+      "is_visiting": false,
+      "name": "Deniz Nazarova",
+      "priority": 5,
+      "research_areas": [
+        "AI in Therapy",
+        "NLP",
+        "Multilingual NLP",
+        "AI Bias",
+        "HCI"
+      ],
+      "site": "https://gonzoden.github.io/",
+      "title": "PhD Student"
+    }
+  },
+  {
+    "id": "galenweld",
+    "name": "Galen Weld",
+    "role": "Postdoc",
+    "website": "https://galenweld.com/",
+    "image": "/resources/headshots/galenweld.png",
+    "status": "member",
+    "priority": 2,
+    "topics": [
+      "causal inference",
+      " online communities"
+    ],
+    "legacy": {
+      "headshot": "galenweld.png",
+      "is_visiting": false,
+      "name": "Galen Weld",
+      "priority": 2,
+      "research_areas": [
+        "causal inference",
+        " online communities"
+      ],
+      "site": "https://galenweld.com/",
+      "title": "Postdoc"
+    }
+  },
+  {
+    "id": "innalin",
+    "name": "Inna Lin",
+    "role": "PhD Student",
+    "website": "https://innawy.github.io",
+    "image": "/resources/headshots/innalin.jpg",
+    "status": "member",
+    "priority": 4,
+    "topics": [],
+    "legacy": {
+      "headshot": "innalin.jpg",
+      "is_visiting": false,
+      "name": "Inna Lin",
+      "priority": 4,
+      "research_areas": null,
+      "site": "https://innawy.github.io",
+      "title": "PhD Student"
+    }
+  },
+  {
+    "id": "jinasuh",
+    "name": "Jina Suh",
+    "role": "PhD",
+    "website": "https://www.microsoft.com/en-us/research/people/jinsuh/",
+    "image": "/resources/headshots/jinasuh.jpg",
+    "status": "alumni",
+    "priority": 4,
+    "topics": [
+      "Human-Centered Data Science",
+      "Human-Centered Design",
+      "Human-Centered AI"
+    ],
+    "legacy": {
+      "headshot": "jinasuh.jpg",
+      "is_visiting": false,
+      "name": "Jina Suh",
+      "priority": 4,
+      "research_areas": [
+        "Human-Centered Data Science",
+        "Human-Centered Design",
+        "Human-Centered AI"
+      ],
+      "site": "https://www.microsoft.com/en-us/research/people/jinsuh/",
+      "title": "PhD",
+      "inactive": true
+    }
+  },
+  {
+    "id": "joyhe-yueya",
+    "name": "Joy He-Yueya",
+    "role": "Bachelor's Student",
+    "website": "https://joyheyueya.github.io",
+    "image": "/resources/headshots/joyhe-yueya.jpg",
+    "status": "alumni",
+    "priority": 8,
+    "topics": [],
+    "legacy": {
+      "headshot": "joyhe-yueya.jpg",
+      "is_visiting": false,
+      "name": "Joy He-Yueya",
+      "priority": 8,
+      "research_areas": null,
+      "site": "https://joyheyueya.github.io",
+      "title": "Bachelor's Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "kengu",
+    "name": "Ken Gu",
+    "role": "PhD Student",
+    "website": "https://kenqgu.com/",
+    "image": "/resources/headshots/kengu.jpg",
+    "status": "member",
+    "priority": 4,
+    "topics": [],
+    "legacy": {
+      "headshot": "kengu.jpg",
+      "is_visiting": false,
+      "name": "Ken Gu",
+      "priority": 4,
+      "research_areas": null,
+      "site": "https://kenqgu.com/",
+      "title": "PhD Student"
+    }
+  },
+  {
+    "id": "margaretli",
+    "name": "Margaret Li",
+    "role": "PhD Student",
+    "website": "https://margs.li",
+    "image": "/resources/headshots/margaretli.png",
+    "status": "member",
+    "priority": 3,
+    "topics": [
+      "NLP",
+      "Dialogue",
+      "ML"
+    ],
+    "legacy": {
+      "headshot": "margaretli.png",
+      "is_visiting": false,
+      "name": "Margaret Li",
+      "priority": 3,
+      "research_areas": [
+        "NLP",
+        "Dialogue",
+        "ML"
+      ],
+      "site": "https://margs.li",
+      "title": "PhD Student"
+    }
+  },
+  {
+    "id": "melihyilmaz",
+    "name": "Melih Yilmaz",
+    "role": "PhD Student",
+    "website": "",
+    "image": "/resources/headshots/melihyilmaz.png",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [],
+    "legacy": {
+      "headshot": "melihyilmaz.png",
+      "is_visiting": false,
+      "name": "Melih Yilmaz",
+      "priority": 5,
+      "research_areas": null,
+      "site": null,
+      "title": "PhD Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "mickelliu",
+    "name": "Mickel Liu",
+    "role": "PhD Student",
+    "website": "https://mickel-liu.github.io/",
+    "image": "/resources/headshots/mickelliu.png",
+    "status": "alumni",
+    "priority": 4,
+    "topics": [
+      "Agent Alignment",
+      "Multi-Agent Systems",
+      "Large Language Models",
+      "Reinforcement Learning"
+    ],
+    "legacy": {
+      "headshot": "mickelliu.png",
+      "is_visiting": false,
+      "name": "Mickel Liu",
+      "priority": 4,
+      "research_areas": [
+        "Agent Alignment",
+        "Multi-Agent Systems",
+        "Large Language Models",
+        "Reinforcement Learning"
+      ],
+      "site": "https://mickel-liu.github.io/",
+      "title": "PhD Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "mikemerrill",
+    "name": "Mike Merrill",
+    "role": "PhD Student",
+    "website": "https://mikemerrill.io",
+    "image": "/resources/headshots/mikemerrill.jpeg",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [],
+    "legacy": {
+      "headshot": "mikemerrill.jpeg",
+      "is_visiting": false,
+      "name": "Mike Merrill",
+      "priority": 5,
+      "research_areas": null,
+      "site": "https://mikemerrill.io",
+      "title": "PhD Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "remydeshayes",
+    "name": "Remy Deshayes",
+    "role": "Master's Student",
+    "website": "https://remydeshayes.github.io/",
+    "image": "/resources/headshots/remydeshayes.png",
+    "status": "alumni",
+    "priority": 7,
+    "topics": [],
+    "legacy": {
+      "headshot": "remydeshayes.png",
+      "is_visiting": true,
+      "name": "Remy Deshayes",
+      "priority": 7,
+      "research_areas": null,
+      "site": "https://remydeshayes.github.io/",
+      "title": "Master's Student",
+      "inactive": true
+    }
+  },
+  {
+    "id": "rongwudannyxu",
+    "name": "Rongwu Danny Xu",
+    "role": "PhD Student",
+    "website": "https://rongwuxu.com/",
+    "image": "/resources/headshots/rongwu.png",
+    "status": "member",
+    "priority": 6,
+    "topics": [],
+    "legacy": {
+      "name": "Rongwu Danny Xu",
+      "title": "PhD Student",
+      "site": "https://rongwuxu.com/",
+      "headshot": "rongwu.png",
+      "research_areas": null,
+      "priority": 6,
+      "is_visiting": false
+    }
+  },
+  {
+    "id": "timalthoff",
+    "name": "Tim Althoff",
+    "role": "Assistant Professor",
+    "website": "http://www.timalthoff.com/",
+    "image": "/resources/headshots/timalthoff.jpg",
+    "status": "member",
+    "priority": 1,
+    "topics": [],
+    "legacy": {
+      "headshot": "timalthoff.jpg",
+      "is_visiting": false,
+      "name": "Tim Althoff",
+      "priority": 1,
+      "research_areas": null,
+      "site": "http://www.timalthoff.com/",
+      "title": "Assistant Professor"
+    }
+  },
+  {
+    "id": "vinayakgupta",
+    "name": "Vinayak Gupta",
+    "role": "Postdoc",
+    "website": "https://gvinayak.github.io/",
+    "image": "/resources/headshots/vinayakgupta.png",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [],
+    "legacy": {
+      "headshot": "vinayakgupta.png",
+      "is_visiting": false,
+      "name": "Vinayak Gupta",
+      "priority": 5,
+      "research_areas": null,
+      "site": "https://gvinayak.github.io/",
+      "title": "Postdoc",
+      "inactive": true
+    }
+  },
+  {
+    "id": "xinyizhou",
+    "name": "Xinyi Zhou",
+    "role": "Postdoc",
+    "website": "https://xinyizhou.xyz/",
+    "image": "/resources/headshots/xinyizhou.jpg",
+    "status": "alumni",
+    "priority": 3,
+    "topics": [],
+    "legacy": {
+      "headshot": "xinyizhou.jpg",
+      "is_visiting": false,
+      "name": "Xinyi Zhou",
+      "priority": 3,
+      "research_areas": null,
+      "site": "https://xinyizhou.xyz/",
+      "title": "Postdoc",
+      "inactive": true
+    }
+  },
+  {
+    "id": "yasamansefidgar",
+    "name": "Yasaman Sefidgar",
+    "role": "Postdoc",
+    "website": "https://sefyas.github.io/",
+    "image": "/resources/headshots/yasamansefidgar.png",
+    "status": "member",
+    "priority": 2,
+    "topics": [],
+    "legacy": {
+      "name": "Yasaman Sefidgar",
+      "title": "Postdoc",
+      "site": "https://sefyas.github.io/",
+      "headshot": "yasamansefidgar.png",
+      "research_areas": null,
+      "priority": 2,
+      "is_visiting": false
+    }
+  }
+]

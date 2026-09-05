@@ -1,0 +1,10 @@
+{
+  "people": 21,
+  "publications": 47,
+  "news": 3,
+  "missing_assets": [],
+  "repairs": [
+    "Corrected duplicated resources/pubpdfs prefix in xu2022GLOBEM PDF link."
+  ],
+  "asset_copy": "All legacy asset bytes verified before removing original paths."
+}
