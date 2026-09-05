@@ -6,7 +6,7 @@
     "website": "https://advaitmb.com/",
     "image": "/resources/headshots/advait.jpeg",
     "status": "member",
-    "priority": 5,
+    "priority": 3,
     "topics": [
       "Human-AI Interaction",
       "Human-Computer Interaction",
@@ -26,7 +26,8 @@
       ],
       "site": "https://advaitmb.com/",
       "title": "PhD Student"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "antoniasaravanou",
@@ -46,7 +47,8 @@
       "site": "https://antonia42.github.io/",
       "title": "Visiting Researcher",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "ashishsharma",
@@ -72,7 +74,8 @@
       "site": "https://ash-shar.github.io/",
       "title": "PhD Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "bretnestor",
@@ -92,7 +95,8 @@
       "site": "http://www.cs.toronto.edu/~bretnestor/",
       "title": "Postdoc",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "chengli",
@@ -101,7 +105,7 @@
     "website": "https://chengli0228.github.io/",
     "image": "/resources/headshots/cl.png",
     "status": "member",
-    "priority": 6,
+    "priority": 4,
     "topics": [],
     "legacy": {
       "name": "Cheng Li",
@@ -111,11 +115,12 @@
       "research_areas": null,
       "priority": 6,
       "is_visiting": false
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "deniznazarova",
-    "name": "Deniz Nazarova",
+    "name": "Deniz Nazar",
     "role": "PhD Student",
     "website": "https://gonzoden.github.io/",
     "image": "/resources/headshots/deniz.jpeg",
@@ -142,7 +147,11 @@
       ],
       "site": "https://gonzoden.github.io/",
       "title": "PhD Student"
-    }
+    },
+    "aliases": [
+      "Deniz Nazarova"
+    ],
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "galenweld",
@@ -150,7 +159,7 @@
     "role": "Postdoc",
     "website": "https://galenweld.com/",
     "image": "/resources/headshots/galenweld.png",
-    "status": "member",
+    "status": "alumni",
     "priority": 2,
     "topics": [
       "causal inference",
@@ -167,7 +176,8 @@
       ],
       "site": "https://galenweld.com/",
       "title": "Postdoc"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "innalin",
@@ -176,7 +186,7 @@
     "website": "https://innawy.github.io",
     "image": "/resources/headshots/innalin.jpg",
     "status": "member",
-    "priority": 4,
+    "priority": 6,
     "topics": [],
     "legacy": {
       "headshot": "innalin.jpg",
@@ -186,16 +196,17 @@
       "research_areas": null,
       "site": "https://innawy.github.io",
       "title": "PhD Student"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "jinasuh",
     "name": "Jina Suh",
-    "role": "PhD",
+    "role": "Principal Researcher",
     "website": "https://www.microsoft.com/en-us/research/people/jinsuh/",
     "image": "/resources/headshots/jinasuh.jpg",
-    "status": "alumni",
-    "priority": 4,
+    "status": "member",
+    "priority": 1,
     "topics": [
       "Human-Centered Data Science",
       "Human-Centered Design",
@@ -213,8 +224,13 @@
       ],
       "site": "https://www.microsoft.com/en-us/research/people/jinsuh/",
       "title": "PhD",
-      "inactive": true
-    }
+      "inactive": true,
+      "alumniEntry": {
+        "name": "Jina Suh, PhD Student, Fall 2018 - Winter 2023",
+        "site": "https://www.microsoft.com/en-us/research/people/jinsuh/"
+      }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "joyhe-yueya",
@@ -234,7 +250,8 @@
       "site": "https://joyheyueya.github.io",
       "title": "Bachelor's Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "kengu",
@@ -242,7 +259,7 @@
     "role": "PhD Student",
     "website": "https://kenqgu.com/",
     "image": "/resources/headshots/kengu.jpg",
-    "status": "member",
+    "status": "alumni",
     "priority": 4,
     "topics": [],
     "legacy": {
@@ -253,7 +270,8 @@
       "research_areas": null,
       "site": "https://kenqgu.com/",
       "title": "PhD Student"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "margaretli",
@@ -262,7 +280,7 @@
     "website": "https://margs.li",
     "image": "/resources/headshots/margaretli.png",
     "status": "member",
-    "priority": 3,
+    "priority": 7,
     "topics": [
       "NLP",
       "Dialogue",
@@ -280,7 +298,8 @@
       ],
       "site": "https://margs.li",
       "title": "PhD Student"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "melihyilmaz",
@@ -300,7 +319,8 @@
       "site": null,
       "title": "PhD Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "mickelliu",
@@ -330,7 +350,8 @@
       "site": "https://mickel-liu.github.io/",
       "title": "PhD Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "mikemerrill",
@@ -350,7 +371,8 @@
       "site": "https://mikemerrill.io",
       "title": "PhD Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "remydeshayes",
@@ -370,7 +392,8 @@
       "site": "https://remydeshayes.github.io/",
       "title": "Master's Student",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "rongwudannyxu",
@@ -378,7 +401,7 @@
     "role": "PhD Student",
     "website": "https://rongwuxu.com/",
     "image": "/resources/headshots/rongwu.png",
-    "status": "member",
+    "status": "alumni",
     "priority": 6,
     "topics": [],
     "legacy": {
@@ -389,16 +412,17 @@
       "research_areas": null,
       "priority": 6,
       "is_visiting": false
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "timalthoff",
     "name": "Tim Althoff",
-    "role": "Assistant Professor",
+    "role": "PI",
     "website": "http://www.timalthoff.com/",
     "image": "/resources/headshots/timalthoff.jpg",
     "status": "member",
-    "priority": 1,
+    "priority": 0,
     "topics": [],
     "legacy": {
       "headshot": "timalthoff.jpg",
@@ -408,7 +432,8 @@
       "research_areas": null,
       "site": "http://www.timalthoff.com/",
       "title": "Assistant Professor"
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "vinayakgupta",
@@ -428,7 +453,8 @@
       "site": "https://gvinayak.github.io/",
       "title": "Postdoc",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "xinyizhou",
@@ -448,7 +474,8 @@
       "site": "https://xinyizhou.xyz/",
       "title": "Postdoc",
       "inactive": true
-    }
+    },
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "yasamansefidgar",
@@ -456,7 +483,7 @@
     "role": "Postdoc",
     "website": "https://sefyas.github.io/",
     "image": "/resources/headshots/yasamansefidgar.png",
-    "status": "member",
+    "status": "alumni",
     "priority": 2,
     "topics": [],
     "legacy": {
@@ -467,6 +494,19 @@
       "research_areas": null,
       "priority": 2,
       "is_visiting": false
-    }
+    },
+    "reviewedOn": "2026-09-05"
+  },
+  {
+    "id": "yigeyuan",
+    "name": "Yige Yuan",
+    "role": "Postdoc",
+    "website": "https://yuanyige.github.io/",
+    "image": "/resources/headshots/yigeyuan.png",
+    "status": "member",
+    "priority": 2,
+    "topics": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-05"
   }
 ]

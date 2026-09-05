@@ -9,5 +9,5 @@ export default function Team() {
   for (const p of people.filter(p => p.status === 'alumni')) {
     if (!mergedAlumni.some(a => a.name.toLowerCase().startsWith(p.name.toLowerCase()))) mergedAlumni.push({ name: `${p.name}, ${p.role}`, site: p.website });
   }
-  return <><PageHeading title="Our Group" /><PersonGrid members={members} />{visitors.length > 0 && <section className="section"><h2>Current Visitors</h2><PersonGrid members={visitors} /></section>}<section className="section"><h2>Alumni</h2><ul className="alumni-list">{mergedAlumni.map(a => <li key={a.name}>{safeUrl(a.site) ? <a href={safeUrl(a.site)}>{a.name}</a> : a.name}</li>)}</ul></section></>;
+  return <><PageHeading title="Our Group" /><PersonGrid members={members} />{visitors.length > 0 && <section className="section"><h2>Current Visitors</h2><PersonGrid members={visitors} /></section>}<section className="section"><h2>Past members</h2><ul className="alumni-list">{mergedAlumni.map(a => <li key={a.name}>{safeUrl(a.site) ? <a href={safeUrl(a.site)}>{a.name}</a> : a.name}</li>)}</ul></section></>;
 }

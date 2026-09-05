@@ -53,3 +53,11 @@ test('new article and preprint types produce correct citation entries without le
   assert.match(bibtex({id:'a',type:'article',title:'Test',authors:'Ada',year:2024,venue:'Journal'}), /^@article/);
   assert.match(bibtex({id:'p',type:'preprint',title:'Test',authors:'Ada',year:2024,arxivId:'2401.12345'}), /archivePrefix = \{arXiv\}/);
 });
+
+test('name aliases preserve legacy attribution without overriding explicit person links', () => {
+  const person = {id:'deniznazarova',name:'Deniz Nazar',aliases:['Deniz Nazarova']};
+  const paper = {title:'Test',authors:'Deniz Nazarova',year:2024};
+  assert.equal(paperBelongsTo(paper,person),true);
+  assert.equal(filterPapers([paper],{person}).length,1);
+  assert.equal(paperBelongsTo({...paper,personIds:[]},person),false);
+});
