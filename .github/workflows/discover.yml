@@ -19,15 +19,15 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BASE_BRANCH: ${{ github.event.repository.default_branch }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.0.0
         with:
           node-version: 24
           cache: npm
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7.0.0
         with:
           python-version: '3.12'
       - name: Continue the existing review branch without overwriting reviewer edits
@@ -41,7 +41,7 @@ jobs:
           else
             git switch -c "$branch"
           fi
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v6.1.0
         with:
           path: .cache
           key: discovery-${{ github.run_id }}-${{ github.run_attempt }}
@@ -58,12 +58,13 @@ jobs:
       - run: npm run check
       - name: Publish review branch and request checks
         run: python3 scripts/publish_batch.py
-      - uses: actions/cache/save@v4
+      - uses: actions/cache/save@v6.1.0
         with:
           path: .cache
           key: discovery-${{ github.run_id }}-${{ github.run_attempt }}
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7.0.1
         with:
           name: review-preview
           path: out
+          include-hidden-files: true
           retention-days: 14
