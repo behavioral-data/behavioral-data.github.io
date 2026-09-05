@@ -1,14 +1,21 @@
 # Codebase map
 
-- `app/`: Next.js routes, metadata and plain CSS; exported as static HTML.
-- `components/`: reusable React navigation, paper cards and publication filters.
-- `content/`: editable JSON datasets. These are the source of truth for the public website.
-- `lib/`: content access, filtering and citation formatting.
-- `public/`: original assets at their historical URL paths.
-- `scripts/validate-content.mjs`: content and asset checks, run before every build.
-- `scripts/prepare_publication.py`: DOI lookup that creates a local review proposal.
-- `tests/`: focused publication filtering, citation and proposal tests.
-- `.github/workflows/`: pull-request checks and a manual production deployment.
-- `_planning/`: inventory, migration report and future maintenance specification.
+- `app/`: static Next.js pages, metadata, responsive CSS, and legacy route aliases.
+- `components/`: React navigation, publication filters/cards, related awards, news and projects.
+- `content/`: public JSON records, Markdown page prose, and site configuration. New editorial collections start empty.
+- `lib/`: content loading, relationship resolution, filters, citation formatting, and validation.
+- `public/`: original assets at historical URL paths; only public files belong here.
+- `maintenance/`: verified identity/configuration slots and a public review queue; discovery starts disabled.
+- `scripts/discovery.py`: paginated OpenAlex retrieval, normalization, deduplication and review proposals.
+- `scripts/review.py`: local accept/reject/defer/reopen decisions; no publishing.
+- `scripts/publish_batch.py`: CI review-branch/draft-PR handoff, with no merge operation.
+- `scripts/monitor.py`: read-only health check suitable for an independent scheduler.
+- `scripts/prepare_publication.py`: separate one-off Crossref DOI helper.
+- `scripts/validate-*`, `check-export.py`, `export-aliases.mjs`: build-time contracts and URL preservation.
+- `scripts/test-skeleton.py`: isolated fixture build for future sections without modifying content.
+- `tests/`: content/relationship tests and review/provider failure cases using synthetic fixtures.
+- `.github/`: contribution forms, PR template, CI, gated discovery/health and manual deployment workflows.
+- `docs/`: content model and operational/activation/rollback runbook.
+- `_planning/`: roadmap, issues, migration report, and historical research.
 
-See README.md for commands and contribution instructions. There is no Jekyll or Ruby build path.
+Start with README.md. No Jekyll, Ruby runtime, database, or production application server is required.

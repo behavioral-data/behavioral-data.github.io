@@ -16,3 +16,5 @@
 
 .lab-brand{display:block;width:120px;max-width:100%;flex-shrink:0}.lab-brand img{display:block;width:100%;height:auto}.brand-caption{margin:18px 0 32px}
 @media(max-width:760px){.lab-brand{width:320px;max-width:100%}.lab-brand img{aspect-ratio:740/125;object-fit:contain}}
+
+.filters .field{min-width:140px;max-width:100%;flex:1}.filters .field.search{min-width:210px;flex:2}.filters select{width:100%;max-width:100%}.people-grid figure{margin:0}.people-grid figcaption{font-size:14px;margin-top:8px}

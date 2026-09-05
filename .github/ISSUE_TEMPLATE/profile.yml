@@ -1,0 +1,17 @@
+name: Profile or site correction
+description: Correct a profile, role, link, opportunity, or site detail
+title: "[Correction] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or person
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change and source
+      description: Include the current value and proposed correction. Public information only.
+    validations:
+      required: true

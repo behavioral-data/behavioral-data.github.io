@@ -1,8 +1,8 @@
+import { opportunities, safeUrl, pageContent } from '@/lib/content';
+import { openOpportunities } from '@/lib/relationships.mjs';
+import ReactMarkdown from 'react-markdown';
 import PageHeading from '@/components/page-heading';
 export const metadata = { title: 'Open positions', alternates: { canonical: '/join/' } };
 export default function Join() {
-  return <><PageHeading title="Open positions" /><div className="prose">
-    <p>We have a <a href="https://docs.google.com/document/d/1h44Gz1wOMx6QhHUWv9QFB3Jnrn-JzEMPHC0WZhPMEqU/edit#">postdoc position</a> available.</p>
-    <p>We are also looking for PhD students, especially in but not limited to deep learning, causal inference, data science and mobile health. If you're interested please apply to the UW Allen School. Go Dawgs!</p>
-  </div></>;
+  return <><PageHeading title="Open positions" /><div className="prose">{opportunities.length > 0 ? openOpportunities(opportunities).map(o => <section className="section" key={o.id}><h2>{o.title}</h2>{o.description && <ReactMarkdown>{o.description}</ReactMarkdown>}<a href={safeUrl(o.url)}>Apply</a></section>) : <ReactMarkdown>{pageContent.recruitment}</ReactMarkdown>}</div></>;
 }

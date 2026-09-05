@@ -1,0 +1,69 @@
+name: Collect publication candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 15 * * 1'
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+concurrency:
+  group: publication-review
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: vars.WEBSITE_MAINTENANCE_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BASE_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Continue the existing review branch without overwriting reviewer edits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          branch='codex/weekly-publication-review'
+          if git show-ref --verify --quiet "refs/remotes/origin/$branch"; then
+            git switch -c "$branch" "origin/$branch"
+            git merge --no-edit "origin/$BASE_BRANCH"
+          else
+            git switch -c "$branch"
+          fi
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: discovery-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: discovery-
+      - run: npm ci
+      - name: Validate enabled configuration
+        run: |
+          python3 scripts/validate-maintenance.py
+          python3 -c "import json; assert json.load(open('maintenance/config.json'))['enabled'], 'Enable maintenance/config.json before activation'"
+      - name: Discover candidates
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python3 scripts/discovery.py
+      - run: npm run check
+      - name: Publish review branch and request checks
+        run: python3 scripts/publish_batch.py
+      - uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: discovery-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: review-preview
+          path: out
+          retention-days: 14

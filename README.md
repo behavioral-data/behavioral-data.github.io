@@ -16,9 +16,8 @@ Open the URL printed by Next.js (normally http://127.0.0.1:3000).
 ## Build and check
 
 ```sh
-npm test
-python3 -m unittest discover -s tests -p 'test_*.py'
-npm run build
+npm run check
+npm run test:skeleton
 npm run preview
 ```
 
@@ -33,14 +32,17 @@ The build validates the content and referenced assets, then exports static files
 | Alumni from the original site | `content/alumni.json` |
 | News, newest date first | `content/news.json` |
 | Sponsors | `content/sponsors.json` |
-| Page layout and text | `app/` |
+| Existing page prose (Markdown strings) | `content/pages.json` |
+| Awards, projects, opportunities, photos | `content/awards.json`, `projects.json`, `opportunities.json`, `gallery.json` |
+| Site domain and signup endpoint | `content/site.json` |
+| Page layout | `app/` |
 | Shared interface components | `components/` |
 | All styling | `app/globals.css` |
 | Images, PDFs and downloads | `public/` |
 
-See `scripts/README.md` for a DOI metadata helper and the review workflow. Keep stable IDs when editing existing records: they determine page URLs. Ordinary papers do not require a thumbnail or local PDF. Do not modify the `legacy` metadata unless correcting an import; it preserves original bibliographic details.
+See [Content model](docs/CONTENT_MODEL.md) for field definitions and [Maintenance runbook](docs/MAINTENANCE.md) for submissions, discovery, review, activation and recovery. Keep stable IDs when editing existing records: they determine page URLs. Ordinary papers do not require a thumbnail or local PDF. Do not modify the `legacy` metadata unless correcting an import; it preserves original bibliographic details.
 
-People's archive publications are matched from stored author names, not live author identities. Check ambiguous names when adding records. The future discovery service will require verified author IDs and membership dates.
+Publications support explicit `personIds`; existing imports retain name matching until the roster/content pass supplies verified links. The discovery pipeline uses only the explicitly verified identities in `maintenance/authors.json`, which is currently empty.
 
 ## Review and deploy
 
@@ -60,7 +62,9 @@ The existing dataset still needs a roster review and publication/award backfill.
 
 The migration backup location and inventory are recorded in `_planning/migration-backup.json`. It includes the pre-migration legacy source and staged/unstaged Git patches. Generated Jekyll output and installed Ruby dependencies were not archived. Git's existing commit history is intact.
 
-**Weekly automatic discovery is not enabled yet.** The DOI helper only prepares local proposals. The next phase is a verified author roster, source discovery, deduplication, one weekly review batch, and independent missed-run monitoring. Private reviewer notes, credentials and signup addresses must stay out of this public repository.
+**Infrastructure first; content last.** Structured collections and related page skeletons, submission forms, OpenAlex discovery, deduplication, persistent review decisions, weekly draft-PR workflows, health checks, and deployment validation are implemented. Empty future collections contain no invented lab records.
+
+**Live maintenance remains disabled.** Activation requires a verified author roster, configuration and reviewer ownership, repository permissions, and an independent scheduler/notification hookup. Two real weekly review cycles and the approved production switch remain to be done after the content pass. Private reviewer notes, credentials and signup addresses must stay out of this public repository.
 
 ## Credits
 

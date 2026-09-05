@@ -1,0 +1,32 @@
+name: Publication
+description: Submit a paper or a bibliographic correction for review
+title: "[Publication] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: DOI or paper URL
+    validations:
+      required: true
+  - type: input
+    id: people
+    attributes:
+      label: Lab authors
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Publication state
+      options:
+        - Preprint
+        - Accepted
+        - Published
+        - Correction to existing entry
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Code, dataset, project links, or correction
+      description: Public information only. Submissions are reviewed before publication.

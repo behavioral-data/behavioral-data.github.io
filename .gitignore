@@ -10,3 +10,5 @@ __pycache__/
 
 # Machine-local pre-migration recovery inventory
 _planning/migration-backup.json
+
+.cache/

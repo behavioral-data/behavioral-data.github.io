@@ -1,6 +1,8 @@
 name: Check website
 on:
   pull_request:
+  push:
+    branches: ["codex/**"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -14,9 +16,11 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm test
-      - run: python3 -m unittest discover -s tests -p 'test_*.py'
-      - run: npm run build
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm run check
+      - run: npm run test:skeleton
       - uses: actions/upload-artifact@v4
         with:
           name: website-preview

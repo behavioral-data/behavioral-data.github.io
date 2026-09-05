@@ -13,9 +13,11 @@ This is the current implementation roadmap. WEBSITE_SPEC.md and MODERN_STACK_OPT
 
 ## Delivery order
 
-Start roster verification and original-content review together. Then backfill publications and awards, finish browser/route/signup checks, and obtain approval for the Pages switch. Discovery and the weekly review pilot can proceed after the roster and content model are reliable; they need not block a reviewed static-site launch.
+**Updated direction: finish infrastructure and skeletons first; review and backfill content last.** The branch now includes structured content and relationship validation, related awards/news/projects, opportunity and gallery skeletons, explicit publication attribution fields, issue forms, OpenAlex collection, deduplication, review decisions, gated weekly draft-PR and health workflows, legacy export checks, and a maintainer runbook.
 
-Before starting the maintenance pilot, settle preprint inclusion, lab-work attribution, primary/backup reviewers, provider access, and the lab-owned scheduler. These decisions are acceptance work in the issues, not reasons to delay creating the branch.
+The new collections and verified identity registry remain empty. Existing lab records and original page prose have not been refreshed. Fixture tests exercise future sections in a temporary checkout; real author lookup, a live review pilot, browser/signup QA, external monitoring setup, and production deployment remain pending.
+
+Next, complete the content pass under issues #22–#25; configure real identities/owners and run the #27–#28 pilot; finish #26 launch QA; then perform the approved #29 production switch. The issues remain open because infrastructure alone does not complete their content or live-operation acceptance criteria. See [Maintenance runbook](../docs/MAINTENANCE.md) and [Content model](../docs/CONTENT_MODEL.md).
 
 ## Work items
 
