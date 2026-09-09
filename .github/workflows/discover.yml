@@ -54,7 +54,7 @@ jobs:
       - name: Discover candidates
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python3 scripts/discovery.py
+        run: python3 scripts/publication_pipeline.py collect
       - run: npm run check
       - name: Publish review branch and request checks
         run: python3 scripts/publish_batch.py

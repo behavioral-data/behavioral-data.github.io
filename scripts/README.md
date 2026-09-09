@@ -22,4 +22,6 @@ Set a person's status to `member`, `visitor`, or `alumni`; use ISO dates (`YYYY-
 
 ## Weekly maintenance infrastructure
 
-See [Maintenance runbook](../docs/MAINTENANCE.md) for `discovery.py`, `review.py`, the draft-PR workflow, health checks, activation, and recovery. See [Content model](../docs/CONTENT_MODEL.md) for record fields and relationships.
+Use `python3 scripts/publication_pipeline.py status` as the entry point. The pipeline exposes `collect`, `status`, `decide`, `check`, and the explicitly confirmed `publish` step. The repository skill at `.agents/skills/publication-review/SKILL.md` defines the Codex-assisted procedure; the machine-readable gate is `maintenance/publication-policy.json`.
+
+See [Maintenance runbook](../docs/MAINTENANCE.md) for the draft-PR workflow, health checks, activation, and recovery. See [Content model](../docs/CONTENT_MODEL.md) for record fields and relationships.

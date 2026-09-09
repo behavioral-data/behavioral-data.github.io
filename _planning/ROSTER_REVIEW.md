@@ -19,11 +19,11 @@ Deniz's existing internal ID `deniznazarova` is preserved so profile URLs remain
 
 ## Supporting public sources
 
-- [Yige Yuan's profile](https://yuanyige.github.io/) identifies the UW postdoctoral appointment with Tim Althoff. The profile still says incoming; the maintainer confirmed the current role. The [headshot](https://yuanyige.github.io/images/yuanyige-512x512.png) was copied without alteration to `public/resources/headshots/yigeyuan.png`.
+- [Yige Yuan's profile](https://yuanyige.github.io/) identifies the UW postdoctoral appointment with Tim Althoff. The profile still says incoming; the maintainer confirmed the current role. The maintainer supplied a square version of the headshot on September 5, 2026, copied without further alteration to `public/resources/headshots/yigeyuan.jpeg`.
 - [Jina Suh at Microsoft Research](https://www.microsoft.com/en-us/research/people/jinsuh/) identifies her as Principal Researcher; current lab membership comes from the maintainer.
 - [Deniz's profile](https://gonzoden.github.io/) uses Deniz Nazar (Nazarova); the maintainer selected Deniz Nazar for display.
 - [UW faculty directory](https://www.cs.washington.edu/people/faculty/tim-althoff/) lists Tim as Associate Professor. The roster uses the maintainer-requested lab role, PI.
 
 ## Remaining before automated publication discovery
 
-Verify scholarly author IDs against known papers, establish lab-work attribution and preprint policies, and obtain membership intervals where needed for historical coverage. `maintenance/authors.json` stays empty and discovery stays disabled until identities are verified. A confirmed current roster does not by itself establish which older papers should be attributed to the lab.
+The eight current Google Scholar profiles are confirmed. Initial OpenAlex IDs and known-paper anchors are recorded in `maintenance/authors.json`, including seven past members for coauthor recognition. The rule requires at least two lab authors; Tim alone is insufficient. Resolve mixed/split provider identities, preprint handling, and missing membership intervals before approving the first batch. Discovery stays disabled during the pilot. See `docs/PUBLICATION_POLICY.md`.

@@ -1,0 +1,82 @@
+[
+  {
+    "personId": "timalthoff",
+    "name": "Tim Althoff",
+    "googleScholarId": "yc4nBNgAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=yc4nBNgAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/",
+    "evidence": "Linked from personal faculty homepage."
+  },
+  {
+    "personId": "jinasuh",
+    "name": "Jina Suh",
+    "googleScholarId": "LuNehzsAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=LuNehzsAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://www.newx.sg/scholar/LuNehzsAAAAJ",
+    "evidence": "Confirmed by lab maintainer Advait Bhat on September 5, 2026. Originally discovered through a third-party index matching name, Microsoft/UW affiliation and research area."
+  },
+  {
+    "personId": "yigeyuan",
+    "name": "Yige Yuan",
+    "googleScholarId": "lf6GtCIAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=lf6GtCIAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://yuanyige.github.io/",
+    "evidence": "Linked from personal homepage; original link uses scholar.google.com.hk."
+  },
+  {
+    "personId": "advaitbhat",
+    "name": "Advait Bhat",
+    "googleScholarId": "lFBWQb0AAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=lFBWQb0AAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://advaitmb.com/",
+    "evidence": "Linked from personal homepage."
+  },
+  {
+    "personId": "chengli",
+    "name": "Cheng Li",
+    "googleScholarId": "083GCIwAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=083GCIwAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://scholar.google.com/citations?user=083GCIwAAAAJ",
+    "evidence": "Search-indexed Scholar profile lists University of Washington and verified uw.edu email. CultureLLM and CulturePark match the indexed personal homepage at https://chengli0228.github.io/; that homepage currently returns HTTP 404."
+  },
+  {
+    "personId": "deniznazarova",
+    "name": "Deniz Nazar",
+    "googleScholarId": "ZxQO6oMAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=ZxQO6oMAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://gonzoden.github.io/",
+    "evidence": "Linked from personal homepage; removed language and tracking parameters."
+  },
+  {
+    "personId": "innalin",
+    "name": "Inna Lin",
+    "googleScholarId": "LRrRtfwAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=LRrRtfwAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://innalin.notion.site/Inna-Wanyin-Lin-0f659924dd034fb18a1059393459a25e",
+    "evidence": "Linked from personal Notion homepage under Inna Wanyin Lin."
+  },
+  {
+    "personId": "margaretli",
+    "name": "Margaret Li",
+    "googleScholarId": "cUSS3fYAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=cUSS3fYAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-05",
+    "sourceUrl": "https://margs.li/",
+    "evidence": "Linked from personal homepage."
+  }
+]

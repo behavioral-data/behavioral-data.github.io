@@ -8,6 +8,7 @@
 - `maintenance/`: verified identity/configuration slots and a public review queue; discovery starts disabled.
 - `scripts/discovery.py`: paginated OpenAlex retrieval, normalization, deduplication and review proposals.
 - `scripts/review.py`: local accept/reject/defer/reopen decisions; no publishing.
+- `scripts/publication_pipeline.py`: repeatable collect/status/decide/check/publish entry point with a dedicated review branch and draft PR.
 - `scripts/publish_batch.py`: CI review-branch/draft-PR handoff, with no merge operation.
 - `scripts/monitor.py`: read-only health check suitable for an independent scheduler.
 - `scripts/prepare_publication.py`: separate one-off Crossref DOI helper.
@@ -15,6 +16,7 @@
 - `scripts/test-skeleton.py`: isolated fixture build for future sections without modifying content.
 - `tests/`: content/relationship tests and review/provider failure cases using synthetic fixtures.
 - `.github/`: contribution forms, PR template, CI, gated discovery/health and manual deployment workflows.
+- `.agents/skills/publication-review/`: repository-scoped instructions for evidence-based recurring paper review.
 - `docs/`: content model and operational/activation/rollback runbook.
 - `_planning/`: roadmap, issues, migration report, and historical research.
 

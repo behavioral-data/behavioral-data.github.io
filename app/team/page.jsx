@@ -1,8 +1,9 @@
+import PersonPhoto from '@/components/person-photo';
 import Link from 'next/link';
 import { people, alumni, safeUrl } from '@/lib/content';
 import PageHeading from '@/components/page-heading';
 export const metadata = { title: 'People', alternates: { canonical: '/team/' } };
-function PersonGrid({ members }) { return <div className="people-grid">{members.map(p => <article className="person-card" key={p.id}><Link href={`/people/${p.id}/`}>{p.image ? <img src={p.image} alt={p.name} loading="lazy" /> : <div className="person-placeholder" />}<h3>{p.name}</h3></Link><p>{p.role}</p></article>)}</div>; }
+function PersonGrid({ members }) { return <div className="people-grid">{members.map(p => <article className="person-card" key={p.id}><Link href={`/people/${p.id}/`}>{p.image ? <PersonPhoto person={p} loading="lazy" /> : <div className="person-placeholder" />}<h3>{p.name}</h3></Link><p>{p.role}</p></article>)}</div>; }
 export default function Team() {
   const members = people.filter(p => p.status === 'member'); const visitors = people.filter(p => p.status === 'visitor');
   const mergedAlumni = [...alumni];

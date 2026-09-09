@@ -4,16 +4,22 @@ import copy
 from datetime import date
 from pathlib import Path
 import subprocess
-from discovery import ROOT, MANAGED_FIELDS, read, save, doi, report
+from discovery import ROOT, MANAGED_FIELDS, read, save, doi, fingerprint, report
+from review_duplicates import group_duplicates
+from render_recent_review import render as render_recent
+from publication_policy import acceptance_review, validate_assessment, validate_policy
 
 
-def decide(root, cid, decision, person_ids=None, target_id=None, until=None):
+def decide(root, cid, decision, person_ids=None, target_id=None, until=None,
+           override_reason=None, evidence_urls=None):
     queue_path = root / 'maintenance/review.json'
     paper_path = root / 'content/publications.json'
     queue = read(queue_path)
     candidate = next((c for c in queue['candidates'] if c['id'] == cid), None)
     if candidate is None:
         raise ValueError('Unknown candidate ID')
+    if candidate.get('duplicateOf'):
+        raise ValueError('Review the canonical candidate instead: ' + candidate['duplicateOf'])
     if decision == 'reopen':
         candidate['status'] = 'pending'
     elif decision == 'reject':
@@ -29,9 +35,19 @@ def decide(root, cid, decision, person_ids=None, target_id=None, until=None):
             raise ValueError('Reconcile latestObservation with changes and observed, then remove latestObservation before accepting')
         if candidate.get('conflicts'):
             raise ValueError('Review conflicting fields, edit changes, and clear conflicts before accepting')
-        known = {p['id'] for p in read(root / 'content/people.json')}
+        expected_fingerprint = fingerprint({
+            'observed': candidate['observed'], 'personIds': candidate['matchedPersonIds']})
+        if candidate['fingerprint'] != expected_fingerprint:
+            raise ValueError('Candidate source or identity matches were edited; collect again before accepting')
+        people = read(root / 'content/people.json')
+        known = {p['id'] for p in people}
         if not person_ids or len(person_ids) != len(set(person_ids)) or not set(person_ids) <= known:
             raise ValueError('Acceptance requires explicitly reviewed --person IDs')
+        policy = read(root / 'maintenance/publication-policy.json')
+        validate_policy(policy, people)
+        validate_assessment(candidate, people, policy)
+        policy_review = acceptance_review(
+            candidate, person_ids, policy, override_reason, evidence_urls)
         if set(candidate['changes']) - set(MANAGED_FIELDS):
             raise ValueError('Proposal contains an unsupported field')
         if candidate['possibleDuplicates'] and not target_id:
@@ -74,11 +90,14 @@ def decide(root, cid, decision, person_ids=None, target_id=None, until=None):
         except Exception:
             paper_path.write_bytes(original)
             raise
-        candidate.update(status='accepted', targetId=paper['id'], reviewedOn=paper['reviewedOn'])
+        candidate.update(status='accepted', targetId=paper['id'], reviewedOn=paper['reviewedOn'],
+                         policyReview={**policy_review, 'reviewedOn': paper['reviewedOn']})
     else:
         raise ValueError('Unknown review decision')
+    group_duplicates(queue)
     save(queue_path, queue)
     (root / 'maintenance/batch.md').write_text(report(queue))
+    (root / 'maintenance/recent-review.md').write_text(render_recent(root))
 
 
 if __name__ == '__main__':
@@ -88,10 +107,13 @@ if __name__ == '__main__':
     parser.add_argument('--person', action='append', default=[])
     parser.add_argument('--target')
     parser.add_argument('--until')
+    parser.add_argument('--reason', help='Reason for accepting an unresolved policy or identity case')
+    parser.add_argument('--evidence', action='append', default=[], help='Public evidence URL; repeat as needed')
     parser.add_argument('--root', type=Path, default=ROOT)
     args = parser.parse_args()
     try:
-        decide(args.root, args.id, args.decision, args.person, args.target, args.until)
+        decide(args.root, args.id, args.decision, args.person, args.target, args.until,
+               args.reason, args.evidence)
         print('Decision saved locally. Inspect the diff, run checks, and submit it for PR review.')
     except (ValueError, KeyError) as error:
         raise SystemExit(str(error)) from None

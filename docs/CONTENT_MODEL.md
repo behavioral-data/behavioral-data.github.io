@@ -28,7 +28,7 @@ Research and Pictures navigation entries appear when their respective collection
 
 ## Verified discovery identities
 
-`maintenance/authors.json` maps verified OpenAlex identities to people. Start with an empty array; no real identity was inferred during infrastructure work.
+`maintenance/authors.json` maps OpenAlex identities to people using known-paper anchors. The initial registry is populated; mixed profiles still require per-paper authorship verification. Optional `evidenceWorkIds` record confirmed work IDs, `requiresWorkVerification` flags mixed or incompletely audited profiles, and `discover: false` enables coauthor recognition without fetching that person's complete publication list. See [Publication policy](PUBLICATION_POLICY.md).
 
 ```json
 [

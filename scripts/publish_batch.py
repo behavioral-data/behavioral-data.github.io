@@ -6,7 +6,7 @@ import subprocess
 import tempfile
 
 BRANCH = 'codex/weekly-publication-review'
-FILES = ['maintenance/review.json', 'maintenance/batch.md']
+FILES = ['maintenance/review.json', 'maintenance/batch.md', 'maintenance/recent-review.md']
 
 
 def command(*args):
@@ -35,7 +35,7 @@ def main():
         print('Existing review batch: ' + prs[0]['url'])
     else:
         with tempfile.NamedTemporaryFile('w', suffix='.md') as body:
-            body.write('Publication candidates collected for human review. This draft does not add papers to the site.\n\nReview `maintenance/batch.md` and `maintenance/review.json`, then use `scripts/review.py` to accept, reject, or defer each candidate. Verify lab relevance and duplicate/version matches. Run the documented checks before marking this PR ready and merging.\n\nCollection preserves manual decisions; it never merges or deploys.\n')
+            body.write('Publication candidates collected for human review. This draft does not add papers to the site.\n\nStart with `maintenance/recent-review.md`, then use the repository `publication-review` skill and `scripts/publication_pipeline.py` to accept, reject, or defer candidates. Verify lab relevance and duplicate/version matches. Run the documented checks before marking this PR ready and merging.\n\nCollection preserves manual decisions; it never merges or deploys.\n')
             body.flush()
             print(command('gh','pr','create','--repo',repo,'--base',base,'--head',BRANCH,'--draft','--title','Review weekly publication candidates','--body-file',body.name))
     # Explicit dispatch ensures validation is requested even when bot PR events need approval.

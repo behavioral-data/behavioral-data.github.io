@@ -12,6 +12,9 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from publication_policy import assess, validate_policy
+from review_duplicates import group_duplicates
+from render_recent_review import render as render_recent
 
 ROOT = Path(__file__).resolve().parents[1]
 MANAGED_FIELDS = ('title', 'authors', 'authorNames', 'year', 'venue', 'doi', 'url', 'status', 'openalexId', 'type')
@@ -52,7 +55,7 @@ def normalize(work, authors):
     authorships = work.get('authorships', [])
     names = [a.get('author', {}).get('display_name', '') for a in authorships]
     matched = sorted({a['personId'] for a in authors if any(
-        item.get('author', {}).get('id', '').rsplit('/', 1)[-1] == a['openalexId'] for item in authorships)})
+        (item.get('author', {}).get('id') or '').rsplit('/', 1)[-1] == a['openalexId'] for item in authorships)})
     if not matched:
         raise ValueError(f'{wid}: response contains no configured author identity')
     if not work.get('title') or not names or any(not name for name in names) or not isinstance(work.get('publication_year'), int):
@@ -145,18 +148,30 @@ def collect(client, authors, since=None):
     # Finish every author/page before changing the durable queue or checkpoint.
     works = {}
     for author in authors:
+        if author.get('discover') is False:
+            continue
         for work in client.works(author['openalexId'], since):
             works[work_id(work.get('id'))] = work
     return list(works.values())
 
 
-def merge_candidates(works, papers, authors, queue, today):
+def merge_candidates(works, papers, authors, queue, today, people=None, policy=None):
     result = copy.deepcopy(queue)
     by_id = {c['id']: c for c in result['candidates']}
     for work in sorted(works, key=lambda w: w['id']):
         observed, matched = normalize(work, authors)
         cid = observed['id']
         old = by_id.get(cid)
+        relevance = assess(work, matched, people, policy) if policy else None
+        work_author_ids = {(a.get('author', {}).get('id') or '').rsplit('/', 1)[-1]
+                           for a in work.get('authorships', [])}
+        identity_review = sorted({a['personId'] for a in authors
+                                  if a['openalexId'] in work_author_ids and a.get('requiresWorkVerification')
+                                  and observed['openalexId'] not in a.get('evidenceWorkIds', [])})
+        if old and relevance:
+            old['labRelevance'] = relevance
+        if old:
+            old['identityReviewPersonIds'] = identity_review
         if observed['doi'] and any(c['status'] == 'rejected' and doi(c['observed'].get('doi')) == observed['doi'] for c in result['candidates']):
             continue
         digest = fingerprint({'observed': observed, 'personIds': matched})
@@ -189,7 +204,10 @@ def merge_candidates(works, papers, authors, queue, today):
             'targetId': target['id'] if target else None, 'base': {f: target.get(f) for f in changes} if target else {},
             'changes': changes, 'possibleDuplicates': sorted(set(similar + ([p['id'] for p in exact] if len(exact) > 1 else []))),
             'conflicts': conflicts,
+            'identityReviewPersonIds': identity_review,
         }
+        if relevance:
+            candidate['labRelevance'] = relevance
         if old and old['status'] in ('pending','deferred'):
             # A reviewer may have edited this candidate. Keep edits and expose newer source separately.
             old['latestObservation'] = {'observed': observed, 'matchedPersonIds': matched, 'fingerprint': digest}
@@ -200,12 +218,16 @@ def merge_candidates(works, papers, authors, queue, today):
             result['candidates'].append(candidate)
         by_id[cid] = candidate
     result['candidates'].sort(key=lambda c: c['id'])
-    return result
+    return group_duplicates(result)
 
 
 def report(queue):
     lines = ['# Publication review batch', '', 'Edit decisions with `python3 scripts/review.py`; approval changes local content for PR review, never the live site.', '']
-    active = [c for c in queue['candidates'] if c['status'] == 'pending']
+    active = [c for c in queue['candidates'] if c['status'] == 'pending' and not c.get('duplicateOf')]
+    for status in ('meets-rule', 'needs-membership-review', 'does-not-meet-rule'):
+        count = sum(c.get('labRelevance', {}).get('status') == status for c in active)
+        lines += [f'{status}: {count}', '']
+    active.sort(key=lambda c: (c.get('labRelevance', {}).get('status') == 'does-not-meet-rule', -c['observed']['year'], c['id']))
     if not active:
         lines += ['No pending candidates.', '']
     for c in active:
@@ -216,6 +238,13 @@ def report(queue):
                   f"Target: {c['targetId'] or 'new record'}", '', 'Proposed fields: ' + ', '.join(c['changes']), '']
         if c['possibleDuplicates']:
             lines += ['Possible duplicates: ' + ', '.join(c['possibleDuplicates']), '']
+        if c.get('labRelevance'):
+            relevance = c['labRelevance']
+            lines += [f"Lab relevance: {relevance['status']} — {relevance['reason']}", '']
+        if c.get('identityReviewPersonIds'):
+            lines += ['Author identity needs per-paper verification (mixed OpenAlex profile): ' + ', '.join(c['identityReviewPersonIds']), '']
+        if c.get('alternateRecordIds'):
+            lines += ['Other versions grouped here: ' + ', '.join(c['alternateRecordIds']), '']
         if c['conflicts']:
             lines += ['Manual/source conflicts: ' + ', '.join(c['conflicts']), '']
         if c.get('latestObservation'):
@@ -230,7 +259,12 @@ def run(root=ROOT, fixture=None, today=None, client=None):
         print('Discovery is disabled. Configure verified identities before enabling it.')
         return
     authors = read(root / 'maintenance/authors.json')
-    validate_authors(authors, read(root / 'content/people.json'))
+    people = read(root / 'content/people.json')
+    validate_authors(authors, people)
+    policy_path = root / 'maintenance/publication-policy.json'
+    policy = read(policy_path) if policy_path.exists() else None
+    if policy:
+        validate_policy(policy, people)
     if not authors:
         raise ValueError('No verified author identities configured')
     if not 1 <= config['maxRequests'] <= 1000 or not 1 <= config['lookbackDays'] <= 365 or not 1 <= config['reconcileDays'] <= 365:
@@ -242,9 +276,10 @@ def run(root=ROOT, fixture=None, today=None, client=None):
     client = client or OpenAlex(config['maxRequests'], root / '.cache/openalex', os.environ.get('OPENALEX_API_KEY'))
     works = read(fixture) if fixture is not None else collect(client, authors, since)
     queue_path = root / 'maintenance/review.json'
-    queue = merge_candidates(works, read(root / 'content/publications.json'), authors, read(queue_path), today)
+    queue = merge_candidates(works, read(root / 'content/publications.json'), authors, read(queue_path), today, people, policy)
     save(queue_path, queue)
     (root / 'maintenance/batch.md').write_text(report(queue))
+    (root / 'maintenance/recent-review.md').write_text(render_recent(root))
     # Fixtures must not masquerade as a successful live sync.
     if fixture is None:
         save(state_path, {'lastSuccess': today, 'lastFullSync': today if full else state['lastFullSync']})

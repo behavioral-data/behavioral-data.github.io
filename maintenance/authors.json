@@ -1,1 +1,324 @@
-[]
+[
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5033639139",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/",
+    "evidenceWorkIds": [
+      "W2726248338",
+      "W4385572158"
+    ],
+    "requiresWorkVerification": false
+  },
+  {
+    "personId": "jinasuh",
+    "openalexId": "A5072651383",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1038/s41467-022-34592-z",
+    "evidenceWorkIds": [
+      "W4309564255",
+      "W4402667122"
+    ],
+    "requiresWorkVerification": false
+  },
+  {
+    "personId": "yigeyuan",
+    "openalexId": "A5056831354",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://yuanyige.github.io/",
+    "evidenceWorkIds": [
+      "W4402727717",
+      "W4415795724"
+    ],
+    "requiresWorkVerification": true
+  },
+  {
+    "personId": "advaitbhat",
+    "openalexId": "A5047190193",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://advaitmb.com/",
+    "evidenceWorkIds": [
+      "W4319167005",
+      "W4360991155",
+      "W7154012580"
+    ],
+    "requiresWorkVerification": false
+  },
+  {
+    "personId": "chengli",
+    "openalexId": "A5100354302",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://chengli0228.github.io/",
+    "evidenceWorkIds": [
+      "W4415796340",
+      "W4391988339"
+    ],
+    "requiresWorkVerification": true
+  },
+  {
+    "personId": "deniznazarova",
+    "openalexId": "A5111322061",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://gonzoden.github.io/",
+    "evidenceWorkIds": [
+      "W4388143956"
+    ],
+    "requiresWorkVerification": true
+  },
+  {
+    "personId": "innalin",
+    "openalexId": "A5061686151",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://innalin.notion.site/Inna-Wanyin-Lin-0f659924dd034fb18a1059393459a25e",
+    "evidenceWorkIds": [
+      "W4385572158",
+      "W4402667122",
+      "W7162039229",
+      "W7162150239",
+      "W4417141639"
+    ],
+    "requiresWorkVerification": false
+  },
+  {
+    "personId": "margaretli",
+    "openalexId": "A5001224830",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://margs.li/",
+    "evidenceWorkIds": [
+      "W4300886482",
+      "W4361021241",
+      "W3035068109"
+    ],
+    "requiresWorkVerification": true
+  },
+  {
+    "personId": "ashishsharma",
+    "openalexId": "A5100701437",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.18653/v1/2020.emnlp-main.425",
+    "evidenceWorkIds": [
+      "W3084867291"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "ashishsharma",
+    "openalexId": "A5100763188",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2009.08441",
+    "evidenceWorkIds": [
+      "W4287665442"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "ashishsharma",
+    "openalexId": "A5100622412",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2403.11169",
+    "evidenceWorkIds": [
+      "W4392972281"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "galenweld",
+    "openalexId": "A5039097889",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1609/icwsm.v16i1.19363",
+    "evidenceWorkIds": [
+      "W3213416073"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "joyhe-yueya",
+    "openalexId": "A5026695952",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1038/s41537-020-00123-2",
+    "evidenceWorkIds": [
+      "W3109432658"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "kengu",
+    "openalexId": "A5001307316",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1145/3613904.3642497",
+    "evidenceWorkIds": [
+      "W4396832076",
+      "W7125481708"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "mikemerrill",
+    "openalexId": "A5009772512",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2008.12828",
+    "evidenceWorkIds": [
+      "W4295815808",
+      "W7122726170",
+      "W7166852917"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "xinyizhou",
+    "openalexId": "A5008404864",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2403.11169",
+    "evidenceWorkIds": [
+      "W4392972281"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "yasamansefidgar",
+    "openalexId": "A5056585720",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1145/3359216",
+    "evidenceWorkIds": [
+      "W2986671035"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "kengu",
+    "openalexId": "A5110943037",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.52202/085713-3699",
+    "evidenceWorkIds": [
+      "W4417255562"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5145866528",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.52202/085713-3699",
+    "evidenceWorkIds": [
+      "W4417255562"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "margaretli",
+    "openalexId": "A5145575051",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.52202/085713-2732",
+    "evidenceWorkIds": [
+      "W7196961304"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "mickelliu",
+    "openalexId": "A5057799610",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.52202/085713-2732",
+    "evidenceWorkIds": [
+      "W7196961304"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5120755951",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.1038/s41467-025-67922-y",
+    "evidenceWorkIds": [
+      "W7122726170",
+      "W7125481708",
+      "W4417141639"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5133837246",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2604.14615",
+    "evidenceWorkIds": [
+      "W7154716562"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5136795488",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2605.22759",
+    "evidenceWorkIds": [
+      "W7162126873",
+      "W7162150239"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5139825244",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.18653/v1/2026.acl-long.157",
+    "evidenceWorkIds": [
+      "W7166852917"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "timalthoff",
+    "openalexId": "A5136700810",
+    "verified": true,
+    "verifiedOn": "2026-09-05",
+    "sourceUrl": "https://doi.org/10.48550/arxiv.2605.20701",
+    "evidenceWorkIds": [
+      "W7162039229"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  }
+]

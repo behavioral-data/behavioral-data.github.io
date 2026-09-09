@@ -18,11 +18,24 @@ from monitor import problems
 
 WORK = json.loads((ROOT / 'tests/fixtures/openalex.json').read_text())[0]
 AUTHORS = [{'personId':'p1','openalexId':'A123456','verified':True,'verifiedOn':'2024-01-01','sourceUrl':'https://example.org/person'}]
+TIM_AUTHOR = {'personId':'tim','openalexId':'A999','verified':True,'verifiedOn':'2024-01-01',
+              'sourceUrl':'https://example.org/tim','discover':False}
+POLICY = {'version':1,'piPersonId':'tim','minimumLabAuthors':2,
+          'membershipBasis':'publication-date','humanReviewRequired':True}
 
 
 class DiscoveryTests(unittest.TestCase):
     def queue(self, work=None, papers=None, previous=None, today='2026-01-01'):
         return merge_candidates([work or WORK], papers or [], AUTHORS, previous or {'version':1,'candidates':[]}, today)
+
+    def review_queue(self, root):
+        work = copy.deepcopy(WORK)
+        work['publication_date'] = '2024-01-01'
+        work['authorships'].append(
+            {'author': {'id': 'https://openalex.org/A999', 'display_name': 'Tim Example'}})
+        return merge_candidates([work], [], AUTHORS + [TIM_AUTHOR],
+                                {'version':1,'candidates':[]}, '2026-01-01',
+                                read(root/'content/people.json'), POLICY)
 
     def test_repeat_and_rejected_candidates_are_stable(self):
         q=self.queue(); self.assertEqual(q,self.queue(previous=q))
@@ -43,6 +56,19 @@ class DiscoveryTests(unittest.TestCase):
         bad=copy.deepcopy(WORK);bad['authorships'][0]['author']['id']='https://openalex.org/A999'
         with self.assertRaises(ValueError): normalize(bad,AUTHORS)
         with self.assertRaises(ValueError): validate_authors([{**AUTHORS[0],'verified':False}],[{'id':'p1'}])
+
+    def test_identity_evidence_uses_the_alias_present_on_the_work(self):
+        authors = [{**AUTHORS[0], 'requiresWorkVerification': True, 'evidenceWorkIds': [WORK['id'].split('/')[-1]]},
+                   {**AUTHORS[0], 'openalexId': 'A999', 'requiresWorkVerification': True, 'evidenceWorkIds': []}]
+        q = merge_candidates([WORK], [], authors, {'version': 1, 'candidates': []}, '2026-09-05')
+        self.assertEqual(q['candidates'][0]['identityReviewPersonIds'], [])
+
+    def test_unresolved_external_coauthor_does_not_break_identity_matching(self):
+        work=copy.deepcopy(WORK)
+        work['authorships'].append({'author': {'id': None, 'display_name': 'External Author'}})
+        observed,matched=normalize(work,AUTHORS)
+        self.assertEqual(matched,['p1'])
+        self.assertIn('External Author',observed['authorNames'])
 
     def test_exact_doi_matches_and_similar_titles_need_review(self):
         observed,_=normalize(WORK,AUTHORS)
@@ -121,22 +147,25 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_accept_reject_and_defer_lifecycle(self):
         with tempfile.TemporaryDirectory() as directory:
-            root=Path(directory);prepare_root(root);save(root/'maintenance/review.json',self.queue())
+            root=Path(directory);prepare_root(root);q=self.review_queue(root)
+            save(root/'maintenance/review.json',q)
             cid='openalex-w123456'
             with self.assertRaises(ValueError):decide(root,cid,'accept')
-            decide(root,cid,'accept',['p1'])
-            papers=read(root/'content/publications.json');self.assertEqual(papers[0]['personIds'],['p1'])
+            decide(root,cid,'accept',['p1','tim'])
+            papers=read(root/'content/publications.json');self.assertEqual(papers[0]['personIds'],['p1','tim'])
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'accepted')
-            with self.assertRaises(ValueError):decide(root,cid,'accept',['p1'])
+            self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['policyReview']['policyVersion'],1)
+            with self.assertRaises(ValueError):decide(root,cid,'accept',['p1','tim'])
             decide(root,cid,'reopen');decide(root,cid,'defer',until='2099-01-01')
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'deferred')
             decide(root,cid,'reject');self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'rejected')
 
     def test_invalid_accepted_content_rolls_back(self):
         with tempfile.TemporaryDirectory() as directory:
-            root=Path(directory);prepare_root(root);q=self.queue();q['candidates'][0]['changes']['url']='javascript:bad';save(root/'maintenance/review.json',q)
+            root=Path(directory);prepare_root(root);q=self.review_queue(root);q['candidates'][0]['changes']['url']='javascript:bad'
+            save(root/'maintenance/review.json',q)
             before=(root/'content/publications.json').read_bytes()
-            with self.assertRaises(ValueError):decide(root,'openalex-w123456','accept',['p1'])
+            with self.assertRaises(ValueError):decide(root,'openalex-w123456','accept',['p1','tim'])
             self.assertEqual(before,(root/'content/publications.json').read_bytes())
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'pending')
 
@@ -153,11 +182,15 @@ def prepare_root(root):
     shutil.copy(ROOT/'scripts/validate-content.mjs',root/'scripts')
     shutil.copy(ROOT/'lib/content-validation.mjs',root/'lib')
     for name in ['publications','alumni','sponsors','news','awards','projects','gallery','opportunities']:save(root/f'content/{name}.json',[])
-    save(root/'content/people.json',[{'id':'p1','name':'Ada Example','role':'Researcher','status':'member','priority':1,'topics':[]}])
+    save(root/'content/people.json',[
+        {'id':'p1','name':'Ada Example','role':'Researcher','status':'member','priority':1,'topics':[],
+         'memberships':[{'start':'2020-01-01'}]},
+        {'id':'tim','name':'Tim Example','role':'PI','status':'member','priority':2,'topics':[]}])
     save(root/'content/pages.json',{k:'' for k in ['home','recruitment','idiofid','research','pictures','about']})
     save(root/'content/site.json',{'name':'Fixture','url':'https://example.org','repository':'https://example.org/repo','signupUrl':'https://example.org/signup'})
     save(root/'maintenance/config.json',{'enabled':True,'maxRequests':10,'lookbackDays':45,'reconcileDays':30})
-    save(root/'maintenance/authors.json',AUTHORS)
+    save(root/'maintenance/authors.json',AUTHORS + [TIM_AUTHOR])
+    save(root/'maintenance/publication-policy.json',POLICY)
     save(root/'maintenance/review.json',{'version':1,'candidates':[]})
 
 
