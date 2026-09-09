@@ -1,9 +1,10 @@
 import Link from 'next/link';
-export default function PaperCard({ paper, featured = false }) {
+export default function PaperCard({ paper, featured = false, headingLevel = 3 }) {
+  const Heading = `h${headingLevel}`;
   return <article className={featured ? 'paper-card featured-paper' : 'paper-card'}>
     {featured && <Link href={`/publications/${paper.id}/`} tabIndex={-1} aria-hidden="true" className="paper-art">{paper.image ? <img src={paper.image} alt="" loading="lazy" /> : <span>{paper.year}</span>}</Link>}
     <div className="paper-copy"><div className="eyebrow">{paper.year} <span>·</span> {paper.venue || 'Publication'}</div>
-      <h3><Link href={`/publications/${paper.id}/`}>{paper.title}</Link></h3>
+      <Heading><Link href={`/publications/${paper.id}/`}>{paper.title}</Link></Heading>
       <p className="authors">{paper.authorNames?.join(', ') || paper.authors}</p>
       {paper.status && paper.status !== 'published' && <p className="tag">{paper.status}</p>}
       {paper.award && <p className="award">{paper.award}</p>}

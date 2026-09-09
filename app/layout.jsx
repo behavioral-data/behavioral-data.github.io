@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Behavioral Data Science · University of Washington', template: '%s · Behavioral Data Science' },
   description: site.description,
-  icons: { icon: '/images/logopic/Logo_Bdata_text_below.png' },
+  icons: { icon: '/images/favicon.ico' },
 };
 export default function RootLayout({ children }) {
   return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a>

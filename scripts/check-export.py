@@ -14,6 +14,11 @@ def check(root=ROOT):
     fragment_links = []
     class Links(HTMLParser):
         def handle_starttag(self, tag, attrs):
+            if tag in ('h1','h2','h3','h4','h5','h6'):
+                level = int(tag[1])
+                if self.heading_level and level > self.heading_level + 1:
+                    errors.add(f'{self.file.relative_to(exported)}: heading jumps from h{self.heading_level} to h{level}')
+                self.heading_level = level
             for key, value in attrs:
                 if key == 'id' and value:
                     anchors.setdefault(self.file.resolve(), set()).add(value)
@@ -32,14 +37,14 @@ def check(root=ROOT):
     if not html_files:
         errors.add('No exported HTML. Run npm run build first.')
     for file in html_files:
-        parser = Links(); parser.file = file; parser.feed(file.read_text())
+        parser = Links(); parser.file = file; parser.heading_level = None; parser.feed(file.read_text())
     for source, target, fragment in fragment_links:
         if fragment not in anchors.get(target, set()):
             errors.add(f'{source.relative_to(exported)}: missing anchor {fragment}')
     for fragment in ['home','team','publications']:
         if fragment not in anchors.get(exported / 'index.html', set()):
             errors.add('Missing legacy homepage anchor: ' + fragment)
-    required = ['index.html','404.html','team/index.html','publications/index.html','allnews/index.html','vacancies/index.html','idiofid/index.html','awards/index.html','aboutwebsite.html','allnews.html','sitemap.xml','robots.txt','.nojekyll']
+    required = ['index.html','404.html','team/index.html','publications/index.html','allnews/index.html','vacancies/index.html','idiofid/index.html','awards/index.html','aboutwebsite.html','allnews.html','sitemap.xml','robots.txt','images/favicon.ico','.nojekyll']
     for collection, route in [('people','people'),('publications','publications')]:
         required += [f"{route}/{row['id']}/index.html" for row in json.loads((root / f'content/{collection}.json').read_text())]
     for name in required:

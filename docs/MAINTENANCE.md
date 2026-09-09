@@ -2,7 +2,7 @@
 
 ## Status
 
-The infrastructure is implemented on `codex/react-website-migration`. The current roster, initial Scholar profiles, author identities, and first local OpenAlex batch are configured. Candidate decisions, the maintenance pilot, and production deployment are still pending. No live schedule, signup test, or publication was triggered by this implementation.
+The React site is live at <https://behavioral-data.github.io/> from the `master` branch. The current roster, initial Scholar profiles, author identities, and first reviewed OpenAlex batch are configured. Scheduled discovery remains disabled pending reviewer ownership and the maintenance pilot. No live IdioFid signup test has been submitted.
 
 The site stays static: React/Next.js renders JSON and Markdown at build time. Python's standard library handles discovery and decisions. GitHub provides contribution forms, review branches, checks, artifacts, and deployment. There is no admin service or database to maintain.
 
@@ -85,13 +85,20 @@ Run two weekly cycles before calling maintenance operational. Record false match
 
 ## Production switch and rollback
 
-`deploy.yml` remains manual. Creating/pushing a migration or review branch does not deploy it.
+`deploy.yml` remains manual. Creating or pushing a migration or review branch does not deploy it.
 
-1. Finish the content pass and launch QA, including the IdioFid endpoint's ownership and one separately authorized test signup.
-2. Review the migration PR and clean CI build; record the currently live revision and Pages settings.
-3. Coordinate the approved merge with changing Pages Source to GitHub Actions. Run **Deploy React website** on the approved default branch.
-4. Verify production routes, PDFs, logos, canonical URLs and the signup endpoint. Retain the old deployment revision/settings as a rollback reference.
-5. For a bad React content change, revert the offending commit in a reviewed PR, merge, and manually redeploy. For failure of the initial Jekyll-to-React switch, restore the known-good pre-migration revision and prior Pages configuration together.
+### Launch record
+
+- First React deployment: September 9, 2026, commit [`655d927`](https://github.com/behavioral-data/behavioral-data.github.io/commit/655d92724cf2bccc17adb5324ee4dcb7efcee3ff), [Actions run 34403337235](https://github.com/behavioral-data/behavioral-data.github.io/actions/runs/34403337235).
+- Current Pages mode: GitHub Actions (`build_type: workflow`) on the canonical HTTPS domain <https://behavioral-data.github.io/>.
+- Known-good pre-migration revision: [`d6a7b92`](https://github.com/behavioral-data/behavioral-data.github.io/commit/d6a7b92de79642aee11c2c5bfe60c94588beae79). The prior Pages setting was the legacy publisher using `master` at `/`.
+- Launch verification covered the home, team, publications, one preprint detail, IdioFid, and legacy `allnews.html` and `/vacancies/` routes. A representative publication PDF, the lab logo, `robots.txt`, `sitemap.xml`, and the custom 404 response were also checked on production. The IdioFid form itself still needs one separately authorized live submission.
+
+1. Run `npm run check` from a clean checkout of the approved `master` commit.
+2. Run **Deploy React website** on `master` and wait for its GitHub Pages deployment job to succeed.
+3. Verify production routes, PDFs, logos, canonical URLs and the signup form. A live signup submission requires separate authorization and must use a controlled address.
+4. For a bad React content change, revert the offending commit in a reviewed PR, merge, and manually redeploy.
+5. For a site-wide React deployment failure, restore the known-good pre-migration tree in a reviewed recovery commit, merge it, change Pages back to the legacy publisher using `master` at `/`, and verify the production domain. Do not rewrite `master` history.
 
 After launch, deployment on approved merges can be enabled by a small reviewed workflow change. Time-based content such as an expiring opportunity is filtered at build time; trigger a rebuild when its status/date changes or deadline arrives. A daily rebuild can be added after the lab approves production automation.
 
