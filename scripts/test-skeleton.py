@@ -36,7 +36,8 @@ def main():
         write(root,'awards',[{'id':'fixture-award','title':'Fixture award','organization':'Fixture organization','date':'2026-01-01','sourceUrl':'https://example.org/award','personIds':[person],'publicationIds':[paper]}])
         write(root,'projects',[{'id':'fixture-project','title':'Fixture project','personIds':[person],'publicationIds':[paper],'description':'Fixture project description','url':'https://example.org/project'}])
         write(root,'news',[{'id':'fixture-news','headline':'Fixture news','date':'2026-01-02','personIds':[person],'publicationIds':[paper],'awardIds':['fixture-award']}])
-        write(root,'opportunities',[{'id':'fixture-open','title':'Fixture opening','ownerId':person,'url':'https://example.org/apply','status':'open','reviewOn':'2099-01-01'}, {'id':'fixture-closed','title':'Hidden closed opening','ownerId':person,'url':'https://example.org/closed','status':'closed','reviewOn':'2099-01-01'}])
+        common_opportunity = {'ownerId':person,'status':'open','description':'Fixture description','meta':['Fixture detail'],'actionLabel':'View details','reviewedOn':'2026-01-01','reviewOn':'2099-01-01'}
+        write(root,'opportunities',[{'id':'fixture-open','title':'Fixture opening','url':'https://example.org/apply',**common_opportunity}, {'id':'fixture-closed','title':'Hidden closed opening','url':'https://example.org/closed',**common_opportunity,'status':'closed'}])
         write(root,'gallery',[{'id':'fixture-photo','image':people[0]['image'],'alt':'Fixture photo','caption':'Fixture caption'}])
         # Webpack supports a shared dependency symlink outside this temporary project root.
         build(root)
@@ -58,12 +59,12 @@ def main():
             raise SystemExit('Closed opportunity rendered')
         if (root/'out/maintenance').exists():
             raise SystemExit('Review queue leaked to export')
-        write(root,'opportunities',[{'id':'fixture-closed','title':'Hidden closed opening','ownerId':person,'url':'https://example.org/closed','status':'closed','reviewOn':'2099-01-01'}])
+        write(root,'opportunities',[{'id':'fixture-closed','title':'Hidden closed opening','url':'https://example.org/closed',**common_opportunity,'status':'closed'}])
         build(root)
         join = (root/'out/join/index.html').read_text()
-        if 'We are also looking for PhD students' not in join or 'Hidden closed opening' in join:
-            raise SystemExit('All-closed opportunities did not render recruitment fallback')
-        print(f'Fixture build passed: {len(checks)} routes render related records; closed opportunities fall back to recruitment copy and review files stay hidden. Real content unchanged.')
+        if 'No currently advertised openings' not in join or 'Hidden closed opening' in join or 'We are also looking for PhD students' in join:
+            raise SystemExit('All-closed opportunities did not render the neutral empty state')
+        print(f'Fixture build passed: {len(checks)} routes render related records; closed opportunities use a neutral empty state and review files stay hidden. Real content unchanged.')
 
 
 if __name__ == '__main__': main()
