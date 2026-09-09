@@ -34,7 +34,7 @@ The repository skill at `.agents/skills/publication-review/SKILL.md` defines the
 python3 scripts/publication_pipeline.py status
 ```
 
-1. Review the initial identities in `maintenance/authors.json`, resolve mixed/split author records and historical membership dates, and settle preprint handling. The attribution rule requires at least two lab authors; Tim alone is insufficient. See [Publication policy](PUBLICATION_POLICY.md).
+1. Review the initial identities in `maintenance/authors.json` and resolve mixed/split author records and historical membership dates. The attribution rule requires Tim plus at least one other lab author. Qualifying preprints are included with visible preprint labels. See [Publication policy](PUBLICATION_POLICY.md).
 2. Set `enabled: true` in `maintenance/config.json` in a reviewed PR. Keep it false during the skeleton/content preparation phase.
 3. Run `python3 scripts/publication_pipeline.py collect` locally. `OPENALEX_API_KEY` is optional and read only from the environment. Check current provider access/budget before enabling scheduled retrieval.
 4. Start with `maintenance/recent-review.md` for recent potentially relevant papers, then inspect `maintenance/batch.md` and `maintenance/review.json`. Candidates show public evidence, matched identities, proposed fields, possible duplicates and manual/source conflicts. The site content has not changed.

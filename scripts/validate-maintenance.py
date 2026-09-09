@@ -78,6 +78,41 @@ def validate(root=ROOT):
         if not group.get('reason') or not group.get('sourceUrls') or not all(re.match(r'^https?://', url) for url in group['sourceUrls']):
             raise ValueError('Verified duplicate group needs evidence')
         date.fromisoformat(group['verifiedOn'])
+    supplement_path = root / 'maintenance/scholar-supplement.json'
+    if supplement_path.exists():
+        supplements = read(supplement_path)
+        date.fromisoformat(supplements['checkedOn'])
+        supplement_ids = set()
+        for candidate in supplements.get('candidates', []):
+            if (candidate['id'] in supplement_ids
+                    or not re.fullmatch(r'manual-[a-z0-9-]+', candidate['id'])):
+                raise ValueError('Invalid or duplicate manual supplement ID')
+            supplement_ids.add(candidate['id'])
+            if candidate['status'] not in ('pending', 'accepted', 'rejected', 'deferred'):
+                raise ValueError('Invalid manual supplement status')
+            if (not re.match(r'^https?://', candidate.get('sourceUrl', ''))
+                    or len(set(candidate.get('matchedPersonIds', []))) < policy['minimumLabAuthors']
+                    or not set(candidate['matchedPersonIds']) <= ids):
+                raise ValueError('Invalid manual supplement evidence or lab identities')
+            if candidate['status'] == 'accepted':
+                recorded = candidate.get('policyReview') or {}
+                review_candidate = {
+                    'matchedPersonIds': candidate['matchedPersonIds'],
+                    'identityReviewPersonIds': [],
+                    'labRelevance': {
+                        'policyVersion': recorded.get('policyVersion'),
+                        'status': recorded.get('labRelevanceStatus'),
+                    },
+                }
+                expected = acceptance_review(
+                    review_candidate, recorded.get('personIds'), policy,
+                    recorded.get('overrideReason'), recorded.get('evidenceUrls'))
+                if any(recorded.get(field) != value for field, value in expected.items()):
+                    raise ValueError('Accepted manual supplement has an invalid policy review')
+                if (candidate.get('targetId') not in papers
+                        or recorded.get('reviewedOn') != candidate.get('reviewedOn')):
+                    raise ValueError('Accepted manual supplement has an invalid target or review date')
+                date.fromisoformat(recorded['reviewedOn'])
     return len(queue['candidates'])
 
 

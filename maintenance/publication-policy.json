@@ -3,6 +3,7 @@
   "piPersonId": "timalthoff",
   "requirePiAuthor": true,
   "minimumLabAuthors": 2,
+  "preprintPolicy": "include-labeled",
   "membershipBasis": "publication-date",
   "humanReviewRequired": true
 }

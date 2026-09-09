@@ -10,6 +10,7 @@ def validate_policy(policy, people):
             or policy.get('requirePiAuthor') is not True
             or type(policy.get('minimumLabAuthors')) is not int
             or policy['minimumLabAuthors'] < 2
+            or policy.get('preprintPolicy') != 'include-labeled'
             or policy.get('membershipBasis') != 'publication-date'
             or policy.get('humanReviewRequired') is not True):
         raise ValueError('Invalid publication relevance policy')

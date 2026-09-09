@@ -42,6 +42,10 @@ def summary(root=ROOT):
         relevance[label] = relevance.get(label, 0) + 1
     supplement_path = root / 'maintenance/scholar-supplement.json'
     supplements = read(supplement_path).get('candidates', []) if supplement_path.exists() else []
+    supplement_counts = {}
+    for candidate in supplements:
+        status = candidate['status']
+        supplement_counts[status] = supplement_counts.get(status, 0) + 1
     first_year = date.today().year - 1
     recent = sum(c['status'] == 'pending' and c['observed']['year'] >= first_year
                  and c.get('labRelevance', {}).get('status') in
@@ -52,6 +56,7 @@ def summary(root=ROOT):
         'canonicalCandidates': len(canonical),
         'decisions': counts,
         'pendingByPolicy': relevance,
+        'supplementDecisions': supplement_counts,
         'recentReviewCandidates': recent,
     }
 
@@ -66,7 +71,9 @@ def print_summary(root=ROOT, as_json=False):
           f"{data['recentReviewCandidates']} in the recent review.")
     decisions = ', '.join(f'{key}={value}' for key, value in sorted(data['decisions'].items()))
     policy = ', '.join(f'{key}={value}' for key, value in sorted(data['pendingByPolicy'].items()))
+    supplements = ', '.join(f'{key}={value}' for key, value in sorted(data['supplementDecisions'].items()))
     print('Decisions: ' + (decisions or 'none'))
+    print('Manual supplements: ' + (supplements or 'none'))
     print('Pending policy labels: ' + (policy or 'none'))
 
 

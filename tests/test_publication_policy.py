@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from publication_policy import acceptance_review, assess, validate_assessment
 
 POLICY = {'version': 2, 'piPersonId': 'tim', 'requirePiAuthor': True,
-          'minimumLabAuthors': 2}
+          'minimumLabAuthors': 2, 'preprintPolicy': 'include-labeled'}
 WORK = {'publication_date': '2025-06-01'}
 PEOPLE = [
     {'id': 'one', 'status': 'member', 'memberships': [{'start': '2024-01-01'}]},

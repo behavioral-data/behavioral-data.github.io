@@ -23,7 +23,7 @@ AUTHORS = [{'personId':'p1','openalexId':'A123456','verified':True,'verifiedOn':
 TIM_AUTHOR = {'personId':'tim','openalexId':'A999','verified':True,'verifiedOn':'2024-01-01',
               'sourceUrl':'https://example.org/tim','discover':False}
 POLICY = {'version':2,'piPersonId':'tim','requirePiAuthor':True,'minimumLabAuthors':2,
-          'membershipBasis':'publication-date','humanReviewRequired':True}
+          'preprintPolicy':'include-labeled','membershipBasis':'publication-date','humanReviewRequired':True}
 
 
 class DiscoveryTests(unittest.TestCase):
