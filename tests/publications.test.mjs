@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { filterPapers, matchesPerson, bibtex } from '../lib/publications.mjs';
+const migratedPapers = JSON.parse(fs.readFileSync(new URL('../content/publications.json', import.meta.url)));
 const papers = [
   {id:'blade',title:'BLADE: Data-driven science',authors:'Gu, Ken and Althoff, Tim',year:2024,venue:'EMNLP',description:'Language model agents',award:''},
   {id:'empathy',title:'Supporting conversations',authors:'Sharma, Ashish and Lin, Inna W',year:2021,venue:'WWW',description:'Peer support',award:'Best Paper'}
@@ -22,7 +24,15 @@ test('empty filters restore the complete archive and unknown terms return no res
 test('a first name and last name from different authors do not create a match',()=>{
   assert.equal(matchesPerson({authors:'Ken Smith and Alex Gu'},'Ken Gu'),false);
 });
-test('citation retains identifier and escapes braces from imported metadata',()=>{
+test('citation retains identifier and capitalization braces',()=>{
   const value=bibtex({...papers[0],title:'{BLADE}',doi:'10.1234/test'});
-  assert.match(value,/@inproceedings\{blade/);assert.match(value,/title = \{BLADE\}/);assert.match(value,/doi = \{10.1234\/test\}/);
+  assert.match(value,/@inproceedings\{blade/);assert.match(value,/title = \{\{BLADE\}\}/);assert.match(value,/doi = \{10.1234\/test\}/);
+});
+test('citation escapes special characters in migrated records without losing title protection',()=>{
+  const ampersand = bibtex(migratedPapers.find(p => p.id === 'liupaths2020'));
+  const protectedTitle = bibtex(migratedPapers.find(p => p.id === 'althoff2016counseling'));
+  assert.match(ampersand,/Decision Points \\& Selective Reporting/);
+  assert.match(protectedTitle,/Counseling Conversations: \{An\} Application/);
+  const escaped = bibtex({...papers[0],title:String.raw`A & B_1 is 50% #1 at $5 on C:\tmp ~ ^`});
+  assert.ok(escaped.includes(String.raw`A \& B\_1 is 50\% \#1 at \$5 on C:\textbackslash{}tmp \textasciitilde{} \textasciicircum{}`));
 });

@@ -49,8 +49,9 @@ test('award and project news reaches related profiles without duplicate events',
   assert.equal(relatedNews(news,'personIds','other').length,0);
 });
 
-test('new article and preprint types produce correct citation entries without legacy fields', () => {
+test('article, conference and preprint types produce correct citation entries without legacy fields', () => {
   assert.match(bibtex({id:'a',type:'article',title:'Test',authors:'Ada',year:2024,venue:'Journal'}), /^@article/);
+  assert.match(bibtex({id:'c',type:'conference',title:'Test',authors:'Ada',year:2024,venue:'Proceedings'}), /^@inproceedings/);
   assert.match(bibtex({id:'p',type:'preprint',title:'Test',authors:'Ada',year:2024,arxivId:'2401.12345'}), /archivePrefix = \{arXiv\}/);
 });
 

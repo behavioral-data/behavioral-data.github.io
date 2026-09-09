@@ -72,6 +72,13 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(matched,['p1'])
         self.assertIn('External Author',observed['authorNames'])
 
+    def test_conference_source_produces_conference_publication(self):
+        work=copy.deepcopy(WORK)
+        work['type']='article'
+        work['primary_location']['source']['type']='conference'
+        observed,_=normalize(work,AUTHORS)
+        self.assertEqual(observed['type'],'conference')
+
     def test_exact_doi_matches_and_similar_titles_need_review(self):
         observed,_=normalize(WORK,AUTHORS)
         q=self.queue(papers=[{**observed,'id':'original','year':2023}])
