@@ -50,6 +50,17 @@ def work_id(value):
     return short
 
 
+def publication_type(work, location):
+    kind = work.get('type', 'other')
+    source_kind = (location.get('source') or {}).get('type')
+    crossref_kind = work.get('type_crossref')
+    if kind == 'preprint':
+        return 'preprint'
+    if source_kind == 'conference' or kind in ('proceedings', 'proceedings-article') or crossref_kind == 'proceedings-article':
+        return 'conference'
+    return {'article': 'article', 'book': 'book', 'dataset': 'dataset'}.get(kind, 'other')
+
+
 def normalize(work, authors):
     wid = work_id(work.get('id'))
     authorships = work.get('authorships', [])
@@ -67,7 +78,7 @@ def normalize(work, authors):
         'id': 'openalex-' + wid.lower(), 'title': work['title'], 'authors': ' and '.join(names), 'authorNames': names,
         'year': work['publication_year'], 'venue': (location.get('source') or {}).get('display_name', ''),
         'doi': doi(work.get('doi')), 'url': location.get('landing_page_url') or work['id'],
-        'status': status, 'type': {'article':'article','preprint':'preprint','book':'book','dataset':'dataset'}.get(kind,'other'),
+        'status': status, 'type': publication_type(work, location),
         'openalexId': wid,
     }
     return normalized, matched

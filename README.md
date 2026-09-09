@@ -42,7 +42,7 @@ The build validates the content and referenced assets, then exports static files
 
 See [Content model](docs/CONTENT_MODEL.md) for field definitions and [Maintenance runbook](docs/MAINTENANCE.md) for submissions, discovery, review, activation and recovery. Keep stable IDs when editing existing records: they determine page URLs. Ordinary papers do not require a thumbnail or local PDF. Do not modify the `legacy` metadata unless correcting an import; it preserves original bibliographic details.
 
-Publications support explicit `personIds`; existing imports retain name matching until the roster/content pass supplies verified links. The discovery pipeline uses only the explicitly verified identities in `maintenance/authors.json`, which is currently empty.
+Publications support explicit `personIds`; existing imports retain name matching until the roster/content pass supplies verified links. The discovery pipeline uses only the explicitly verified identities in the populated `maintenance/authors.json` registry. Eight current-member identities are used for discovery, while verified past-member and split-profile identities can match coauthors without expanding discovery into their later work.
 
 ## Review and deploy
 
@@ -56,9 +56,9 @@ Do not push the migration to the production branch while the old Pages branch-ba
 
 See [Next steps and GitHub issues](_planning/NEXT_STEPS.md) for the current delivery plan and completion criteria.
 
-All 47 publication records, 21 people records, 12 legacy alumni entries, three news records, seven sponsors and original asset files were preserved. Old route names remain available, including `/team/`, `/publications/`, `/allnews/`, `/vacancies/` and `/idiofid/`. A duplicated PDF path in the old GLOBEM entry was repaired.
+All 47 publication records, 22 people records, 11 legacy alumni entries, three news records, seven sponsors and original asset files were preserved. Old route names remain available, including `/team/`, `/publications/`, `/allnews/`, `/allnews.html`, `/vacancies/` and `/idiofid/`. A duplicated PDF path in the old GLOBEM entry was repaired.
 
-The existing dataset still needs a roster review and publication/award backfill. No new papers, honors or current job titles were inferred. The IdioFID form retains its existing Google Apps Script endpoint; a signup was not submitted during migration.
+The current and past lab roster has been reviewed, and the publication rule requires Tim plus at least one other current or past lab member. Historical membership intervals, ambiguous author identities, and publication/award backfill still need work. No new papers or honors were added by the migration itself. The IdioFID form retains its existing Google Apps Script endpoint; a signup was not submitted during migration.
 
 The migration backup location and inventory are recorded in `_planning/migration-backup.json`. It includes the pre-migration legacy source and staged/unstaged Git patches. Generated Jekyll output and installed Ruby dependencies were not archived. Git's existing commit history is intact.
 

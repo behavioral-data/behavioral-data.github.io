@@ -13,6 +13,12 @@ def write(root, name, rows):
     (root / f'content/{name}.json').write_text(json.dumps(rows, indent=2) + '\n')
 
 
+def build(root):
+    result = subprocess.run([str(ROOT/'node_modules/.bin/next'),'build','--webpack'],cwd=root,capture_output=True,text=True,env={**os.environ,'NEXT_TELEMETRY_DISABLED':'1'})
+    if result.returncode:
+        raise SystemExit(result.stdout + result.stderr)
+
+
 def main():
     with tempfile.TemporaryDirectory(prefix='bdata-skeleton-') as directory:
         root = Path(directory)
@@ -33,9 +39,7 @@ def main():
         write(root,'opportunities',[{'id':'fixture-open','title':'Fixture opening','ownerId':person,'url':'https://example.org/apply','status':'open','reviewOn':'2099-01-01'}, {'id':'fixture-closed','title':'Hidden closed opening','ownerId':person,'url':'https://example.org/closed','status':'closed','reviewOn':'2099-01-01'}])
         write(root,'gallery',[{'id':'fixture-photo','image':people[0]['image'],'alt':'Fixture photo','caption':'Fixture caption'}])
         # Webpack supports a shared dependency symlink outside this temporary project root.
-        result = subprocess.run([str(ROOT/'node_modules/.bin/next'),'build','--webpack'],cwd=root,capture_output=True,text=True,env={**os.environ,'NEXT_TELEMETRY_DISABLED':'1'})
-        if result.returncode:
-            raise SystemExit(result.stdout + result.stderr)
+        build(root)
         checks = {
             'news/index.html':['Fixture news','Fixture award'],
             'awards/index.html':['Fixture award'],
@@ -54,7 +58,12 @@ def main():
             raise SystemExit('Closed opportunity rendered')
         if (root/'out/maintenance').exists():
             raise SystemExit('Review queue leaked to export')
-        print(f'Fixture build passed: {len(checks)} routes render related records; closed opportunities and review files stay hidden. Real content unchanged.')
+        write(root,'opportunities',[{'id':'fixture-closed','title':'Hidden closed opening','ownerId':person,'url':'https://example.org/closed','status':'closed','reviewOn':'2099-01-01'}])
+        build(root)
+        join = (root/'out/join/index.html').read_text()
+        if 'We are also looking for PhD students' not in join or 'Hidden closed opening' in join:
+            raise SystemExit('All-closed opportunities did not render recruitment fallback')
+        print(f'Fixture build passed: {len(checks)} routes render related records; closed opportunities fall back to recruitment copy and review files stay hidden. Real content unchanged.')
 
 
 if __name__ == '__main__': main()
