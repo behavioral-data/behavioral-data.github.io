@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 import { papers, people, sponsors, pageContent } from '@/lib/content';
 import PaperCard from '@/components/paper-card';
+export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   const selected = papers.filter(p => p.highlight).slice(0, 2);
   return <>
