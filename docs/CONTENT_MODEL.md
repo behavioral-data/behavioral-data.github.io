@@ -11,7 +11,7 @@ All public page data lives in `content/`. JSON strings may contain Markdown wher
 | `awards.json` | `id`, `title`, `organization`, `date`, `sourceUrl`, at least one recipient or paper | `personIds`, `publicationIds`; one record supplies badges and related profile, publication, and news views. |
 | `news.json` | `id`, `headline` (Markdown), `date` | `personIds`, `publicationIds`, `projectIds`, `awardIds`, `sourceUrl`. Related profiles and paper pages display linked news. |
 | `projects.json` | `id`, `title` | `description` (Markdown), local `image`, `personIds`, `publicationIds`, `url`, `code`, `dataset`. Appears on Research and linked profile/paper pages. |
-| `opportunities.json` | `id`, `title`, `ownerId`, `url`, `status`, `reviewOn` | `description` (Markdown), `closesOn`; status is open/closed/draft. Open entries past their closing date are excluded at build time. |
+| `opportunities.json` | `id`, `title`, `ownerId`, `url`, `status`, `description`, `actionLabel`, `reviewedOn`, `reviewOn` | `meta` (short display facts), `sourceUrl`, `sourceLabel`, `closesOn`; status is open/closed/draft. Open entries past their closing date are excluded at build time. |
 | `gallery.json` | `id`, local `image`, `alt` | `caption`, `date`, `personIds`; renders on Pictures. |
 | `sponsors.json` | `name`, `path` relative to `/resources` | `url`, `reviewOn`; existing logo paths are preserved. |
 | `alumni.json` | `name` | `site`; historical list retained pending roster reconciliation. |
@@ -22,7 +22,7 @@ Publication status: `preprint`, `accepted`, `published`, `withdrawn`, `retracted
 
 Awards are not converted into invented news text. An approved news record can link to an award; its exact title is shown where related. Existing paper-level `award` strings remain supported until reviewed migration into the structured collection. Avoid duplicating an award across old and new records.
 
-Recruitment retains its original Markdown while `opportunities.json` is empty. Once structured opportunities exist, they are the source for the recruitment page. Closed or draft entries remain in the data but are hidden. Expiration is evaluated when the static site is built, so changing a date or reaching a deadline requires a rebuild; the deployment runbook covers this.
+`opportunities.json` is the sole source for the Join us page. Closed, draft, and expired entries remain in the data but are hidden. If none are open, the page renders a neutral empty state rather than a historical recruitment claim. `reviewedOn` is the last human verification date; `reviewOn` is the next date the listing owner should check the record. Expiration is evaluated when the static site is built, so changing a date or reaching a deadline requires a rebuild; the deployment runbook covers this.
 
 Research and Pictures navigation entries appear when their respective collections contain records. Their routes remain valid while empty. No example record is shipped in public content; synthetic test records are isolated under `tests/fixtures/` or temporary directories.
 
