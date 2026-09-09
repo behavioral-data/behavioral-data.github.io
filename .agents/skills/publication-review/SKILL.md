@@ -31,14 +31,14 @@ Supplement entries can have incomplete provider metadata and are not accepted by
 Apply all of these checks:
 
 1. Confirm the full author list from primary evidence. Do not infer identity from a name or initial.
-2. Require at least two distinct verified lab authors. Tim alone is insufficient. Evaluate past members against membership at the publication date.
+2. Require Tim as an author plus at least one other distinct verified lab author. Tim alone is insufficient, and papers without Tim are ineligible even if they contain multiple lab members. Evaluate past members against membership at the publication date.
 3. Treat `needs-membership-review`, `identityReviewPersonIds`, missing dates, and mixed provider profiles as unresolved. Resolve them with evidence or keep the candidate pending.
 4. Compare DOI, arXiv ID, normalized title, complete author list, and existing site records. Prefer the final published version while retaining all source observations. Do not collapse datasets, responses, corrections, or errata solely by title.
 5. Review venue, year, publication state, ordered authors, URL, and whether the work belongs to the lab. Handle preprints case by case; do not silently replace a published record with a preprint.
 
 Map reviewer language as follows: include → `accept`, exclude → `reject`, unsure → leave pending or `defer` to an explicit future date. Rejections and deferrals stay in the durable queue.
 
-Record an OpenAlex decision with `python3 scripts/publication_pipeline.py decide CANDIDATE DECISION`. Acceptance requires repeated `--person PERSON_ID` arguments. If membership or identity remains unresolved but the user explicitly approves an evidence-backed exception, also supply a concise `--reason` and one or more `--evidence URL` arguments. The pipeline stores that audit record and rejects undocumented overrides.
+Record an OpenAlex decision with `python3 scripts/publication_pipeline.py decide CANDIDATE DECISION`. Acceptance requires repeated `--person PERSON_ID` arguments, including Tim's person ID. If membership or identity remains unresolved but the user explicitly approves an evidence-backed exception, also supply a concise `--reason` and one or more `--evidence URL` arguments. The pipeline stores that audit record and rejects undocumented overrides. An exception cannot waive the requirement that Tim be an author.
 
 ## Validate and present
 

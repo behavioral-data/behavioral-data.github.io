@@ -63,7 +63,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -73,7 +73,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -126,7 +126,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -198,7 +198,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -257,7 +257,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -318,7 +318,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -328,7 +328,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4413984696"
@@ -384,7 +384,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -450,7 +450,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -460,7 +460,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -517,7 +517,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -578,7 +578,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -643,7 +643,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -653,7 +653,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -716,7 +716,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -726,7 +726,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -777,7 +777,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -787,7 +787,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -838,7 +838,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -848,7 +848,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -901,7 +901,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -911,7 +911,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -968,7 +968,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -978,7 +978,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1025,7 +1025,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -1035,7 +1035,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1086,7 +1086,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1148,7 +1148,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -1158,7 +1158,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1213,7 +1213,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -1223,7 +1223,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1274,7 +1274,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -1284,7 +1284,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1337,7 +1337,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1402,7 +1402,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -1412,7 +1412,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -1477,7 +1477,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1528,7 +1528,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1591,7 +1591,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1652,7 +1652,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1718,7 +1718,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1787,7 +1787,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -1864,7 +1864,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -1874,7 +1874,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1927,7 +1927,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -1937,7 +1937,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -1986,7 +1986,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2057,7 +2057,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2067,7 +2067,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2118,7 +2118,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2179,7 +2179,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2242,7 +2242,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2309,7 +2309,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2319,7 +2319,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2372,7 +2372,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2435,7 +2435,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2445,7 +2445,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2500,7 +2500,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2510,7 +2510,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2565,7 +2565,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -2575,7 +2575,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w2950242852"
     },
@@ -2629,7 +2629,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -2692,7 +2692,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -2702,7 +2702,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2765,7 +2765,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2775,7 +2775,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2846,7 +2846,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -2856,7 +2856,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2911,7 +2911,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -2921,7 +2921,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -2976,7 +2976,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3047,7 +3047,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3108,7 +3108,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3169,7 +3169,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3231,7 +3231,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3296,7 +3296,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -3306,7 +3306,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w2899223584",
@@ -3363,7 +3363,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3429,7 +3429,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3492,7 +3492,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3558,7 +3558,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3626,7 +3626,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -3695,7 +3695,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -3705,7 +3705,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -3762,7 +3762,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -3772,7 +3772,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -3825,7 +3825,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -3835,7 +3835,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4288113479"
@@ -3923,7 +3923,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -4012,7 +4012,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff",
           "yasamansefidgar"
@@ -4086,7 +4086,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -4096,7 +4096,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w3035068109"
     },
@@ -4158,7 +4158,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -4229,7 +4229,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -4239,7 +4239,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4296,7 +4296,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -4306,7 +4306,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4367,7 +4367,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -4377,7 +4377,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4287869883"
@@ -4435,7 +4435,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -4445,7 +4445,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4496,7 +4496,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -4564,7 +4564,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "timalthoff"
@@ -4643,7 +4643,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -4711,7 +4711,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -4721,7 +4721,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4776,7 +4776,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -4786,7 +4786,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4841,7 +4841,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -4911,7 +4911,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -4921,7 +4921,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -4972,7 +4972,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -4982,7 +4982,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5039,7 +5039,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -5049,7 +5049,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5114,7 +5114,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -5182,7 +5182,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "timalthoff"
@@ -5255,7 +5255,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -5265,7 +5265,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w2988615798"
@@ -5325,7 +5325,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -5335,7 +5335,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5390,7 +5390,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -5400,7 +5400,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5479,7 +5479,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -5489,7 +5489,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5542,7 +5542,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -5617,7 +5617,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -5627,7 +5627,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5683,7 +5683,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -5751,7 +5751,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -5761,7 +5761,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -5819,7 +5819,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -5891,7 +5891,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "timalthoff"
@@ -5969,7 +5969,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -6044,7 +6044,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -6054,7 +6054,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4287652891"
@@ -6110,7 +6110,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -6179,7 +6179,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin"
         ],
@@ -6189,7 +6189,7 @@
           "innalin"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -6248,7 +6248,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -6258,7 +6258,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -6311,7 +6311,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -6368,7 +6368,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -6378,7 +6378,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -6438,7 +6438,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "joyhe-yueya",
           "timalthoff"
@@ -6516,7 +6516,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -6580,7 +6580,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -6654,7 +6654,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -6727,7 +6727,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -6800,7 +6800,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -6810,7 +6810,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -6863,7 +6863,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -6932,7 +6932,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -6995,7 +6995,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -7005,7 +7005,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -7060,7 +7060,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -7070,7 +7070,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4280619408"
@@ -7124,7 +7124,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -7134,7 +7134,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -7193,7 +7193,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -7203,7 +7203,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -7259,7 +7259,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -7336,7 +7336,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -7401,7 +7401,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -7659,7 +7659,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -7728,7 +7728,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -7738,7 +7738,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -7793,7 +7793,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -7856,7 +7856,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -7924,7 +7924,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -7934,7 +7934,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -7985,7 +7985,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin"
         ],
@@ -7995,7 +7995,7 @@
           "innalin"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8058,7 +8058,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -8068,7 +8068,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8129,7 +8129,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin"
         ],
@@ -8139,7 +8139,7 @@
           "innalin"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8190,7 +8190,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -8200,7 +8200,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8256,7 +8256,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -8328,7 +8328,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -8399,7 +8399,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -8409,7 +8409,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8474,7 +8474,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -8484,7 +8484,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8538,7 +8538,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -8610,7 +8610,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -8675,7 +8675,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -8685,7 +8685,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8746,7 +8746,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -8827,7 +8827,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -8837,7 +8837,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -8908,7 +8908,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -8983,7 +8983,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -9049,7 +9049,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -9122,7 +9122,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin"
         ],
@@ -9132,7 +9132,7 @@
           "innalin"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -9193,7 +9193,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -9258,7 +9258,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -9268,7 +9268,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w3153335394"
     },
@@ -9323,7 +9323,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -9394,7 +9394,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -9463,7 +9463,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -9530,7 +9530,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -9597,7 +9597,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -9667,7 +9667,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -9739,7 +9739,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -9812,7 +9812,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -9822,7 +9822,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w3090518591"
     },
@@ -9885,7 +9885,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -9955,7 +9955,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "timalthoff"
@@ -10020,7 +10020,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -10030,7 +10030,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -10091,7 +10091,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -10101,7 +10101,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w3004786854"
     },
@@ -10155,7 +10155,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -10165,7 +10165,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w2971883198"
     },
@@ -10231,7 +10231,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -10296,7 +10296,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -10306,7 +10306,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w2950242852"
     },
@@ -10364,7 +10364,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -10374,7 +10374,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4360991155"
     },
@@ -10432,7 +10432,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -10505,7 +10505,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -10515,7 +10515,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -10571,7 +10571,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -10648,7 +10648,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -10658,7 +10658,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -10718,7 +10718,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli",
           "timalthoff"
@@ -10784,7 +10784,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -10850,7 +10850,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -10917,7 +10917,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -10987,7 +10987,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -11066,7 +11066,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -11137,7 +11137,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -11147,7 +11147,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -11202,7 +11202,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -11266,7 +11266,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -11276,7 +11276,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -11384,7 +11384,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff",
@@ -11449,7 +11449,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -11522,7 +11522,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -11532,7 +11532,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -11597,7 +11597,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -11607,7 +11607,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -11680,7 +11680,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -11759,7 +11759,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -11830,7 +11830,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -11903,7 +11903,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -11913,7 +11913,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -11968,7 +11968,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -11978,7 +11978,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -12060,7 +12060,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff",
           "yasamansefidgar"
@@ -12134,7 +12134,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -12144,7 +12144,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4328031094",
@@ -12205,7 +12205,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -12215,7 +12215,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -12280,7 +12280,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -12349,7 +12349,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -12359,7 +12359,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4387344871"
     },
@@ -12417,7 +12417,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -12427,7 +12427,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4377854903"
     },
@@ -12489,7 +12489,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -12499,7 +12499,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4320858079"
     },
@@ -12557,7 +12557,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -12567,7 +12567,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4289597535"
@@ -12628,7 +12628,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "yasamansefidgar"
@@ -12639,8 +12639,8 @@
           "jinasuh",
           "yasamansefidgar"
         ],
-        "status": "needs-membership-review",
-        "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+        "status": "does-not-meet-rule",
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -12700,7 +12700,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli",
           "timalthoff"
@@ -12778,7 +12778,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -12788,7 +12788,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -12844,7 +12844,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -12922,7 +12922,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "yasamansefidgar"
@@ -12933,8 +12933,8 @@
           "jinasuh",
           "yasamansefidgar"
         ],
-        "status": "needs-membership-review",
-        "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+        "status": "does-not-meet-rule",
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -12997,7 +12997,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -13007,7 +13007,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -13069,7 +13069,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -13139,7 +13139,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -13149,7 +13149,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -13200,7 +13200,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -13267,7 +13267,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -13277,7 +13277,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4324299219"
@@ -13341,7 +13341,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -13351,7 +13351,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4393160311"
     },
@@ -13427,7 +13427,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -13437,7 +13437,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -13500,7 +13500,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -13510,7 +13510,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -13571,7 +13571,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -13581,7 +13581,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4320858079"
     },
@@ -13647,7 +13647,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -13727,7 +13727,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -13805,7 +13805,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -13879,7 +13879,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -13952,7 +13952,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -13962,7 +13962,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4324296911"
@@ -14018,7 +14018,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -14099,7 +14099,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -14109,7 +14109,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14166,7 +14166,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -14176,7 +14176,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14235,7 +14235,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -14245,7 +14245,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14303,7 +14303,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -14363,7 +14363,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "deniznazarova"
         ],
@@ -14373,7 +14373,7 @@
           "deniznazarova"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14448,7 +14448,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -14458,7 +14458,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14511,7 +14511,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -14521,7 +14521,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14578,7 +14578,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -14588,7 +14588,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14647,7 +14647,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -14657,7 +14657,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4402727717"
     },
@@ -14723,7 +14723,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -14733,7 +14733,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14794,7 +14794,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -14804,7 +14804,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -14863,7 +14863,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -14939,7 +14939,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -14949,7 +14949,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15010,7 +15010,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -15020,7 +15020,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15081,7 +15081,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -15091,7 +15091,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15152,7 +15152,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -15162,7 +15162,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15227,7 +15227,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -15237,7 +15237,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15298,7 +15298,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -15308,7 +15308,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4404792928"
     },
@@ -15434,7 +15434,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -15500,7 +15500,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -15583,7 +15583,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -15662,7 +15662,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -15727,7 +15727,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -15737,7 +15737,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15801,7 +15801,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -15875,7 +15875,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -15885,7 +15885,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -15950,7 +15950,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -16017,7 +16017,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "timalthoff",
@@ -16087,7 +16087,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -16097,7 +16097,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16158,7 +16158,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -16168,7 +16168,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4378500997"
@@ -16226,7 +16226,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -16236,7 +16236,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4409763035"
     },
@@ -16294,7 +16294,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -16304,7 +16304,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16383,7 +16383,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -16393,7 +16393,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16453,7 +16453,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -16519,7 +16519,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -16529,7 +16529,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16591,7 +16591,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "yasamansefidgar"
@@ -16602,8 +16602,8 @@
           "jinasuh",
           "yasamansefidgar"
         ],
-        "status": "needs-membership-review",
-        "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+        "status": "does-not-meet-rule",
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16656,7 +16656,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -16723,7 +16723,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -16733,7 +16733,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -16820,7 +16820,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "jinasuh",
@@ -16893,7 +16893,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -16969,7 +16969,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -17043,7 +17043,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -17111,7 +17111,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -17121,7 +17121,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -17200,7 +17200,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -17210,7 +17210,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -17269,7 +17269,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -17279,7 +17279,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -17338,7 +17338,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -17348,7 +17348,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -17405,7 +17405,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -17528,7 +17528,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -17626,7 +17626,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -17709,7 +17709,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -17780,7 +17780,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -17849,7 +17849,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -17924,7 +17924,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -17934,7 +17934,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -17991,7 +17991,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -18001,7 +18001,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -18070,7 +18070,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -18080,7 +18080,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -18140,7 +18140,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -18222,7 +18222,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -18232,7 +18232,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -18357,7 +18357,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -18492,7 +18492,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -18627,7 +18627,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -18721,7 +18721,7 @@
         "yasamansefidgar"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff",
           "yasamansefidgar"
@@ -18795,7 +18795,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -18805,7 +18805,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -18860,7 +18860,7 @@
         "deniznazarova"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "deniznazarova"
         ],
@@ -18870,7 +18870,7 @@
           "deniznazarova"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -18930,7 +18930,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -19007,7 +19007,7 @@
         "ashishsharma"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "ashishsharma",
           "innalin",
@@ -19081,7 +19081,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -19091,7 +19091,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4389072637"
@@ -19157,7 +19157,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19167,7 +19167,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19228,7 +19228,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -19238,7 +19238,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19297,7 +19297,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -19307,7 +19307,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4404782871"
     },
@@ -19389,7 +19389,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -19451,7 +19451,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh",
           "timalthoff"
@@ -19515,7 +19515,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -19578,7 +19578,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19588,7 +19588,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19645,7 +19645,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19655,7 +19655,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19710,7 +19710,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19720,7 +19720,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19785,7 +19785,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19795,7 +19795,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19864,7 +19864,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19874,7 +19874,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -19939,7 +19939,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -19949,7 +19949,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -20010,7 +20010,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -20020,7 +20020,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -20104,7 +20104,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "mikemerrill",
@@ -20179,7 +20179,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -20253,7 +20253,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -20325,7 +20325,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -20335,7 +20335,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4403570426"
@@ -20399,7 +20399,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -20409,7 +20409,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4391123974"
@@ -20479,7 +20479,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -20489,7 +20489,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -20573,7 +20573,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "mikemerrill",
@@ -20641,7 +20641,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -20651,7 +20651,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -20726,7 +20726,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -20736,7 +20736,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -20793,7 +20793,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -20803,7 +20803,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4415795724"
     },
@@ -20860,7 +20860,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -20935,7 +20935,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -20945,7 +20945,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21023,7 +21023,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat",
           "timalthoff"
@@ -21093,7 +21093,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -21103,7 +21103,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7135068508"
     },
@@ -21159,7 +21159,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21169,7 +21169,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4393299927"
@@ -21237,7 +21237,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21247,7 +21247,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21318,7 +21318,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21328,7 +21328,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21397,7 +21397,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21407,7 +21407,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21464,7 +21464,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -21474,7 +21474,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7135068508"
     },
@@ -21532,7 +21532,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21542,7 +21542,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21598,7 +21598,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -21667,7 +21667,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21677,7 +21677,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4416421135"
@@ -21743,7 +21743,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21753,7 +21753,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4417172227"
@@ -21823,7 +21823,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -21833,7 +21833,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21890,7 +21890,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -21900,7 +21900,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -21961,7 +21961,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -22046,7 +22046,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -22056,7 +22056,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22113,7 +22113,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -22236,7 +22236,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -22315,7 +22315,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22325,7 +22325,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22378,7 +22378,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22388,7 +22388,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22439,7 +22439,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -22449,7 +22449,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w1937238059"
     },
@@ -22505,7 +22505,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22515,7 +22515,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22576,7 +22576,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22586,7 +22586,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22651,7 +22651,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22661,7 +22661,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22717,7 +22717,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -22794,7 +22794,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22804,7 +22804,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22865,7 +22865,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -22875,7 +22875,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -22930,7 +22930,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -22940,7 +22940,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4405627614"
@@ -22998,7 +22998,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -23008,7 +23008,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23066,7 +23066,7 @@
         "mikemerrill"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -23147,7 +23147,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -23214,7 +23214,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -23279,7 +23279,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -23289,7 +23289,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23346,7 +23346,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -23409,7 +23409,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -23419,7 +23419,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23532,7 +23532,7 @@
         "deniznazarova"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "deniznazarova"
         ],
@@ -23542,7 +23542,7 @@
           "deniznazarova"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23640,7 +23640,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -23746,7 +23746,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -23756,7 +23756,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23823,7 +23823,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -23833,7 +23833,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -23886,7 +23886,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -23896,7 +23896,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4411473243"
     },
@@ -23958,7 +23958,7 @@
         "chengli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "chengli"
         ],
@@ -23968,7 +23968,7 @@
           "chengli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -24033,7 +24033,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -24108,7 +24108,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -24178,7 +24178,7 @@
         "galenweld"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "galenweld",
           "timalthoff"
@@ -24250,7 +24250,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -24327,7 +24327,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -24337,7 +24337,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -24399,7 +24399,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -24475,7 +24475,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -24485,7 +24485,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w4411542026"
     },
@@ -24573,7 +24573,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -24671,7 +24671,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -24754,7 +24754,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -24764,7 +24764,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -24827,7 +24827,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -24837,7 +24837,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -24894,7 +24894,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -24904,7 +24904,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7135068508"
     },
@@ -24962,7 +24962,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -24972,7 +24972,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -25029,7 +25029,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -25039,7 +25039,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -25096,7 +25096,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -25106,7 +25106,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7135068508"
     },
@@ -25172,7 +25172,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25182,7 +25182,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7165640178"
     },
@@ -25248,7 +25248,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25258,7 +25258,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7165640178"
     },
@@ -25312,7 +25312,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25322,7 +25322,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -25408,7 +25408,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -25479,7 +25479,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -25489,7 +25489,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -25542,7 +25542,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25552,7 +25552,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7165636631"
     },
@@ -25639,7 +25639,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -25716,7 +25716,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25726,7 +25726,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7127541160"
@@ -25792,7 +25792,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25802,7 +25802,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7127428470"
     },
@@ -25860,7 +25860,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -25870,7 +25870,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -25931,7 +25931,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -25941,7 +25941,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -26000,7 +26000,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -26010,7 +26010,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7133364904"
@@ -26072,7 +26072,7 @@
         "margaretli"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli"
         ],
@@ -26082,7 +26082,7 @@
           "margaretli"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7133320895"
     },
@@ -26156,7 +26156,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26166,7 +26166,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7134291518"
@@ -26242,7 +26242,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26252,7 +26252,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7134241387"
     },
@@ -26306,7 +26306,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -26316,7 +26316,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7154012580"
     },
@@ -26374,7 +26374,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -26384,7 +26384,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w4407806160",
@@ -26443,7 +26443,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -26453,7 +26453,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7154012580"
     },
@@ -26565,7 +26565,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26575,7 +26575,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -26632,7 +26632,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26642,7 +26642,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -26701,7 +26701,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26711,7 +26711,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7153670015"
@@ -26773,7 +26773,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26783,7 +26783,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7153071857"
     },
@@ -26837,7 +26837,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "advaitbhat"
         ],
@@ -26847,7 +26847,7 @@
           "advaitbhat"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7135045443",
@@ -26908,7 +26908,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26918,7 +26918,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7154540176"
@@ -26978,7 +26978,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -26988,7 +26988,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7154288807"
     },
@@ -27106,7 +27106,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -27176,7 +27176,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -27317,7 +27317,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -27387,7 +27387,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "innalin",
           "timalthoff"
@@ -27608,7 +27608,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "timalthoff"
         ],
@@ -27671,7 +27671,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -27681,7 +27681,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7124187633"
@@ -27749,7 +27749,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -27759,7 +27759,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7118000725",
@@ -27826,7 +27826,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -27836,7 +27836,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -27894,7 +27894,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
           "timalthoff"
@@ -27995,7 +27995,7 @@
         "kengu"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "kengu",
           "timalthoff"
@@ -28068,7 +28068,7 @@
         "yigeyuan"
       ],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "yigeyuan"
         ],
@@ -28078,7 +28078,7 @@
           "yigeyuan"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -28139,7 +28139,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28149,7 +28149,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7171903061"
@@ -28217,7 +28217,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28227,7 +28227,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "alternateRecordIds": [
         "openalex-w7171867957"
@@ -28295,7 +28295,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28305,7 +28305,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7171849534"
     },
@@ -28367,7 +28367,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28377,13 +28377,13 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       },
       "duplicateOf": "openalex-w7171624152"
     },
     {
       "id": "openalex-w7196961304",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "f25ffb9585aae022e95924ef4109afb22c58a6b0a41873a35dc15a13bac12929",
       "sourceUrl": "https://openalex.org/W7196961304",
@@ -28443,7 +28443,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "margaretli",
           "mickelliu"
@@ -28454,8 +28454,8 @@
           "margaretli",
           "mickelliu"
         ],
-        "status": "needs-membership-review",
-        "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+        "status": "does-not-meet-rule",
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -28512,7 +28512,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28522,7 +28522,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -28587,7 +28587,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28597,7 +28597,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -28662,7 +28662,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28672,7 +28672,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     },
     {
@@ -28731,7 +28731,7 @@
       "conflicts": [],
       "identityReviewPersonIds": [],
       "labRelevance": {
-        "policyVersion": 1,
+        "policyVersion": 2,
         "matchedPersonIds": [
           "jinasuh"
         ],
@@ -28741,7 +28741,7 @@
           "jinasuh"
         ],
         "status": "does-not-meet-rule",
-        "reason": "Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify."
+        "reason": "The required PI author is not on this paper."
       }
     }
   ],

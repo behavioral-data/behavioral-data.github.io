@@ -5,7 +5,8 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from publication_policy import acceptance_review, assess, validate_assessment
 
-POLICY = {'version': 1, 'piPersonId': 'tim', 'minimumLabAuthors': 2}
+POLICY = {'version': 2, 'piPersonId': 'tim', 'requirePiAuthor': True,
+          'minimumLabAuthors': 2}
 WORK = {'publication_date': '2025-06-01'}
 PEOPLE = [
     {'id': 'one', 'status': 'member', 'memberships': [{'start': '2024-01-01'}]},
@@ -28,33 +29,38 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(self.status(['tim', 'unknown']), 'needs-membership-review')
         self.assertEqual(self.status(['tim', 'later']), 'does-not-meet-rule')
 
-    def test_two_distinct_members_including_historical_member(self):
-        self.assertEqual(self.status(['one', 'two']), 'meets-rule')
+    def test_two_non_pi_members_do_not_qualify(self):
+        self.assertEqual(self.status(['one', 'two']), 'does-not-meet-rule')
         self.assertEqual(self.status(['one', 'one']), 'does-not-meet-rule')
 
     def test_current_membership_does_not_count_before_joining(self):
-        self.assertEqual(self.status(['one', 'later']), 'does-not-meet-rule')
+        self.assertEqual(self.status(['tim', 'later']), 'does-not-meet-rule')
 
     def test_unknown_membership_or_publication_date_needs_review(self):
-        self.assertEqual(self.status(['one', 'unknown']), 'needs-membership-review')
-        self.assertEqual(self.status(['one', 'two'], {}), 'needs-membership-review')
+        self.assertEqual(self.status(['tim', 'unknown']), 'needs-membership-review')
+        self.assertEqual(self.status(['tim', 'two'], {}), 'needs-membership-review')
 
     def test_single_non_pi_member_does_not_qualify(self):
         self.assertEqual(self.status(['unknown']), 'does-not-meet-rule')
 
     def test_acceptance_requires_current_policy_and_two_matched_people(self):
         candidate = {'matchedPersonIds': ['one', 'tim'], 'identityReviewPersonIds': [],
-                     'labRelevance': {'policyVersion': 1, 'status': 'meets-rule'}}
+                     'labRelevance': {'policyVersion': 2, 'status': 'meets-rule'}}
         review = acceptance_review(candidate, ['one', 'tim'], POLICY)
         self.assertEqual(review['personIds'], ['one', 'tim'])
         with self.assertRaises(ValueError):
             acceptance_review(candidate, ['tim'], POLICY)
         with self.assertRaises(ValueError):
             acceptance_review(candidate, ['one', 'unknown'], POLICY)
+        no_pi = {'matchedPersonIds': ['one', 'two'], 'identityReviewPersonIds': [],
+                 'labRelevance': {'policyVersion': 2, 'status': 'does-not-meet-rule'}}
+        with self.assertRaises(ValueError):
+            acceptance_review(no_pi, ['one', 'two'], POLICY, 'Requested exception',
+                              ['https://example.org/evidence'])
 
     def test_unresolved_acceptance_requires_reason_and_public_evidence(self):
         candidate = {'matchedPersonIds': ['one', 'tim'], 'identityReviewPersonIds': ['one'],
-                     'labRelevance': {'policyVersion': 1, 'status': 'needs-membership-review'}}
+                     'labRelevance': {'policyVersion': 2, 'status': 'needs-membership-review'}}
         with self.assertRaises(ValueError):
             acceptance_review(candidate, ['one', 'tim'], POLICY)
         review = acceptance_review(candidate, ['one', 'tim'], POLICY, 'Membership verified',

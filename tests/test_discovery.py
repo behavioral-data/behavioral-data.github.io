@@ -15,13 +15,14 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from discovery import OpenAlex, collect, merge_candidates, normalize, read, run, save, validate_authors
 from review import decide
 from monitor import problems
+from publication_pipeline import reassess
 from render_recent_review import render as render_recent
 
 WORK = json.loads((ROOT / 'tests/fixtures/openalex.json').read_text())[0]
 AUTHORS = [{'personId':'p1','openalexId':'A123456','verified':True,'verifiedOn':'2024-01-01','sourceUrl':'https://example.org/person'}]
 TIM_AUTHOR = {'personId':'tim','openalexId':'A999','verified':True,'verifiedOn':'2024-01-01',
               'sourceUrl':'https://example.org/tim','discover':False}
-POLICY = {'version':1,'piPersonId':'tim','minimumLabAuthors':2,
+POLICY = {'version':2,'piPersonId':'tim','requirePiAuthor':True,'minimumLabAuthors':2,
           'membershipBasis':'publication-date','humanReviewRequired':True}
 
 
@@ -155,7 +156,7 @@ class DiscoveryTests(unittest.TestCase):
             decide(root,cid,'accept',['p1','tim'])
             papers=read(root/'content/publications.json');self.assertEqual(papers[0]['personIds'],['p1','tim'])
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'accepted')
-            self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['policyReview']['policyVersion'],1)
+            self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['policyReview']['policyVersion'],2)
             with self.assertRaises(ValueError):decide(root,cid,'accept',['p1','tim'])
             decide(root,cid,'reopen');decide(root,cid,'defer',until='2099-01-01')
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'deferred')
@@ -182,6 +183,16 @@ class DiscoveryTests(unittest.TestCase):
             rendered=render_recent(root)
             self.assertIn(f'**Year:** {datetime.now().year} · **Venue:** Verified Proceedings',rendered)
             self.assertIn('**Reviewer-corrected metadata:** venue.',rendered)
+
+    def test_reassess_applies_current_policy_without_provider_access(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);prepare_root(root);q=self.review_queue(root)
+            q['candidates'][0]['labRelevance']['policyVersion']=1
+            save(root/'maintenance/review.json',q)
+            reassess(root)
+            relevance=read(root/'maintenance/review.json')['candidates'][0]['labRelevance']
+            self.assertEqual(relevance['policyVersion'],2)
+            self.assertEqual(relevance['status'],'meets-rule')
 
     def test_health_detects_missed_runs_failures_and_overdue_reviews(self):
         cfg={'maxRunAgeDays':9,'maxReviewAgeDays':14};now=datetime(2026,3,20,tzinfo=timezone.utc)

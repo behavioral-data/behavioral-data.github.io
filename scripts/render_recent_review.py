@@ -32,7 +32,7 @@ def render(root=ROOT):
     scholar_checked = max((p.get('checkedOn', '') for p in profiles), default='not recorded')
     lines = ['# Recent publication review', '',
              f'{len(selected)} distinct papers from {first_year} onward. Choose **include**, **exclude**, or **unsure**. Reply in chat with the numbered decisions or candidate IDs. Nothing here has been approved for the website.', '',
-             'Rule: at least two lab authors, including Tim plus a current or past member. Confirm membership at the time of the work and whether it belongs to the lab. Duplicate versions appear under one item; source records remain available.', '',
+             'Rule: Tim must be an author, together with at least one current or past lab member. Confirm membership at the time of the work and whether it belongs to the lab. Duplicate versions appear under one item; source records remain available.', '',
              f'Google Scholar profiles last checked: {scholar_checked}. See `_planning/SCHOLAR_LATEST_REVIEW.md` for coverage and remaining uncertainties.', '']
     for n, c in enumerate(selected, 1):
         observed = c['observed']

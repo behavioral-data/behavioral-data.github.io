@@ -4,8 +4,10 @@ import re
 
 
 def validate_policy(policy, people):
-    if (policy.get('version') != 1
+    if (type(policy.get('version')) is not int
+            or policy['version'] < 1
             or policy.get('piPersonId') not in {p['id'] for p in people}
+            or policy.get('requirePiAuthor') is not True
             or type(policy.get('minimumLabAuthors')) is not int
             or policy['minimumLabAuthors'] < 2
             or policy.get('membershipBasis') != 'publication-date'
@@ -37,7 +39,9 @@ def assess(work, matched, people, policy):
     confirmed = len(result['memberPersonIds'])
     possible = confirmed + len(result['uncertainPersonIds'])
     minimum = policy['minimumLabAuthors']
-    if confirmed >= minimum:
+    if policy['requirePiAuthor'] and policy['piPersonId'] not in matched:
+        status, reason = 'does-not-meet-rule', 'The required PI author is not on this paper.'
+    elif confirmed >= minimum:
         status, reason = 'meets-rule', f'At least {minimum} distinct coauthors were lab members on the publication date.'
     elif possible >= minimum:
         status, reason = 'needs-membership-review', 'Enough lab identities match, but publication-time membership needs confirmation.'
@@ -51,7 +55,7 @@ def validate_assessment(candidate, people, policy):
     expected = assess({'publication_date': recorded.get('publicationDate')},
                       candidate.get('matchedPersonIds', []), people, policy)
     if recorded != expected:
-        raise ValueError('Candidate policy assessment is missing, stale, or edited; collect again')
+        raise ValueError('Candidate policy assessment is missing, stale, or edited; reassess or collect again')
 
 
 def acceptance_review(candidate, person_ids, policy, override_reason=None, evidence_urls=None):
@@ -61,7 +65,9 @@ def acceptance_review(candidate, person_ids, policy, override_reason=None, evide
     relevance = candidate.get('labRelevance') or {}
     evidence_urls = list(dict.fromkeys(evidence_urls or []))
     if relevance.get('policyVersion') != policy['version']:
-        raise ValueError('Candidate policy assessment is missing or stale; collect again before accepting')
+        raise ValueError('Candidate policy assessment is missing or stale; reassess or collect again before accepting')
+    if policy['requirePiAuthor'] and policy['piPersonId'] not in person_ids:
+        raise ValueError('Acceptance requires the PI author on the paper; this rule cannot be overridden')
     if len(person_ids) < policy['minimumLabAuthors']:
         raise ValueError(f"Acceptance requires at least {policy['minimumLabAuthors']} reviewed lab authors")
     if not set(person_ids) <= matched:

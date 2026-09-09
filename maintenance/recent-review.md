@@ -1,8 +1,8 @@
 # Recent publication review
 
-13 distinct papers from 2025 onward. Choose **include**, **exclude**, or **unsure**. Reply in chat with the numbered decisions or candidate IDs. Nothing here has been approved for the website.
+12 distinct papers from 2025 onward. Choose **include**, **exclude**, or **unsure**. Reply in chat with the numbered decisions or candidate IDs. Nothing here has been approved for the website.
 
-Rule: at least two lab authors, including Tim plus a current or past member. Confirm membership at the time of the work and whether it belongs to the lab. Duplicate versions appear under one item; source records remain available.
+Rule: Tim must be an author, together with at least one current or past lab member. Confirm membership at the time of the work and whether it belongs to the lab. Duplicate versions appear under one item; source records remain available.
 
 Google Scholar profiles last checked: 2026-09-05. See `_planning/SCHOLAR_LATEST_REVIEW.md` for coverage and remaining uncertainties.
 
@@ -116,27 +116,7 @@ Other version: [Transforming Wearable Data into Personal Health Insights using L
 
 Candidate ID: `openalex-w7122726170`
 
-## 7. Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
-
-**Year:** 2025 · **Venue:** NeurIPS
-
-**Matched lab coauthors:** Margaret Li, Mickel Liu
-
-**Full author list:** Liwei Jiang; Yuanjun Chai; Margaret Li; Mickel Liu; Raymond Fok; Nouha Dziri; Yulia Tsvetkov; Maarten Sap; Alon Albalak; Yejin Choi
-
-[Paper](https://doi.org/10.52202/085713-2732) · [Source record](https://openalex.org/W7196961304)
-
-**Reviewer-corrected metadata:** authorNames, authors, type, venue.
-
-**Year discrepancy:** Scholar displays 2026; the conference record is NeurIPS 2025. Keep the conference year unless review establishes otherwise.
-
-**Needs checking:** lab attribution and membership dates.
-
-**Decision:** Pending
-
-Candidate ID: `openalex-w7196961304`
-
-## 8. Human Decision-making is Susceptible to AI-driven Manipulation
+## 7. Human Decision-making is Susceptible to AI-driven Manipulation
 
 **Year:** 2025 · **Venue:** arXiv (Cornell University)
 
@@ -152,7 +132,7 @@ Candidate ID: `openalex-w7196961304`
 
 Candidate ID: `openalex-w4407425790`
 
-## 9. LSM-2: Learning from Incomplete Wearable Sensor Data
+## 8. LSM-2: Learning from Incomplete Wearable Sensor Data
 
 **Year:** 2025 · **Venue:** arXiv (Cornell University)
 
@@ -170,7 +150,7 @@ Candidate ID: `openalex-w4407425790`
 
 Candidate ID: `openalex-w4416076746`
 
-## 10. Perceptions of Moderators as a Large-Scale Measure of Online Community Governance
+## 9. Perceptions of Moderators as a Large-Scale Measure of Online Community Governance
 
 **Year:** 2025 · **Venue:** Proceedings of the ACM on Human-Computer Interaction
 
@@ -190,7 +170,7 @@ Other version: [Perceptions of Moderators as a Large-Scale Measure of Online Com
 
 Candidate ID: `openalex-w4415250179`
 
-## 11. RADAR: Benchmarking Language Models on Imperfect Tabular Data
+## 10. RADAR: Benchmarking Language Models on Imperfect Tabular Data
 
 **Year:** 2025 · **Venue:** NeurIPS
 
@@ -210,7 +190,7 @@ Candidate ID: `openalex-w4415250179`
 
 Candidate ID: `openalex-w4417255562`
 
-## 12. Reddit Rules and Rulers: Quantifying the Link Between Rules and Perceptions of Governance Across Thousands of Communities
+## 11. Reddit Rules and Rulers: Quantifying the Link Between Rules and Perceptions of Governance Across Thousands of Communities
 
 **Year:** 2025 · **Venue:** Proceedings of the International AAAI Conference on Web and Social Media
 
@@ -230,7 +210,7 @@ Other version: [Reddit Rules and Rulers: Quantifying the Link Between Rules and 
 
 Candidate ID: `openalex-w4411121032`
 
-## 13. Self-Improving VLM Judges Without Human Annotations
+## 12. Self-Improving VLM Judges Without Human Annotations
 
 **Year:** 2025 · **Venue:** arXiv (Cornell University)
 

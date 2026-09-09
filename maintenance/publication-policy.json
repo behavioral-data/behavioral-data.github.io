@@ -1,6 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "piPersonId": "timalthoff",
+  "requirePiAuthor": true,
   "minimumLabAuthors": 2,
   "membershipBasis": "publication-date",
   "humanReviewRequired": true

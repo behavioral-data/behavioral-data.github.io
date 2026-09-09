@@ -4,9 +4,9 @@ Edit decisions with `python3 scripts/review.py`; approval changes local content 
 
 meets-rule: 0
 
-needs-membership-review: 61
+needs-membership-review: 57
 
-does-not-meet-rule: 261
+does-not-meet-rule: 264
 
 ## openalex-w4416863183
 
@@ -182,20 +182,6 @@ Proposed fields: title, authors, authorNames, year, venue, doi, url, status, ope
 
 Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
 
-## openalex-w7196961304
-
-Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
-
-Source: https://openalex.org/W7196961304
-
-Matched people (lab relevance still needs review): margaretli, mickelliu
-
-Target: new record
-
-Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
-
-Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
-
 ## openalex-w3199811133
 
 Making Online Communities ‘Better’: A Taxonomy of Community Values on Reddit
@@ -285,22 +271,6 @@ Possible duplicates: merrill2024language
 Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): mikemerrill
-
-## openalex-w4396230894
-
-Improving Work-Nonwork Balance with Data-Driven Implementation Intention and Mental Contrasting
-
-Source: https://openalex.org/W4396230894
-
-Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
-
-Target: new record
-
-Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
-
-Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
-
-Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
 
 ## openalex-w4396615168
 
@@ -528,22 +498,6 @@ Author identity needs per-paper verification (mixed OpenAlex profile): ashishsha
 
 Other versions grouped here: openalex-w4224875158
 
-## openalex-w4360991594
-
-Pearl: A Technology Probe for Machine-Assisted Reflection on Personal Data
-
-Source: https://openalex.org/W4360991594
-
-Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
-
-Target: new record
-
-Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
-
-Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
-
-Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
-
 ## openalex-w4361021241
 
 Scaling Expert Language Models with Unsupervised Domain Discovery
@@ -577,22 +531,6 @@ Lab relevance: needs-membership-review — Enough lab identities match, but publ
 Author identity needs per-paper verification (mixed OpenAlex profile): kengu
 
 Other versions grouped here: openalex-w4304699808
-
-## openalex-w4366595129
-
-Lessons Learned for Data-Driven Implementation Intentions with Mental Contrasting
-
-Source: https://openalex.org/W4366595129
-
-Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
-
-Target: new record
-
-Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
-
-Lab relevance: needs-membership-review — Enough lab identities match, but publication-time membership needs confirmation.
-
-Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
 
 ## openalex-w4372272612
 
@@ -1040,7 +978,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4414856708
 
@@ -1054,7 +992,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4417529787
 
@@ -1068,7 +1006,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7118264879
 
@@ -1082,7 +1020,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7127428470
 
@@ -1096,7 +1034,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7127541160
 
@@ -1112,7 +1050,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -1128,7 +1066,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7133320895
 
@@ -1142,7 +1080,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -1160,7 +1098,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7134291518
 
@@ -1176,7 +1114,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4407806160, openalex-w4410490576, openalex-w7117117987, openalex-w7117278506
 
@@ -1192,7 +1130,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7148847518
 
@@ -1206,7 +1144,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7153071857
 
@@ -1220,7 +1158,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7153670015
 
@@ -1236,7 +1174,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7135045443, openalex-w7135156346
 
@@ -1252,7 +1190,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7154540176
 
@@ -1310,7 +1248,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7124187633
 
@@ -1326,7 +1264,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7118000725, openalex-w7118051505
 
@@ -1342,7 +1280,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7170852546
 
@@ -1356,7 +1294,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -1372,7 +1310,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7171903061
 
@@ -1388,7 +1326,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w7171867957
 
@@ -1404,7 +1342,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7204180902
 
@@ -1418,7 +1356,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7204191817
 
@@ -1432,7 +1370,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7204864889
 
@@ -1446,7 +1384,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4407126453
 
@@ -1460,7 +1398,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -1476,7 +1414,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4410049719
 
@@ -1490,7 +1428,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4410120316
 
@@ -1504,7 +1442,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4410537238
 
@@ -1518,7 +1456,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4411473243
 
@@ -1532,7 +1470,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4416421135
 
@@ -1548,7 +1486,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4417172227
 
@@ -1564,7 +1502,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4412644002
 
@@ -1578,7 +1516,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -1608,7 +1546,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -1652,7 +1590,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4413360237
 
@@ -1666,7 +1604,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4415249232
 
@@ -1680,7 +1618,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4415250159
 
@@ -1694,7 +1632,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4415258205
 
@@ -1708,7 +1646,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4415275659
 
@@ -1722,7 +1660,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4415887383
 
@@ -1764,7 +1702,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4416021409
 
@@ -1792,7 +1730,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -1808,7 +1746,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): deniznazarova
 
@@ -1824,7 +1762,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -1840,7 +1778,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4416696420
 
@@ -1854,7 +1792,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -1912,7 +1850,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -1942,7 +1880,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7117236263
 
@@ -1956,7 +1894,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7117256021
 
@@ -1970,7 +1908,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w7124142543
 
@@ -1984,7 +1922,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -2000,7 +1938,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4391013204
 
@@ -2014,7 +1952,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4391143802
 
@@ -2070,7 +2008,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4392909431
 
@@ -2084,7 +2022,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4392929788
 
@@ -2112,7 +2050,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2128,7 +2066,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -2146,7 +2084,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4394799125
 
@@ -2160,7 +2098,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -2176,7 +2114,23 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
+
+## openalex-w4396230894
+
+Improving Work-Nonwork Balance with Data-Driven Implementation Intention and Mental Contrasting
+
+Source: https://openalex.org/W4396230894
+
+Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
+
+Target: new record
+
+Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
+
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
+
+Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
 
 ## openalex-w4396230900
 
@@ -2204,7 +2158,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4396833606
 
@@ -2218,7 +2172,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4398766485
 
@@ -2232,7 +2186,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4399511764
 
@@ -2288,7 +2242,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4400374467
 
@@ -2302,7 +2256,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2318,7 +2272,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4400895263
 
@@ -2332,7 +2286,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4400900739
 
@@ -2388,7 +2342,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4402415888
 
@@ -2402,7 +2356,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): deniznazarova
 
@@ -2418,7 +2372,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4389072637
 
@@ -2434,7 +2388,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4403564687
 
@@ -2448,7 +2402,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -2492,7 +2446,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404344149
 
@@ -2506,7 +2460,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404351806
 
@@ -2520,7 +2474,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404355593
 
@@ -2534,7 +2488,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404587409
 
@@ -2548,7 +2502,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404628177
 
@@ -2562,7 +2516,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4404734492
 
@@ -2576,7 +2530,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2608,7 +2562,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -2626,7 +2580,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2644,7 +2598,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4405433019
 
@@ -2658,7 +2612,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2674,7 +2628,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4393299927
 
@@ -2690,7 +2644,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4405627614
 
@@ -2706,7 +2660,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4317914540
 
@@ -2720,7 +2674,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -2736,7 +2690,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4321606181
 
@@ -2750,7 +2704,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -2780,9 +2734,25 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4289597535
+
+## openalex-w4360991594
+
+Pearl: A Technology Probe for Machine-Assisted Reflection on Personal Data
+
+Source: https://openalex.org/W4360991594
+
+Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
+
+Target: new record
+
+Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
+
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
+
+Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
 
 ## openalex-w4366547436
 
@@ -2796,7 +2766,23 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
+
+## openalex-w4366595129
+
+Lessons Learned for Data-Driven Implementation Intentions with Mental Contrasting
+
+Source: https://openalex.org/W4366595129
+
+Matched people (lab relevance still needs review): jinasuh, yasamansefidgar
+
+Target: new record
+
+Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
+
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
+
+Author identity needs per-paper verification (mixed OpenAlex profile): yasamansefidgar
 
 ## openalex-w4368236412
 
@@ -2810,7 +2796,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4376652651
 
@@ -2824,7 +2810,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4376653781
 
@@ -2852,7 +2838,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4324299219
 
@@ -2868,7 +2854,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2884,7 +2870,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2900,7 +2886,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4324296911
 
@@ -2930,7 +2916,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2946,7 +2932,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4387910274
 
@@ -2960,7 +2946,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -2976,7 +2962,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4388865820
 
@@ -2990,7 +2976,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3006,7 +2992,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4388995045
 
@@ -3020,7 +3006,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -3036,7 +3022,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -3052,7 +3038,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4390874800
 
@@ -3066,7 +3052,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4390905750
 
@@ -3080,7 +3066,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4390905915
 
@@ -3094,7 +3080,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4397045699
 
@@ -3108,7 +3094,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3140,7 +3126,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4225123029
 
@@ -3198,7 +3184,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3228,7 +3214,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3244,7 +3230,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4307787058
 
@@ -3258,7 +3244,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -3274,7 +3260,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -3290,7 +3276,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -3306,7 +3292,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4310610239
 
@@ -3352,7 +3338,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -3370,7 +3356,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3404,7 +3390,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3436,7 +3422,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3130718864
 
@@ -3466,7 +3452,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4280619408
 
@@ -3482,7 +3468,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3156596768
 
@@ -3496,7 +3482,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3160297774
 
@@ -3540,7 +3526,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3556,7 +3542,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3572,7 +3558,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3189062941
 
@@ -3586,7 +3572,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3194243263
 
@@ -3600,7 +3586,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3203065390
 
@@ -3614,7 +3600,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3205187522
 
@@ -3628,7 +3614,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4206547156
 
@@ -3642,7 +3628,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -3658,7 +3644,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3676,7 +3662,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3015012209
 
@@ -3704,7 +3690,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -3720,7 +3706,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3026779351
 
@@ -3734,7 +3720,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3027475104
 
@@ -3748,7 +3734,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3032265909
 
@@ -3762,7 +3748,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3032869635
 
@@ -3790,7 +3776,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w2988615798
 
@@ -3806,7 +3792,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3036632447
 
@@ -3820,7 +3806,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -3836,7 +3822,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3866,7 +3852,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3081076310
 
@@ -3880,7 +3866,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3090971766
 
@@ -3908,7 +3894,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3093233911
 
@@ -3922,7 +3908,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -3952,7 +3938,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w3113087560
 
@@ -3980,7 +3966,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2906906792
 
@@ -3994,7 +3980,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -4010,7 +3996,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2916904544
 
@@ -4024,7 +4010,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2924951239
 
@@ -4038,7 +4024,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -4082,7 +4068,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4100,7 +4086,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2971883198
 
@@ -4114,7 +4100,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4160,7 +4146,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4176,7 +4162,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2771242926
 
@@ -4234,7 +4220,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2807910285
 
@@ -4248,7 +4234,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2809100814
 
@@ -4262,7 +4248,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2903553068
 
@@ -4290,7 +4276,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -4364,7 +4350,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2753569824
 
@@ -4378,7 +4364,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): yigeyuan
 
@@ -4410,7 +4396,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2807111133
 
@@ -4472,7 +4458,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): chengli
 
@@ -4488,7 +4474,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2468829523
 
@@ -4502,7 +4488,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2484061479
 
@@ -4532,7 +4518,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2512274390
 
@@ -4546,7 +4532,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2583638605
 
@@ -4594,7 +4580,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4301247384
 
@@ -4654,7 +4640,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2950178544
 
@@ -4684,7 +4670,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w4289915919
 
@@ -4712,7 +4698,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2949066445
 
@@ -4774,7 +4760,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w1787735662
 
@@ -4802,7 +4788,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Other versions grouped here: openalex-w4413984696
 
@@ -4832,7 +4818,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4848,7 +4834,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2257447419
 
@@ -4862,7 +4848,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 ## openalex-w2009549299
 
@@ -4876,7 +4862,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4892,7 +4878,7 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli
 
@@ -4908,6 +4894,6 @@ Target: new record
 
 Proposed fields: title, authors, authorNames, year, venue, doi, url, status, openalexId, type
 
-Lab relevance: does-not-meet-rule — Fewer than 2 matching authors with possible publication-time lab membership; Tim alone does not qualify.
+Lab relevance: does-not-meet-rule — The required PI author is not on this paper.
 
 Author identity needs per-paper verification (mixed OpenAlex profile): margaretli

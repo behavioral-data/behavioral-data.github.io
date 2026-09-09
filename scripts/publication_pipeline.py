@@ -5,8 +5,11 @@ import json
 from pathlib import Path
 import subprocess
 
-from discovery import ROOT, read, run as collect
+from discovery import ROOT, read, report, run as collect, save
+from publication_policy import assess, validate_policy
 from review import decide
+from review_duplicates import group_duplicates
+from render_recent_review import render as render_recent
 
 REVIEW_BRANCH = 'codex/weekly-publication-review'
 REVIEW_FILES = {
@@ -65,6 +68,28 @@ def print_summary(root=ROOT, as_json=False):
     policy = ', '.join(f'{key}={value}' for key, value in sorted(data['pendingByPolicy'].items()))
     print('Decisions: ' + (decisions or 'none'))
     print('Pending policy labels: ' + (policy or 'none'))
+
+
+def reassess(root=ROOT):
+    """Apply the current policy to saved observations without contacting a provider."""
+    queue = read(root / 'maintenance/review.json')
+    people = read(root / 'content/people.json')
+    policy = read(root / 'maintenance/publication-policy.json')
+    validate_policy(policy, people)
+    outdated_accepted = [c['id'] for c in queue['candidates']
+                         if c['status'] == 'accepted'
+                         and (c.get('policyReview') or {}).get('policyVersion') != policy['version']]
+    if outdated_accepted:
+        raise ValueError('Reopen and review accepted candidates under the new policy first: '
+                         + ', '.join(outdated_accepted))
+    for candidate in queue['candidates']:
+        publication_date = (candidate.get('labRelevance') or {}).get('publicationDate')
+        candidate['labRelevance'] = assess(
+            {'publication_date': publication_date}, candidate['matchedPersonIds'], people, policy)
+    group_duplicates(queue)
+    save(root / 'maintenance/review.json', queue)
+    (root / 'maintenance/batch.md').write_text(report(queue))
+    (root / 'maintenance/recent-review.md').write_text(render_recent(root))
 
 
 def changed_files(root):
@@ -127,6 +152,7 @@ def main():
     collect_parser.add_argument('--fixture', type=Path, help='Test-only source records')
     status_parser = commands.add_parser('status', help='Summarize the durable review queue')
     status_parser.add_argument('--json', action='store_true')
+    commands.add_parser('reassess', help='Reapply the current policy without contacting the provider')
     decide_parser = commands.add_parser('decide', help='Record one human review decision')
     decide_parser.add_argument('id')
     decide_parser.add_argument('decision', choices=['accept', 'reject', 'defer', 'reopen'])
@@ -146,6 +172,9 @@ def main():
             print_summary(args.root)
         elif args.command == 'status':
             print_summary(args.root, args.json)
+        elif args.command == 'reassess':
+            reassess(args.root)
+            print_summary(args.root)
         elif args.command == 'decide':
             decide(args.root, args.id, args.decision, args.person, args.target, args.until,
                    args.reason, args.evidence)
