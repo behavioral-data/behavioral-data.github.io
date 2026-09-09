@@ -1,0 +1,12 @@
+[
+  {
+    "id": "https://openalex.org/W123456",
+    "title": "Fixture paper for infrastructure testing",
+    "publication_year": 2024,
+    "type": "article",
+    "doi": "https://doi.org/10.1234/fixture",
+    "is_retracted": false,
+    "authorships": [{"author": {"id": "https://openalex.org/A123456", "display_name": "Ada Example"}}],
+    "primary_location": {"source": {"display_name": "Fixture Journal"}, "landing_page_url": "https://example.org/paper"}
+  }
+]

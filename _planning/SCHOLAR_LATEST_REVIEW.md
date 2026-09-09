@@ -1,0 +1,41 @@
+# Latest Google Scholar check
+
+Checked 2026-09-05 using the built-in browser, with each confirmed profile sorted by publication date. Inspected the first page (up to 20 entries per member; fewer when the profile had fewer papers). This is a recent-paper check, not a complete career bibliography. Scholar sometimes gives a proceedings paper a later year than the conference itself and can contain duplicate versions. Truncated Scholar author lists are not evidence that no other lab author exists.
+
+The resulting 13-paper review list is in `maintenance/recent-review.md`. All remain pending. The main OpenAlex queue retains source observations, with duplicate versions grouped rather than deleted. The source-only SynthWorlds entry is in `maintenance/scholar-supplement.json` until it is reviewed and imported through the manual content workflow.
+
+## Profiles checked
+
+| Member | Profile, newest first | Latest visible entries | Review findings |
+|---|---|---|---|
+| Tim Althoff | [Scholar](https://scholar.google.com/citations?user=yc4nBNgAAAAJ&hl=en&sortby=pubdate) | Capable language models can outgrow the benefits of collaboration; Responsible Evaluation of AI for Mental Health; Inferring events from time series using language models (2026) | Recovered missing papers from split OpenAlex IDs. CandorMD appeared twice. SynthWorlds needed a manual source entry. Responsible Evaluation of AI for Mental Health has only Tim among the known roster after checking the full primary-source list. |
+| Jina Suh | [Scholar](https://scholar.google.com/citations?user=LuNehzsAAAAJ&hl=en&sortby=pubdate) | “Always Want to Use it for Everything”: Understanding Young Adults' Perceptions of AI Dependence; Psychological Influences of Conversational AI; The agony of opacity (2026) | No additional two-lab-author match verified in this check. Several full author lists remain to be checked; do not treat an abbreviated “M Li” as Margaret. |
+| Yige Yuan | [Scholar](https://scholar.google.com/citations?user=lf6GtCIAAAAJ&hl=en&sortby=pubdate) | Co-harness: Co-evolving harnesses and model weights for LLM agents; Rethinking evaluation of harness evolution for agents; Do We Always Need Query-Level Workflows? (2026) | No additional two-lab-author match verified. OpenAlex profile has namesakes; do not assume every record belongs to Yige. |
+| Advait Bhat | [Scholar](https://scholar.google.com/citations?user=lFBWQb0AAAAJ&hl=en&sortby=pubdate) | SynthWorlds; Reactive Writers; Biased AI writing assistants shift users’ attitudes on societal issues (2026) | SynthWorlds added for review; Human Decision-making is Susceptible to AI-driven Manipulation was already present. Reactive Writers and Biased AI have only Advait among the known lab roster, so were not promoted to the lab review list. |
+| Cheng Li | [Scholar](https://scholar.google.com/citations?user=083GCIwAAAAJ&hl=en&sortby=pubdate) | VEglue; Seeing is believing; CultureVLM (2025) | No 2026 entry visible. No additional two-lab-author match verified. Same-name OpenAlex records require per-paper verification. |
+| Deniz Nazar | [Scholar](https://scholar.google.com/citations?user=ZxQO6oMAAAAJ&hl=en&sortby=pubdate) | Beyond One Output; NLP for Social Good (2026); a 2023 paper | Beyond One Output has Deniz with Emily Reif, Cindy Yang, Jena Hwang, Noah Smith, and Jeff Heer; no second known lab author. No additional lab candidate verified. |
+| Inna Lin | [Scholar](https://scholar.google.com/citations?user=LRrRtfwAAAAJ&hl=en&sortby=pubdate) | Muse Spark Safety & Preparedness Report (2026); Self-Improving VLM Judges Without Human Annotations (2025) | Recovered Tim's split identity on Self-Improving VLM Judges. CandorMD was found on Tim's profile but absent from Inna's visible list. The full Muse Spark author list contains no second known lab member. |
+| Margaret Li | [Scholar](https://scholar.google.com/citations?user=cUSS3fYAAAAJ&hl=en&sortby=pubdate) | Slicing and Dicing; Compute-Optimal Tokenization; Artificial Hivemind (Scholar: 2026) | Artificial Hivemind includes past member Mickel Liu, verified from arXiv. Full author lists for Compute Optimal Tokenization, FlexOlmo and Precise Information Control contain no second known lab member. |
+
+## Recovered candidates and primary evidence
+
+- **SynthWorlds** — Ken Gu, Advait Bhat, Mike Merrill and Tim Althoff appear in the [ICLR 2026 proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b213d870740582dd6af77bbdaed900c9-Abstract-Conference.html). No matching OpenAlex work found; retained separately without inventing an ID.
+- **Inferring Events from Time Series using Language Models** — Mike Merrill and Tim; [ACL 2026 proceedings](https://aclanthology.org/2026.acl-long.157/).
+- **CandorMD** — Inna and Tim; [arXiv](https://arxiv.org/abs/2605.20701). Two OpenAlex records share this arXiv identifier and are grouped.
+- **Self-Improving VLM Judges Without Human Annotations** — Inna and Tim; [arXiv](https://arxiv.org/abs/2512.05145).
+- **RADAR** — Ken and Tim; [Google Research publication record](https://research.google/pubs/radar-benchmarking-language-models-on-imperfect-tabular-data/), [arXiv](https://arxiv.org/abs/2506.08249). Use NeurIPS 2025 pending review, despite Scholar displaying 2026.
+- **Artificial Hivemind** — Margaret and Mickel; [arXiv full author list](https://arxiv.org/abs/2510.22954). Use NeurIPS 2025 pending review, despite Scholar displaying 2026.
+- **Transforming wearable data into personal health insights using large language model agents** — Mike Merrill and Tim; [Nature Communications, January 2026](https://www.nature.com/articles/s41467-025-67922-y). The [2024 preprint](https://arxiv.org/abs/2406.06464) reports acceptance to Nature Communications and has the same full author list and PHIA study; grouped with the journal record.
+
+## Duplicate handling
+
+The recent list contains one Reddit Rules and Rulers item, one CandorMD item, and one item for each verified preprint/publication pair. [Capable language models can outgrow the benefits of collaboration](https://www.nature.com/articles/s42256-026-01268-y) explicitly links [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) as its preprint, despite the changed title.
+
+Automatic grouping uses matching DOI/arXiv IDs or matching normalized titles and complete author lists. It does not use fuzzy title similarity. Dataset versions, author responses, corrections and errata need shared identifiers or explicit evidence. Manually verified groups keep their sources and reasons in `review.json`. Rejected or deferred canonical items continue to suppress alternate versions.
+
+## Remaining coverage work
+
+- Additional full-author checks found only one known lab member in [Responsible Evaluation of AI for Mental Health](https://arxiv.org/abs/2602.00065), [Muse Spark](https://arxiv.org/abs/2606.12429), [Compute Optimal Tokenization](https://arxiv.org/abs/2605.01188), [FlexOlmo](https://arxiv.org/abs/2507.07024), and [Precise Information Control](https://arxiv.org/abs/2506.06589). [Standardizing and Scaffolding Healthcare AI-Chatbot Evaluation](https://www.medrxiv.org/content/10.1101/2024.07.21.24310774v1) lists Michael Lingzhi Li, not Margaret. Other abbreviated lists remain unverified; the check does not establish exhaustive coverage.
+- Confirm historical membership dates and whether each candidate belongs to the lab. Authorship alone is a candidate filter, not permission to publish.
+- Audit additional split author IDs before enabling broader automated discovery. New aliases are verified on cited works only and use `discover: false`; the weekly schedule remains disabled.
+- Scholar is a manual coverage cross-check. The automated collector remains OpenAlex, with primary-source/manual entries for gaps.
