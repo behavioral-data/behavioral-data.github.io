@@ -20992,29 +20992,29 @@
       "base": {},
       "changes": {
         "title": "Human Decision-making is Susceptible to AI-driven Manipulation",
-        "authors": "Sahand Sabour and June M. Liu and Siyang Liu and Yao, Chris Z. and Shiyao Cui and Xuanming Zhang and Wen Zhang and Yaru Cao and Advait Bhat and Jinan Guan and Wei Wu and Rada Mihalcea and Wang, Hongning and Tim Althoff and Tatia M. C. Lee and Minlie Huang",
+        "authors": "Sahand Sabour and June M. Liu and Siyang Liu and Chris Z. Yao and Shiyao Cui and Xuanming Zhang and Wen Zhang and Yaru Cao and Advait Bhat and Jian Guan and Wei Wu and Rada Mihalcea and Hongning Wang and Tim Althoff and Tatia M.C. Lee and Minlie Huang",
         "authorNames": [
           "Sahand Sabour",
           "June M. Liu",
           "Siyang Liu",
-          "Yao, Chris Z.",
+          "Chris Z. Yao",
           "Shiyao Cui",
           "Xuanming Zhang",
           "Wen Zhang",
           "Yaru Cao",
           "Advait Bhat",
-          "Jinan Guan",
+          "Jian Guan",
           "Wei Wu",
           "Rada Mihalcea",
-          "Wang, Hongning",
+          "Hongning Wang",
           "Tim Althoff",
-          "Tatia M. C. Lee",
+          "Tatia M.C. Lee",
           "Minlie Huang"
         ],
         "year": 2025,
         "venue": "arXiv (Cornell University)",
         "doi": "10.48550/arxiv.2502.07663",
-        "url": "http://arxiv.org/abs/2502.07663",
+        "url": "https://arxiv.org/abs/2502.07663",
         "status": "preprint",
         "openalexId": "W4407425790",
         "type": "preprint"
@@ -21050,7 +21050,7 @@
           "https://arxiv.org/abs/2502.07663",
           "https://behavioral-data.github.io/team/"
         ],
-        "overrideReason": "Primary arXiv record verifies Tim Althoff and Advait Bhat; the maintainer approved preprint inclusion and the public lab roster verifies Advait's lab membership, whose dates are not encoded.",
+        "overrideReason": "Primary arXiv record verifies Tim Althoff and Advait Bhat; the maintainer approved preprint inclusion and the public lab roster verifies Advait lab membership, whose dates are not encoded.",
         "reviewedOn": "2026-09-09"
       }
     },
@@ -21605,7 +21605,7 @@
         "url": "https://doi.org/10.1609/icwsm.v19i1.35863",
         "status": "published",
         "openalexId": "W4411121032",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -21640,7 +21640,7 @@
           "https://ojs.aaai.org/index.php/ICWSM/article/view/35863",
           "https://behavioral-data.github.io/moderator_perceptions_public/"
         ],
-        "overrideReason": "Official ICWSM record verifies Tim Althoff and Galen Weld; the maintainer approved inclusion and the lab project site establishes the work as a Behavioral Data Science publication.",
+        "overrideReason": "Official ICWSM proceedings verify Tim Althoff and Galen Weld; the maintainer approved inclusion and the lab project site establishes the work as a Behavioral Data Science publication.",
         "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
@@ -24230,7 +24230,7 @@
         "url": "https://doi.org/10.1609/icwsm.v20i1.42762",
         "status": "published",
         "openalexId": "W4416863183",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -24265,7 +24265,7 @@
           "https://ojs.aaai.org/index.php/ICWSM/article/view/42762",
           "https://behavioral-data.github.io/team/"
         ],
-        "overrideReason": "Proceedings record verifies Tim Althoff and Galen Weld; the maintainer approved inclusion and the public lab roster verifies Galen as a past lab member, while exact membership dates are not encoded.",
+        "overrideReason": "Official ICWSM proceedings verify Tim Althoff and Galen Weld; the maintainer approved inclusion and the public lab roster verifies Galen as a past lab member, while exact membership dates are not encoded.",
         "reviewedOn": "2026-09-09"
       }
     },
@@ -24462,13 +24462,13 @@
           "Tim Althoff",
           "Marjan Ghazvininejad"
         ],
-        "year": 2025,
-        "venue": "arXiv (Cornell University)",
-        "doi": "10.48550/arxiv.2512.05145",
-        "url": "http://arxiv.org/abs/2512.05145",
-        "status": "preprint",
+        "year": 2026,
+        "venue": "ICLR 2026 Workshop on Recursive Self-Improvement",
+        "doi": "",
+        "url": "https://openreview.net/forum?id=8hYSvUpJBA",
+        "status": "accepted",
         "openalexId": "W4417141639",
-        "type": "preprint"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -24498,10 +24498,12 @@
           "timalthoff"
         ],
         "evidenceUrls": [
+          "https://recursive-workshop.github.io/papers.html",
+          "https://openreview.net/forum?id=8hYSvUpJBA",
           "https://arxiv.org/abs/2512.05145",
           "https://behavioral-data.github.io/team/"
         ],
-        "overrideReason": "Primary arXiv record verifies Tim Althoff and Inna Wanyin Lin; the maintainer approved preprint inclusion and the public lab roster verifies Inna's lab membership, whose dates are not encoded.",
+        "overrideReason": "The official ICLR workshop list and OpenReview identify the accepted poster, arXiv verifies Tim Althoff and Inna Wanyin Lin, and the public lab roster verifies Inna lab membership while exact dates are not encoded.",
         "reviewedOn": "2026-09-09"
       }
     },
@@ -24627,7 +24629,7 @@
       "base": {},
       "changes": {
         "title": "RADAR: Benchmarking Language Models on Imperfect Tabular Data",
-        "authors": "Ken Gu and Zhihan Zhang and Kate Lin and Yuwei Zhang and Akshay Paruchuri and Hong Yu and Mehran Kazemi and Kumar Ayush and A. Ali Heydari and Maxwell A. Xu and Girish Narayanswamy and Yun Liu and Ming-Zher Poh and Yuzhe Yang and Mark Malhotra and Shwetak Patel and Hamid Palangi and Xuhai Xu and Daniel McDuff and Tim Althoff and Xin Liu",
+        "authors": "Ken Gu and Zhihan Zhang and Kate Lin and Yuwei Zhang and Akshay Paruchuri and Hong Yu and Mehran Kazemi and Kumar Ayush and A. Ali Heydari and Max Xu and Yun Liu and Ming-Zher Poh and Yuzhe Yang and Mark Malhotra and Shwetak Patel and Hamid Palangi and Xuhai \"Orson\" Xu and Daniel McDuff and Tim Althoff and Xin Liu",
         "authorNames": [
           "Ken Gu",
           "Zhihan Zhang",
@@ -24638,15 +24640,14 @@
           "Mehran Kazemi",
           "Kumar Ayush",
           "A. Ali Heydari",
-          "Maxwell A. Xu",
-          "Girish Narayanswamy",
+          "Max Xu",
           "Yun Liu",
           "Ming-Zher Poh",
           "Yuzhe Yang",
           "Mark Malhotra",
           "Shwetak Patel",
           "Hamid Palangi",
-          "Xuhai Xu",
+          "Xuhai \"Orson\" Xu",
           "Daniel McDuff",
           "Tim Althoff",
           "Xin Liu"
@@ -24657,7 +24658,7 @@
         "url": "https://doi.org/10.52202/085713-3699",
         "status": "published",
         "openalexId": "W4417255562",
-        "type": "article"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -24687,10 +24688,11 @@
           "timalthoff"
         ],
         "evidenceUrls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a0434f04b6437e875d52d0b0e25c1729-Abstract-Datasets_and_Benchmarks_Track.html",
           "https://arxiv.org/abs/2506.08249",
           "https://www.kenqgu.com/"
         ],
-        "overrideReason": "Primary arXiv record verifies Tim Althoff and Ken Gu and identifies the NeurIPS publication; the maintainer approved inclusion and Ken's profile verifies the advising relationship with Tim.",
+        "overrideReason": "Official NeurIPS proceedings verify the final author list and Tim Althoff with Ken Gu; the maintainer approved inclusion and the Ken Gu public profile verifies the advising relationship with Tim.",
         "reviewedOn": "2026-09-09"
       }
     },
@@ -25478,7 +25480,7 @@
       "base": {},
       "changes": {
         "title": "Transforming wearable data into personal health insights using large language model agents",
-        "authors": "Mike A. Merrill and Akshay Paruchuri and Naghmeh Rezaei and Geza Kovacs and Javier Perez and Yun Liu and Erik Schenck and Nova Hammerquist and Jake Sunshine and Shyam Tailor and Kumar Ayush and Hao-Wei Su and Qian He and Cory Y. McLean and Mark Malhotra and Shwetak Patel and Jiening Zhan and Tim Althoff and Daniel McDuff and Yi Liu",
+        "authors": "Mike A. Merrill and Akshay Paruchuri and Naghmeh Rezaei and Geza Kovacs and Javier Perez and Yun Liu and Erik Schenck and Nova Hammerquist and Jake Sunshine and Shyam Tailor and Kumar Ayush and Hao-Wei Su and Qian He and Cory Y. McLean and Mark Malhotra and Shwetak Patel and Jiening Zhan and Tim Althoff and Daniel McDuff and Xin Liu",
         "authorNames": [
           "Mike A. Merrill",
           "Akshay Paruchuri",
@@ -25499,7 +25501,7 @@
           "Jiening Zhan",
           "Tim Althoff",
           "Daniel McDuff",
-          "Yi Liu"
+          "Xin Liu"
         ],
         "year": 2026,
         "venue": "Nature Communications",
@@ -28023,7 +28025,7 @@
         "url": "https://aclanthology.org/2026.acl-long.157/",
         "status": "published",
         "openalexId": "W7166852917",
-        "type": "article"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -28056,7 +28058,7 @@
           "https://aclanthology.org/2026.acl-long.157/",
           "https://mikemerrill.io/"
         ],
-        "overrideReason": "ACL Anthology verifies Tim Althoff and Mike Merrill; the maintainer approved inclusion and Mike's public biography verifies that Tim advised his UW PhD, while exact lab membership dates are not encoded.",
+        "overrideReason": "ACL Anthology verifies Tim Althoff and Mike Merrill; the maintainer approved inclusion and the Mike Merrill public biography verifies that Tim advised his UW PhD, while exact lab membership dates are not encoded.",
         "reviewedOn": "2026-09-09"
       }
     },
@@ -28108,7 +28110,7 @@
       "base": {},
       "changes": {
         "title": "Capable language models can outgrow the benefits of collaboration",
-        "authors": "Yubin Kim and Ken Gu and Chanwoo Park and Chunjong Park and Samuel Schmidgall and A. Ali Heydari and Yao Yan and Zhihan Zhang and Yuchen Zhuang and Liu Y and Mark Malhotra and Paul Pu Liang and Hae Won Park and Yuzhe Yang and Xuhai Xu and Yilun Du and Shwetak Patel and Tim Althoff and Daniel McDuff and Xin Liu",
+        "authors": "Yubin Kim and Ken Gu and Chanwoo Park and Chunjong Park and Samuel Schmidgall and A. Ali Heydari and Yao Yan and Zhihan Zhang and Yuchen Zhuang and Yun Liu and Mark Malhotra and Paul Pu Liang and Hae Won Park and Yuzhe Yang and Xuhai Xu and Yilun Du and Shwetak Patel and Tim Althoff and Daniel McDuff and Xin Liu",
         "authorNames": [
           "Yubin Kim",
           "Ken Gu",
@@ -28119,7 +28121,7 @@
           "Yao Yan",
           "Zhihan Zhang",
           "Yuchen Zhuang",
-          "Liu Y",
+          "Yun Liu",
           "Mark Malhotra",
           "Paul Pu Liang",
           "Hae Won Park",
@@ -28172,7 +28174,7 @@
           "https://www.nature.com/articles/s42256-026-01268-y",
           "https://www.kenqgu.com/"
         ],
-        "overrideReason": "Publisher record verifies Tim Althoff and Ken Gu; the maintainer approved inclusion and Ken's public profile verifies his UW PhD advising relationship with Tim, while exact lab membership dates are not encoded.",
+        "overrideReason": "Publisher record verifies Tim Althoff and Ken Gu; the maintainer approved inclusion and the Ken Gu public profile verifies his UW PhD advising relationship with Tim, while exact lab membership dates are not encoded.",
         "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
