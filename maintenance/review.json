@@ -24537,36 +24537,37 @@
       "base": {},
       "changes": {
         "title": "RADAR: Benchmarking Language Models on Imperfect Tabular Data",
-        "authors": "Ken Gu and Z.H. Zhang and Kate Lin and Yuwei Zhang and Akshay Paruchuri and Hongfang Yu and Mehran Kazemi and Kumar Ayush and A. Ali Heydari and Maxwell A. Xu and Yun Liu and Ming‐Zher Poh and Yuzhe Yang and Mark Malhotra and Shwetak Patel and Hamid Palangi and Xuhai &quot;Orson&quot; Xu and Daniel McDuff and Tim Althoff and Xin Liu",
+        "authors": "Ken Gu and Zhihan Zhang and Kate Lin and Yuwei Zhang and Akshay Paruchuri and Hong Yu and Mehran Kazemi and Kumar Ayush and A. Ali Heydari and Maxwell A. Xu and Girish Narayanswamy and Yun Liu and Ming-Zher Poh and Yuzhe Yang and Mark Malhotra and Shwetak Patel and Hamid Palangi and Xuhai Xu and Daniel McDuff and Tim Althoff and Xin Liu",
         "authorNames": [
           "Ken Gu",
-          "Z.H. Zhang",
+          "Zhihan Zhang",
           "Kate Lin",
           "Yuwei Zhang",
           "Akshay Paruchuri",
-          "Hongfang Yu",
+          "Hong Yu",
           "Mehran Kazemi",
           "Kumar Ayush",
           "A. Ali Heydari",
           "Maxwell A. Xu",
+          "Girish Narayanswamy",
           "Yun Liu",
-          "Ming‐Zher Poh",
+          "Ming-Zher Poh",
           "Yuzhe Yang",
           "Mark Malhotra",
           "Shwetak Patel",
           "Hamid Palangi",
-          "Xuhai &quot;Orson&quot; Xu",
+          "Xuhai Xu",
           "Daniel McDuff",
           "Tim Althoff",
           "Xin Liu"
         ],
         "year": 2025,
-        "venue": "",
+        "venue": "NeurIPS",
         "doi": "10.52202/085713-3699",
         "url": "https://doi.org/10.52202/085713-3699",
         "status": "published",
         "openalexId": "W4417255562",
-        "type": "other"
+        "type": "article"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -27882,12 +27883,12 @@
           "Thomas Hartvigsen"
         ],
         "year": 2026,
-        "venue": "",
+        "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "doi": "10.18653/v1/2026.acl-long.157",
-        "url": "https://doi.org/10.18653/v1/2026.acl-long.157",
+        "url": "https://aclanthology.org/2026.acl-long.157/",
         "status": "published",
         "openalexId": "W7166852917",
-        "type": "other"
+        "type": "article"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -28417,7 +28418,7 @@
       "base": {},
       "changes": {
         "title": "Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)",
-        "authors": "Liwei Jiang and Yuanjun Chai and Margaret Li and Mickel Liu and Raymond Fok and Nouha Dziri and Yulia Tsvetkov and Maarten Sap and Yejin Choi",
+        "authors": "Liwei Jiang and Yuanjun Chai and Margaret Li and Mickel Liu and Raymond Fok and Nouha Dziri and Yulia Tsvetkov and Maarten Sap and Alon Albalak and Yejin Choi",
         "authorNames": [
           "Liwei Jiang",
           "Yuanjun Chai",
@@ -28427,15 +28428,16 @@
           "Nouha Dziri",
           "Yulia Tsvetkov",
           "Maarten Sap",
+          "Alon Albalak",
           "Yejin Choi"
         ],
         "year": 2025,
-        "venue": "",
+        "venue": "NeurIPS",
         "doi": "10.52202/085713-2732",
         "url": "https://doi.org/10.52202/085713-2732",
         "status": "published",
         "openalexId": "W7196961304",
-        "type": "other"
+        "type": "article"
       },
       "possibleDuplicates": [],
       "conflicts": [],

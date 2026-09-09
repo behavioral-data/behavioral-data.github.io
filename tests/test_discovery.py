@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from discovery import OpenAlex, collect, merge_candidates, normalize, read, run, save, validate_authors
 from review import decide
 from monitor import problems
+from render_recent_review import render as render_recent
 
 WORK = json.loads((ROOT / 'tests/fixtures/openalex.json').read_text())[0]
 AUTHORS = [{'personId':'p1','openalexId':'A123456','verified':True,'verifiedOn':'2024-01-01','sourceUrl':'https://example.org/person'}]
@@ -168,6 +169,19 @@ class DiscoveryTests(unittest.TestCase):
             with self.assertRaises(ValueError):decide(root,'openalex-w123456','accept',['p1','tim'])
             self.assertEqual(before,(root/'content/publications.json').read_bytes())
             self.assertEqual(read(root/'maintenance/review.json')['candidates'][0]['status'],'pending')
+
+    def test_recent_review_displays_reviewer_metadata_corrections(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);prepare_root(root);q=self.review_queue(root)
+            candidate=q['candidates'][0]
+            candidate['observed']['year']=datetime.now().year
+            candidate['changes']['year']=datetime.now().year
+            candidate['changes']['venue']='Verified Proceedings'
+            save(root/'maintenance/review.json',q)
+            save(root/'maintenance/scholar-profiles.json',[{'checkedOn':'2026-01-01'}])
+            rendered=render_recent(root)
+            self.assertIn(f'**Year:** {datetime.now().year} · **Venue:** Verified Proceedings',rendered)
+            self.assertIn('**Reviewer-corrected metadata:** venue.',rendered)
 
     def test_health_detects_missed_runs_failures_and_overdue_reviews(self):
         cfg={'maxRunAgeDays':9,'maxReviewAgeDays':14};now=datetime(2026,3,20,tzinfo=timezone.utc)

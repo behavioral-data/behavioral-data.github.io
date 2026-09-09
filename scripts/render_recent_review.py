@@ -35,13 +35,18 @@ def render(root=ROOT):
              'Rule: at least two lab authors, including Tim plus a current or past member. Confirm membership at the time of the work and whether it belongs to the lab. Duplicate versions appear under one item; source records remain available.', '',
              f'Google Scholar profiles last checked: {scholar_checked}. See `_planning/SCHOLAR_LATEST_REVIEW.md` for coverage and remaining uncertainties.', '']
     for n, c in enumerate(selected, 1):
-        p = c['observed']
+        observed = c['observed']
+        p = {**observed, **c.get('changes', {})}
+        corrected = sorted(field for field in c.get('changes', {})
+                           if c['changes'][field] != observed.get(field))
         names = [people[i]['name'] for i in c['matchedPersonIds']]
         lines += [f"## {n}. {clean(p['title'])}", '',
                   f"**Year:** {p['year']} · **Venue:** {clean(p.get('venue') or 'Not specified')}", '',
                   '**Matched lab coauthors:** ' + ', '.join(names), '',
                   '**Full author list:** ' + '; '.join(clean(a) for a in p['authorNames']), '',
                   f"[Paper]({p['url']}) · [Source record]({c['sourceUrl']})", '']
+        if corrected:
+            lines += ['**Reviewer-corrected metadata:** ' + ', '.join(corrected) + '.', '']
         for alternate in c.get('alternateRecordIds', []):
             other = by_id[alternate]
             lines += [f"Other version: [{clean(other['observed']['title'])}]({other['observed']['url']}) ({other['observed']['year']}).", '']

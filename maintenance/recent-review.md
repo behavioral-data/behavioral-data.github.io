@@ -64,13 +64,15 @@ Candidate ID: `openalex-w4416863183`
 
 ## 4. Inferring Events from Time Series using Language Models
 
-**Year:** 2026 · **Venue:** Not specified
+**Year:** 2026 · **Venue:** Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
 **Matched lab coauthors:** Mike Merrill, Tim Althoff
 
 **Full author list:** Mingtian Tan; Mike A. Merrill; Zachary Gottesman; Tim Althoff; David Evans; Thomas Hartvigsen
 
-[Paper](https://doi.org/10.18653/v1/2026.acl-long.157) · [Source record](https://openalex.org/W7166852917)
+[Paper](https://aclanthology.org/2026.acl-long.157/) · [Source record](https://openalex.org/W7166852917)
+
+**Reviewer-corrected metadata:** type, url, venue.
 
 **Needs checking:** lab attribution and membership dates.
 
@@ -116,13 +118,15 @@ Candidate ID: `openalex-w7122726170`
 
 ## 7. Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
 
-**Year:** 2025 · **Venue:** Not specified
+**Year:** 2025 · **Venue:** NeurIPS
 
 **Matched lab coauthors:** Margaret Li, Mickel Liu
 
-**Full author list:** Liwei Jiang; Yuanjun Chai; Margaret Li; Mickel Liu; Raymond Fok; Nouha Dziri; Yulia Tsvetkov; Maarten Sap; Yejin Choi
+**Full author list:** Liwei Jiang; Yuanjun Chai; Margaret Li; Mickel Liu; Raymond Fok; Nouha Dziri; Yulia Tsvetkov; Maarten Sap; Alon Albalak; Yejin Choi
 
 [Paper](https://doi.org/10.52202/085713-2732) · [Source record](https://openalex.org/W7196961304)
+
+**Reviewer-corrected metadata:** authorNames, authors, type, venue.
 
 **Year discrepancy:** Scholar displays 2026; the conference record is NeurIPS 2025. Keep the conference year unless review establishes otherwise.
 
@@ -188,13 +192,15 @@ Candidate ID: `openalex-w4415250179`
 
 ## 11. RADAR: Benchmarking Language Models on Imperfect Tabular Data
 
-**Year:** 2025 · **Venue:** Not specified
+**Year:** 2025 · **Venue:** NeurIPS
 
 **Matched lab coauthors:** Ken Gu, Tim Althoff
 
-**Full author list:** Ken Gu; Z.H. Zhang; Kate Lin; Yuwei Zhang; Akshay Paruchuri; Hongfang Yu; Mehran Kazemi; Kumar Ayush; A. Ali Heydari; Maxwell A. Xu; Yun Liu; Ming‐Zher Poh; Yuzhe Yang; Mark Malhotra; Shwetak Patel; Hamid Palangi; Xuhai &quot;Orson&quot; Xu; Daniel McDuff; Tim Althoff; Xin Liu
+**Full author list:** Ken Gu; Zhihan Zhang; Kate Lin; Yuwei Zhang; Akshay Paruchuri; Hong Yu; Mehran Kazemi; Kumar Ayush; A. Ali Heydari; Maxwell A. Xu; Girish Narayanswamy; Yun Liu; Ming-Zher Poh; Yuzhe Yang; Mark Malhotra; Shwetak Patel; Hamid Palangi; Xuhai Xu; Daniel McDuff; Tim Althoff; Xin Liu
 
 [Paper](https://doi.org/10.52202/085713-3699) · [Source record](https://openalex.org/W4417255562)
+
+**Reviewer-corrected metadata:** authorNames, authors, type, venue.
 
 **Year discrepancy:** Scholar displays 2026; the conference record is NeurIPS 2025. Keep the conference year unless review establishes otherwise.
 
