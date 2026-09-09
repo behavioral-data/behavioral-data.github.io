@@ -1,4 +1,4 @@
-import { formatDate, opportunities, people, safeUrl } from '@/lib/content';
+import { opportunities, people, safeUrl } from '@/lib/content';
 import { openOpportunities } from '@/lib/relationships.mjs';
 import ReactMarkdown from 'react-markdown';
 import PageHeading from '@/components/page-heading';
@@ -15,10 +15,6 @@ export default function Join() {
     {open.length > 0 ? <div className="opportunity-grid">{open.map(opportunity => {
       const owner = people.find(person => person.id === opportunity.ownerId);
       return <article className="opportunity-card" key={opportunity.id}>
-        <div className="opportunity-card-header">
-          <span className="opportunity-status">Open</span>
-          {opportunity.reviewedOn && <span className="opportunity-reviewed">Last verified {formatDate(opportunity.reviewedOn)}</span>}
-        </div>
         <h2>{opportunity.title}</h2>
         {owner && <p className="opportunity-owner">Faculty lead: {owner.name}</p>}
         {opportunity.description && <div className="opportunity-description"><ReactMarkdown>{opportunity.description}</ReactMarkdown></div>}
