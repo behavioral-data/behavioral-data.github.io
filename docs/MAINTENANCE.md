@@ -2,9 +2,13 @@
 
 ## Status
 
-The React site is live at <https://behavioral-data.github.io/> from the `master` branch. The current roster, initial Scholar profiles, author identities, and first reviewed OpenAlex batch are configured. Scheduled discovery remains disabled pending reviewer ownership and the maintenance pilot. No live IdioFid signup test has been submitted.
+The React site is live at <https://behavioral-data.github.io/> from the `master` branch. The nine current discovery identities and reviewed inclusive membership years are configured. The isolated live pilot passed; scheduled discovery remains disabled pending review safeguards, alert routing, and independent monitoring. No live IdioFid signup test has been submitted.
 
 The site stays static: React/Next.js renders JSON and Markdown at build time. Python's standard library handles discovery and decisions. GitHub provides contribution forms, review branches, checks, artifacts, and deployment. There is no admin service or database to maintain.
+
+Primary maintainer: [advaitmb](https://github.com/advaitmb), confirmed September 10, 2026. Backup maintainer and failure-alert destination are not yet assigned. Production deployment remains manual. The maintainer has deferred the live IdioFid signup test; do not submit a test address until that task is resumed.
+
+Current evidence: [issue status](../_planning/NEXT_STEPS.md), [final QA](../_planning/FINAL_QA.md), and [isolated pilot / weekly log](../_planning/MAINTENANCE_PILOT.md).
 
 ## Normal development
 
@@ -34,8 +38,8 @@ The repository skill at `.agents/skills/publication-review/SKILL.md` defines the
 python3 scripts/publication_pipeline.py status
 ```
 
-1. Review the initial identities in `maintenance/authors.json` and resolve mixed/split author records and historical membership dates. The attribution rule requires Tim plus at least one other lab author. Qualifying preprints are included with visible preprint labels. See [Publication policy](PUBLICATION_POLICY.md).
-2. Set `enabled: true` in `maintenance/config.json` in a reviewed PR. Keep it false during the skeleton/content preparation phase.
+1. Review the identities in `maintenance/authors.json` and use `maintenance/membership-evidence.json` for inclusive year-level membership. Do not infer omitted dates or current affiliation from a null end. Reassess after evidence changes; the pipeline preserves historical decision receipts. The attribution rule requires Tim plus at least one other lab author. Qualifying preprints are included with visible preprint labels. See [Publication policy](PUBLICATION_POLICY.md).
+2. Set `enabled: true` in `maintenance/config.json` in a reviewed PR after completing the activation checklist in the pilot log. Keep the repository gate false during isolated tests; enable only the temporary copy for those runs.
 3. Run `python3 scripts/publication_pipeline.py collect` locally. `OPENALEX_API_KEY` is optional and read only from the environment. Check current provider access/budget before enabling scheduled retrieval.
 4. Start with `maintenance/recent-review.md` for recent potentially relevant papers, then inspect `maintenance/batch.md` and `maintenance/review.json`. Candidates show public evidence, matched identities, proposed fields, possible duplicates and manual/source conflicts. The site content has not changed.
 5. Record decisions with the CLI. Substitute actual candidate and person IDs:
@@ -66,7 +70,7 @@ After the content and identity pass, merge the infrastructure to the default bra
 - `maintenance/config.json`: `enabled: true`, lookback, monthly reconciliation interval, per-run request budget, and age thresholds.
 - Repository variable `WEBSITE_MAINTENANCE_ENABLED=true` to enable the collection and health jobs. Both are currently gated off.
 - Optional repository secret `OPENALEX_API_KEY` from a lab-owned account.
-- GitHub repository Actions permission allowing the workflow to create pull requests. Apply branch protection requiring human review and successful checks on the production branch.
+- GitHub repository Actions permission allowing the workflow to create pull requests. Apply branch protection requiring human review and the successful `check` job on the production branch. As of September 10, existing protection has neither required status checks nor required PR reviews. Name an eligible reviewer before requiring approval on maintainer-authored PRs; GitHub does not allow an author to approve their own PR.
 - A primary maintainer and backup to review each weekly batch and receive actionable workflow failures using their GitHub notification settings.
 
 The collector is scheduled weekly and can also be dispatched manually. It starts from the default branch, continues `codex/weekly-publication-review` if it exists, and merges in the default branch without force-pushing or overwriting reviewer edits. Merge conflicts or concurrent remote edits fail visibly rather than discarding work. There is at most one open review PR. It includes both the complete batch and concise recent-review sheet, is created as a draft, and the bot never merges it.
@@ -83,6 +87,8 @@ Configure that external scheduler to alert the primary/backup maintainer on fail
 
 Run two weekly cycles before calling maintenance operational. Record false matches, missed papers, duplicate/version conflicts, failed-provider recovery, and review effort. Keep automatic publication disabled; enabling it would require a new policy decision.
 
+The September 10 isolated pilot retrieved 402 unique works across nine current-member identities and repeated without queue changes. All prior decisions and the approved bibliography remained unchanged. The [pilot log](../_planning/MAINTENANCE_PILOT.md) records exact counts, provider limitations, and the two still-pending actual weekly cycles.
+
 ## Production switch and rollback
 
 `deploy.yml` remains manual. Creating or pushing a migration or review branch does not deploy it.
@@ -92,7 +98,7 @@ Run two weekly cycles before calling maintenance operational. Record false match
 - First React deployment: September 9, 2026, commit [`655d927`](https://github.com/behavioral-data/behavioral-data.github.io/commit/655d92724cf2bccc17adb5324ee4dcb7efcee3ff), [Actions run 34403337235](https://github.com/behavioral-data/behavioral-data.github.io/actions/runs/34403337235).
 - Current Pages mode: GitHub Actions (`build_type: workflow`) on the canonical HTTPS domain <https://behavioral-data.github.io/>.
 - Known-good pre-migration revision: [`d6a7b92`](https://github.com/behavioral-data/behavioral-data.github.io/commit/d6a7b92de79642aee11c2c5bfe60c94588beae79). The prior Pages setting was the legacy publisher using `master` at `/`.
-- Launch verification covered the home, team, publications, one preprint detail, IdioFid, and legacy `allnews.html` and `/vacancies/` routes. A representative publication PDF, the lab logo, `robots.txt`, `sitemap.xml`, and the custom 404 response were also checked on production. The IdioFid form itself still needs one separately authorized live submission.
+- Launch verification covered the home, team, publications, one preprint detail, IdioFid, and legacy `allnews.html` and `/vacancies/` routes. A representative publication PDF, the lab logo, `robots.txt`, `sitemap.xml`, and the custom 404 response were also checked on production. The maintainer deferred the live IdioFid submission on September 10.
 
 1. Run `npm run check` from a clean checkout of the approved `master` commit.
 2. Run **Deploy React website** on `master` and wait for its GitHub Pages deployment job to succeed.
