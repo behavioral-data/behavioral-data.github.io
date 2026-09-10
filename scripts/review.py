@@ -7,7 +7,7 @@ import subprocess
 from discovery import ROOT, MANAGED_FIELDS, read, save, doi, fingerprint, report
 from review_duplicates import group_duplicates
 from render_recent_review import render as render_recent
-from publication_policy import acceptance_review, validate_assessment, validate_policy
+from publication_policy import acceptance_review, load_people, validate_assessment, validate_policy
 
 
 def decide(root, cid, decision, person_ids=None, target_id=None, until=None,
@@ -39,7 +39,7 @@ def decide(root, cid, decision, person_ids=None, target_id=None, until=None,
             'observed': candidate['observed'], 'personIds': candidate['matchedPersonIds']})
         if candidate['fingerprint'] != expected_fingerprint:
             raise ValueError('Candidate source or identity matches were edited; collect again before accepting')
-        people = read(root / 'content/people.json')
+        people = load_people(root)
         known = {p['id'] for p in people}
         if not person_ids or len(person_ids) != len(set(person_ids)) or not set(person_ids) <= known:
             raise ValueError('Acceptance requires explicitly reviewed --person IDs')

@@ -12,7 +12,7 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-from publication_policy import assess, validate_policy
+from publication_policy import assess, load_people, validate_policy
 from review_duplicates import group_duplicates
 from render_recent_review import render as render_recent
 
@@ -270,7 +270,7 @@ def run(root=ROOT, fixture=None, today=None, client=None):
         print('Discovery is disabled. Configure verified identities before enabling it.')
         return
     authors = read(root / 'maintenance/authors.json')
-    people = read(root / 'content/people.json')
+    people = load_people(root)
     validate_authors(authors, people)
     policy_path = root / 'maintenance/publication-policy.json'
     policy = read(policy_path) if policy_path.exists() else None

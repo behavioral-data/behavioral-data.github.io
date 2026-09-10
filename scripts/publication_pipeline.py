@@ -6,7 +6,7 @@ from pathlib import Path
 import subprocess
 
 from discovery import ROOT, read, report, run as collect, save
-from publication_policy import assess, validate_policy
+from publication_policy import assess, load_people, validate_policy
 from review import decide
 from review_duplicates import group_duplicates
 from render_recent_review import render as render_recent
@@ -80,7 +80,7 @@ def print_summary(root=ROOT, as_json=False):
 def reassess(root=ROOT):
     """Apply the current policy to saved observations without contacting a provider."""
     queue = read(root / 'maintenance/review.json')
-    people = read(root / 'content/people.json')
+    people = load_people(root)
     policy = read(root / 'maintenance/publication-policy.json')
     validate_policy(policy, people)
     outdated_accepted = [c['id'] for c in queue['candidates']

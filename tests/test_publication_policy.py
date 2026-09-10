@@ -1,9 +1,13 @@
 import sys
+import copy
+import json
 from pathlib import Path
+import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from publication_policy import acceptance_review, assess, validate_assessment
+from publication_policy import (acceptance_review, assess, load_people,
+                                validate_assessment, validate_recorded_review)
 
 POLICY = {'version': 2, 'piPersonId': 'tim', 'requirePiAuthor': True,
           'minimumLabAuthors': 2, 'preprintPolicy': 'include-labeled'}
@@ -17,6 +21,73 @@ PEOPLE = [
 
 
 class PolicyTests(unittest.TestCase):
+    def test_inclusive_year_boundaries_and_returning_membership_gap(self):
+        people = [{'id': 'returning', 'memberships': [
+            {'start': '2019', 'end': '2022', 'endStatus': 'known'},
+            {'start': '2026', 'end': None, 'endStatus': 'ongoing'}]}]
+        for published, expected in [('2018-12-31', 'does-not-meet-rule'),
+                                    ('2019-01-01', 'meets-rule'),
+                                    ('2022-12-31', 'meets-rule'),
+                                    ('2023', 'does-not-meet-rule'),
+                                    ('2025-12-31', 'does-not-meet-rule'),
+                                    ('2026', 'meets-rule')]:
+            with self.subTest(published=published):
+                self.assertEqual(assess({'publication_date': published},
+                                       ['tim', 'returning'], people, POLICY)['status'], expected)
+        self.assertEqual(assess({'publication_year': 2026}, ['tim', 'returning'],
+                                people, POLICY)['status'], 'meets-rule')
+
+    def test_unknown_end_does_not_mean_ongoing_and_missing_year_requires_review(self):
+        people = [{'id': 'past', 'status': 'member', 'memberships': [
+            {'start': '2019', 'end': None, 'endStatus': 'unknown'}]}]
+        self.assertEqual(assess(WORK, ['tim', 'past'], people, POLICY)['status'],
+                         'needs-membership-review')
+        self.assertEqual(assess({'publication_date': '2018'}, ['tim', 'past'], people,
+                                POLICY)['status'], 'does-not-meet-rule')
+        self.assertEqual(assess({'publication_date': '2025-02-30'}, ['tim', 'past'], people,
+                                POLICY)['status'], 'needs-membership-review')
+
+    def test_reviewed_evidence_overrides_unselected_historical_claims(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'content').mkdir()
+            (root / 'maintenance').mkdir()
+            (root / 'content/people.json').write_text(json.dumps([
+                {'id': 'known'}, {'id': 'omitted', 'memberships': [{'start': '2019-01-01'}]}]))
+            evidence = {'datePrecision': 'year', 'sources': {'cv': {'url': 'https://example.org/cv'}},
+                        'records': [
+                            {'personId': 'known', 'status': 'confirmed', 'periods': [
+                                {'start': '2019', 'end': '2022', 'endStatus': 'known',
+                                 'sourceIds': ['cv']}]},
+                            {'personId': 'omitted', 'status': 'omitted', 'periods': [],
+                             'historicalSourceClaims': [{'reportedPeriod': '2019–2022'}]}]}
+            path = root / 'maintenance/membership-evidence.json'
+            path.write_text(json.dumps(evidence))
+            people = load_people(root)
+            self.assertEqual(people[0]['memberships'][0]['start'], '2019')
+            self.assertEqual(people[1]['memberships'], [])
+            self.assertEqual(assess(WORK, ['tim', 'omitted'], people, POLICY)['status'],
+                             'needs-membership-review')
+            evidence['records'][0]['periods'][0]['sourceIds'] = ['unknown-source']
+            path.write_text(json.dumps(evidence))
+            with self.assertRaisesRegex(ValueError, 'recorded evidence'):
+                load_people(root)
+
+    def test_reassessment_preserves_a_valid_historical_human_decision(self):
+        candidate = {'matchedPersonIds': ['one', 'tim'], 'identityReviewPersonIds': [],
+                     'labRelevance': {'policyVersion': 2, 'status': 'needs-membership-review'},
+                     'reviewedOn': '2026-09-09'}
+        candidate['policyReview'] = {**acceptance_review(
+            candidate, ['one', 'tim'], POLICY, 'Membership confirmed by maintainer',
+            ['https://example.org/evidence']), 'reviewedOn': candidate['reviewedOn']}
+        before = copy.deepcopy(candidate['policyReview'])
+        candidate['labRelevance']['status'] = 'meets-rule'
+        validate_recorded_review(candidate, POLICY)
+        self.assertEqual(candidate['policyReview'], before)
+        candidate['policyReview']['personIds'] = ['one']
+        with self.assertRaises(ValueError):
+            validate_recorded_review(candidate, POLICY)
+
     def status(self, ids, work=WORK):
         return assess(work, ids, PEOPLE, POLICY)['status']
 

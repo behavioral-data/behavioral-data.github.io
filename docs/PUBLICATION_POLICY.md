@@ -4,6 +4,10 @@ Confirmed direction from the lab maintainer, clarified September 9, 2026: Tim mu
 
 For historical attribution, use membership when the work was published, rather than someone's current role. Past members count during their recorded membership interval. Tim is counted as the PI when his verified author identity appears, but never qualifies a paper alone. Unknown membership dates require human review; current status does not establish historical membership. Publication date is a screening proxy for when the work happened. Continuing collaborations after departure, publication delays, and work predating the lab require a documented reviewer judgment.
 
+Screening uses inclusive calendar years from `maintenance/membership-evidence.json`. Joining and leaving years both count; Jina’s separate 2019–2022 and 2026–present periods retain the intervening gap. Omitted ranges, unknown starts, and unknown departure years require review. A null end is open only when explicitly marked ongoing. Source records with only a publication year can be screened without inventing a month or day.
+
+All 66 approved archive entries have explicit profile author links. The 23 remaining imported records were checked against paper title pages and author evidence; see [attribution review](../_planning/ATTRIBUTION_REVIEW.md). Their existing inclusion is preserved, including Tim’s earlier work and historical collaborations. The new-candidate rule does not retrospectively remove approved records. Current screening assessments can change as evidence improves; a recorded human decision retains its original assessment, reason, sources, date, and selected authors.
+
 `maintenance/publication-policy.json` configures the rule. Each discovery candidate receives a `labRelevance` assessment:
 
 - `meets-rule`: Tim and at least one other distinct lab author have supported publication-time membership.
