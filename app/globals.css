@@ -1065,6 +1065,9 @@ h2 + .news-item {
   padding-block: 64px 40px;
 }
 .hero-copy {
+  text-shadow:
+    1px 2px 3px #fff,
+    2px 4px 8px rgb(255 255 255 / 95%);
   position: relative;
   z-index: 1;
   max-width: 760px;
