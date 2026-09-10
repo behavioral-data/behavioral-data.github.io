@@ -106,6 +106,7 @@ h3 {
   top: 10px;
 }
 .sidebar {
+  --brand-width: 108px;
   width: var(--sidebar);
   position: fixed;
   inset: 0 auto 0 0;
@@ -875,7 +876,7 @@ h2 + .news-item {
 
 .lab-brand {
   display: block;
-  width: 108px;
+  width: var(--brand-width);
   max-width: 100%;
   margin-inline: auto;
   flex-shrink: 0;
@@ -887,6 +888,14 @@ h2 + .news-item {
 }
 .brand-caption {
   margin: 18px 0 32px;
+}
+@media (min-width: 761px) {
+  .brand-caption,
+  .sidebar nav {
+    width: var(--brand-width);
+    max-width: 100%;
+    margin-inline: auto;
+  }
 }
 @media (max-width: 760px) {
   .lab-brand {
