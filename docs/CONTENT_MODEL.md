@@ -38,7 +38,9 @@ Verified award tenures and academic-year ranges use `dateLabel: "YYYY–YYYY"`, 
 
 `opportunities.json` is the sole source for the Join us page. Closed, draft, and expired entries remain in the data but are hidden. If none are open, the page renders a neutral empty state rather than a historical recruitment claim. `reviewedOn` is the last human verification date; `reviewOn` is the next date the listing owner should check the record. Expiration is evaluated when the static site is built, so changing a date or reaching a deadline requires a rebuild; the deployment runbook covers this.
 
-Research and Pictures navigation entries appear when their respective collections contain records. Their routes remain valid while empty. No example record is shipped in public content; synthetic test records are isolated under `tests/fixtures/` or temporary directories.
+Research and Pictures navigation entries appear when their respective collections contain records. While empty, the static export redirects Research to Publications, Pictures to Team, and About website to Home, with canonical URLs and visible fallback links. Empty sections are omitted from the sitemap; populated future sections retain their own content. Template attribution remains in repository documentation. No example record is shipped in public content; synthetic test records are isolated under `tests/fixtures/` or temporary directories.
+
+The homepage describes the seven sponsor records as **Past and present support**, confirmed by the maintainer on September 10, 2026. Their presence does not assert that every sponsor is funding the lab currently.
 
 ## Verified discovery identities
 

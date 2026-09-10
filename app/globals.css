@@ -114,6 +114,7 @@ h3 {
   border-right: var(--divider-width) solid var(--divider-color);
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
   background: white;
   z-index: 5;
 }
