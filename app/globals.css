@@ -22,6 +22,8 @@
   --muted: #696674;
   --purple: #4b2e83;
   --line: #e4e1e9;
+  --divider-color: #c8bfd8;
+  --divider-width: 1px;
   --wash: #f5f3f9;
   --paper: #fff;
   --sidebar: 234px;
@@ -108,7 +110,7 @@ h3 {
   position: fixed;
   inset: 0 auto 0 0;
   padding: 47px 32px 30px;
-  border-right: 1px solid var(--line);
+  border-right: var(--divider-width) solid var(--divider-color);
   display: flex;
   flex-direction: column;
   background: white;
@@ -143,6 +145,7 @@ h3 {
   margin-bottom: 12px;
 }
 .site-body {
+  container-type: inline-size;
   margin-left: var(--sidebar);
 }
 main {
@@ -322,27 +325,17 @@ footer {
   color: var(--muted);
   margin: 0;
 }
-.group-highlights > .section-heading {
-  margin-bottom: var(--space-lg);
-}
-.highlight-group + .highlight-group {
-  margin-top: var(--space-xl);
-}
 .highlight-group .section-heading {
   align-items: baseline;
   margin-bottom: var(--space-md);
-}
-.highlight-group .section-heading h3 {
-  margin: 0;
-  font-size: 19px;
 }
 .people-award-highlights {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
 }
-.people-award-highlights h4,
-.group-highlights .paper-card h4 {
+.people-award-highlights h3,
+.highlight-group .paper-card h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
@@ -838,7 +831,7 @@ h2 + .news-item {
 
 .home-page {
   display: grid;
-  gap: var(--space-section);
+  gap: var(--space-xl);
 }
 .home-page > .hero {
   padding: var(--space-xl) 0 0;
@@ -846,15 +839,27 @@ h2 + .news-item {
 .home-page .hero .prose > :last-child {
   margin-bottom: 0;
 }
-.home-page > .people-callout,
-.home-page > .section,
-.home-page > .support {
+.home-page > section {
+  position: relative;
+  min-width: 0;
   margin: 0;
-  padding: 0;
+  padding: var(--space-lg) 0 0;
+}
+.home-page > section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50cqw);
+  width: 100cqw;
+  border-top: var(--divider-width) solid var(--divider-color);
+  pointer-events: none;
 }
 @media (max-width: 760px) {
   .home-page {
-    gap: var(--space-xl);
+    gap: var(--space-lg);
+  }
+  .home-page > section {
+    padding-top: var(--space-md);
   }
   .home-page > .hero {
     padding-top: var(--space-md);

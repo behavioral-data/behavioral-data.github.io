@@ -47,80 +47,86 @@ export default function Home() {
             ))}
         </div>
       </section>
-      <section className="section group-highlights" id="highlights">
-        <div className="section-heading">
-          <h2>Group highlights</h2>
-        </div>
-        {news.length > 0 && (
-          <section className="highlight-group" aria-labelledby="latest-news-heading">
-            <div className="section-heading">
-              <h3 id="latest-news-heading">Latest news</h3>
-              <Link href="/news/">All news</Link>
-            </div>
-            <NewsList news={news.slice(0, 1)} compact />
-          </section>
-        )}
-        {peopleAwards.length > 0 && (
-          <section className="highlight-group" aria-labelledby="people-awards-heading">
-            <div className="section-heading">
-              <h3 id="people-awards-heading">People awards</h3>
-              <Link href="/awards/">All awards</Link>
-            </div>
-            <div className="people-award-highlights">
-              {peopleAwards.map((recipient) => (
-                <article key={recipient.id}>
-                  <h4>
-                    {recipient.personId ? (
-                      <Link href={`/people/${recipient.personId}/`}>{recipient.name}</Link>
-                    ) : (
-                      recipient.name
-                    )}
-                  </h4>
-                  <ul className="recipient-awards">
-                    {recipient.awards.map((award) => (
-                      <li key={award.id}>
-                        <p className="recipient-award-title">
-                          <Link href={`/awards/#${award.id}`}>{award.title}</Link>
-                        </p>
-                        <p className="recipient-award-meta">
-                          <EventDate date={award.date} label={award.dateLabel} /> ·{' '}
-                          {award.organization}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
-        )}
-        {selected.length > 0 && (
-          <section className="highlight-group" aria-labelledby="paper-awards-heading">
-            <div className="section-heading">
-              <h3 id="paper-awards-heading">Paper awards</h3>
-              <Link href="/publications/">All publications</Link>
-            </div>
-            <div className="featured-grid">
-              {selected.map((p) => (
-                <PaperCard key={p.id} paper={p} featured headingLevel={4} />
-              ))}
-            </div>
-          </section>
-        )}
-      </section>
+      {news.length > 0 && (
+        <section
+          className="section highlight-group"
+          id="highlights"
+          aria-labelledby="latest-news-heading"
+        >
+          <div className="section-heading">
+            <h2 id="latest-news-heading">Latest news</h2>
+            <Link href="/news/">See all news</Link>
+          </div>
+          <NewsList news={news.slice(0, 1)} compact />
+        </section>
+      )}
+      {peopleAwards.length > 0 && (
+        <section
+          className="section highlight-group"
+          id="people-awards"
+          aria-labelledby="people-awards-heading"
+        >
+          <div className="section-heading">
+            <h2 id="people-awards-heading">Latest people awards</h2>
+            <Link href="/awards/">See all awards</Link>
+          </div>
+          <div className="people-award-highlights">
+            {peopleAwards.map((recipient) => (
+              <article key={recipient.id}>
+                <h3>
+                  {recipient.personId ? (
+                    <Link href={`/people/${recipient.personId}/`}>{recipient.name}</Link>
+                  ) : (
+                    recipient.name
+                  )}
+                </h3>
+                <ul className="recipient-awards">
+                  {recipient.awards.map((award) => (
+                    <li key={award.id}>
+                      <p className="recipient-award-title">
+                        <Link href={`/awards/#${award.id}`}>{award.title}</Link>
+                      </p>
+                      <p className="recipient-award-meta">
+                        <EventDate date={award.date} label={award.dateLabel} /> ·{' '}
+                        {award.organization}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+      {selected.length > 0 && (
+        <section
+          className="section highlight-group"
+          id="paper-awards"
+          aria-labelledby="paper-awards-heading"
+        >
+          <div className="section-heading">
+            <h2 id="paper-awards-heading">Latest paper awards</h2>
+            <Link href="/awards/">See all awards</Link>
+          </div>
+          <div className="featured-grid">
+            {selected.map((p) => (
+              <PaperCard key={p.id} paper={p} featured headingLevel={3} />
+            ))}
+          </div>
+        </section>
+      )}
       <section className="section" id="publications">
         <div className="section-heading">
-          <h2>Publications</h2>
-          <span className="count">{papers.length} papers</span>
+          <h2>Latest publications</h2>
+          <Link className="text-link" href="/publications/">
+            See all {papers.length} papers
+          </Link>
         </div>
         <div className="paper-list">
           {papers.slice(0, 3).map((p) => (
             <PaperCard key={p.id} paper={p} />
           ))}
         </div>
-        <Link className="text-link" href="/publications/">
-          Full List
-        </Link>
       </section>
       <section className="support">
         <h2>Support From</h2>
