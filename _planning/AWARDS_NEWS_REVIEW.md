@@ -4,7 +4,7 @@ Issue: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issues
 
 The [expanded awards audit](AWARDS_AUDIT.md) covers all 26 people and 66 site publications, with 109 additional candidates and source-access gaps. The maintainer excluded 35 candidates and approved applying the remaining verified honors. The website now includes 59 additional honors (69 total); 15 unresolved records remain deferred. The ten initial records below remain included, with Yasaman’s GLOBEM recipient link corrected.
 
-The homepage combines recent people honors plus Ashish’s ACM and William Chan dissertation awards, the latest news item and two awarded papers. The 2026 news item records Jina’s return as co-PI. The Ken/xAI news item was removed at the maintainer’s request. Year ranges are preserved where the award source specifies a tenure or academic year.
+The homepage combines recent people honors plus Ashish’s ACM and William Chan dissertation awards, the latest news item and two awarded papers. The 2026 news item records Jina’s return as a principal researcher. The Ken/xAI news item was removed at the maintainer’s request. Year ranges are preserved where the award source specifies a tenure or academic year.
 
 ## Paper awards
 
