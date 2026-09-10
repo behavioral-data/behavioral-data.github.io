@@ -1,4 +1,5 @@
 import PersonPhoto from '@/components/person-photo';
+import HeroNetwork from '@/components/hero-network';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 import { papers, people, sponsors, pageContent, awards, news } from '@/lib/content';
@@ -17,10 +18,13 @@ export default function Home() {
   return (
     <div className="home-page">
       <header className="hero" id="home">
-        <h1>Behavioral Data Science Lab</h1>
-        <div className="prose">
-          <ReactMarkdown>{pageContent.home}</ReactMarkdown>
+        <div className="hero-copy">
+          <h1>Behavioral Data Science Lab</h1>
+          <div className="prose">
+            <ReactMarkdown>{pageContent.home}</ReactMarkdown>
+          </div>
         </div>
+        <HeroNetwork />
       </header>
       <section className="people-callout" id="team">
         <div className="section-heading">
