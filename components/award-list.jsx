@@ -1,17 +1,23 @@
 import Link from 'next/link';
-import { people, papers, safeUrl, formatDate } from '@/lib/content';
+import { people, papers, safeUrl } from '@/lib/content';
+import EventDate from '@/components/event-date';
 export default function AwardList({ awards, heading = true }) {
   if (!awards.length) return null;
+  const AwardHeading = heading ? 'h3' : 'h2';
   return (
     <section className="section">
       {heading && <h2>Awards</h2>}
       {awards.map((a) => (
         <article className="news-item" key={a.id} id={a.id}>
-          <time dateTime={a.date}>{formatDate(a.date)}</time>
+          <EventDate date={a.date} label={a.dateLabel} />
           <div>
-            <h3>{a.title}</h3>
+            <AwardHeading className="award-title">{a.title}</AwardHeading>
             <p>{a.organization}</p>
+            {a.recipientLabel && <p>{a.recipientLabel}</p>}
             <ul>
+              {(a.recipientNames || []).map((name) => (
+                <li key={name}>{name}</li>
+              ))}
               {(a.personIds || []).map((id) => (
                 <li key={id}>
                   <Link href={`/people/${id}/`}>{people.find((p) => p.id === id)?.name}</Link>

@@ -3,18 +3,14 @@ export default function PaperCard({ paper, featured = false, headingLevel = 3 })
   const Heading = `h${headingLevel}`;
   return (
     <article className={featured ? 'paper-card featured-paper' : 'paper-card'}>
-      {featured && (
+      {featured && paper.image && (
         <Link
           href={`/publications/${paper.id}/`}
           tabIndex={-1}
           aria-hidden="true"
           className="paper-art"
         >
-          {paper.image ? (
-            <img src={paper.image} alt="" loading="lazy" />
-          ) : (
-            <span>{paper.year}</span>
-          )}
+          <img src={paper.image} alt="" loading="lazy" />
         </Link>
       )}
       <div className="paper-copy">

@@ -54,7 +54,7 @@ Done when the roster and attribution policy are approved and each profile lists 
 
 GitHub: [#23](https://github.com/behavioral-data/behavioral-data.github.io/issues/23)
 
-September 9 publication passes: [seven historical additions](PUBLICATION_BACKFILL_REVIEW.md) bring the local site to 66 papers, and [reconciliation of 24 existing entries](PUBLICATION_RECONCILIATION_REVIEW.md) adds 20 missing DOIs, restores complete author lists and groups five preprint/final pairs. The maintainer declined all nine remaining candidate additions/updates; existing approved entries are preserved. This completes the current review pass. The other 264 pending candidates have not been individually rejected, and exhaustive coverage is not claimed. Next planned issue: #24, awards and news. Margaret’s two papers remain verified preprints until journal records are confirmed. Changes are local, not deployed.
+September 9 publication passes: [seven historical additions](PUBLICATION_BACKFILL_REVIEW.md) bring the local site to 66 papers, and [reconciliation of 24 existing entries](PUBLICATION_RECONCILIATION_REVIEW.md) adds 20 missing DOIs, restores complete author lists and groups five preprint/final pairs. The maintainer declined all nine remaining candidate additions/updates; existing approved entries are preserved. This completes the current review pass. The other 264 pending candidates have not been individually rejected, and exhaustive coverage is not claimed. Next planned issue: #24, awards and news. Margaret’s two papers remain verified preprints until journal records are confirmed. Publication changes were pushed as `3fcf3fb`; production deployment is still separate.
 
 Phase: Before launch. Dependencies: 1.
 
@@ -64,7 +64,7 @@ The migrated archive contains 47 papers spanning 2014–2024. It needs a verifie
 - [ ] Submit candidates for human review with sources, lab-author links, ordered authors, dates, venue, DOI/arXiv IDs, and publication state.
 - [ ] Reconcile preprint/published versions and existing duplicates while retaining stable URLs and editorial descriptions.
 - [ ] Add available PDF, code, dataset, and project links; ordinary papers must not require a local PDF or thumbnail.
-- [ ] Select the latest award-winning papers as homepage highlights (maintainer direction, September 9). Selection is deferred to the award verification in #24; it is not yet complete. Preserve original prose unless a replacement is explicitly approved.
+- [x] Select the latest award-winning papers as homepage highlights (maintainer direction, September 9). The local #24 pass selects the two newest papers linked to verified awards: Perceptions of Moderators and Reddit Rules and Rulers (2025). Existing prose is preserved; the initial backfill awaits review.
 
 Done when an agreed bibliography has been reconciled, omissions or conflicts are recorded, and approved papers appear consistently in the archive and profiles.
 
@@ -74,7 +74,7 @@ GitHub: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issue
 
 Phase: Before launch. Dependencies: 1, 2.
 
-The current site imports three news items and three paper award fields. It has no verified general honors collection.
+The [awards review](AWARDS_NEWS_REVIEW.md) and [expanded audit](AWARDS_AUDIT.md) are applied to local website content: 69 honors total, including 59 additional verified records. All 35 maintainer exclusions remain excluded; 15 candidates are deferred for missing dates, source access or attribution. Yasaman is linked to GLOBEM. The homepage shows the latest two people honors, two news items and two paper awards. Two 2026 news items reflect the maintainer’s updates on Jina and Ken. Review records retain exact sources, decisions and public award IDs. No additional paper awards were eligible. Source-access gaps remain documented for 26 publisher attempts and Twitter/X timelines.
 
 Homepage highlight selection is part of this step: after verifying the awards, choose the latest award-winning papers. This resolves the deferred highlight work from #23.
 

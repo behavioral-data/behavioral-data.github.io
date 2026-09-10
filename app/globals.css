@@ -235,14 +235,15 @@ footer {
 .paper-art:hover img {
   transform: scale(1.025);
 }
-.featured-paper .paper-copy {
+.featured-paper .paper-art + .paper-copy {
   padding-top: 21px;
 }
 .paper-card .eyebrow {
   font-size: 10px;
   letter-spacing: 0.055em;
 }
-.paper-card h3 {
+.paper-card h3,
+.paper-card h4 {
   margin: 12px 0 12px;
   line-height: 1.35;
 }
@@ -475,9 +476,14 @@ footer {
 h2 + .news-item {
   padding-top: 0;
 }
-.news-item time {
+.news-item .event-date {
   font-size: 13px;
   color: var(--muted);
+}
+.news-item .award-title {
+  font-size: 22px;
+  line-height: 1.35;
+  margin-bottom: 12px;
 }
 .news-item p {
   margin: 0;
@@ -887,5 +893,56 @@ h2 + .news-item {
   }
   .opportunity-actions .button {
     width: 100%;
+  }
+}
+
+.group-highlights > .section-heading {
+  margin-bottom: 36px;
+}
+.highlight-group + .highlight-group {
+  margin-top: 44px;
+}
+.highlight-group .section-heading {
+  align-items: baseline;
+  margin-bottom: 22px;
+}
+.highlight-group .section-heading h3 {
+  margin: 0;
+  font-size: 19px;
+}
+.people-award-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+.people-award-highlights h4,
+.group-highlights .paper-card h4 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+.people-award-highlights .event-date {
+  color: var(--muted);
+  font-size: 13px;
+}
+.people-award-highlights p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.people-award-highlights .highlight-recipients {
+  color: var(--purple);
+}
+.highlight-group .news-item {
+  grid-template-columns: 72px minmax(0, 1fr);
+  padding: 14px 0;
+}
+@media (max-width: 760px) {
+  .people-award-highlights {
+    grid-template-columns: 1fr;
+  }
+  .highlight-group .news-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }

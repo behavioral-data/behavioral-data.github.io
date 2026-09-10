@@ -2,7 +2,13 @@
   {
     "date": "2021-06-10",
     "headline": "Tim, Inna, Ashish, and Galen win 4 Best Paper awards at WWW, ICWSM, and NLP4IF!",
-    "id": "news-2"
+    "id": "news-2",
+    "awardIds": [
+      "icwsm-2021-news-sharing",
+      "icwsm-2021-moderation",
+      "nlp4if-2021-deception",
+      "www-2021-empathy"
+    ]
   },
   {
     "date": "2020-11-02",
@@ -13,5 +19,22 @@
     "date": "2020-09-02",
     "headline": "Welcome to our new PhD Students Inna and Ken!",
     "id": "news-1"
+  },
+  {
+    "id": "jina-returns-2026",
+    "date": "2026",
+    "headline": "[Jina Suh](/people/jinasuh/) returned to the lab as a principal researcher and co-PI with [Tim Althoff](/people/timalthoff/).",
+    "personIds": [
+      "jinasuh",
+      "timalthoff"
+    ]
+  },
+  {
+    "id": "ken-xai-2026",
+    "date": "2026",
+    "headline": "[Ken Gu](/people/kengu/) is taking a break from his PhD to join xAI.",
+    "personIds": [
+      "kengu"
+    ]
   }
 ]

@@ -1,1 +1,929 @@
-[]
+[
+  {
+    "id": "cscw-2025-moderators",
+    "title": "Best Paper Honorable Mention",
+    "organization": "ACM CSCW",
+    "date": "2025",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "openalex-w4415250179"
+    ],
+    "sourceUrl": "https://medium.com/acm-cscw/announcing-the-best-of-cscw-2025-a95517e67ba3",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "icwsm-2025-reddit-rules",
+    "title": "Best Paper Award",
+    "organization": "AAAI ICWSM",
+    "date": "2025",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "openalex-w4411121032"
+    ],
+    "sourceUrl": "https://news.cs.washington.edu/2025/09/10/allen-school-researchers-receive-icwsm-best-paper-award-for-analyzing-reddit-rules/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "acl-2023-cognitive-reframing",
+    "title": "Outstanding Paper Award",
+    "organization": "ACL",
+    "date": "2023",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "openalex-w4385572158"
+    ],
+    "sourceUrl": "https://2023.aclweb.org/program/best_papers/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "ubicomp-2023-globem",
+    "title": "Distinguished Paper Award",
+    "organization": "ACM UbiComp / IMWUT",
+    "date": "2023",
+    "personIds": [
+      "yasamansefidgar",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "xu2023globemimwut"
+    ],
+    "sourceUrl": "https://www.ubicomp.org/ubicomp-iswc-2023/awards/ubicomp-iswc-2023-awards/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "nsf-2022-career-althoff",
+    "title": "CAREER Award",
+    "organization": "National Science Foundation",
+    "date": "2022",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://news.cs.washington.edu/2023/06/30/super-8-how-the-allen-schools-nsf-career-award-winning-faculty-are-reimagining-the-future-of-computing/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "icwsm-2021-news-sharing",
+    "title": "Outstanding Paper (Analysis)",
+    "organization": "AAAI ICWSM",
+    "date": "2021",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "Weld_Glenski_Althoff_2021"
+    ],
+    "sourceUrl": "https://icwsm.org/awards/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "icwsm-2021-moderation",
+    "title": "Outstanding Paper (Study Design)",
+    "organization": "AAAI ICWSM",
+    "date": "2021",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "althoffModeration"
+    ],
+    "sourceUrl": "https://icwsm.org/awards/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "nlp4if-2021-deception",
+    "title": "Best Paper Award",
+    "organization": "NLP4IF at NAACL",
+    "date": "2021",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "openalex-w3158487127"
+    ],
+    "sourceUrl": "https://www.pnnl.gov/news-media/pnnl-team-wins-best-paper-two-conferences",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "www-2021-empathy",
+    "title": "Best Paper Award",
+    "organization": "The Web Conference (WWW)",
+    "date": "2021",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "publicationIds": [
+      "sharma2021facilitating"
+    ],
+    "sourceUrl": "https://sigir.org/wp-content/uploads/2021/09/p13.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "sigkdd-2019-dissertation-althoff",
+    "title": "Doctoral Dissertation Award",
+    "organization": "ACM SIGKDD",
+    "date": "2019",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://www.kdd.org/awards/view/2019-sigkdd-dissertation-award-winners",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2023-advaitbhat-gary-marsden-travel-award",
+    "title": "Gary Marsden Travel Award",
+    "organization": "ACM SIGCHI",
+    "date": "2023",
+    "kind": "travel",
+    "personIds": [
+      "advaitbhat"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://advaitmb.com/cv/cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2021-antoniasaravanou-iclr-outstanding-reviewer",
+    "title": "ICLR Outstanding Reviewer",
+    "organization": "ICLR",
+    "date": "2021",
+    "kind": "service",
+    "personIds": [
+      "antoniasaravanou"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://antonia42.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2018-antoniasaravanou-neurips-top-reviewer",
+    "title": "NeurIPS Top Reviewer",
+    "organization": "NeurIPS",
+    "date": "2018",
+    "kind": "service",
+    "personIds": [
+      "antoniasaravanou"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://antonia42.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-ashishsharma-acm-doctoral-dissertation-award",
+    "title": "ACM Doctoral Dissertation Award",
+    "organization": "ACM",
+    "date": "2024",
+    "kind": "dissertation",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://news.cs.washington.edu/2025/06/04/allen-school-ph-d-graduates-ashish-sharma-and-sewon-min-recognized-with-acm-doctoral-dissertation-awards/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2025-ashishsharma-acl-computational-linguistics-doctoral-dissertation-award-honorable-mention",
+    "title": "ACL Computational Linguistics Doctoral Dissertation Award — Honorable Mention",
+    "organization": "Association for Computational Linguistics",
+    "date": "2025",
+    "kind": "dissertation",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://www.aclweb.org/aclwiki/ACL_Computational_Linguistics_Doctoral_Dissertation_Award",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-ashishsharma-william-chan-memorial-dissertation-award",
+    "title": "William Chan Memorial Dissertation Award",
+    "organization": "University of Washington, Allen School",
+    "date": "2024",
+    "kind": "dissertation",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://news.cs.washington.edu/2025/06/04/allen-school-ph-d-graduates-ashish-sharma-and-sewon-min-recognized-with-acm-doctoral-dissertation-awards/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2023-ashishsharma-j-p-morgan-ai-research-phd-fellowship",
+    "title": "J.P. Morgan AI Research PhD Fellowship",
+    "organization": "J.P. Morgan",
+    "date": "2023",
+    "kind": "fellowship",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-ashishsharma-student-par-excellence-award-iit-kharagpur-cse",
+    "title": "Student Par-Excellence Award, IIT Kharagpur CSE",
+    "organization": "IIT Kharagpur",
+    "date": "2019",
+    "kind": "student",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/cv/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-ashishsharma-sigir-travel-grant-for-cikm",
+    "title": "SIGIR travel grant for CIKM",
+    "organization": "ACM SIGIR",
+    "date": "2019",
+    "kind": "travel",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/cv/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2017-ashishsharma-s-n-bose-scholarship",
+    "title": "S.N. Bose Scholarship",
+    "organization": "S.N. Bose Scholars Program",
+    "date": "2017",
+    "kind": "scholarship",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/cv/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2017-ashishsharma-comsnets-travel-grant",
+    "title": "COMSNETS travel grant",
+    "organization": "COMSNETS",
+    "date": "2017",
+    "kind": "travel",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/cv/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2016-ashishsharma-goralal-syngal-memorial-scholarship",
+    "title": "Goralal Syngal Memorial Scholarship",
+    "organization": "Goralal Syngal Memorial Scholarship",
+    "date": "2016",
+    "kind": "scholarship",
+    "personIds": [
+      "ashishsharma"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://ash-shar.github.io/cv/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-chengli-neurips-scholar-award",
+    "title": "NeurIPS Scholar Award",
+    "organization": "NeurIPS",
+    "date": "2024",
+    "kind": "travel",
+    "personIds": [
+      "chengli"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://chengli0228.github.io/assets/pdf/CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-chengli-icml-travel-award",
+    "title": "ICML Travel Award",
+    "organization": "ICML",
+    "date": "2024",
+    "kind": "travel",
+    "personIds": [
+      "chengli"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://chengli0228.github.io/assets/pdf/CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-deniznazarova-allen-school-first-year-phd-fellowship",
+    "title": "Allen School First-Year PhD Fellowship",
+    "organization": "University of Washington, Allen School",
+    "date": "2024",
+    "kind": "fellowship",
+    "personIds": [
+      "deniznazarova"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://gonzoden.github.io/files/CV_Deniz_Nazar_short.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2023-deniznazarova-best-thesis-award-american-university-of-central-asia",
+    "title": "Best Thesis Award, American University of Central Asia",
+    "organization": "American University of Central Asia",
+    "date": "2023",
+    "kind": "dissertation",
+    "personIds": [
+      "deniznazarova"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://gonzoden.github.io/files/CV_Deniz_Nazar_short.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2021-deniznazarova-best-internship-award-american-university-of-central-asia",
+    "title": "Best Internship Award, American University of Central Asia",
+    "organization": "American University of Central Asia",
+    "date": "2021",
+    "kind": "student",
+    "personIds": [
+      "deniznazarova"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://gonzoden.github.io/files/CV_Deniz_Nazar_short.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2018-deniznazarova-golden-certificate-scholarship-kyrgyz-republic",
+    "title": "Golden Certificate Scholarship, Kyrgyz Republic",
+    "organization": "Kyrgyz Republic",
+    "date": "2018",
+    "kind": "scholarship",
+    "personIds": [
+      "deniznazarova"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://gonzoden.github.io/files/CV_Deniz_Nazar_short.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2025-galenweld-uw-data-science-postdoctoral-fellowship",
+    "title": "UW Data Science Postdoctoral Fellowship",
+    "organization": "University of Washington",
+    "date": "2025",
+    "kind": "fellowship",
+    "personIds": [
+      "galenweld"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://galenweld.com/s/galen_weld_cv_for_web_may_2026.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2025–2026"
+  },
+  {
+    "id": "2018-galenweld-gaetano-borriello-endowed-fellowship",
+    "title": "Gaetano Borriello Endowed Fellowship",
+    "organization": "University of Washington, Allen School",
+    "date": "2018",
+    "kind": "fellowship",
+    "personIds": [
+      "galenweld"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://galenweld.com/s/galen_weld_cv_for_web_may_2026.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2018–2019"
+  },
+  {
+    "id": "2022-galenweld-icwsm-best-reviewer",
+    "title": "ICWSM Best Reviewer",
+    "organization": "AAAI ICWSM",
+    "date": "2022",
+    "kind": "service",
+    "personIds": [
+      "galenweld"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://galenweld.com/s/galen_weld_cv_for_web_may_2026.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2025-galenweld-icwsm-best-reviewer",
+    "title": "ICWSM Best Reviewer",
+    "organization": "AAAI ICWSM",
+    "date": "2025",
+    "kind": "service",
+    "personIds": [
+      "galenweld"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://galenweld.com/s/galen_weld_cv_for_web_may_2026.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2026-jinasuh-van-leer-fellowship-2026-2027-cohort",
+    "title": "Van Leer Fellowship",
+    "organization": "Van Leer Foundation",
+    "date": "2026",
+    "kind": "fellowship",
+    "personIds": [
+      "jinasuh"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://vanleerfoundation.org/van-leer-fellowship/",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2026–2027"
+  },
+  {
+    "id": "2021-jinasuh-kavli-frontiers-of-science-symposium-invited-participant",
+    "title": "Kavli Frontiers of Science Symposium invited participant",
+    "organization": "Kavli Frontiers of Science",
+    "date": "2021",
+    "kind": "selection",
+    "personIds": [
+      "jinasuh"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://static1.squarespace.com/static/60a9873d5547913cc2cb75b6/t/61d5bc61e96ce010c7867e95/1641397345651/Jina_Suh_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2021-jinasuh-rising-stars-in-eecs-participant",
+    "title": "Rising Stars in EECS participant",
+    "organization": "Rising Stars in EECS",
+    "date": "2021",
+    "kind": "selection",
+    "personIds": [
+      "jinasuh"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://static1.squarespace.com/static/60a9873d5547913cc2cb75b6/t/61d5bc61e96ce010c7867e95/1641397345651/Jina_Suh_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2020-melihyilmaz-allen-school-first-year-phd-fellowship",
+    "title": "Allen School First-Year PhD Fellowship",
+    "organization": "University of Washington, Allen School",
+    "date": "2020",
+    "kind": "fellowship",
+    "personIds": [
+      "melihyilmaz"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://melihyilmaz.github.io/files/melih_yilmaz_cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2016-melihyilmaz-mext-scholarship-in-science",
+    "title": "MEXT Scholarship in Science",
+    "organization": "MEXT, Japan",
+    "date": "2016",
+    "kind": "scholarship",
+    "personIds": [
+      "melihyilmaz"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://melihyilmaz.github.io/files/melih_yilmaz_cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2015-melihyilmaz-turkish-government-high-honour-scholarship",
+    "title": "Turkish Government High Honour Scholarship",
+    "organization": "Turkish Government",
+    "date": "2015",
+    "kind": "scholarship",
+    "personIds": [
+      "melihyilmaz"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://melihyilmaz.github.io/files/melih_yilmaz_cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2015-melihyilmaz-ko-university-suna-k-ra-scholarship",
+    "title": "Koç University Suna Kıraç Scholarship",
+    "organization": "Koç University",
+    "date": "2015",
+    "kind": "scholarship",
+    "personIds": [
+      "melihyilmaz"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://melihyilmaz.github.io/files/melih_yilmaz_cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-mickelliu-allen-school-cse-fellowship",
+    "title": "Allen School CSE Fellowship",
+    "organization": "University of Washington, Allen School",
+    "date": "2024",
+    "kind": "fellowship",
+    "personIds": [
+      "mickelliu"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mickel-liu.github.io/files/misc/short-cv.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2024–2025"
+  },
+  {
+    "id": "2023-mickelliu-neurips-scholar-award",
+    "title": "NeurIPS Scholar Award",
+    "organization": "NeurIPS",
+    "date": "2023",
+    "kind": "travel",
+    "personIds": [
+      "mickelliu"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mickel-liu.github.io/files/misc/short-cv.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-mikemerrill-corin-anderson-endowed-fellowship",
+    "title": "Corin Anderson Endowed Fellowship",
+    "organization": "University of Washington, Allen School",
+    "date": "2019",
+    "kind": "fellowship",
+    "personIds": [
+      "mikemerrill"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mikemerrill.io/resources/Mike_Merrill_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2017-mikemerrill-cornell-information-science-excellence-in-research",
+    "title": "Cornell Information Science Excellence in Research",
+    "organization": "Cornell University",
+    "date": "2017",
+    "kind": "student",
+    "personIds": [
+      "mikemerrill"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mikemerrill.io/resources/Mike_Merrill_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2014-mikemerrill-big-red-idea-cu-tonight",
+    "title": "Big Red Idea, CU Tonight",
+    "organization": "Cornell University, CU Tonight",
+    "date": "2014",
+    "kind": "student",
+    "personIds": [
+      "mikemerrill"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mikemerrill.io/resources/Mike_Merrill_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2014-mikemerrill-recess-pitch-festival-finalist-travel-grant",
+    "title": "RECESS Pitch Festival Finalist Travel Grant",
+    "organization": "RECESS Pitch Festival",
+    "date": "2014",
+    "kind": "travel",
+    "personIds": [
+      "mikemerrill"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://mikemerrill.io/resources/Mike_Merrill_CV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-timalthoff-uw-digital-accessibility-team-award-create-accessible-data-science-and-stem-lecture-t",
+    "title": "UW Digital Accessibility Team Award — CREATE Accessible Data Science and STEM Lecture Team",
+    "organization": "University of Washington",
+    "date": "2024",
+    "kind": "team",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://www.washington.edu/accesstech/get-involved/events/awards/2024-digital-accessibility-awards/",
+    "reviewedOn": "2026-09-09",
+    "recipientLabel": "CREATE Accessible Data Science and STEM Lecture Team, including Tim Althoff"
+  },
+  {
+    "id": "2019-timalthoff-kavli-fellow",
+    "title": "Kavli Fellow",
+    "organization": "Kavli Frontiers of Science",
+    "date": "2019",
+    "kind": "fellowship",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-timalthoff-uw-escience-fellow",
+    "title": "UW eScience Fellow",
+    "organization": "University of Washington eScience Institute",
+    "date": "2019",
+    "kind": "fellowship",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2014-timalthoff-digital-ecologies-research-partnership-fellow",
+    "title": "Digital Ecologies Research Partnership Fellow",
+    "organization": "Digital Ecologies Research Partnership",
+    "date": "2014",
+    "kind": "fellowship",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2021-yasamansefidgar-meta-facebook-phd-fellowship",
+    "title": "Meta/Facebook PhD Fellowship",
+    "organization": "Facebook",
+    "date": "2021",
+    "kind": "fellowship",
+    "personIds": [
+      "yasamansefidgar"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://news.cs.washington.edu/2021/06/18/allen-schools-yasaman-sefidgar-earns-facebook-fellowship-for-her-work-in-building-supportive-social-systems/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2009-yasamansefidgar-ubc-merit-scholarship",
+    "title": "UBC Merit Scholarship",
+    "organization": "University of British Columbia",
+    "date": "2009",
+    "kind": "scholarship",
+    "personIds": [
+      "yasamansefidgar"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yasamansefidgar.com/2411-YSSCV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2008-yasamansefidgar-sharif-exceptional-talent-award",
+    "title": "Sharif Exceptional Talent Award",
+    "organization": "Sharif University of Technology",
+    "date": "2008",
+    "kind": "student",
+    "personIds": [
+      "yasamansefidgar"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yasamansefidgar.com/2411-YSSCV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2012-yasamansefidgar-ubc-student-service-award",
+    "title": "UBC Student Service Award",
+    "organization": "University of British Columbia",
+    "date": "2012",
+    "kind": "service",
+    "personIds": [
+      "yasamansefidgar"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yasamansefidgar.com/2411-YSSCV.pdf",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2006-yasamansefidgar-sharif-badminton-competition-champion",
+    "title": "Sharif badminton competition champion",
+    "organization": "Sharif University of Technology",
+    "date": "2006",
+    "kind": "sports",
+    "personIds": [
+      "yasamansefidgar"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yasamansefidgar.com/2411-YSSCV.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2006–2007"
+  },
+  {
+    "id": "2025-yigeyuan-chinese-academy-of-sciences-president-award",
+    "title": "Chinese Academy of Sciences President Award",
+    "organization": "Chinese Academy of Sciences",
+    "date": "2025",
+    "kind": "student",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-yigeyuan-china-national-scholarship-phd",
+    "title": "China National Scholarship (PhD)",
+    "organization": "China National Scholarship",
+    "date": "2024",
+    "kind": "scholarship",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2024-yigeyuan-ucas-first-class-scholarship",
+    "title": "UCAS First-Class Scholarship",
+    "organization": "University of Chinese Academy of Sciences",
+    "date": "2024",
+    "kind": "scholarship",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2023-yigeyuan-ict-president-award",
+    "title": "ICT President Award",
+    "organization": "Institute of Computing Technology, Chinese Academy of Sciences",
+    "date": "2023",
+    "kind": "student",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2022-yigeyuan-ucas-first-class-scholarship",
+    "title": "UCAS First-Class Scholarship",
+    "organization": "University of Chinese Academy of Sciences",
+    "date": "2022",
+    "kind": "scholarship",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2022-yigeyuan-ucas-outstanding-student-award",
+    "title": "UCAS Outstanding Student Award",
+    "organization": "University of Chinese Academy of Sciences",
+    "date": "2022",
+    "kind": "student",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-yigeyuan-national-college-students-information-security-contest-first-prize",
+    "title": "National College Students Information Security Contest — First Prize",
+    "organization": "National College Students Information Security Contest",
+    "date": "2019",
+    "kind": "competition",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2017-yigeyuan-challenge-cup-first-prize",
+    "title": "Challenge Cup — First Prize",
+    "organization": "Challenge Cup",
+    "date": "2017",
+    "kind": "competition",
+    "personIds": [
+      "yigeyuan"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://yuanyige.github.io/",
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "2019-gezhang-google-girls-hackathon-people-s-choice",
+    "title": "Google Girls Hackathon People’s Choice",
+    "organization": "Google Girls Hackathon",
+    "date": "2019",
+    "kind": "competition",
+    "personIds": [],
+    "publicationIds": [],
+    "sourceUrl": "https://gezhangrp.com/assets/misc/cv.pdf",
+    "reviewedOn": "2026-09-09",
+    "recipientNames": [
+      "Ge Zhang"
+    ]
+  },
+  {
+    "id": "2017-gezhang-peking-university-acm-competition-second-prize",
+    "title": "Peking University ACM Competition — Second Prize",
+    "organization": "Peking University",
+    "date": "2017",
+    "kind": "competition",
+    "personIds": [],
+    "publicationIds": [],
+    "sourceUrl": "https://gezhangrp.com/assets/misc/cv.pdf",
+    "reviewedOn": "2026-09-09",
+    "recipientNames": [
+      "Ge Zhang"
+    ]
+  },
+  {
+    "id": "2022-gezhang-rackham-conference-travel-grant",
+    "title": "Rackham Conference Travel Grant",
+    "organization": "University of Michigan, Rackham Graduate School",
+    "date": "2022",
+    "kind": "travel",
+    "personIds": [],
+    "publicationIds": [],
+    "sourceUrl": "https://gezhangrp.com/assets/misc/cv.pdf",
+    "reviewedOn": "2026-09-09",
+    "recipientNames": [
+      "Ge Zhang"
+    ],
+    "dateLabel": "2022–2023"
+  },
+  {
+    "id": "2021-gezhang-umsi-conference-travel-grant",
+    "title": "UMSI Conference Travel Grant",
+    "organization": "University of Michigan School of Information",
+    "date": "2021",
+    "kind": "travel",
+    "personIds": [],
+    "publicationIds": [],
+    "sourceUrl": "https://gezhangrp.com/assets/misc/cv.pdf",
+    "reviewedOn": "2026-09-09",
+    "recipientNames": [
+      "Ge Zhang"
+    ],
+    "dateLabel": "2021–2023"
+  },
+  {
+    "id": "2023-timalthoff-most-highly-rated-instructors-allen-school",
+    "title": "Most Highly Rated Instructors, Allen School",
+    "organization": "University of Washington, Allen School",
+    "date": "2023",
+    "kind": "teaching",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2023–2024"
+  },
+  {
+    "id": "2022-timalthoff-most-highly-rated-instructors-allen-school",
+    "title": "Most Highly Rated Instructors, Allen School",
+    "organization": "University of Washington, Allen School",
+    "date": "2022",
+    "kind": "teaching",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2022–2023"
+  },
+  {
+    "id": "2020-timalthoff-most-highly-rated-instructors-allen-school",
+    "title": "Most Highly Rated Instructors, Allen School",
+    "organization": "University of Washington, Allen School",
+    "date": "2020",
+    "kind": "teaching",
+    "personIds": [
+      "timalthoff"
+    ],
+    "publicationIds": [],
+    "sourceUrl": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+    "reviewedOn": "2026-09-09",
+    "dateLabel": "2020–2021"
+  }
+]

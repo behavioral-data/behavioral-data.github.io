@@ -7,7 +7,10 @@ import {
   awardsFor,
   openOpportunities,
   relatedNews,
+  latestAwardPapers,
+  latestPeopleAwards,
 } from '../lib/relationships.mjs';
+import { formatDate } from '../lib/dates.mjs';
 import { filterPapers, bibtex } from '../lib/publications.mjs';
 function fixture() {
   return {
@@ -77,6 +80,59 @@ test('dates reject impossible calendar days and inverted memberships', () => {
   const data = fixture();
   data.people[0].memberships = [{ start: '2024-06-01', end: '2024-01-01' }];
   assert.match(validateContent(data).join(), /ends before/);
+});
+test('awards and news accept years without inventing dates; review dates stay exact', () => {
+  const data = fixture();
+  data.awards = [
+    {
+      id: 'award',
+      title: 'Prize',
+      date: '2025',
+      organization: 'Test',
+      sourceUrl: 'https://example.org',
+      publicationIds: ['work'],
+    },
+  ];
+  data.news = [{ id: 'news', headline: 'Prize announcement', date: '2025', awardIds: ['award'] }];
+  assert.deepEqual(validateContent(data), []);
+  assert.equal(formatDate('2025'), '2025');
+  assert.equal(formatDate('2024-02-29'), 'February 29, 2024');
+  for (const invalid of ['2025-02', '2025-02-30', '0000', 2025]) {
+    data.awards[0].date = invalid;
+    assert.ok(validateContent(data).length, String(invalid));
+  }
+  data.awards[0].date = '2025';
+  data.awards[0].reviewedOn = '2025';
+  assert.match(validateContent(data).join(), /reviewedOn/);
+});
+test('paper highlights use award dates, deduplicate papers and ignore individual honors', () => {
+  const papers = [
+    { id: 'old', title: 'Old', year: 2021, highlight: true },
+    { id: 'b', title: 'B', year: 2025 },
+    { id: 'new', title: 'New unawarded', year: 2026, highlight: true },
+    { id: 'a', title: 'A', year: 2025 },
+  ];
+  const awards = [
+    { publicationIds: ['old'], date: '2026' },
+    { publicationIds: ['b', 'a'], date: '2025' },
+    { publicationIds: ['b'], date: '2025' },
+    { personIds: ['p1'], date: '2026' },
+  ];
+  assert.deepEqual(
+    latestAwardPapers(papers, awards).map((p) => p.id),
+    ['old', 'a'],
+  );
+  assert.deepEqual(
+    latestAwardPapers(papers, awards, 1).map((p) => p.id),
+    ['old'],
+  );
+  assert.deepEqual(latestAwardPapers(papers, []), []);
+  assert.equal(papers[0].id, 'old');
+  const renamed = awards.map((a) => ({ ...a, title: 'Updated award title' }));
+  assert.equal(
+    latestAwardPapers(decoratePapers(papers, renamed), renamed)[0].award,
+    'Updated award title',
+  );
 });
 test('explicit person links override name matching, including an empty list', () => {
   const person = { id: 'p1', name: 'Ada Example' };
@@ -182,4 +238,42 @@ test('name aliases preserve legacy attribution without overriding explicit perso
   assert.equal(paperBelongsTo(paper, person), true);
   assert.equal(filterPapers([paper], { person }).length, 1);
   assert.equal(paperBelongsTo({ ...paper, personIds: [] }, person), false);
+});
+
+test('people highlights exclude paper and team awards and select the latest honors', () => {
+  const awards = [
+    { id: 'old', date: '2024', title: 'Older honor', personIds: ['p'] },
+    { id: 'team', date: '2026', title: 'Team honor', kind: 'team', personIds: ['p'] },
+    { id: 'paper', date: '2026', title: 'Paper prize', personIds: ['p'], publicationIds: ['work'] },
+    { id: 'latest', date: '2026', title: 'Fellowship', personIds: ['p'] },
+    { id: 'alumnus', date: '2025', title: 'Research honor', recipientNames: ['Alumnus'] },
+  ];
+  assert.deepEqual(
+    latestPeopleAwards(awards).map((a) => a.id),
+    ['latest', 'alumnus'],
+  );
+  assert.equal(awards[0].id, 'old');
+  assert.deepEqual(latestPeopleAwards([]), []);
+});
+test('awards preserve year ranges and named alumni without fabricated profile links', () => {
+  const data = fixture();
+  data.awards = [
+    {
+      id: 'fellowship',
+      title: 'Fellowship',
+      organization: 'University',
+      date: '2025',
+      dateLabel: '2025–2026',
+      recipientNames: ['Alumnus'],
+      sourceUrl: 'https://example.org/award',
+    },
+  ];
+  assert.deepEqual(validateContent(data), []);
+  data.awards[0].dateLabel = '2024–2026';
+  assert.match(validateContent(data).join(), /dateLabel/);
+  data.awards[0].dateLabel = '2025–2024';
+  assert.match(validateContent(data).join(), /dateLabel/);
+  data.awards[0].dateLabel = '2025–2026';
+  data.awards[0].recipientNames = [''];
+  assert.match(validateContent(data).join(), /recipientNames/);
 });
