@@ -64,7 +64,7 @@ The migrated archive contains 47 papers spanning 2014–2024. It needs a verifie
 - [ ] Submit candidates for human review with sources, lab-author links, ordered authors, dates, venue, DOI/arXiv IDs, and publication state.
 - [ ] Reconcile preprint/published versions and existing duplicates while retaining stable URLs and editorial descriptions.
 - [ ] Add available PDF, code, dataset, and project links; ordinary papers must not require a local PDF or thumbnail.
-- [x] Select the latest award-winning papers as homepage highlights (maintainer direction, September 9). The local #24 pass selects the two newest papers linked to verified awards: Perceptions of Moderators and Reddit Rules and Rulers (2025). Existing prose is preserved; the initial backfill awaits review.
+- [x] Select the latest award-winning papers as homepage highlights (maintainer direction, September 9). The approved #24 pass selects the two papers with the latest verified award dates: Perceptions of Moderators and Reddit Rules and Rulers (2025). Existing prose is preserved; the backfill is approved and published.
 
 Done when an agreed bibliography has been reconciled, omissions or conflicts are recorded, and approved papers appear consistently in the archive and profiles.
 
@@ -74,14 +74,14 @@ GitHub: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issue
 
 Phase: Before launch. Dependencies: 1, 2.
 
-The [awards review](AWARDS_NEWS_REVIEW.md) and [expanded audit](AWARDS_AUDIT.md) are applied to local website content: 69 honors total, including 59 additional verified records. All 35 maintainer exclusions remain excluded; 15 candidates are deferred for missing dates, source access or attribution. Yasaman is linked to GLOBEM. The homepage shows the latest two people honors plus Ashish’s ACM and William Chan dissertation awards, the latest news item and two paper awards. The 2026 news item covers Jina’s return; the Ken/xAI item was removed at the maintainer’s request. Review records retain exact sources, decisions and public award IDs. No additional paper awards were eligible. Source-access gaps remain documented for 26 publisher attempts and Twitter/X timelines.
+The [awards review](AWARDS_NEWS_REVIEW.md) and [expanded audit](AWARDS_AUDIT.md) are published on the website: 69 honors total, including 59 additional verified records. All 35 maintainer exclusions remain excluded; 15 candidates are deferred for missing dates, source access or attribution. Yasaman is linked to GLOBEM. The homepage order is Latest news, People awards, then Paper awards. People highlights include the latest two honors plus Ashish’s ACM and William Chan dissertation awards. The 2026 news item covers Jina’s return; the Ken/xAI item was removed at the maintainer’s request. Review records retain exact sources, decisions and public award IDs. No additional paper awards were eligible. Source-access gaps remain documented for 26 publisher attempts and Twitter/X timelines.
 
 Homepage highlight selection is part of this step: after verifying the awards, choose the latest award-winning papers. This resolves the deferred highlight work from #23.
 
 - [ ] Collect missing paper awards, individual honors, and lab news from conference/award organizations, UW announcements, or member-submitted evidence.
-- [ ] Add structured award records with exact title, awarding body, date, recipients, optional paper link, and source URL.
-- [ ] Review the original award fields and news entries; migrate without changing their meaning or duplicating announcements.
-- [ ] Render approved awards consistently on relevant paper/profile pages and the news/awards view from shared records.
+- [x] Add structured award records with exact title, awarding body, date, recipients, optional paper link, and source URL.
+- [x] Review the original award fields and news entries; migrate without changing their meaning or duplicating announcements.
+- [x] Render approved awards consistently on relevant paper/profile pages and the news/awards view from shared records.
 - [ ] Require approval for new wording; do not generate promotional summaries or infer awards from citations.
 
 Done when the lab approves the initial backfill and editing one award updates all associated views.

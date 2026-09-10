@@ -4,7 +4,7 @@ Issue: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issues
 
 The [expanded awards audit](AWARDS_AUDIT.md) covers all 26 people and 66 site publications, with 109 additional candidates and source-access gaps. The maintainer excluded 35 candidates and approved applying the remaining verified honors. The website now includes 59 additional honors (69 total); 15 unresolved records remain deferred. The ten initial records below remain included, with Yasaman’s GLOBEM recipient link corrected.
 
-The homepage combines recent people honors plus Ashish’s ACM and William Chan dissertation awards, the latest news item and two awarded papers. The 2026 news item records Jina’s return as a principal researcher. The Ken/xAI news item was removed at the maintainer’s request. Year ranges are preserved where the award source specifies a tenure or academic year.
+The homepage shows Latest news, People awards and Paper awards in that order. People highlights include recent honors plus Ashish’s explicitly selected ACM and William Chan dissertation awards. The 2026 news item records Jina’s return as a principal researcher. The Ken/xAI news item was removed at the maintainer’s request. Year ranges are preserved where the award source specifies a tenure or academic year.
 
 ## Paper awards
 
@@ -28,25 +28,24 @@ The two 2021 ICWSM labels are corrected to Outstanding Paper, preserving the Ana
 | 2022 | Tim Althoff | NSF CAREER Award | [UW announcement](https://news.cs.washington.edu/2023/06/30/super-8-how-the-allen-schools-nsf-career-award-winning-faculty-are-reimagining-the-future-of-computing/) verifies the award. [Tim's CV](https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf) dates award IIS-2142794 to 2022; the announcement's 2023 publication date is not used as the award year. |
 | 2019 | Tim Althoff | ACM SIGKDD Doctoral Dissertation Award | [Awarding organization's winner record](https://www.kdd.org/awards/view/2019-sigkdd-dissertation-award-winners). |
 
-Individual honors have no publication links and do not enter the homepage highlights. Paper records link to lab recipients and to the publication, whose author list credits all coauthors; the lab profile links are not a complete list of external recipients.
+Individual honors have no publication links and qualify for the separate People awards highlights; team honors stay out of that selection. Paper records link to lab recipients and to the publication, whose author list credits all coauthors; the lab profile links are not a complete list of external recipients.
 
 ## Highlights and news
 
-The maintainer requested the latest award-winning papers for highlights. The homepage now selects two papers from verified shared award links, ordered by publication year descending and then title alphabetically. Multiple awards occupy one slot. Honorable mentions and outstanding/distinguished paper awards qualify. This initial set selects **Perceptions of Moderators** and **Reddit Rules and Rulers**, both 2025.
+The maintainer requested the latest award-winning papers for highlights. The homepage now selects two papers from verified shared award links, ordered by award date descending and then title alphabetically. Multiple awards occupy one slot. Honorable mentions and outstanding/distinguished paper awards qualify. The current set selects **Perceptions of Moderators** and **Reddit Rules and Rulers**, both 2025.
 
-Imported `highlight` flags remain historical metadata. Existing titles and author text are reused; no new descriptions or artwork have been invented. Missing illustrations no longer produce empty year tiles.
+Imported publication `highlight` flags remain historical metadata; the separate award-level `highlight` field preserves explicitly selected people honors. Existing titles and author text are reused; no new descriptions or artwork have been invented. Missing illustrations no longer produce empty year tiles.
 
-All three imported news headlines and dates are preserved. The 2021 four-award announcement now links to the four shared records; these relationships also connect it to the relevant paper and member pages. Its original “Best Paper” umbrella wording remains unchanged even though the two ICWSM records now use the conference's more precise category. No duplicate announcements or newly written news prose were added. The News page already renders the shared awards below the news archive.
+All three imported news headlines and dates are preserved. The 2021 four-award announcement now links to the four shared records; these relationships also connect it to the relevant paper and member pages. Its original “Best Paper” umbrella wording remains unchanged even though the two ICWSM records now use the conference's more precise category. A maintainer-approved 2026 news item records Jina’s return as a principal researcher; the three imported items remain intact. The News page already renders the shared awards below the news archive.
 
 Award dates are stored as `YYYY`, per the maintainer's precision preference. Full dates remain supported for events with known days. Review timestamps and operational deadlines still require exact dates.
 
-## Remaining review
+## Remaining verification
 
-- Review and approve this initial backfill before considering #24 complete or publishing these changes.
-- Decide whether to include additional service, teaching, fellowship, and team honors. For example, [UW verifies the 2024 CREATE Accessible Data Science and STEM Lecture Team award](https://www.washington.edu/accesstech/get-involved/events/awards/2024-digital-accessibility-awards/). Tim's CV lists it, but the team should be credited as the recipient rather than presenting Tim as its sole recipient. It has not been added in this pass.
-- Tim's CV lists a spotlight for “Are Language Models Actually Useful for Time Series Forecasting?” A spotlight presentation is not automatically a paper award; it is omitted. The CV also has a year discrepancy for this entry. Do not infer an award or alter the verified NeurIPS 2024 publication year from that claim.
-- Other member honors and new lab announcements remain open for a subsequent focused review. New announcement prose requires approval; the existing archive is not represented as a complete news history.
+The maintainer approved the backfill; it is already published. Fifteen candidates remain deferred for missing years, source access or attribution, as recorded in the [expanded audit](AWARDS_AUDIT.md). All 35 explicit exclusions remain excluded. The CREATE award is included with its team name and Tim identified as a participant.
+
+Spotlight presentations do not establish paper awards. The forecasting paper retains its verified NeurIPS 2024 publication year. The news archive is not a complete lab history; future announcements still need sourced facts and maintainer-approved wording.
 
 ## Validation
 
-`npm run check` passed: formatting, 20 JavaScript tests, 37 Python tests, content/maintenance validation, production build, and 106 exported-page checks. The export check exposed and helped fix a heading-level gap on the formerly empty Awards page. All 10 award source links were checked on their linked profiles and papers, and all four 2021 news links were checked. The homepage highlights and Awards page were visually inspected in the local browser.
+`npm run check` passed: formatting, 23 JavaScript tests, 37 Python tests, content/maintenance validation, production build, and 106 exported-page checks. The export check exposed and helped fix a heading-level gap on the formerly empty Awards page. The 10 initial award source links were checked on their linked profiles and papers, and all four 2021 news links were checked. The homepage highlights and Awards page were visually inspected in the local browser.

@@ -47,6 +47,15 @@ export default function Home() {
         <div className="section-heading">
           <h2>Group highlights</h2>
         </div>
+        {news.length > 0 && (
+          <section className="highlight-group" aria-labelledby="latest-news-heading">
+            <div className="section-heading">
+              <h3 id="latest-news-heading">Latest news</h3>
+              <Link href="/news/">All news</Link>
+            </div>
+            <NewsList news={news.slice(0, 1)} compact />
+          </section>
+        )}
         {peopleAwards.length > 0 && (
           <section className="highlight-group" aria-labelledby="people-awards-heading">
             <div className="section-heading">
@@ -75,15 +84,6 @@ export default function Home() {
                 </article>
               ))}
             </div>
-          </section>
-        )}
-        {news.length > 0 && (
-          <section className="highlight-group" aria-labelledby="latest-news-heading">
-            <div className="section-heading">
-              <h3 id="latest-news-heading">Latest news</h3>
-              <Link href="/news/">All news</Link>
-            </div>
-            <NewsList news={news.slice(0, 1)} compact />
           </section>
         )}
         {selected.length > 0 && (
