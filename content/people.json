@@ -202,7 +202,7 @@
   {
     "id": "jinasuh",
     "name": "Jina Suh",
-    "role": "Principal Researcher",
+    "role": "Principal Researcher, PI",
     "website": "https://www.microsoft.com/en-us/research/people/jinsuh/",
     "image": "/resources/headshots/jinasuh.jpg",
     "status": "member",
@@ -230,7 +230,7 @@
         "site": "https://www.microsoft.com/en-us/research/people/jinsuh/"
       }
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "joyhe-yueya",
@@ -418,7 +418,7 @@
   {
     "id": "timalthoff",
     "name": "Tim Althoff",
-    "role": "PI",
+    "role": "Associate Professor, PI",
     "website": "http://www.timalthoff.com/",
     "image": "/resources/headshots/timalthoff.jpg",
     "status": "member",
@@ -433,7 +433,7 @@
       "site": "http://www.timalthoff.com/",
       "title": "Assistant Professor"
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "vinayakgupta",

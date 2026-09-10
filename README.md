@@ -23,6 +23,8 @@ npm run preview
 
 The build validates the content and referenced assets, then exports static files into `out/`. Stop the development server before starting the static preview because both default to port 3000.
 
+Run `npm run format` after editing JavaScript, JSX, CSS, or root configuration files. The pinned Prettier version keeps source formatting consistent; `npm run check` enforces it locally and in CI. Content, maintenance records, Markdown, and Python files retain their existing formatting.
+
 ## Update content
 
 | What to edit | Where |

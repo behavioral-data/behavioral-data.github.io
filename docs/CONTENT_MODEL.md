@@ -14,9 +14,11 @@ All public page data lives in `content/`. JSON strings may contain Markdown wher
 | `opportunities.json` | `id`, `title`, `ownerId`, `url`, `status`, `description`, `actionLabel`, `reviewedOn`, `reviewOn` | `meta` (short display facts), `sourceUrl`, `sourceLabel`, `closesOn`; status is open/closed/draft. Open entries past their closing date are excluded at build time. |
 | `gallery.json` | `id`, local `image`, `alt` | `caption`, `date`, `personIds`; renders on Pictures. |
 | `sponsors.json` | `name`, `path` relative to `/resources` | `url`, `reviewOn`; existing logo paths are preserved. |
-| `alumni.json` | `name` | `site`; historical list retained pending roster reconciliation. |
+| `alumni.json` | `name` | `site`, preserved `legacy.name` when an imported display name changes; historical list retained pending roster reconciliation. |
 
 The validator in `lib/content-validation.mjs` enforces dates, IDs, links, assets and relationships. Cross-record references must point to existing records. Public content requires no API key, database or server.
+
+`maintenance/membership-evidence.json` records source-backed membership research separately from exact-day `people.memberships`. Evidence dates use inclusive `YYYY` ranges at the maintainer's request, preserve unresolved boundaries and conflicting claims, and distinguish an unknown departure from ongoing membership. Direct maintainer confirmations take precedence over public profiles; `omitted` records have no selected range. It is a review artifact, not an input to automatic relevance assessment. Differences within the same year do not block reconstruction. Do not convert years into invented calendar days. See [Membership review](../_planning/MEMBERSHIP_REVIEW.md).
 
 Publication status: `preprint`, `accepted`, `published`, `withdrawn`, `retracted`. Type: `article`, `conference`, `preprint`, `book`, `dataset`, `other`. These fields are optional for imported records; verify them during backfill. Explicit `personIds`, including an empty list, supersede legacy name matching. Do not generate those links solely from names.
 

@@ -36,6 +36,8 @@ Next, complete the content pass under issues #22–#25; configure real identitie
 
 GitHub: [#22](https://github.com/behavioral-data/behavioral-data.github.io/issues/22)
 
+September 9 membership research: [21 usable year-level timelines](MEMBERSHIP_REVIEW.md) are recorded. Jina’s return in 2026 is confirmed; five alumni ranges are intentionally omitted at the maintainer’s request. The dates use the maintainer-requested year precision in `maintenance/membership-evidence.json`; explicit author links on the 47 legacy papers remain outstanding.
+
 Phase: Before launch. Dependencies: none.
 
 The imported roster has 21 people records plus 12 legacy alumni entries. These are historical records, not a verified current membership list. Profile publications currently use name matching.

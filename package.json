@@ -9,7 +9,9 @@
     "test": "node --test tests/*.test.mjs",
     "validate": "node scripts/validate-content.mjs && python3 scripts/validate-maintenance.py",
     "test:python": "python3 -m unittest discover -s tests -p 'test_*.py'",
-    "check": "npm test && npm run test:python && npm run build",
+    "format": "prettier --write \"{app,components,lib}/**/*.{js,jsx,mjs,css}\" \"{scripts,tests}/*.mjs\" \"*.{json,mjs}\" .prettierrc.json",
+    "format:check": "prettier --check \"{app,components,lib}/**/*.{js,jsx,mjs,css}\" \"{scripts,tests}/*.mjs\" \"*.{json,mjs}\" .prettierrc.json",
+    "check": "npm run format:check && npm test && npm run test:python && npm run build",
     "discover": "python3 scripts/discovery.py",
     "test:skeleton": "python3 scripts/test-skeleton.py"
   },
@@ -21,5 +23,8 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-markdown": "10.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6"
   }
 }

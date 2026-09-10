@@ -1,7 +1,6 @@
 """CI-only: push an additive review commit and open/update a draft PR. Never merge."""
 import json
 import os
-from pathlib import Path
 import subprocess
 import tempfile
 

@@ -7,7 +7,6 @@ import shutil
 import sys
 import tempfile
 import unittest
-from unittest.mock import patch
 from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parents[1]

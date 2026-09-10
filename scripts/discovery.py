@@ -1,7 +1,7 @@
 """OpenAlex observations -> review queue. No site content is changed by discovery."""
 import argparse
 import copy
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, timedelta
 from difflib import SequenceMatcher
 import hashlib
 import json

@@ -1,0 +1,684 @@
+{
+  "version": 3,
+  "checkedOn": "2026-09-09",
+  "purpose": "Source-backed reconstruction for issue #22; evidence only, not an automatic publication-policy input.",
+  "datePrecision": "year",
+  "conventions": {
+    "dates": "YYYY uses the maintainer-requested year precision. Joining and leaving years are inclusive. Null means an unresolved year; differences within the same year do not block reconstruction.",
+    "endStatus": "known = dated end; ongoing = confirmed current affiliation; unknown = no defensible departure date. A null end alone must never imply ongoing membership.",
+    "reconstructed": "A sourced or explicitly explained inferred start year and end year, or independently confirmed current affiliation, with no unresolved year-level conflict.",
+    "partial": "At least one usable historical boundary; another boundary or continuity remains unresolved.",
+    "conflict": "Competing accounts retained in conflictingClaims; contested boundaries remain null or absent.",
+    "unresolved": "No usable lab appointment boundary established; revisit only when better evidence is available.",
+    "personId": "Matches content/people.json. Null denotes an alumni-only entry; this file does not create a new public profile.",
+    "policy": "Year-level research evidence; not an automatic publication-policy input. Do not expand years into invented calendar dates. Existing decisions, roster roles, and current/past status are preserved.",
+    "confirmed": "A timeline completed or corrected by direct maintainer confirmation; this governs conflicting public profiles.",
+    "omitted": "Membership range intentionally omitted at the maintainer\u2019s request; historical source claims are not selected ranges."
+  },
+  "sources": {
+    "tim-cv": {
+      "url": "https://homes.cs.washington.edu/~althoff/docs/CV_Tim_Althoff.pdf",
+      "title": "Tim Althoff CV",
+      "location": "Pages 1, 11\u201312; faculty appointment and advising history"
+    },
+    "roster": {
+      "path": "_planning/ROSTER_REVIEW.md",
+      "title": "Maintainer-confirmed roster, September 5, 2026"
+    },
+    "legacy-alumni": {
+      "path": "content/alumni.json",
+      "title": "Preserved original alumni entries"
+    },
+    "legacy-jina": {
+      "path": "content/people.json",
+      "title": "Jina Suh legacy.alumniEntry"
+    },
+    "advait-cv": {
+      "url": "https://advaitmb.com/cv/cv.pdf",
+      "title": "Advait Bhat CV",
+      "location": "Page 1; education and experience"
+    },
+    "deniz-cv": {
+      "url": "https://gonzoden.github.io/files/CV_Deniz_Nazar_short.pdf",
+      "title": "Deniz Nazar CV",
+      "location": "Page 1; education"
+    },
+    "margaret-profile": {
+      "url": "https://margs.li/",
+      "title": "Margaret Li profile",
+      "location": "Education"
+    },
+    "ashish-cv": {
+      "url": "https://ash-shar.github.io/cv/",
+      "title": "Ashish Sharma CV",
+      "location": "Research experience"
+    },
+    "bret-profile": {
+      "url": "https://www.cs.toronto.edu/~bretnestor/",
+      "title": "Bret Nestor profile",
+      "location": "Experience"
+    },
+    "mike-cv": {
+      "url": "https://mikemerrill.io/resources/Mike_Merrill_CV.pdf",
+      "title": "Mike Merrill CV",
+      "location": "Page 1; education"
+    },
+    "mickel-cv": {
+      "url": "https://mickel-liu.github.io/files/misc/short-cv.pdf",
+      "title": "Mickel Liu CV",
+      "location": "Page 1; education"
+    },
+    "mickel-profile": {
+      "url": "https://mickel-liu.github.io/",
+      "title": "Mickel Liu profile"
+    },
+    "remy-profile": {
+      "url": "https://remydeshayes.github.io/",
+      "title": "Remy Deshayes profile"
+    },
+    "galen-cv": {
+      "url": "https://galenweld.com/s/galen_weld_cv_for_web_may_2026.pdf",
+      "title": "Galen Weld CV, May 2026",
+      "location": "Page 1; education and professional experience"
+    },
+    "galen-profile": {
+      "url": "https://galenweld.com/",
+      "title": "Galen Weld profile",
+      "location": "May 5, 2026 update"
+    },
+    "ken-profile": {
+      "url": "https://www.kenqgu.com/",
+      "title": "Ken Gu profile",
+      "location": "Biography and November 2025 update"
+    },
+    "rongwu-profile": {
+      "url": "https://rongwuxu.com/",
+      "title": "Rongwu Xu profile"
+    },
+    "vinayak-cv": {
+      "url": "https://gvinayak.github.io/assets/Vinayak_Gupta_PhD.pdf",
+      "title": "Vinayak Gupta CV",
+      "location": "Page 1; UW appointment"
+    },
+    "ethan-profile": {
+      "url": "https://ethan5437.github.io/",
+      "title": "Ethan Hsu profile"
+    },
+    "ge-cv": {
+      "url": "https://gezhangrp.com/assets/misc/cv.pdf",
+      "title": "Ashley Ge Zhang CV",
+      "location": "Page 1; research experience"
+    },
+    "joy-uw": {
+      "url": "https://news.cs.washington.edu/2021/01/15/computing-research-association-recognizes-undergraduates-advancing-data-science-for-mental-health-commonsense-reasoning-mobile-health-sensing-and-more/",
+      "title": "UW CRA undergraduate research announcement, January 15, 2021"
+    },
+    "antonia-profile": {
+      "url": "https://antonia42.github.io/",
+      "title": "Antonia Saravanou profile"
+    },
+    "yasaman-cv": {
+      "url": "https://yasamansefidgar.com/2411-YSSCV.pdf",
+      "title": "Yasaman Sefidgar CV",
+      "location": "Pages 1, 4\u20135; education and appointments"
+    },
+    "yige-profile": {
+      "url": "https://yuanyige.github.io/",
+      "title": "Yige Yuan profile",
+      "location": "Biography and February 2026 announcement"
+    },
+    "jina-profile": {
+      "url": "https://www.jinasuh.com/",
+      "title": "Jina Suh profile",
+      "location": "Lab affiliation; page last updated June 5, 2021"
+    },
+    "chris-cv": {
+      "url": "https://chrisrytting.github.io/assets/cv.pdf",
+      "title": "Chris Rytting CV; retrieved version has no UW appointment"
+    },
+    "maintainer-2026-09-09": {
+      "path": "_planning/MEMBERSHIP_REVIEW.md",
+      "title": "Maintainer corrections supplied in chat on September 9, 2026",
+      "location": "Maintainer-confirmed corrections"
+    }
+  },
+  "records": [
+    {
+      "personId": "advaitbhat",
+      "name": "Advait Bhat",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2024",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "advait-cv",
+            "roster"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "antoniasaravanou",
+      "name": "Antonia Saravanou",
+      "status": "omitted",
+      "periods": [],
+      "notes": "Membership range intentionally omitted at the maintainer\u2019s request. Do not display or infer a selected range from historical source claims.",
+      "checkedSourceIds": [
+        "antonia-profile",
+        "tim-cv",
+        "roster",
+        "maintainer-2026-09-09"
+      ]
+    },
+    {
+      "personId": "ashishsharma",
+      "name": "Ashish Sharma",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2019",
+          "end": "2024",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "ashish-cv"
+          ]
+        }
+      ],
+      "notes": "Personal and advisor CVs agree on the years."
+    },
+    {
+      "personId": "bretnestor",
+      "name": "Bret Nestor",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2023",
+          "end": "2024",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "bret-profile",
+            "tim-cv"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "chengli",
+      "name": "Cheng Li",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2025",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "roster"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "deniznazarova",
+      "name": "Deniz Nazar",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2024",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "deniz-cv",
+            "roster"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "galenweld",
+      "name": "Galen Weld",
+      "status": "confirmed",
+      "periods": [
+        {
+          "start": "2019",
+          "end": "2026",
+          "endStatus": "known",
+          "scope": "PhD followed by postdoctoral appointment",
+          "sourceIds": [
+            "tim-cv",
+            "maintainer-2026-09-09"
+          ]
+        }
+      ],
+      "notes": "Maintainer confirms PhD completion in 2025 and a subsequent postdoc through 2026.",
+      "checkedSourceIds": [
+        "galen-cv",
+        "galen-profile",
+        "roster"
+      ]
+    },
+    {
+      "personId": "innalin",
+      "name": "Inna Lin",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2020",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "roster"
+          ]
+        }
+      ],
+      "notes": "Includes the earlier summer internship; this is not a claimed PhD enrollment date."
+    },
+    {
+      "personId": "jinasuh",
+      "name": "Jina Suh",
+      "status": "confirmed",
+      "periods": [
+        {
+          "start": "2019",
+          "end": "2022",
+          "endStatus": "known",
+          "scope": "Recorded PhD co-advising",
+          "sourceIds": [
+            "tim-cv"
+          ]
+        },
+        {
+          "start": "2026",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Returning Principal Researcher",
+          "sourceIds": [
+            "roster",
+            "maintainer-2026-09-09"
+          ]
+        }
+      ],
+      "notes": "Maintainer confirms a period at Microsoft Research after the PhD followed by a return as Principal Researcher in 2026. Record the historical PhD co-advising and returning researcher affiliations separately.",
+      "checkedSourceIds": [
+        "legacy-jina",
+        "jina-profile"
+      ]
+    },
+    {
+      "personId": "joyhe-yueya",
+      "name": "Joy He-Yueya",
+      "status": "omitted",
+      "periods": [],
+      "notes": "Membership range intentionally omitted at the maintainer\u2019s request. Do not display or infer a selected range from historical source claims.",
+      "checkedSourceIds": [
+        "roster",
+        "maintainer-2026-09-09"
+      ],
+      "historicalSourceClaims": [
+        {
+          "sourceId": "tim-cv",
+          "reportedPeriod": "June 2019\u2013December 2020"
+        },
+        {
+          "sourceId": "legacy-alumni",
+          "reportedPeriod": "Fall 2019\u2013Spring 2021"
+        },
+        {
+          "sourceId": "joy-uw",
+          "reportedPeriod": "January 2021 announcement describes the project as beginning in the previous year"
+        }
+      ]
+    },
+    {
+      "personId": "kengu",
+      "name": "Ken Gu",
+      "status": "confirmed",
+      "periods": [
+        {
+          "start": "2021",
+          "end": "2026",
+          "endStatus": "known",
+          "scope": "PhD affiliation before leave",
+          "sourceIds": [
+            "tim-cv",
+            "maintainer-2026-09-09"
+          ]
+        }
+      ],
+      "notes": "Maintainer confirms a PhD break in 2026 to start a job at xAI. Record leave, not PhD completion; this confirmation governs the year.",
+      "checkedSourceIds": [
+        "ken-profile",
+        "roster"
+      ]
+    },
+    {
+      "personId": "margaretli",
+      "name": "Margaret Li",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2020",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "margaret-profile",
+            "roster"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "melihyilmaz",
+      "name": "Melih Yilmaz",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2020",
+          "end": "2021",
+          "endStatus": "known",
+          "scope": "PhD rotation",
+          "sourceIds": [
+            "tim-cv"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "mickelliu",
+      "name": "Mickel Liu",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2024",
+          "end": "2025",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "mickel-cv"
+          ]
+        }
+      ],
+      "notes": "The personal CV corroborates the start. Its projected degree completion is not a lab departure date. The newer homepage names different advisors, consistent with the dated advising end.",
+      "checkedSourceIds": [
+        "mickel-profile",
+        "roster"
+      ]
+    },
+    {
+      "personId": "mikemerrill",
+      "name": "Mike Merrill",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2019",
+          "end": "2024",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "mike-cv"
+          ]
+        }
+      ],
+      "notes": "The older personal CV confirms the start; its ongoing entry is superseded by the advisor CV end date."
+    },
+    {
+      "personId": "remydeshayes",
+      "name": "Remy Deshayes",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2020",
+          "end": "2020",
+          "endStatus": "known",
+          "scope": "Summer research internship",
+          "sourceIds": [
+            "tim-cv"
+          ]
+        }
+      ],
+      "notes": "Both boundaries fall in 2020, consistent with the preserved alumni entry and personal profile.",
+      "checkedSourceIds": [
+        "legacy-alumni",
+        "remy-profile"
+      ]
+    },
+    {
+      "personId": "rongwudannyxu",
+      "name": "Rongwu Danny Xu",
+      "status": "confirmed",
+      "periods": [
+        {
+          "start": "2025",
+          "end": "2026",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "maintainer-2026-09-09"
+          ]
+        }
+      ],
+      "notes": "Maintainer confirms the lab affiliation ends in 2026.",
+      "checkedSourceIds": [
+        "rongwu-profile",
+        "roster"
+      ]
+    },
+    {
+      "personId": "timalthoff",
+      "name": "Tim Althoff",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2019",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "UW faculty appointment",
+          "sourceIds": [
+            "tim-cv",
+            "roster"
+          ]
+        }
+      ],
+      "notes": "This dates the UW appointment only; it does not reclassify pre-UW publications."
+    },
+    {
+      "personId": "vinayakgupta",
+      "name": "Vinayak Gupta",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2023",
+          "end": "2024",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv",
+            "vinayak-cv"
+          ]
+        }
+      ],
+      "notes": "Both CVs agree on 2023\u20132024. Their departure-month difference is immaterial at the requested year precision; source claims are preserved.",
+      "sourceClaims": [
+        {
+          "sourceId": "tim-cv",
+          "reportedPeriod": "April 2023\u2013April 2024"
+        },
+        {
+          "sourceId": "vinayak-cv",
+          "reportedPeriod": "April 2023\u2013May 2024"
+        }
+      ]
+    },
+    {
+      "personId": "xinyizhou",
+      "name": "Xinyi Zhou",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2023",
+          "end": "2025",
+          "endStatus": "known",
+          "scope": "Lab advising or appointment",
+          "sourceIds": [
+            "tim-cv"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "personId": "yasamansefidgar",
+      "name": "Yasaman Sefidgar",
+      "status": "confirmed",
+      "periods": [
+        {
+          "start": "2025",
+          "end": "2026",
+          "endStatus": "known",
+          "scope": "Lab affiliation",
+          "sourceIds": [
+            "maintainer-2026-09-09"
+          ]
+        }
+      ],
+      "notes": "Lab membership years supplied directly by the maintainer.",
+      "checkedSourceIds": [
+        "yasaman-cv",
+        "tim-cv",
+        "roster"
+      ]
+    },
+    {
+      "personId": "yigeyuan",
+      "name": "Yige Yuan",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2026",
+          "end": null,
+          "endStatus": "ongoing",
+          "scope": "Postdoctoral appointment",
+          "sourceIds": [
+            "yige-profile",
+            "roster"
+          ],
+          "startBasis": "inferred-year"
+        }
+      ],
+      "notes": "Joining year inferred as 2026 from the prospective February 2026 announcement and the maintainer-confirmed current appointment in September 2026. No joining month or day is asserted.",
+      "checkedSourceIds": [
+        "yige-profile",
+        "roster"
+      ]
+    },
+    {
+      "personId": null,
+      "name": "Chris Rytting",
+      "status": "reconstructed",
+      "periods": [
+        {
+          "start": "2023",
+          "end": "2024",
+          "endStatus": "known",
+          "scope": "Postdoctoral appointment",
+          "sourceIds": [
+            "tim-cv"
+          ]
+        }
+      ],
+      "notes": "An alumni-list entry, not a structured person record. The linked personal CV lacks a UW appointment and does not refine the advisor timeline.",
+      "checkedSourceIds": [
+        "legacy-alumni",
+        "chris-cv"
+      ]
+    },
+    {
+      "personId": null,
+      "name": "Jacopo Mocellin",
+      "status": "omitted",
+      "periods": [],
+      "notes": "Membership range intentionally omitted at the maintainer\u2019s request. Do not display or infer a selected range from historical source claims.",
+      "historicalSourceClaims": [
+        {
+          "sourceId": "tim-cv",
+          "reportedPeriod": "September 2021\u2013January 2022; undergraduate internship"
+        },
+        {
+          "sourceId": "legacy-alumni",
+          "reportedPeriod": "Spring 2022; visiting master\u2019s student"
+        }
+      ],
+      "checkedSourceIds": [
+        "maintainer-2026-09-09"
+      ]
+    },
+    {
+      "personId": null,
+      "name": "Ethan Hsu",
+      "status": "omitted",
+      "periods": [],
+      "notes": "Membership range intentionally omitted at the maintainer\u2019s request. Do not display or infer a selected range from historical source claims.",
+      "historicalSourceClaims": [
+        {
+          "sourceId": "tim-cv",
+          "reportedPeriod": "July 2021\u2013January 2022"
+        },
+        {
+          "sourceId": "legacy-alumni",
+          "reportedPeriod": "Summer 2021\u2013Winter 2022"
+        },
+        {
+          "sourceId": "ethan-profile",
+          "reportedPeriod": "2021\u20132023 research internship with Tim"
+        }
+      ],
+      "checkedSourceIds": [
+        "maintainer-2026-09-09"
+      ]
+    },
+    {
+      "personId": null,
+      "name": "Ge Zhang",
+      "status": "omitted",
+      "periods": [],
+      "notes": "Membership range intentionally omitted at the maintainer\u2019s request. Do not display or infer a selected range from historical source claims.",
+      "historicalSourceClaims": [
+        {
+          "sourceId": "tim-cv",
+          "reportedPeriod": "June 2019\u2013September 2020"
+        },
+        {
+          "sourceId": "legacy-alumni",
+          "reportedPeriod": "Fall 2019\u2013Fall 2020"
+        },
+        {
+          "sourceId": "ge-cv",
+          "reportedPeriod": "September\u2013December 2019 with Tim; July 2020\u2013February 2021 with Amy Zhang"
+        }
+      ],
+      "checkedSourceIds": [
+        "maintainer-2026-09-09"
+      ]
+    }
+  ]
+}
