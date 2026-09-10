@@ -26,7 +26,7 @@
   --divider-width: 1px;
   --wash: #f5f3f9;
   --paper: #fff;
-  --sidebar: 234px;
+  --sidebar: 200px;
   --page-title: clamp(32px, 3.5vw, 44px);
   --section-title: clamp(26px, 2.5vw, 32px);
   --space-xs: 8px;
@@ -109,7 +109,7 @@ h3 {
   width: var(--sidebar);
   position: fixed;
   inset: 0 auto 0 0;
-  padding: 47px 32px 30px;
+  padding: 47px 24px 30px;
   border-right: var(--divider-width) solid var(--divider-color);
   display: flex;
   flex-direction: column;
@@ -630,10 +630,10 @@ h2 + .news-item {
 }
 @media (max-width: 1100px) {
   :root {
-    --sidebar: 195px;
+    --sidebar: 180px;
   }
   .sidebar {
-    padding: 35px 24px;
+    padding: 35px 20px;
   }
   main {
     padding: 0 35px;
@@ -875,8 +875,9 @@ h2 + .news-item {
 
 .lab-brand {
   display: block;
-  width: 120px;
+  width: 108px;
   max-width: 100%;
+  margin-inline: auto;
   flex-shrink: 0;
 }
 .lab-brand img {
@@ -891,6 +892,7 @@ h2 + .news-item {
   .lab-brand {
     width: 320px;
     max-width: 100%;
+    margin-inline: 0;
   }
   .lab-brand img {
     aspect-ratio: 740/125;
