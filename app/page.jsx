@@ -2,18 +2,22 @@ import PersonPhoto from '@/components/person-photo';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 import { papers, people, sponsors, pageContent, awards, news } from '@/lib/content';
-import { latestAwardPapers, latestPeopleAwards } from '@/lib/relationships.mjs';
+import {
+  latestAwardPapers,
+  latestPeopleAwards,
+  groupAwardsByRecipient,
+} from '@/lib/relationships.mjs';
 import PaperCard from '@/components/paper-card';
 import EventDate from '@/components/event-date';
 import NewsList from '@/components/news-list';
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   const selected = latestAwardPapers(papers, awards);
-  const peopleAwards = latestPeopleAwards(awards);
+  const peopleAwards = groupAwardsByRecipient(latestPeopleAwards(awards), people);
   return (
     <div className="home-page">
       <header className="hero" id="home">
-        <h1>Welcome to the Behavioral Data Science Lab</h1>
+        <h1>Behavioral Data Science Lab</h1>
         <div className="prose">
           <ReactMarkdown>{pageContent.home}</ReactMarkdown>
         </div>
@@ -63,24 +67,28 @@ export default function Home() {
               <Link href="/awards/">All awards</Link>
             </div>
             <div className="people-award-highlights">
-              {peopleAwards.map((award) => (
-                <article key={award.id}>
-                  <EventDate date={award.date} label={award.dateLabel} />
+              {peopleAwards.map((recipient) => (
+                <article key={recipient.id}>
                   <h4>
-                    <Link href={`/awards/#${award.id}`}>{award.title}</Link>
+                    {recipient.personId ? (
+                      <Link href={`/people/${recipient.personId}/`}>{recipient.name}</Link>
+                    ) : (
+                      recipient.name
+                    )}
                   </h4>
-                  <p>{award.organization}</p>
-                  <p className="highlight-recipients">
-                    {(award.personIds || []).map((id, index) => (
-                      <span key={id}>
-                        {index > 0 && ', '}
-                        <Link href={`/people/${id}/`}>
-                          {people.find((person) => person.id === id)?.name}
-                        </Link>
-                      </span>
+                  <ul className="recipient-awards">
+                    {recipient.awards.map((award) => (
+                      <li key={award.id}>
+                        <p className="recipient-award-title">
+                          <Link href={`/awards/#${award.id}`}>{award.title}</Link>
+                        </p>
+                        <p className="recipient-award-meta">
+                          <EventDate date={award.date} label={award.dateLabel} /> ·{' '}
+                          {award.organization}
+                        </p>
+                      </li>
                     ))}
-                    {award.recipientNames?.join(', ')}
-                  </p>
+                  </ul>
                 </article>
               ))}
             </div>

@@ -20,7 +20,8 @@ export default function Navigation({ extraLinks = [] }) {
             pathname === href ||
             pathname === href.slice(0, -1) ||
             (href !== '/' && pathname.startsWith(href)) ||
-            (href === '/team/' && pathname.startsWith('/people/'))
+            (href === '/team/' && pathname.startsWith('/people/')) ||
+            (href === '/news/' && pathname.startsWith('/awards'))
               ? 'page'
               : undefined
           }

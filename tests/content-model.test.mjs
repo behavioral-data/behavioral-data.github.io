@@ -9,6 +9,7 @@ import {
   relatedNews,
   latestAwardPapers,
   latestPeopleAwards,
+  groupAwardsByRecipient,
 } from '../lib/relationships.mjs';
 import { formatDate } from '../lib/dates.mjs';
 import { filterPapers, bibtex } from '../lib/publications.mjs';
@@ -298,4 +299,42 @@ test('explicit people highlights retain older honors without duplicating recent 
     latestPeopleAwards(awards).map((a) => a.id),
     ['recent', 'next', 'acm'],
   );
+});
+
+test('recipient groups preserve selected honors and support shared awards and unlinked alumni', () => {
+  const people = [
+    { id: 'a', name: 'Ada' },
+    { id: 'b', name: 'Bea' },
+  ];
+  const awards = [
+    { id: 'shared', personIds: ['a', 'b'] },
+    { id: 'second', personIds: ['a'] },
+    { id: 'third', personIds: ['a'] },
+    { id: 'alumnus', recipientNames: ['Former member'] },
+  ];
+  const groups = groupAwardsByRecipient([...awards, awards[0]], people);
+  assert.deepEqual(
+    groups.map((g) => g.name),
+    ['Ada', 'Bea', 'Former member'],
+  );
+  assert.deepEqual(
+    groups[0].awards.map((a) => a.id),
+    ['shared', 'second', 'third'],
+  );
+  assert.equal(groups[1].awards.length, 1);
+  assert.equal(groups[2].personId, undefined);
+});
+
+test('optional portrait framing and venue labels reject invalid editorial values', () => {
+  const data = fixture();
+  data.people[0].photoCrop = { scale: 1.25, x: 50, y: 30 };
+  data.publications[0].venueShort = 'ACL';
+  assert.deepEqual(validateContent(data), []);
+  for (const crop of [{ scale: 0.5 }, { x: 101 }, { y: -1 }, { scale: 'large' }]) {
+    data.people[0].photoCrop = { scale: 1.25, x: 50, y: 30, ...crop };
+    assert.match(validateContent(data).join(), /photoCrop/);
+  }
+  delete data.people[0].photoCrop;
+  data.publications[0].venueShort = 42;
+  assert.match(validateContent(data).join(), /venueShort/);
 });

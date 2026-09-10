@@ -27,7 +27,12 @@
       "site": "https://advaitmb.com/",
       "title": "PhD Student"
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.25,
+      "x": 50,
+      "y": 30
+    }
   },
   {
     "id": "antoniasaravanou",
@@ -116,7 +121,12 @@
       "priority": 6,
       "is_visiting": false
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.08,
+      "x": 65,
+      "y": 35
+    }
   },
   {
     "id": "deniznazarova",
@@ -197,7 +207,12 @@
       "site": "https://innawy.github.io",
       "title": "PhD Student"
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.28,
+      "x": 50,
+      "y": 30
+    }
   },
   {
     "id": "jinasuh",
@@ -299,7 +314,12 @@
       "site": "https://margs.li",
       "title": "PhD Student"
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.12,
+      "x": 50,
+      "y": 35
+    }
   },
   {
     "id": "melihyilmaz",
@@ -401,7 +421,7 @@
     "role": "PhD Student",
     "website": "https://rongwuxu.com/",
     "image": "/resources/headshots/rongwu.png",
-    "status": "alumni",
+    "status": "member",
     "priority": 6,
     "topics": [],
     "legacy": {
@@ -413,7 +433,7 @@
       "priority": 6,
       "is_visiting": false
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-10"
   },
   {
     "id": "timalthoff",
@@ -507,6 +527,11 @@
     "priority": 2,
     "topics": [],
     "sourceUrl": "https://yuanyige.github.io/",
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.25,
+      "x": 50,
+      "y": 35
+    }
   }
 ]

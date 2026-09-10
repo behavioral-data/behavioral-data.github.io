@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { displayVenue } from '@/lib/publications.mjs';
 export default function PaperCard({ paper, featured = false, headingLevel = 3 }) {
   const Heading = `h${headingLevel}`;
   return (
@@ -15,7 +16,7 @@ export default function PaperCard({ paper, featured = false, headingLevel = 3 })
       )}
       <div className="paper-copy">
         <div className="eyebrow">
-          {paper.year} <span>·</span> {paper.venue || 'Publication'}
+          {paper.year} <span>·</span> {displayVenue(paper)}
           {paper.status && !['published', 'accepted'].includes(paper.status) && ` ${paper.status}`}
         </div>
         <Heading>

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { filterPapers, matchesPerson, bibtex } from '../lib/publications.mjs';
+import { filterPapers, matchesPerson, bibtex, displayVenue } from '../lib/publications.mjs';
 const migratedPapers = JSON.parse(
   fs.readFileSync(new URL('../content/publications.json', import.meta.url)),
 );
@@ -73,4 +73,19 @@ test('citation escapes special characters in migrated records without losing tit
       String.raw`A \& B\_1 is 50\% \#1 at \$5 on C:\textbackslash{}tmp \textasciitilde{} \textasciicircum{}`,
     ),
   );
+});
+
+test('short venue labels support unified filtering and search while citations retain full names', () => {
+  const full = 'Proceedings of the International AAAI Conference on Web and Social Media';
+  const records = [
+    { ...papers[0], id: 'full', venue: full },
+    { ...papers[0], id: 'short', venue: 'ICWSM' },
+  ];
+  assert.equal(displayVenue(records[0]), 'ICWSM');
+  assert.equal(filterPapers(records, { venue: 'ICWSM', query: 'icwsm' }).length, 2);
+  assert.equal(filterPapers(records, { query: 'International AAAI' }).length, 1);
+  assert.ok(bibtex(records[0]).includes(full));
+  const journal = { ...papers[0], venue: 'Proceedings of the ACM on Human-Computer Interaction' };
+  assert.equal(displayVenue(journal), journal.venue);
+  assert.equal(displayVenue({ ...journal, venueShort: 'CSCW' }), 'CSCW');
 });

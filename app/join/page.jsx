@@ -42,6 +42,8 @@ export default function Join() {
                     {opportunity.actionLabel}
                     <span aria-hidden="true">↗</span>
                   </a>
+                </div>
+                <div className="opportunity-guidance">
                   {opportunity.sourceUrl && (
                     <a className="text-link" href={safeUrl(opportunity.sourceUrl)}>
                       {opportunity.sourceLabel}
