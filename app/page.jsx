@@ -83,7 +83,7 @@ export default function Home() {
               <h3 id="latest-news-heading">Latest news</h3>
               <Link href="/news/">All news</Link>
             </div>
-            <NewsList news={news.slice(0, 2)} compact />
+            <NewsList news={news.slice(0, 1)} compact />
           </section>
         )}
         {selected.length > 0 && (

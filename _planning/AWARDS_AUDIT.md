@@ -4,7 +4,7 @@ Issue [#24](https://github.com/behavioral-data/behavioral-data.github.io/issues/
 
 **Maintainer decisions (September 9, 2026):** paper awards require Tim Althoff as a coauthor. Twelve candidates are excluded under that rule. All three demo awards, Tim’s 2017 recognitions (including the IMIA paper selection, considered too old), and the researched awards/honors for Joy He-Yueya, Vinayak Gupta and Xinyi Zhou are also excluded from this backfill. No general age cutoff was set. **35 candidates are excluded. The maintainer subsequently approved applying the remaining verified honors: 59 are now in website content and 15 are deferred for verification.** No additional paper awards are eligible.
 
-The website now contains 69 shared award/honor records: the initial 10 plus 59 from this audit. Yasaman’s recipient link was added to the existing GLOBEM award. Two maintainer-confirmed 2026 news items cover Jina’s return as co-PI and Ken’s PhD break to join xAI. Homepage highlights now show two people honors, two news items and two awarded papers. Excluded claims remain only in this research inventory.
+The website now contains 69 shared award/honor records: the initial 10 plus 59 from this audit. Yasaman’s recipient link was added to the existing GLOBEM award. The 2026 news item covers Jina’s return as co-PI; the Ken/xAI news item was removed at the maintainer’s request. Homepage highlights now show recent people honors plus Ashish’s explicitly selected ACM and William Chan dissertation awards, the latest news item and two awarded papers. Excluded claims remain only in this research inventory.
 
 ## Recent honors now included
 
@@ -114,7 +114,7 @@ The [structured coverage file](awards-audit/coverage.json) records each person, 
 
 Fifteen records remain out of public content: Bret’s two undated scholarships; Chris’s two undated honors; Tim’s unresolved research-prize lead; Mickel’s scholarship with conflicting start years; seven Rongwu honors with indexed-only evidence; Yasaman’s Ontario team award and Yige’s AgentSociety result with unresolved team/project attribution. The CSV records the reason for each hold. These are verification gaps, not another approval request.
 
-All 35 explicit exclusions remain excluded. No new paper-award candidate is included, so the existing two 2025 paper highlights remain. Homepage people highlights start with Jina’s Van Leer Fellowship and Ashish’s ACL dissertation honorable mention.
+All 35 explicit exclusions remain excluded. No new paper-award candidate is included, so the existing two 2025 paper highlights remain. Homepage people highlights include Jina’s Van Leer Fellowship and Ashish’s ACL dissertation honorable mention, ACM Doctoral Dissertation Award and William Chan Memorial Dissertation Award.
 
 ## Incidental metadata leads
 

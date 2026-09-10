@@ -277,3 +277,25 @@ test('awards preserve year ranges and named alumni without fabricated profile li
   data.awards[0].recipientNames = [''];
   assert.match(validateContent(data).join(), /recipientNames/);
 });
+
+test('explicit people highlights retain older honors without duplicating recent ones or including papers', () => {
+  const awards = [
+    { id: 'recent', title: 'Recent', date: '2026', personIds: ['p'], highlight: true },
+    { id: 'next', title: 'Next', date: '2025', personIds: ['p'] },
+    { id: 'acm', title: 'ACM dissertation', date: '2024', personIds: ['p'], highlight: true },
+    { id: 'older', title: 'Older', date: '2023', personIds: ['p'] },
+    {
+      id: 'paper',
+      title: 'Paper',
+      date: '2024',
+      personIds: ['p'],
+      publicationIds: ['work'],
+      highlight: true,
+    },
+    { id: 'team', title: 'Team', date: '2024', personIds: ['p'], kind: 'team', highlight: true },
+  ];
+  assert.deepEqual(
+    latestPeopleAwards(awards).map((a) => a.id),
+    ['recent', 'next', 'acm'],
+  );
+});

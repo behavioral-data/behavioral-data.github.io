@@ -74,7 +74,7 @@ GitHub: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issue
 
 Phase: Before launch. Dependencies: 1, 2.
 
-The [awards review](AWARDS_NEWS_REVIEW.md) and [expanded audit](AWARDS_AUDIT.md) are applied to local website content: 69 honors total, including 59 additional verified records. All 35 maintainer exclusions remain excluded; 15 candidates are deferred for missing dates, source access or attribution. Yasaman is linked to GLOBEM. The homepage shows the latest two people honors, two news items and two paper awards. Two 2026 news items reflect the maintainer’s updates on Jina and Ken. Review records retain exact sources, decisions and public award IDs. No additional paper awards were eligible. Source-access gaps remain documented for 26 publisher attempts and Twitter/X timelines.
+The [awards review](AWARDS_NEWS_REVIEW.md) and [expanded audit](AWARDS_AUDIT.md) are applied to local website content: 69 honors total, including 59 additional verified records. All 35 maintainer exclusions remain excluded; 15 candidates are deferred for missing dates, source access or attribution. Yasaman is linked to GLOBEM. The homepage shows the latest two people honors plus Ashish’s ACM and William Chan dissertation awards, the latest news item and two paper awards. The 2026 news item covers Jina’s return; the Ken/xAI item was removed at the maintainer’s request. Review records retain exact sources, decisions and public award IDs. No additional paper awards were eligible. Source-access gaps remain documented for 26 publisher attempts and Twitter/X timelines.
 
 Homepage highlight selection is part of this step: after verifying the awards, choose the latest award-winning papers. This resolves the deferred highlight work from #23.
 
