@@ -3938,7 +3938,7 @@
     },
     {
       "id": "openalex-w2986671035",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "3e5d7f1b35240a86fda5a4e942c37c549827189e4b0d3c4caf34cc1353a92a0a",
       "sourceUrl": "https://openalex.org/W2986671035",
@@ -4026,6 +4026,17 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reconciliationReview": {
+        "checkedOn": "2026-09-09",
+        "outcome": "pending",
+        "note": "Same archived DOI; keep pending because Yasaman’s 2019 authorship precedes the maintainer-confirmed 2025–2026 lab interval. Do not replace Eve Riskin with provider initials.",
+        "evidencePath": "_planning/PUBLICATION_RECONCILIATION_REVIEW.md"
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -4511,7 +4522,7 @@
     },
     {
       "id": "openalex-w3015278215",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "0d1ea237c312ca1e9ea9c82cbca0d7bcd05d98ecf5915b359a5ef23c9d8f8550",
       "sourceUrl": "https://openalex.org/W3015278215",
@@ -4537,24 +4548,20 @@
         "ashishsharma",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "althoffTalklifeEngagement",
+      "base": {
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Engagement Patterns of Peer-to-Peer Interactions on Mental Health Platforms",
-        "authors": "Ashish Sharma and Monojit Choudhury and Tim Althoff and Amit Sharma",
-        "authorNames": [
-          "Ashish Sharma",
-          "Monojit Choudhury",
-          "Tim Althoff",
-          "Amit Sharma"
-        ],
-        "year": 2020,
-        "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
         "doi": "10.1609/icwsm.v14i1.7328",
-        "url": "https://doi.org/10.1609/icwsm.v14i1.7328",
+        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/7328",
         "status": "published",
         "openalexId": "W3015278215",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "althoffTalklifeEngagement"
@@ -4579,6 +4586,21 @@
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
       },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/7328",
+          "https://behavioral-data.github.io/resources/pubpdfs/althoffTalklifeEngagement.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Confirmed final ICWSM 2020 publication and four authors; add DOI/status/type.",
+        "reviewedOn": "2026-09-09"
+      },
       "alternateRecordIds": [
         "openalex-w3033067969",
         "openalex-w4307802800"
@@ -4586,7 +4608,7 @@
     },
     {
       "id": "openalex-w3016071931",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4c1b15549c7cd6a591645e70858cd69fd57c0d15343f00a6afa9199c3ab8ab17",
       "sourceUrl": "https://openalex.org/W3016071931",
@@ -4615,27 +4637,40 @@
         "jinasuh",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
-      "changes": {
-        "title": "Data-Driven Implications for Translating Evidence-Based Psychotherapies into Technology-Delivered Interventions",
-        "authors": "Jessica Schroeder and Jina Suh and Chelsey R. Wilks and Mary Czerwinski and Sean A. Munson and James Fogarty and Tim Althoff",
+      "targetId": "althoffPocketskills",
+      "base": {
+        "authors": "Jessica Schroeder and Jina Suh and Chelsey Wilks and Mary Czerwinski and Sean Munson and James Fogarty and Tim Althoff",
         "authorNames": [
           "Jessica Schroeder",
           "Jina Suh",
-          "Chelsey R. Wilks",
+          "Chelsey Wilks",
+          "Mary Czerwinski",
+          "Sean Munson",
+          "James Fogarty",
+          "Tim Althoff"
+        ],
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
+      "changes": {
+        "authors": "Jessica Schroeder and Jina Suh and Chelsey Wilks and Mary Czerwinski and Sean A. Munson and James Fogarty and Tim Althoff",
+        "authorNames": [
+          "Jessica Schroeder",
+          "Jina Suh",
+          "Chelsey Wilks",
           "Mary Czerwinski",
           "Sean A. Munson",
           "James Fogarty",
           "Tim Althoff"
         ],
-        "year": 2020,
-        "venue": "",
         "doi": "10.1145/3421937.3421975",
         "url": "https://doi.org/10.1145/3421937.3421975",
         "status": "published",
         "openalexId": "W3016071931",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "althoffPocketskills"
@@ -4657,6 +4692,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "jinasuh",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3421937.3421975",
+          "https://behavioral-data.github.io/resources/pubpdfs/althoffPocketskills.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Local final PDF verifies DOI, venue and all seven authors; do not import the provider-only middle initial for Chelsey.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -5697,7 +5747,8 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w3114914047"
     },
     {
       "id": "openalex-w3081076310",
@@ -5766,7 +5817,7 @@
     },
     {
       "id": "openalex-w3082736604",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "6bd15df4b0ed52d3f1efbc4be07fb0e5138ee42560e3c28a26fd951dd2e01c95",
       "sourceUrl": "https://openalex.org/W3082736604",
@@ -5793,7 +5844,7 @@
         "mikemerrill",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w3082736604",
       "base": {},
       "changes": {
         "title": "CORAL: COde RepresentAtion learning with weakly-supervised transformers for analyzing data analysis",
@@ -5808,7 +5859,7 @@
         "year": 2022,
         "venue": "EPJ Data Science",
         "doi": "10.1140/epjds/s13688-022-00327-9",
-        "url": "https://doi.org/10.1140/epjds/s13688-022-00327-9",
+        "url": "https://link.springer.com/article/10.1140/epjds/s13688-022-00327-9",
         "status": "published",
         "openalexId": "W3082736604",
         "type": "article"
@@ -5834,13 +5885,28 @@
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
       },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://link.springer.com/article/10.1140/epjds/s13688-022-00327-9",
+          "https://mikemerrill.io/"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Mike’s 2019–2024 membership covers 2022; publisher and Mike’s bibliography verify this authorship. Use the final journal record; no affiliation range is inferred for Ge.",
+        "reviewedOn": "2026-09-09"
+      },
       "alternateRecordIds": [
         "openalex-w4295815808"
       ]
     },
     {
       "id": "openalex-w3084867291",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "1d26794bdd63b8e09fb7ae4b31964bcea2ad2b45154a054bbff34d62fe3bdfde",
       "sourceUrl": "https://openalex.org/W3084867291",
@@ -5866,24 +5932,20 @@
         "ashishsharma",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "sharma2020computational",
+      "base": {
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "A Computational Approach to Understanding Empathy Expressed in Text-Based Mental Health Support",
-        "authors": "Ashish Sharma and Adam S. Miner and David C. Atkins and Tim Althoff",
-        "authorNames": [
-          "Ashish Sharma",
-          "Adam S. Miner",
-          "David C. Atkins",
-          "Tim Althoff"
-        ],
-        "year": 2020,
-        "venue": "",
         "doi": "10.18653/v1/2020.emnlp-main.425",
-        "url": "https://doi.org/10.18653/v1/2020.emnlp-main.425",
+        "url": "https://aclanthology.org/2020.emnlp-main.425/",
         "status": "published",
         "openalexId": "W3084867291",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "sharma2020computational"
@@ -5906,13 +5968,28 @@
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
       },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2020.emnlp-main.425/",
+          "https://behavioral-data.github.io/resources/pubpdfs/sharma2020computational.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Publisher verifies final EMNLP 2020 DOI; author manuscript confirms complete authors and UW affiliations.",
+        "reviewedOn": "2026-09-09"
+      },
       "alternateRecordIds": [
         "openalex-w4287665442"
       ]
     },
     {
       "id": "openalex-w3088597222",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "8419fcebe4f4cec058fcaecc61b77dd0a7736728b57b8c9c6d074cb85ce49a9c",
       "sourceUrl": "https://openalex.org/W3088597222",
@@ -5940,10 +6017,24 @@
         "galenweld",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "weld2022adjusting_confounders",
+      "base": {
+        "authors": "Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, and Tim Althoff",
+        "authorNames": [
+          "Galen Weld",
+          "Peter West",
+          "Maria Glenski",
+          "David Arbour",
+          "Ryan Rossi",
+          "Tim Althoff"
+        ],
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference",
         "authors": "Galen Weld and Peter West and Maria Glenski and David Arbour and Ryan A. Rossi and Tim Althoff",
         "authorNames": [
           "Galen Weld",
@@ -5953,13 +6044,11 @@
           "Ryan A. Rossi",
           "Tim Althoff"
         ],
-        "year": 2022,
-        "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
         "doi": "10.1609/icwsm.v16i1.19362",
-        "url": "https://doi.org/10.1609/icwsm.v16i1.19362",
+        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19362",
         "status": "published",
         "openalexId": "W3088597222",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "weld2022adjusting_confounders"
@@ -5983,6 +6072,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "galenweld",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/19362",
+          "https://behavioral-data.github.io/resources/pubpdfs/weld2022adjusting_confounders.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final ICWSM metadata and complete six-author list verified; restore Ryan A. Rossi’s middle initial.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4287663650"
@@ -6383,7 +6487,7 @@
     },
     {
       "id": "openalex-w3109432658",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "c94479c804fadab9159d5981e4b3a89b0f247ab23ba34b3e4b609137507146c2",
       "sourceUrl": "https://openalex.org/W3109432658",
@@ -6452,6 +6556,11 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -6531,7 +6640,7 @@
     },
     {
       "id": "openalex-w3114914047",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "5b00b5633de314246f7c52c27ddf2fbbffbac3221eb8973f5b10acbae6b00c47",
       "sourceUrl": "https://openalex.org/W3114914047",
@@ -6557,24 +6666,20 @@
         "jinasuh",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "suh2020populationscale",
+      "base": {
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Population-Scale Study of Human Needs During the COVID-19 Pandemic",
-        "authors": "Jina Suh and Eric Horvitz and Ryen W. White and Tim Althoff",
-        "authorNames": [
-          "Jina Suh",
-          "Eric Horvitz",
-          "Ryen W. White",
-          "Tim Althoff"
-        ],
-        "year": 2021,
-        "venue": "",
         "doi": "10.1145/3437963.3441788",
         "url": "https://doi.org/10.1145/3437963.3441788",
         "status": "published",
         "openalexId": "W3114914047",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -6594,11 +6699,30 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "jinasuh",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3437963.3441788",
+          "https://behavioral-data.github.io/resources/pubpdfs/suh2020populationscale.pdf",
+          "https://erichorvitz.com/Human_needs_pandemic_WSDM.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Verified final DOI and full title, preserving the subtitle missing in the provider record. Group the preprint.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w3049308584"
+      ]
     },
     {
       "id": "openalex-w3125287435",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "fc18224985fbfa25839dc3d502d699ab4724e5611927533fe18c1998d86a9b26",
       "sourceUrl": "https://openalex.org/W3125287435",
@@ -6626,25 +6750,36 @@
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
-      "changes": {
-        "title": "Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach",
-        "authors": "Ashish Sharma and Inna Wanyin Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
+      "targetId": "sharma2021facilitating",
+      "base": {
+        "authors": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
         "authorNames": [
           "Ashish Sharma",
-          "Inna Wanyin Lin",
+          "Inna W Lin",
+          "Adam S Miner",
+          "David C Atkins",
+          "Tim Althoff"
+        ],
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
+      "changes": {
+        "authors": "Ashish Sharma and Inna W. Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
+        "authorNames": [
+          "Ashish Sharma",
+          "Inna W. Lin",
           "Adam S. Miner",
           "David C. Atkins",
           "Tim Althoff"
         ],
-        "year": 2021,
-        "venue": "",
         "doi": "10.1145/3442381.3450097",
         "url": "https://doi.org/10.1145/3442381.3450097",
         "status": "published",
         "openalexId": "W3125287435",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "sharma2021facilitating"
@@ -6670,6 +6805,22 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3442381.3450097",
+          "https://behavioral-data.github.io/resources/pubpdfs/sharma2021facilitating.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Local final WWW 2021 PDF prints DOI and confirms authors. Preserve best-paper award; do not replace with the 2022 IJCAI extended abstract.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4287374070"
@@ -6881,7 +7032,7 @@
     },
     {
       "id": "openalex-w3131477973",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "68b84077a933b3e1612b709d57a4a9df461d51b5ffc67e8e66583d4d6d35cdd8",
       "sourceUrl": "https://openalex.org/W3131477973",
@@ -6906,23 +7057,20 @@
         "galenweld",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "Weld_Glenski_Althoff_2021",
+      "base": {
+        "authors": "Weld, Galen and Glenski, Maria and Althoff, Tim",
+        "doi": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Political Bias and Factualness in News Sharing across more than 100,000 Online Communities",
         "authors": "Galen Weld and Maria Glenski and Tim Althoff",
-        "authorNames": [
-          "Galen Weld",
-          "Maria Glenski",
-          "Tim Althoff"
-        ],
-        "year": 2021,
-        "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
         "doi": "10.1609/icwsm.v15i1.18104",
-        "url": "https://doi.org/10.1609/icwsm.v15i1.18104",
         "status": "published",
         "openalexId": "W3131477973",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "Weld_Glenski_Althoff_2021"
@@ -6946,6 +7094,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "galenweld",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/18104",
+          "https://behavioral-data.github.io/resources/pubpdfs/Weld_Glenski_Althoff_2021.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final ICWSM 2021 record matches all three authors; preserve award.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4287327294"
@@ -7208,7 +7371,7 @@
     },
     {
       "id": "openalex-w3158487127",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "1888e18d8110c0077deb7fd336ad66309ca62ed6bee5e6ee9c27bebbb3315137",
       "sourceUrl": "https://openalex.org/W3158487127",
@@ -7234,7 +7397,7 @@
         "galenweld",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w3158487127",
       "base": {},
       "changes": {
         "title": "Leveraging Community and Author Context to Explain the Performance and Bias of Text-Based Deception Detection Models",
@@ -7246,12 +7409,12 @@
           "Maria Glenski"
         ],
         "year": 2021,
-        "venue": "",
+        "venue": "NLP4IF",
         "doi": "10.18653/v1/2021.nlp4if-1.5",
-        "url": "https://doi.org/10.18653/v1/2021.nlp4if-1.5",
+        "url": "https://aclanthology.org/2021.nlp4if-1.5/",
         "status": "published",
         "openalexId": "W3158487127",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -7273,6 +7436,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "galenweld",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2021.nlp4if-1.5/",
+          "https://aclanthology.org/2021.nlp4if-1.5.pdf"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Galen’s maintainer-confirmed 2019–2026 membership covers 2021. The NLP4IF paper verifies Galen and Tim’s authorship and affiliation. Use the final proceedings record.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4287199123"
@@ -7351,7 +7529,7 @@
     },
     {
       "id": "openalex-w3167036993",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4ae209a052227395e5f0b622601a4cf266057c515b7d987179b92ebccb9a18ef",
       "sourceUrl": "https://openalex.org/W3167036993",
@@ -7378,22 +7556,18 @@
       ],
       "targetId": "merrill_multiverse_2021",
       "base": {
-        "title": "MULTIVERSE: Mining Collective Data Science Knowledge from Code on the Web to Suggest Alternative Analysis Approaches",
         "authors": "Merrill, Mike A. and Zhang, Ge and Althoff, Tim",
-        "venue": "KDD",
         "url": "https://dl.acm.org/doi/10.1145/3447548.3467455",
         "status": null,
         "openalexId": null,
         "type": null
       },
       "changes": {
-        "title": "MULTIVERSE",
         "authors": "Mike A. Merrill and Ge Zhang and Tim Althoff",
-        "venue": "",
         "url": "https://doi.org/10.1145/3447548.3467455",
         "status": "published",
         "openalexId": "W3167036993",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -7415,6 +7589,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3447548.3467455",
+          "https://behavioral-data.github.io/resources/pubpdfs/merrill_multiverse_2021.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final PDF confirms full MULTIVERSE title, three authors and DOI. Discard truncated title and empty-venue proposal.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -7809,7 +7998,7 @@
     },
     {
       "id": "openalex-w3177990722",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "763fd27e0d65a6c4ad8bdaf08877d7ed8192372eeb2bb21a870d8fc823046729",
       "sourceUrl": "https://openalex.org/W3177990722",
@@ -7870,6 +8059,11 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -8205,7 +8399,7 @@
     },
     {
       "id": "openalex-w3199811133",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "26e12d804fe14628b85c636209cc1ecf0191edac5cbb6a4d8eecb14c2cc92d6e",
       "sourceUrl": "https://openalex.org/W3199811133",
@@ -8230,23 +8424,26 @@
         "galenweld",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "weld2024making",
+      "base": {
+        "title": "Making Online Communities 'Better': A Taxonomy of Community Values on Reddit",
+        "authors": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
+        "venue": "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "Making Online Communities ‘Better’: A Taxonomy of Community Values on Reddit",
         "authors": "Galen Weld and Amy X. Zhang and Tim Althoff",
-        "authorNames": [
-          "Galen Weld",
-          "Amy X. Zhang",
-          "Tim Althoff"
-        ],
-        "year": 2024,
-        "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
+        "venue": "ICWSM",
         "doi": "10.1609/icwsm.v18i1.31413",
-        "url": "https://doi.org/10.1609/icwsm.v18i1.31413",
+        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31413",
         "status": "published",
         "openalexId": "W3199811133",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "weld2024making"
@@ -8270,6 +8467,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "galenweld",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/31413",
+          "https://behavioral-data.github.io/resources/pubpdfs/weldMakingOnlineCommunities2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final ICWSM 2024 record confirms three authors, DOI and year.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4286980844"
@@ -8489,7 +8701,7 @@
     },
     {
       "id": "openalex-w3213416073",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4243c0f1314ac7033da4abdc7b059aac9343cefe36ac545fde79462aa3b57544",
       "sourceUrl": "https://openalex.org/W3213416073",
@@ -8514,23 +8726,24 @@
         "galenweld",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "weld2022community_values",
+      "base": {
+        "title": "What Makes Online Communities 'Better'? Measuring Values, Consensus, and Conflict across Thousands of Subreddits",
+        "authors": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "What Makes Online Communities ‘Better’? Measuring Values, Consensus, and Conflict across Thousands of Subreddits",
         "authors": "Galen Weld and Amy X. Zhang and Tim Althoff",
-        "authorNames": [
-          "Galen Weld",
-          "Amy X. Zhang",
-          "Tim Althoff"
-        ],
-        "year": 2022,
-        "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
         "doi": "10.1609/icwsm.v16i1.19363",
-        "url": "https://doi.org/10.1609/icwsm.v16i1.19363",
+        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19363",
         "status": "published",
         "openalexId": "W3213416073",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "weld2022community_values"
@@ -8552,6 +8765,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "galenweld",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/19363",
+          "https://behavioral-data.github.io/resources/pubpdfs/weld2022community_values.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final ICWSM 2022 record confirms three authors and DOI.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4226317850",
@@ -9274,7 +9502,7 @@
     },
     {
       "id": "openalex-w4281786927",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "fcd3143fcf2f8d49936d775988929802c0a91bb1fac71d302acf7b78e13ef55d",
       "sourceUrl": "https://openalex.org/W4281786927",
@@ -9298,22 +9526,22 @@
         "mikemerrill",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "merrillSelfsupervisedPretrainingTransfer2023",
+      "base": {
+        "title": "Self-Supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets",
+        "authors": "Merrill, Mike A. and Althoff, Tim",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "Self-supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets",
         "authors": "Mike A. Merrill and Tim Althoff",
-        "authorNames": [
-          "Mike A. Merrill",
-          "Tim Althoff"
-        ],
-        "year": 2022,
-        "venue": "arXiv (Cornell University)",
-        "doi": "10.48550/arxiv.2205.13607",
-        "url": "http://arxiv.org/abs/2205.13607",
-        "status": "preprint",
+        "url": "https://proceedings.mlr.press/v209/merrill23a.html",
+        "status": "published",
         "openalexId": "W4281786927",
-        "type": "preprint"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "merrillSelfsupervisedPretrainingTransfer2023"
@@ -9337,11 +9565,26 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://proceedings.mlr.press/v209/merrill23a.html",
+          "https://behavioral-data.github.io/resources/pubpdfs/merrillSelfsupervisedPretrainingTransfer2023.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final PMLR PDF confirms Mike A. Merrill and Tim Althoff, correcting the landing page’s Mika typo. Preserve publication year 2023 rather than preprint year 2022; replace anonymous draft PDF link with final paper.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
       "id": "openalex-w4285605790",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "2f7797e6a4846be89373a8a84e3c6b5bcd36c6f866c73168a171d79f9251f706",
       "sourceUrl": "https://openalex.org/W4285605790",
@@ -9408,6 +9651,17 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reconciliationReview": {
+        "checkedOn": "2026-09-09",
+        "outcome": "pending",
+        "note": "Verified IJCAI 2022 Sister Conferences Best Papers extended abstract, distinct from the full WWW 2021 record. Do not replace the full paper; separate inclusion/presentation link remains pending.",
+        "evidencePath": "_planning/PUBLICATION_RECONCILIATION_REVIEW.md"
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -10663,7 +10917,7 @@
     },
     {
       "id": "openalex-w4300886482",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "1e717e284f5f3e5c1c887863dfdb4ba38346a87dcc5e567ee3b4067159c35cf9",
       "sourceUrl": "https://openalex.org/W4300886482",
@@ -10692,24 +10946,24 @@
         "margaretli",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w4300886482",
       "base": {},
       "changes": {
         "title": "Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models",
-        "authors": "Margaret Li and Suchin Gururangan and Tim Dettmers and Lewis, Mike and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
+        "authors": "Margaret Li and Suchin Gururangan and Tim Dettmers and Mike Lewis and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
         "authorNames": [
           "Margaret Li",
           "Suchin Gururangan",
           "Tim Dettmers",
-          "Lewis, Mike",
+          "Mike Lewis",
           "Tim Althoff",
           "Noah A. Smith",
           "Luke Zettlemoyer"
         ],
         "year": 2022,
-        "venue": "arXiv (Cornell University)",
+        "venue": "arXiv",
         "doi": "10.48550/arxiv.2208.03306",
-        "url": "http://arxiv.org/abs/2208.03306",
+        "url": "https://arxiv.org/abs/2208.03306",
         "status": "preprint",
         "openalexId": "W4300886482",
         "type": "preprint"
@@ -10732,6 +10986,24 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "margaretli",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://arxiv.org/abs/2208.03306",
+          "https://margs.li/",
+          "https://jmlr.org/papers/v26/",
+          "https://jmlr.org/papers/v25/",
+          "https://jmlr.org/papers/v24/"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Margaret’s 2020–present lab affiliation covers 2022; her profile and arXiv verify authorship with Tim. Maintainer explicitly approved Margaret’s papers and requested journal-first, otherwise preprint. A journal record could not be verified, including in JMLR volumes 24–26; retain the verified 2022 arXiv version.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -11281,7 +11553,7 @@
     },
     {
       "id": "openalex-w4308610353",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "96a5c50f7d662eeaa6ef9ff01494fe2251fd5123f6ccd0092124bfee0668bbaf",
       "sourceUrl": "https://openalex.org/W4308610353",
@@ -11342,7 +11614,6 @@
           "Jennifer Mankoff",
           "Anind K. Dey"
         ],
-        "venue": "NeurIPS",
         "doi": "10.48550/ARXIV.2211.02733",
         "url": "https://arxiv.org/abs/2211.02733",
         "status": null,
@@ -11351,31 +11622,30 @@
       },
       "changes": {
         "title": "GLOBEM Dataset: Multi-Year Datasets for Longitudinal Human Behavior Modeling Generalization",
-        "authors": "Xuhai Xu and Han Zhang and Yasaman S. Sefidgar and Yiyi Ren and Xin Liu and Woosuk Seo and Jennifer Brown and Kevin Kuehn and Mike A. Merrill and Paula S. Nurius and Shwetak Patel and Tim Althoff and Margaret E. Morris and E.A. Riskin and Jennifer Mankoff and Anind K. Dey",
+        "authors": "Xuhai Xu and Han Zhang and Yasaman Sefidgar and Yiyi Ren and Xin Liu and Woosuk Seo and Jennifer Brown and Kevin Kuehn and Mike Merrill and Paula Nurius and Shwetak Patel and Tim Althoff and Margaret E. Morris and Eve Riskin and Jennifer Mankoff and Anind K. Dey",
         "authorNames": [
           "Xuhai Xu",
           "Han Zhang",
-          "Yasaman S. Sefidgar",
+          "Yasaman Sefidgar",
           "Yiyi Ren",
           "Xin Liu",
           "Woosuk Seo",
           "Jennifer Brown",
           "Kevin Kuehn",
-          "Mike A. Merrill",
-          "Paula S. Nurius",
+          "Mike Merrill",
+          "Paula Nurius",
           "Shwetak Patel",
           "Tim Althoff",
           "Margaret E. Morris",
-          "E.A. Riskin",
+          "Eve Riskin",
           "Jennifer Mankoff",
           "Anind K. Dey"
         ],
-        "venue": "arXiv (Cornell University)",
-        "doi": "10.48550/arxiv.2211.02733",
-        "url": "http://arxiv.org/abs/2211.02733",
-        "status": "preprint",
+        "doi": "10.52202/068431-1790",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9c7e8a0821dfcb58a9a83cbd37cc8131-Abstract-Datasets_and_Benchmarks.html",
+        "status": "published",
         "openalexId": "W4308610353",
-        "type": "preprint"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -11400,11 +11670,26 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9c7e8a0821dfcb58a9a83cbd37cc8131-Abstract-Datasets_and_Benchmarks.html",
+          "https://behavioral-data.github.io/resources/pubpdfs/xu2022GLOBEM.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. The NeurIPS Datasets and Benchmarks paper is published, not a preprint or the separate GLOBEM modeling article. Final PDF verifies sixteen authors; Tim and Mike qualify without counting Yasaman’s pre-lab affiliation.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
       "id": "openalex-w4309564255",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "850533c2c6fa335fcd8988296377a022ba1bf5981a0d43b930a15ea38f4cf514",
       "sourceUrl": "https://openalex.org/W4309564255",
@@ -11433,14 +11718,12 @@
       "targetId": "suhDisparateImpactsOnline2022",
       "base": {
         "authors": "Suh, Jina and Horvitz, Eric and White, Ryen W. and Althoff, Tim",
-        "url": "https://www.nature.com/articles/s41467-022-34592-z",
         "status": null,
         "openalexId": null,
         "type": null
       },
       "changes": {
         "authors": "Jina Suh and Eric Horvitz and Ryen W. White and Tim Althoff",
-        "url": "https://doi.org/10.1038/s41467-022-34592-z",
         "status": "published",
         "openalexId": "W4309564255",
         "type": "article"
@@ -11463,6 +11746,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "jinasuh",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://www.nature.com/articles/s41467-022-34592-z",
+          "https://behavioral-data.github.io/resources/pubpdfs/suhDisparateImpactsOnline2022.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Published journal record and archived publisher PDF agree on all four authors, DOI and 2022 year; add explicit article type/status.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w3200927220"
@@ -11774,7 +12072,7 @@
     },
     {
       "id": "openalex-w4317757464",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "82aeaa49ec1fb317369eabfe1b3fb08675b2765ecf109f17bbbb70eed7b4a948",
       "sourceUrl": "https://openalex.org/W4317757464",
@@ -11802,22 +12100,35 @@
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
-      "changes": {
-        "title": "Human–AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
-        "authors": "Ashish Sharma and Inna Wanyin Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
+      "targetId": "sharma2023human",
+      "base": {
+        "title": "Human-AI Collaboration Enables More Empathic Conversations in Text-based Peer-to-Peer Mental Health Support",
+        "authors": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
         "authorNames": [
           "Ashish Sharma",
-          "Inna Wanyin Lin",
+          "Inna W Lin",
+          "Adam S Miner",
+          "David C Atkins",
+          "Tim Althoff"
+        ],
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
+      "changes": {
+        "title": "Human–AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+        "authors": "Ashish Sharma and Inna W. Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
+        "authorNames": [
+          "Ashish Sharma",
+          "Inna W. Lin",
           "Adam S. Miner",
           "David C. Atkins",
           "Tim Althoff"
         ],
-        "year": 2023,
-        "venue": "Nature Machine Intelligence",
         "doi": "10.1038/s42256-022-00593-2",
-        "url": "https://doi.org/10.1038/s42256-022-00593-2",
+        "url": "https://www.nature.com/articles/s42256-022-00593-2",
         "status": "published",
         "openalexId": "W4317757464",
         "type": "article"
@@ -11846,6 +12157,22 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://www.nature.com/articles/s42256-022-00593-2",
+          "https://behavioral-data.github.io/resources/pubpdfs/sharma2023human.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Verified journal DOI/year and five-author manuscript; retain existing title emphasis, description and highlight.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4224875158"
@@ -11983,7 +12310,7 @@
     },
     {
       "id": "openalex-w4319837253",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "a487d3df5a010495f601c54255d124e673279e3f53c32990ec6173fb50cccc69",
       "sourceUrl": "https://openalex.org/W4319837253",
@@ -12054,7 +12381,9 @@
         "openalexId": "W4319837253",
         "type": "article"
       },
-      "possibleDuplicates": [],
+      "possibleDuplicates": [
+        "xu2023globemimwut"
+      ],
       "conflicts": [],
       "identityReviewPersonIds": [
         "yasamansefidgar"
@@ -12074,6 +12403,17 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reconciliationReview": {
+        "checkedOn": "2026-09-09",
+        "outcome": "pending",
+        "note": "DOI 10.1145/3569485 matches archived IMWUT PDF; newly linked possible match. Preserve full site title. Complete author-list discrepancy and Yasaman’s historical lab attribution remain unresolved.",
+        "evidencePath": "_planning/PUBLICATION_RECONCILIATION_REVIEW.md"
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -12645,7 +12985,7 @@
     },
     {
       "id": "openalex-w4361021241",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "bb46304d823822e7dc825b68723889c167534d64787299615179bee6a05dce4a",
       "sourceUrl": "https://openalex.org/W4361021241",
@@ -12674,24 +13014,24 @@
         "margaretli",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w4361021241",
       "base": {},
       "changes": {
         "title": "Scaling Expert Language Models with Unsupervised Domain Discovery",
-        "authors": "Suchin Gururangan and Margaret Li and Lewis, Mike and Weijia Shi and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
+        "authors": "Suchin Gururangan and Margaret Li and Mike Lewis and Weijia Shi and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
         "authorNames": [
           "Suchin Gururangan",
           "Margaret Li",
-          "Lewis, Mike",
+          "Mike Lewis",
           "Weijia Shi",
           "Tim Althoff",
           "Noah A. Smith",
           "Luke Zettlemoyer"
         ],
         "year": 2023,
-        "venue": "arXiv (Cornell University)",
+        "venue": "arXiv",
         "doi": "10.48550/arxiv.2303.14177",
-        "url": "http://arxiv.org/abs/2303.14177",
+        "url": "https://arxiv.org/abs/2303.14177",
         "status": "preprint",
         "openalexId": "W4361021241",
         "type": "preprint"
@@ -12714,6 +13054,24 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "margaretli",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://arxiv.org/abs/2303.14177",
+          "https://margs.li/",
+          "https://jmlr.org/papers/v26/",
+          "https://jmlr.org/papers/v25/",
+          "https://jmlr.org/papers/v24/"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Margaret’s 2020–present lab affiliation covers 2023; her profile and arXiv verify authorship with Tim. Maintainer explicitly approved Margaret’s papers and requested journal-first, otherwise preprint. Conflicting author-profile journal years could not be resolved to a journal record, including in JMLR volumes 24–26; retain the verified 2023 arXiv version and its complete author list.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -12793,7 +13151,7 @@
     },
     {
       "id": "openalex-w4366547794",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "05cd27da17f176a6e3146958eeaeb0ec86ce52b000123558838943ce0c55be42",
       "sourceUrl": "https://openalex.org/W4366547794",
@@ -12818,23 +13176,22 @@
         "kengu",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "Gu2022UnderstandingAS",
+      "base": {
+        "authors": "Ken Gu, Eunice Jun and Tim Althoff",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Understanding and Supporting Debugging Workflows in Multiverse Analysis",
         "authors": "Ken Gu and Eunice Jun and Tim Althoff",
-        "authorNames": [
-          "Ken Gu",
-          "Eunice Jun",
-          "Tim Althoff"
-        ],
-        "year": 2023,
-        "venue": "",
         "doi": "10.1145/3544548.3581099",
         "url": "https://doi.org/10.1145/3544548.3581099",
         "status": "published",
         "openalexId": "W4366547794",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "Gu2022UnderstandingAS"
@@ -12858,6 +13215,21 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "kengu",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3544548.3581099",
+          "https://behavioral-data.github.io/resources/pubpdfs/Gu2022UnderstandingAS.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Camera-ready paper verifies 2023 CHI venue, DOI and three authors; stable legacy ID retains 2022 in its name.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4304699808"
@@ -13083,7 +13455,8 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w4385572158"
     },
     {
       "id": "openalex-w4376652651",
@@ -13587,7 +13960,7 @@
     },
     {
       "id": "openalex-w4385572158",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4c572370681e9aa710c9779a462bec12f3b3df9f8f2e87bdb52d9116a8ab432b",
       "sourceUrl": "https://openalex.org/W4385572158",
@@ -13618,28 +13991,28 @@
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w4385572158",
       "base": {},
       "changes": {
         "title": "Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction",
-        "authors": "Ashish Sharma and Kevin Rushton and Inna Wanyin Lin and David Wadden and Khendra Lucas and Adam S. Miner and Theresa Nguyen and Tim Althoff",
+        "authors": "Ashish Sharma and Kevin Rushton and Inna Wanyin Lin and David Wadden and Khendra G. Lucas and Adam S. Miner and Theresa Nguyen and Tim Althoff",
         "authorNames": [
           "Ashish Sharma",
           "Kevin Rushton",
           "Inna Wanyin Lin",
           "David Wadden",
-          "Khendra Lucas",
+          "Khendra G. Lucas",
           "Adam S. Miner",
           "Theresa Nguyen",
           "Tim Althoff"
         ],
         "year": 2023,
-        "venue": "",
+        "venue": "ACL",
         "doi": "10.18653/v1/2023.acl-long.555",
-        "url": "https://doi.org/10.18653/v1/2023.acl-long.555",
+        "url": "https://aclanthology.org/2023.acl-long.555/",
         "status": "published",
         "openalexId": "W4385572158",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -13663,11 +14036,31 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2023.acl-long.555/",
+          "https://aclanthology.org/2023.acl-long.555.pdf",
+          "https://arxiv.org/abs/2305.02466"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Ashish (2019–2024) and Inna (2020–present) overlap 2023; the final ACL paper confirms their UW affiliations and complete authorship. Use the final ACL record and group its preprint.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w4372272612"
+      ]
     },
     {
       "id": "openalex-w4385572715",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "694128546f6bca17e844d144edfd98c730c10f2a74f9d850622fbff26cda5d77",
       "sourceUrl": "https://openalex.org/W4385572715",
@@ -13697,10 +14090,25 @@
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "lin-etal-2022-gendered",
+      "base": {
+        "authors": "Lin, Inna and Njoo, Lucille and Field, Anjalie and Sharma, Ashish and Reinecke, Katharina and Althoff, Tim and Tsvetkov, Yulia",
+        "authorNames": [
+          "Inna Lin",
+          "Lucille Njoo",
+          "Anjalie Field",
+          "Ashish Sharma",
+          "Katharina Reinecke",
+          "Tim Althoff",
+          "Yulia Tsvetkov"
+        ],
+        "doi": "",
+        "url": "https://aclanthology.org/2022.emnlp-main.139",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Gendered Mental Health Stigma in Masked Language Models",
         "authors": "Inna Wanyin Lin and Lucille Njoo and Anjalie Field and Ashish Sharma and Katharina Reinecke and Tim Althoff and Yulia Tsvetkov",
         "authorNames": [
           "Inna Wanyin Lin",
@@ -13711,13 +14119,11 @@
           "Tim Althoff",
           "Yulia Tsvetkov"
         ],
-        "year": 2022,
-        "venue": "",
         "doi": "10.18653/v1/2022.emnlp-main.139",
-        "url": "https://doi.org/10.18653/v1/2022.emnlp-main.139",
+        "url": "https://aclanthology.org/2022.emnlp-main.139/",
         "status": "published",
         "openalexId": "W4385572715",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "lin-etal-2022-gendered"
@@ -13743,6 +14149,22 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2022.emnlp-main.139/",
+          "https://behavioral-data.github.io/resources/pubpdfs/lin-etal-2022-gendered.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final PDF verifies all seven authors including Inna Wanyin Lin; add final DOI/type/status.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4307535457"
@@ -14317,7 +14739,8 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w4396832979"
     },
     {
       "id": "openalex-w4388143956",
@@ -14809,7 +15232,7 @@
     },
     {
       "id": "openalex-w4390529402",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4dea34347c8ee47e258bcff58d8b2636831a769d2bd38957d81fd6a4b15994d2",
       "sourceUrl": "https://openalex.org/W4390529402",
@@ -14836,10 +15259,23 @@
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "sharma2024computational",
+      "base": {
+        "authors": "Chiu, Yu Ying* and Sharma, Ashish* and Lin, Inna and Althoff, Tim",
+        "authorNames": [
+          "Yu Ying* Chiu",
+          "Ashish* Sharma",
+          "Inna Lin",
+          "Tim Althoff"
+        ],
+        "venue": "Preprint",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "A Computational Framework for Behavioral Assessment of LLM Therapists",
         "authors": "Yu Ying Chiu and Ashish Sharma and Inna Wanyin Lin and Tim Althoff",
         "authorNames": [
           "Yu Ying Chiu",
@@ -14847,10 +15283,9 @@
           "Inna Wanyin Lin",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "arXiv (Cornell University)",
+        "venue": "arXiv",
         "doi": "10.48550/arxiv.2401.00820",
-        "url": "http://arxiv.org/abs/2401.00820",
+        "url": "https://arxiv.org/abs/2401.00820",
         "status": "preprint",
         "openalexId": "W4390529402",
         "type": "preprint"
@@ -14879,6 +15314,22 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://arxiv.org/abs/2401.00820",
+          "https://behavioral-data.github.io/resources/pubpdfs/sharma2024computational.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. No final publication record verified; retain 2024 preprint, complete four-author list and arXiv identifier. Equal contribution remains documented in the paper.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -15819,7 +16270,8 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w4402667122"
     },
     {
       "id": "openalex-w4392909431",
@@ -15965,7 +16417,7 @@
     },
     {
       "id": "openalex-w4392972281",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "56d0c6b1728bdda2147dbe865b7baf554bbf90cb391a31cab516907e717fd89b",
       "sourceUrl": "https://openalex.org/W4392972281",
@@ -15992,10 +16444,23 @@
         "timalthoff",
         "xinyizhou"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "zhou2024correcting",
+      "base": {
+        "authors": "Zhou, Xinyi and Sharma, Ashish and Zhang, Amy and Althoff, Tim",
+        "authorNames": [
+          "Xinyi Zhou",
+          "Ashish Sharma",
+          "Amy Zhang",
+          "Tim Althoff"
+        ],
+        "venue": "Preprint",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Correcting misinformation on social media with a large language model",
         "authors": "Xinyi Zhou and Ashish Sharma and Amy X. Zhang and Tim Althoff",
         "authorNames": [
           "Xinyi Zhou",
@@ -16003,10 +16468,9 @@
           "Amy X. Zhang",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "arXiv (Cornell University)",
+        "venue": "arXiv",
         "doi": "10.48550/arxiv.2403.11169",
-        "url": "http://arxiv.org/abs/2403.11169",
+        "url": "https://arxiv.org/abs/2403.11169",
         "status": "preprint",
         "openalexId": "W4392972281",
         "type": "preprint"
@@ -16033,6 +16497,22 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "timalthoff",
+          "xinyizhou"
+        ],
+        "evidenceUrls": [
+          "https://arxiv.org/abs/2403.11169",
+          "https://behavioral-data.github.io/resources/pubpdfs/zhouCorrectingMisinformation2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. No final publication record verified; retain initial 2024 preprint year rather than the 2026 revision year. Correct Amy X. Zhang’s full name.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
@@ -16400,7 +16880,7 @@
       "id": "openalex-w4394984217",
       "status": "pending",
       "firstSeen": "2026-09-05",
-      "fingerprint": "db1b1c3f236cf1f25c7120eb6189effb20c4473ddb2b60e54aaadafed4fe0cff",
+      "fingerprint": "1932f5274636a71863a48dba4b0dfa6f9e83ab0c614704f6739e1ba064b5ebf7",
       "sourceUrl": "https://openalex.org/W4394984217",
       "observed": {
         "id": "openalex-w4394984217",
@@ -16423,7 +16903,8 @@
       },
       "matchedPersonIds": [
         "mikemerrill",
-        "timalthoff"
+        "timalthoff",
+        "vinayakgupta"
       ],
       "targetId": null,
       "base": {},
@@ -16456,18 +16937,21 @@
         "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
-          "timalthoff"
+          "timalthoff",
+          "vinayakgupta"
         ],
         "publicationDate": "2024-04-17",
         "memberPersonIds": [
           "timalthoff"
         ],
         "uncertainPersonIds": [
-          "mikemerrill"
+          "mikemerrill",
+          "vinayakgupta"
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w4404782449"
     },
     {
       "id": "openalex-w4396224493",
@@ -16738,7 +17222,7 @@
     },
     {
       "id": "openalex-w4396615168",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "c02b3e9cfe7b197882ef2da8370ecc29934fc5902a8f4a23210c1e12029e8d17",
       "sourceUrl": "https://openalex.org/W4396615168",
@@ -16780,7 +17264,7 @@
         "jinasuh",
         "timalthoff"
       ],
-      "targetId": null,
+      "targetId": "openalex-w4396615168",
       "base": {},
       "changes": {
         "title": "Rethinking technology innovation for mental health: framework for multi-sectoral collaboration",
@@ -16809,7 +17293,7 @@
         "year": 2024,
         "venue": "Nature Mental Health",
         "doi": "10.1038/s44220-024-00232-2",
-        "url": "https://doi.org/10.1038/s44220-024-00232-2",
+        "url": "https://www.nature.com/articles/s44220-024-00232-2",
         "status": "published",
         "openalexId": "W4396615168",
         "type": "article"
@@ -16836,11 +17320,25 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://www.nature.com/articles/s44220-024-00232-2"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Ashish’s 2019–2024 membership covers 2024; the publisher explicitly affiliates Ashish and Tim with UW. Jina remains in the full author list but her MSR-period authorship is not counted toward the lab threshold.",
+        "reviewedOn": "2026-09-09"
       }
     },
     {
       "id": "openalex-w4396832076",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "00215f5e2ac9b704b122b4365205c0bff92404c1b750d7bdd9b7dd5c5965fb1b",
       "sourceUrl": "https://openalex.org/W4396832076",
@@ -16867,25 +17365,24 @@
         "kengu",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "gu2024how_understand",
+      "base": {
+        "authors": "Gu, Ken and Shang, Ruoxi and Althoff, Tim and Wang, Chenglong and Drucker, Steven M.",
+        "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "How Do Analysts Understand and Verify AI-Assisted Data Analyses?",
         "authors": "Ken Gu and Ruoxi Shang and Tim Althoff and Chenglong Wang and Steven M. Drucker",
-        "authorNames": [
-          "Ken Gu",
-          "Ruoxi Shang",
-          "Tim Althoff",
-          "Chenglong Wang",
-          "Steven M. Drucker"
-        ],
-        "year": 2024,
-        "venue": "",
+        "venue": "CHI",
         "doi": "10.1145/3613904.3642497",
         "url": "https://doi.org/10.1145/3613904.3642497",
         "status": "published",
         "openalexId": "W4396832076",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "gu2024how_understand"
@@ -16908,13 +17405,28 @@
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
       },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "kengu",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3613904.3642497",
+          "https://behavioral-data.github.io/resources/pubpdfs/guHowDoAnalystsUnderstand2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Local final PDF verifies DOI, CHI 2024 and all five authors.",
+        "reviewedOn": "2026-09-09"
+      },
       "alternateRecordIds": [
         "openalex-w4386942691"
       ]
     },
     {
       "id": "openalex-w4396832182",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "4767657b608fc30bf05b570d379598341d4cb66c45be8d894e0c20a70bd9074c",
       "sourceUrl": "https://openalex.org/W4396832182",
@@ -16941,10 +17453,24 @@
         "kengu",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "gu2024how_analysts",
+      "base": {
+        "authors": "Gu, Ken and Grunde-McLaughlin, Madeleine and McNutt, Andrew M. and Heer, Jeffrey and Althoff, Tim",
+        "authorNames": [
+          "Ken Gu",
+          "Madeleine Grunde-McLaughlin",
+          "Andrew M. McNutt",
+          "Jeffrey Heer",
+          "Tim Althoff"
+        ],
+        "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "How Do Data Analysts Respond to AI Assistance? A Wizard-of-Oz Study",
         "authors": "Ken Gu and Madeleine Grunde-McLaughlin and Andrew McNutt and Jeffrey Heer and Tim Althoff",
         "authorNames": [
           "Ken Gu",
@@ -16953,13 +17479,12 @@
           "Jeffrey Heer",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "",
+        "venue": "CHI",
         "doi": "10.1145/3613904.3641891",
         "url": "https://doi.org/10.1145/3613904.3641891",
         "status": "published",
         "openalexId": "W4396832182",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "gu2024how_analysts"
@@ -16984,15 +17509,30 @@
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
       },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "kengu",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3613904.3641891",
+          "https://behavioral-data.github.io/resources/pubpdfs/guHowDoDataAnalysts2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Local final PDF verifies DOI and all five authors; use Andrew McNutt as printed in that paper.",
+        "reviewedOn": "2026-09-09"
+      },
       "alternateRecordIds": [
         "openalex-w4386907134"
       ]
     },
     {
       "id": "openalex-w4396832979",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
-      "fingerprint": "9cf0e0236565a3488e59fa258501d3f6f54cfd726749069f0c6b017b1e9cdf65",
+      "fingerprint": "99a90abba5f1ce578e2ea7468d6a24645cf53064d02105512ca1cd186b04d9d3",
       "sourceUrl": "https://openalex.org/W4396832979",
       "observed": {
         "id": "openalex-w4396832979",
@@ -17014,11 +17554,28 @@
         "openalexId": "W4396832979"
       },
       "matchedPersonIds": [
+        "ashishsharma",
         "innalin",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "sharma2024facilitating",
+      "base": {
+        "title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction - A Case Study of Cognitive Restructuring",
+        "authors": "Sharma, Ashish and Rushton, Kevin and Lin, Inna and Nguyen, Theresa and Althoff, Tim",
+        "authorNames": [
+          "Ashish Sharma",
+          "Kevin Rushton",
+          "Inna Lin",
+          "Theresa Nguyen",
+          "Tim Althoff"
+        ],
+        "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction: A Case Study of Cognitive Restructuring",
         "authors": "Ashish Sharma and Kevin Rushton and Inna Wanyin Lin and Theresa Nguyen and Tim Althoff",
@@ -17029,13 +17586,12 @@
           "Theresa Nguyen",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "",
+        "venue": "CHI",
         "doi": "10.1145/3613904.3642761",
         "url": "https://doi.org/10.1145/3613904.3642761",
         "status": "published",
         "openalexId": "W4396832979",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "sharma2024facilitating"
@@ -17045,6 +17601,7 @@
       "labRelevance": {
         "policyVersion": 2,
         "matchedPersonIds": [
+          "ashishsharma",
           "innalin",
           "timalthoff"
         ],
@@ -17053,11 +17610,31 @@
           "timalthoff"
         ],
         "uncertainPersonIds": [
+          "ashishsharma",
           "innalin"
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://doi.org/10.1145/3613904.3642761",
+          "https://behavioral-data.github.io/resources/pubpdfs/sharmaFacilitatingSelf-Guided2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Camera-ready PDF prints the final CHI DOI. Restore full Inna name, retain five authors and group preprint. Ashish’s split provider identity is work-verified.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w4387947216"
+      ]
     },
     {
       "id": "openalex-w4396833606",
@@ -17798,7 +18375,7 @@
       "id": "openalex-w4400064538",
       "status": "pending",
       "firstSeen": "2026-09-05",
-      "fingerprint": "356b7c8c2dc43298c5b0fa9e58a34cc200f3303bb8284f1db72ee0896ea1d693",
+      "fingerprint": "d26bb12e807001ab8ef06d26617661a1c65b466ee9978873e10b1172271c8cd8",
       "sourceUrl": "https://openalex.org/W4400064538",
       "observed": {
         "id": "openalex-w4400064538",
@@ -17821,7 +18398,8 @@
       },
       "matchedPersonIds": [
         "mikemerrill",
-        "timalthoff"
+        "timalthoff",
+        "vinayakgupta"
       ],
       "targetId": null,
       "base": {},
@@ -17852,14 +18430,16 @@
         "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
-          "timalthoff"
+          "timalthoff",
+          "vinayakgupta"
         ],
         "publicationDate": "2024-06-22",
         "memberPersonIds": [
           "timalthoff"
         ],
         "uncertainPersonIds": [
-          "mikemerrill"
+          "mikemerrill",
+          "vinayakgupta"
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
@@ -18085,7 +18665,7 @@
     },
     {
       "id": "openalex-w4400732558",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "28c48ffb92cece16187c206969d13481b154ecb1378fe7f3274d2a8884448523",
       "sourceUrl": "https://openalex.org/W4400732558",
@@ -18154,6 +18734,11 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -18642,7 +19227,7 @@
     },
     {
       "id": "openalex-w4401161039",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "30b174083143d5d0983361ffaa155ccd1fac06a6522de636b073051bfe3995e0",
       "sourceUrl": "https://openalex.org/W4401161039",
@@ -18735,6 +19320,17 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reconciliationReview": {
+        "checkedOn": "2026-09-09",
+        "outcome": "pending",
+        "note": "Verified GetMobile 2024 highlights article (8 pages) citing original IMWUT paper (34 pages); not a replacement. Historical affiliation and separate inclusion remain pending.",
+        "evidencePath": "_planning/PUBLICATION_RECONCILIATION_REVIEW.md"
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -18875,7 +19471,7 @@
     },
     {
       "id": "openalex-w4402484013",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "8a40e325fb4e7237b6062fb439d845de2341891d84e769a22071f22921985bc0",
       "sourceUrl": "https://openalex.org/W4402484013",
@@ -18944,11 +19540,16 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
       "id": "openalex-w4402667122",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "aa111c92d2072ea322bc2318c11f379425c47433e6de4f7aa60055ab8bcd1821",
       "sourceUrl": "https://openalex.org/W4402667122",
@@ -18978,26 +19579,42 @@
         "jinasuh",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "lin2024imbue",
+      "base": {
+        "title": "IMBUE - Improving Interpersonal Effectiveness through Simulation and Just-in-time Feedback with Human-Language Model Interaction",
+        "authors": "Lin, Inna and Sharma, Ashish and Rytting, Christopher and Miner, Adam and Suh, Jina and Althoff, Tim",
+        "authorNames": [
+          "Inna Lin",
+          "Ashish Sharma",
+          "Christopher Rytting",
+          "Adam Miner",
+          "Jina Suh",
+          "Tim Althoff"
+        ],
+        "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "IMBUE: Improving Interpersonal Effectiveness through Simulation and Just-in-time Feedback with Human-Language Model Interaction",
-        "authors": "Inna Wanyin Lin and Ashish Sharma and Christopher Rytting and Adam S. Miner and Jina Suh and Tim Althoff",
+        "authors": "Inna Wanyin Lin and Ashish Sharma and Christopher Michael Rytting and Adam S. Miner and Jina Suh and Tim Althoff",
         "authorNames": [
           "Inna Wanyin Lin",
           "Ashish Sharma",
-          "Christopher Rytting",
+          "Christopher Michael Rytting",
           "Adam S. Miner",
           "Jina Suh",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "",
+        "venue": "ACL",
         "doi": "10.18653/v1/2024.acl-long.47",
-        "url": "https://doi.org/10.18653/v1/2024.acl-long.47",
+        "url": "https://aclanthology.org/2024.acl-long.47/",
         "status": "published",
         "openalexId": "W4402667122",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "lin2024imbue"
@@ -19025,7 +19642,26 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "ashishsharma",
+          "innalin",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2024.acl-long.47/",
+          "https://behavioral-data.github.io/resources/pubpdfs/linIMBUE2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final PDF verifies full names and DOI. Group preprint. Jina is retained in full authorship, but MSR-period authorship is not counted as lab membership.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w4392019768"
+      ]
     },
     {
       "id": "openalex-w4402727717",
@@ -19404,7 +20040,7 @@
     },
     {
       "id": "openalex-w4403586205",
-      "status": "pending",
+      "status": "rejected",
       "firstSeen": "2026-09-05",
       "fingerprint": "23138fde5c268e88b0cd0046ccf8180401363b1182acf549f0f980bb04cfa138",
       "sourceUrl": "https://openalex.org/W4403586205",
@@ -19465,6 +20101,11 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "exclusionReview": {
+        "reviewedOn": "2026-09-09",
+        "reason": "Maintainer reviewed the nine remaining cases and explicitly declined inclusion: these do not need to be included. Exclude these candidate additions or updates; preserve already-approved site entries.",
+        "scope": "candidate-only"
       }
     },
     {
@@ -20025,7 +20666,7 @@
     },
     {
       "id": "openalex-w4404781154",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
       "fingerprint": "526639c00063fe288c347d1463f968baa4ace6b72c8d425aec2e3ee04718eb96",
       "sourceUrl": "https://openalex.org/W4404781154",
@@ -20064,8 +20705,25 @@
         "mikemerrill",
         "timalthoff"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "gu2024blade",
+      "base": {
+        "title": "BLADE - Benchmarking Language Model Agents for Data-Driven Science",
+        "authors": "Gu, Ken and Shang, Ruoxi and Jiang, Ruien and Kuang, Keying and Lin, Richard-John and Althoff, Tim",
+        "authorNames": [
+          "Ken Gu",
+          "Ruoxi Shang",
+          "Ruien Jiang",
+          "Keying Kuang",
+          "Richard-John Lin",
+          "Tim Althoff"
+        ],
+        "venue": "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
         "title": "BLADE: Benchmarking Language Model Agents for Data-Driven Science",
         "authors": "Ken Gu and Ruoxi Shang and Ruien Jiang and Keying Kuang and Richard-John Lin and Donghe Lyu and Yue Mao and Youran Pan and Teng Wu and Jiaqian Yu and Yikun Zhang and Tianmai M. Zhang and Lanyi Zhu and Mike A. Merrill and Jeffrey Heer and Tim Althoff",
@@ -20087,13 +20745,12 @@
           "Jeffrey Heer",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "",
+        "venue": "Findings of EMNLP",
         "doi": "10.18653/v1/2024.findings-emnlp.815",
-        "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.815",
+        "url": "https://aclanthology.org/2024.findings-emnlp.815/",
         "status": "published",
         "openalexId": "W4404781154",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "gu2024blade"
@@ -20120,13 +20777,32 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "kengu",
+          "mikemerrill",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2024.findings-emnlp.815/",
+          "https://behavioral-data.github.io/resources/pubpdfs/guBLADEBenchmarkingLanguage2024a.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final PDF confirms sixteen authors; restore ten missing coauthors and group preprint. Add official final PDF and project code.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w4405425144"
+      ]
     },
     {
       "id": "openalex-w4404782449",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
-      "fingerprint": "97aaf562a6dcaf568bf9e89c2c21b89fba88bf13f8825f961caff7c162937200",
+      "fingerprint": "198772f688f02a9c45fd4ff27a8f7084bcc097da3f524704f57f787c92a2350e",
       "sourceUrl": "https://openalex.org/W4404782449",
       "observed": {
         "id": "openalex-w4404782449",
@@ -20149,12 +20825,27 @@
       },
       "matchedPersonIds": [
         "mikemerrill",
-        "timalthoff"
+        "timalthoff",
+        "vinayakgupta"
       ],
-      "targetId": null,
-      "base": {},
+      "targetId": "merrill2024language",
+      "base": {
+        "authors": "Merrill, Mike A. and Tan, Mingtian and Gupta, Vinayak and Hartvigsen, Tom and Althoff, Tim",
+        "authorNames": [
+          "Mike A. Merrill",
+          "Mingtian Tan",
+          "Vinayak Gupta",
+          "Tom Hartvigsen",
+          "Tim Althoff"
+        ],
+        "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+        "doi": "",
+        "url": "",
+        "status": null,
+        "openalexId": null,
+        "type": null
+      },
       "changes": {
-        "title": "Language Models Still Struggle to Zero-shot Reason about Time Series",
         "authors": "Mike A. Merrill and Mingtian Tan and Vinayak Gupta and Thomas Hartvigsen and Tim Althoff",
         "authorNames": [
           "Mike A. Merrill",
@@ -20163,13 +20854,12 @@
           "Thomas Hartvigsen",
           "Tim Althoff"
         ],
-        "year": 2024,
-        "venue": "",
+        "venue": "Findings of EMNLP",
         "doi": "10.18653/v1/2024.findings-emnlp.201",
-        "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.201",
+        "url": "https://aclanthology.org/2024.findings-emnlp.201/",
         "status": "published",
         "openalexId": "W4404782449",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [
         "merrill2024language"
@@ -20182,18 +20872,39 @@
         "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
-          "timalthoff"
+          "timalthoff",
+          "vinayakgupta"
         ],
         "publicationDate": "2024-01-01",
         "memberPersonIds": [
           "timalthoff"
         ],
         "uncertainPersonIds": [
-          "mikemerrill"
+          "mikemerrill",
+          "vinayakgupta"
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "timalthoff",
+          "vinayakgupta"
+        ],
+        "evidenceUrls": [
+          "https://aclanthology.org/2024.findings-emnlp.201/",
+          "https://behavioral-data.github.io/resources/pubpdfs/merrillLanguageModelsStill2024.pdf"
+        ],
+        "overrideReason": "Maintainer authorized reconciliation of existing publications on 2026-09-09, with final versions preferred, one site entry per paper, and year-level membership precision. Primary evidence confirms the complete authorship and publication version. The reviewed lab authors fall within the supported years in maintenance/membership-evidence.json; no exact month/day is inferred. This updates an existing approved entry rather than adding a paper. Final Findings paper verifies five authors, including Thomas Hartvigsen and Vinayak Gupta; correct venue from main-conference proceedings. Group preprint.",
+        "reviewedOn": "2026-09-09"
+      },
+      "alternateRecordIds": [
+        "openalex-w4394984217"
+      ]
     },
     {
       "id": "openalex-w4404782598",
@@ -20589,7 +21300,8 @@
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
-      }
+      },
+      "duplicateOf": "openalex-w4404781154"
     },
     {
       "id": "openalex-w4405432888",
@@ -23058,9 +23770,9 @@
     },
     {
       "id": "openalex-w4415797292",
-      "status": "pending",
+      "status": "accepted",
       "firstSeen": "2026-09-05",
-      "fingerprint": "11b4ecbd02d0cd27d35bbcefa1d2b8f8b05e7ccc8b4649f7434fe984ffd6eae1",
+      "fingerprint": "bcc04c0d55e5d1c70db75a46a22f38a17c086c3a98a1d6e82080ddce6ea796dd",
       "sourceUrl": "https://openalex.org/W4415797292",
       "observed": {
         "id": "openalex-w4415797292",
@@ -23083,9 +23795,10 @@
       },
       "matchedPersonIds": [
         "mikemerrill",
-        "timalthoff"
+        "timalthoff",
+        "vinayakgupta"
       ],
-      "targetId": null,
+      "targetId": "openalex-w4415797292",
       "base": {},
       "changes": {
         "title": "Are Language Models Actually Useful for Time Series Forecasting?",
@@ -23098,12 +23811,12 @@
           "Thomas Hartvigsen"
         ],
         "year": 2024,
-        "venue": "",
+        "venue": "NeurIPS",
         "doi": "10.52202/079017-1922",
-        "url": "https://doi.org/10.52202/079017-1922",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Abstract-Conference.html",
         "status": "published",
         "openalexId": "W4415797292",
-        "type": "other"
+        "type": "conference"
       },
       "possibleDuplicates": [],
       "conflicts": [],
@@ -23114,17 +23827,36 @@
         "policyVersion": 2,
         "matchedPersonIds": [
           "mikemerrill",
-          "timalthoff"
+          "timalthoff",
+          "vinayakgupta"
         ],
         "publicationDate": "2024-01-01",
         "memberPersonIds": [
           "timalthoff"
         ],
         "uncertainPersonIds": [
-          "mikemerrill"
+          "mikemerrill",
+          "vinayakgupta"
         ],
         "status": "needs-membership-review",
         "reason": "Enough lab identities match, but publication-time membership needs confirmation."
+      },
+      "reviewedOn": "2026-09-09",
+      "policyReview": {
+        "policyVersion": 2,
+        "labRelevanceStatus": "needs-membership-review",
+        "personIds": [
+          "mikemerrill",
+          "vinayakgupta",
+          "timalthoff"
+        ],
+        "evidenceUrls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Abstract-Conference.html",
+          "https://mikemerrill.io/",
+          "https://gvinayak.github.io/assets/Vinayak_Gupta_PhD.pdf"
+        ],
+        "overrideReason": "Maintainer approved this backfill on 2026-09-09 using year-level membership evidence recorded in maintenance/membership-evidence.json; the exact-date screening model does not yet consume those years. Mike (2019–2024) and Vinayak (2023–2024) overlap publication year 2024. Proceedings, Mike’s bibliography and Vinayak’s CV verify authorship and lab identity. Use the final NeurIPS paper.",
+        "reviewedOn": "2026-09-09"
       },
       "alternateRecordIds": [
         "openalex-w4400064538"
@@ -28936,6 +29668,79 @@
       ],
       "reason": "arXiv identifies acceptance to Nature Communications; same title, full author list and PHIA study.",
       "verifiedOn": "2026-09-05"
+    },
+    {
+      "candidateIds": [
+        "openalex-w4385572158",
+        "openalex-w4372272612"
+      ],
+      "sourceUrls": [
+        "https://aclanthology.org/2023.acl-long.555/",
+        "https://aclanthology.org/2023.acl-long.555.pdf",
+        "https://arxiv.org/abs/2305.02466"
+      ],
+      "reason": "arXiv identifies acceptance at ACL 2023. Same title and all eight ordered authors in the final PDF, including Khendra G. Lucas whose initial is omitted by the final OpenAlex observation. Use the final ACL record.",
+      "verifiedOn": "2026-09-09"
+    },
+    {
+      "candidateIds": [
+        "openalex-w3114914047",
+        "openalex-w3049308584"
+      ],
+      "sourceUrls": [
+        "https://erichorvitz.com/Human_needs_pandemic_WSDM.pdf",
+        "https://arxiv.org/abs/2008.07045"
+      ],
+      "reason": "The final WSDM PDF includes the complete title and the same four authors, and prints DOI 10.1145/3437963.3441788. The provider omitted the subtitle.",
+      "verifiedOn": "2026-09-09"
+    },
+    {
+      "candidateIds": [
+        "openalex-w4396832979",
+        "openalex-w4387947216"
+      ],
+      "sourceUrls": [
+        "https://doi.org/10.1145/3613904.3642761",
+        "https://arxiv.org/abs/2310.15461"
+      ],
+      "reason": "The arXiv version is explicitly CHI 2024 camera ready and its PDF prints the final DOI. Same full title and five ordered authors; provider abbreviated Ashish.",
+      "verifiedOn": "2026-09-09"
+    },
+    {
+      "candidateIds": [
+        "openalex-w4402667122",
+        "openalex-w4392019768"
+      ],
+      "sourceUrls": [
+        "https://aclanthology.org/2024.acl-long.47.pdf",
+        "https://arxiv.org/abs/2402.12556"
+      ],
+      "reason": "Final ACL PDF and arXiv have identical title and six ordered authors, including Christopher Michael Rytting; the provider omitted his middle name.",
+      "verifiedOn": "2026-09-09"
+    },
+    {
+      "candidateIds": [
+        "openalex-w4404782449",
+        "openalex-w4394984217"
+      ],
+      "sourceUrls": [
+        "https://aclanthology.org/2024.findings-emnlp.201.pdf",
+        "https://arxiv.org/abs/2404.11757"
+      ],
+      "reason": "Final PDF and arXiv have the same title, five ordered authors and time-series reasoning study. Thomas Hartvigsen is shortened/inverted in the preprint observation.",
+      "verifiedOn": "2026-09-09"
+    },
+    {
+      "candidateIds": [
+        "openalex-w4404781154",
+        "openalex-w4405425144"
+      ],
+      "sourceUrls": [
+        "https://aclanthology.org/2024.findings-emnlp.815.pdf",
+        "https://arxiv.org/abs/2408.09667"
+      ],
+      "reason": "Final Findings of EMNLP PDF and arXiv have the same title and sixteen ordered authors. arXiv identifies EMNLP 2024; several provider preprint names are inverted.",
+      "verifiedOn": "2026-09-09"
     }
   ]
 }

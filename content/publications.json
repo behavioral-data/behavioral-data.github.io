@@ -2,17 +2,17 @@
   {
     "id": "sharma2024computational",
     "title": "A Computational Framework for Behavioral Assessment of LLM Therapists",
-    "authors": "Chiu, Yu Ying* and Sharma, Ashish* and Lin, Inna and Althoff, Tim",
+    "authors": "Yu Ying Chiu and Ashish Sharma and Inna Wanyin Lin and Tim Althoff",
     "year": 2024,
-    "venue": "Preprint",
+    "venue": "arXiv",
     "description": "",
     "highlight": false,
     "award": "",
     "pdf": "/resources/pubpdfs/sharma2024computational.pdf",
     "image": "/resources/thumbnails/sharmaComputational.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.48550/arxiv.2401.00820",
+    "url": "https://arxiv.org/abs/2401.00820",
     "legacy": {
       "author": "Chiu, Yu Ying* and Sharma, Ashish* and Lin, Inna and Althoff, Tim",
       "booktitle": "Preprint",
@@ -22,26 +22,36 @@
       "thumbnail": "sharmaComputational.png"
     },
     "authorNames": [
-      "Yu Ying* Chiu",
-      "Ashish* Sharma",
-      "Inna Lin",
+      "Yu Ying Chiu",
+      "Ashish Sharma",
+      "Inna Wanyin Lin",
       "Tim Althoff"
-    ]
+    ],
+    "status": "preprint",
+    "openalexId": "W4390529402",
+    "type": "preprint",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2401.00820"
   },
   {
     "id": "gu2024blade",
-    "title": "BLADE - Benchmarking Language Model Agents for Data-Driven Science",
-    "authors": "Gu, Ken and Shang, Ruoxi and Jiang, Ruien and Kuang, Keying and Lin, Richard-John and Althoff, Tim",
+    "title": "BLADE: Benchmarking Language Model Agents for Data-Driven Science",
+    "authors": "Ken Gu and Ruoxi Shang and Ruien Jiang and Keying Kuang and Richard-John Lin and Donghe Lyu and Yue Mao and Youran Pan and Teng Wu and Jiaqian Yu and Yikun Zhang and Tianmai M. Zhang and Lanyi Zhu and Mike A. Merrill and Jeffrey Heer and Tim Althoff",
     "year": 2024,
-    "venue": "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Findings of EMNLP",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/guBLADEBenchmarkingLanguage2024a.pdf",
+    "pdf": "https://aclanthology.org/2024.findings-emnlp.815.pdf",
     "image": "/resources/thumbnails/guBLADE.png",
-    "code": "",
-    "doi": "",
-    "url": "",
+    "code": "https://github.com/behavioral-data/BLADE",
+    "doi": "10.18653/v1/2024.findings-emnlp.815",
+    "url": "https://aclanthology.org/2024.findings-emnlp.815/",
     "legacy": {
       "author": "Gu, Ken and Shang, Ruoxi and Jiang, Ruien and Kuang, Keying and Lin, Richard-John and Althoff, Tim",
       "booktitle": "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing",
@@ -56,23 +66,43 @@
       "Ruien Jiang",
       "Keying Kuang",
       "Richard-John Lin",
+      "Donghe Lyu",
+      "Yue Mao",
+      "Youran Pan",
+      "Teng Wu",
+      "Jiaqian Yu",
+      "Yikun Zhang",
+      "Tianmai M. Zhang",
+      "Lanyi Zhu",
+      "Mike A. Merrill",
+      "Jeffrey Heer",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4404781154",
+    "type": "conference",
+    "personIds": [
+      "kengu",
+      "mikemerrill",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2408.09667"
   },
   {
     "id": "zhou2024correcting",
     "title": "Correcting misinformation on social media with a large language model",
-    "authors": "Zhou, Xinyi and Sharma, Ashish and Zhang, Amy and Althoff, Tim",
+    "authors": "Xinyi Zhou and Ashish Sharma and Amy X. Zhang and Tim Althoff",
     "year": 2024,
-    "venue": "Preprint",
+    "venue": "arXiv",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/zhouCorrectingMisinformation2024.pdf",
+    "pdf": "https://arxiv.org/pdf/2403.11169",
     "image": "/resources/thumbnails/zhouCorrectingMis.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.48550/arxiv.2403.11169",
+    "url": "https://arxiv.org/abs/2403.11169",
     "legacy": {
       "author": "Zhou, Xinyi and Sharma, Ashish and Zhang, Amy and Althoff, Tim",
       "booktitle": "Preprint",
@@ -84,24 +114,34 @@
     "authorNames": [
       "Xinyi Zhou",
       "Ashish Sharma",
-      "Amy Zhang",
+      "Amy X. Zhang",
       "Tim Althoff"
-    ]
+    ],
+    "status": "preprint",
+    "openalexId": "W4392972281",
+    "type": "preprint",
+    "personIds": [
+      "ashishsharma",
+      "timalthoff",
+      "xinyizhou"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2403.11169"
   },
   {
     "id": "sharma2024facilitating",
-    "title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction - A Case Study of Cognitive Restructuring",
-    "authors": "Sharma, Ashish and Rushton, Kevin and Lin, Inna and Nguyen, Theresa and Althoff, Tim",
+    "title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction: A Case Study of Cognitive Restructuring",
+    "authors": "Ashish Sharma and Kevin Rushton and Inna Wanyin Lin and Theresa Nguyen and Tim Althoff",
     "year": 2024,
-    "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+    "venue": "CHI",
     "description": "",
     "highlight": false,
     "award": "",
     "pdf": "/resources/pubpdfs/sharmaFacilitatingSelf-Guided2024.pdf",
     "image": "/resources/thumbnails/sharmafacilitating.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3613904.3642761",
+    "url": "https://doi.org/10.1145/3613904.3642761",
     "legacy": {
       "author": "Sharma, Ashish and Rushton, Kevin and Lin, Inna and Nguyen, Theresa and Althoff, Tim",
       "booktitle": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
@@ -113,25 +153,35 @@
     "authorNames": [
       "Ashish Sharma",
       "Kevin Rushton",
-      "Inna Lin",
+      "Inna Wanyin Lin",
       "Theresa Nguyen",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4396832979",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2310.15461"
   },
   {
     "id": "gu2024how_understand",
     "title": "How Do Analysts Understand and Verify AI-Assisted Data Analyses?",
-    "authors": "Gu, Ken and Shang, Ruoxi and Althoff, Tim and Wang, Chenglong and Drucker, Steven M.",
+    "authors": "Ken Gu and Ruoxi Shang and Tim Althoff and Chenglong Wang and Steven M. Drucker",
     "year": 2024,
-    "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+    "venue": "CHI",
     "description": "",
     "highlight": false,
     "award": "",
     "pdf": "/resources/pubpdfs/guHowDoAnalystsUnderstand2024.pdf",
     "image": "/resources/thumbnails/guHowDoDataAnalystsUnderstand.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3613904.3642497",
+    "url": "https://doi.org/10.1145/3613904.3642497",
     "legacy": {
       "author": "Gu, Ken and Shang, Ruoxi and Althoff, Tim and Wang, Chenglong and Drucker, Steven M.",
       "booktitle": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
@@ -146,22 +196,30 @@
       "Tim Althoff",
       "Chenglong Wang",
       "Steven M. Drucker"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4396832076",
+    "type": "conference",
+    "personIds": [
+      "kengu",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "gu2024how_analysts",
     "title": "How Do Data Analysts Respond to AI Assistance? A Wizard-of-Oz Study",
-    "authors": "Gu, Ken and Grunde-McLaughlin, Madeleine and McNutt, Andrew M. and Heer, Jeffrey and Althoff, Tim",
+    "authors": "Ken Gu and Madeleine Grunde-McLaughlin and Andrew McNutt and Jeffrey Heer and Tim Althoff",
     "year": 2024,
-    "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+    "venue": "CHI",
     "description": "",
     "highlight": false,
     "award": "",
     "pdf": "/resources/pubpdfs/guHowDoDataAnalysts2024.pdf",
     "image": "/resources/thumbnails/guHowDoDataAnalysts.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3613904.3641891",
+    "url": "https://doi.org/10.1145/3613904.3641891",
     "legacy": {
       "author": "Gu, Ken and Grunde-McLaughlin, Madeleine and McNutt, Andrew M. and Heer, Jeffrey and Althoff, Tim",
       "booktitle": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
@@ -173,25 +231,33 @@
     "authorNames": [
       "Ken Gu",
       "Madeleine Grunde-McLaughlin",
-      "Andrew M. McNutt",
+      "Andrew McNutt",
       "Jeffrey Heer",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4396832182",
+    "type": "conference",
+    "personIds": [
+      "kengu",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "lin2024imbue",
-    "title": "IMBUE - Improving Interpersonal Effectiveness through Simulation and Just-in-time Feedback with Human-Language Model Interaction",
-    "authors": "Lin, Inna and Sharma, Ashish and Rytting, Christopher and Miner, Adam and Suh, Jina and Althoff, Tim",
+    "title": "IMBUE: Improving Interpersonal Effectiveness through Simulation and Just-in-time Feedback with Human-Language Model Interaction",
+    "authors": "Inna Wanyin Lin and Ashish Sharma and Christopher Michael Rytting and Adam S. Miner and Jina Suh and Tim Althoff",
     "year": 2024,
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    "venue": "ACL",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/linIMBUE2024.pdf",
+    "pdf": "https://aclanthology.org/2024.acl-long.47.pdf",
     "image": "/resources/thumbnails/linIMBUE.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.18653/v1/2024.acl-long.47",
+    "url": "https://aclanthology.org/2024.acl-long.47/",
     "legacy": {
       "author": "Lin, Inna and Sharma, Ashish and Rytting, Christopher and Miner, Adam and Suh, Jina and Althoff, Tim",
       "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
@@ -201,28 +267,38 @@
       "thumbnail": "linIMBUE.png"
     },
     "authorNames": [
-      "Inna Lin",
+      "Inna Wanyin Lin",
       "Ashish Sharma",
-      "Christopher Rytting",
-      "Adam Miner",
+      "Christopher Michael Rytting",
+      "Adam S. Miner",
       "Jina Suh",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4402667122",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2402.12556"
   },
   {
     "id": "merrill2024language",
     "title": "Language Models Still Struggle to Zero-shot Reason about Time Series",
-    "authors": "Merrill, Mike A. and Tan, Mingtian and Gupta, Vinayak and Hartvigsen, Tom and Althoff, Tim",
+    "authors": "Mike A. Merrill and Mingtian Tan and Vinayak Gupta and Thomas Hartvigsen and Tim Althoff",
     "year": 2024,
-    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Findings of EMNLP",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/merrillLanguageModelsStill2024.pdf",
+    "pdf": "https://aclanthology.org/2024.findings-emnlp.201.pdf",
     "image": "/resources/thumbnails/merrillLanguageModels.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.18653/v1/2024.findings-emnlp.201",
+    "url": "https://aclanthology.org/2024.findings-emnlp.201/",
     "legacy": {
       "author": "Merrill, Mike A. and Tan, Mingtian and Gupta, Vinayak and Hartvigsen, Tom and Althoff, Tim",
       "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
@@ -235,24 +311,34 @@
       "Mike A. Merrill",
       "Mingtian Tan",
       "Vinayak Gupta",
-      "Tom Hartvigsen",
+      "Thomas Hartvigsen",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4404782449",
+    "type": "conference",
+    "personIds": [
+      "mikemerrill",
+      "timalthoff",
+      "vinayakgupta"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2404.11757"
   },
   {
     "id": "weld2024making",
-    "title": "Making Online Communities 'Better': A Taxonomy of Community Values on Reddit",
-    "authors": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
+    "title": "Making Online Communities ‘Better’: A Taxonomy of Community Values on Reddit",
+    "authors": "Galen Weld and Amy X. Zhang and Tim Althoff",
     "year": 2024,
-    "venue": "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media",
+    "venue": "ICWSM",
     "description": "",
     "highlight": false,
     "award": "",
     "pdf": "/resources/pubpdfs/weldMakingOnlineCommunities2024.pdf",
     "image": "/resources/thumbnails/weldmaking.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1609/icwsm.v18i1.31413",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31413",
     "legacy": {
       "author": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
       "booktitle": "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media",
@@ -265,7 +351,16 @@
       "Galen Weld",
       "Amy X. Zhang",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3199811133",
+    "type": "conference",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2109.05152"
   },
   {
     "id": "xu2023globemimwut",
@@ -358,8 +453,8 @@
   },
   {
     "id": "sharma2023human",
-    "title": "Human-AI Collaboration Enables More Empathic Conversations in Text-based Peer-to-Peer Mental Health Support",
-    "authors": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
+    "title": "Human–AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+    "authors": "Ashish Sharma and Inna W. Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
     "year": 2023,
     "venue": "Nature Machine Intelligence",
     "description": "How can AI help improve access to mental health care? Our Nature Machine Intelligence paper shows that human-AI collaboration can empower people to respond more empathically in online peer-to-peer mental health support.",
@@ -368,8 +463,8 @@
     "pdf": "/resources/pubpdfs/sharma2023human.pdf",
     "image": "/resources/thumbnails/sharma2023human.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1038/s42256-022-00593-2",
+    "url": "https://www.nature.com/articles/s42256-022-00593-2",
     "legacy": {
       "author": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
       "description": "How can AI help improve access to mental health care? Our Nature Machine Intelligence paper shows that human-AI collaboration can empower people to respond more empathically in online peer-to-peer mental health support.",
@@ -384,11 +479,21 @@
     },
     "authorNames": [
       "Ashish Sharma",
-      "Inna W Lin",
-      "Adam S Miner",
-      "David C Atkins",
+      "Inna W. Lin",
+      "Adam S. Miner",
+      "David C. Atkins",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4317757464",
+    "type": "article",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2203.15144"
   },
   {
     "id": "zech2023mhatsengagement",
@@ -429,18 +534,18 @@
   },
   {
     "id": "merrillSelfsupervisedPretrainingTransfer2023",
-    "title": "Self-Supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets",
-    "authors": "Merrill, Mike A. and Althoff, Tim",
+    "title": "Self-supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets",
+    "authors": "Mike A. Merrill and Tim Althoff",
     "year": 2023,
     "venue": "Conference on Health, Inference, and Learning",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/merrillSelfsupervisedPretrainingTransfer2023.pdf",
+    "pdf": "https://proceedings.mlr.press/v209/merrill23a/merrill23a.pdf",
     "image": "/resources/thumbnails/merrillSelfsupervisedPretrainingTransfer2023.png",
     "code": "",
     "doi": "",
-    "url": "",
+    "url": "https://proceedings.mlr.press/v209/merrill23a.html",
     "legacy": {
       "abstract": "Detailed mobile sensing data from phones, watches, and fitness trackers offer an unparalleled opportunity to quantify and act upon previously unmeasurable behavioral changes in order to improve individual health and accelerate responses to emerging diseases. Unlike in natural language processing and computer vision, deep representation learning has yet to broadly impact this domain, in which the vast majority of research and clinical applications still rely on manually defined features and boosted tree models or even forgo predictive modeling altogether due to insufficient accuracy. This is due to unique challenges in the behavioral health domain, including very small datasets (\\textasciitilde 10\\^1 participants), which frequently contain missing data, consist of long time series with critical long-range dependencies (length{$>$}10\\^4), and extreme class imbalances ({$>$}10\\^3:1).",
       "archiveprefix": "arxiv",
@@ -462,12 +567,21 @@
     "authorNames": [
       "Mike A. Merrill",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4281786927",
+    "type": "conference",
+    "personIds": [
+      "mikemerrill",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2205.13607"
   },
   {
     "id": "Gu2022UnderstandingAS",
     "title": "Understanding and Supporting Debugging Workflows in Multiverse Analysis",
-    "authors": "Ken Gu, Eunice Jun and Tim Althoff",
+    "authors": "Ken Gu and Eunice Jun and Tim Althoff",
     "year": 2023,
     "venue": "CHI",
     "description": "",
@@ -476,8 +590,8 @@
     "pdf": "/resources/pubpdfs/Gu2022UnderstandingAS.pdf",
     "image": "/resources/thumbnails/Gu2022UnderstandingAS.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3544548.3581099",
+    "url": "https://doi.org/10.1145/3544548.3581099",
     "legacy": {
       "author": "Ken Gu, Eunice Jun and Tim Althoff",
       "description": null,
@@ -492,22 +606,31 @@
       "Ken Gu",
       "Eunice Jun",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4366547794",
+    "type": "conference",
+    "personIds": [
+      "kengu",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2210.03804"
   },
   {
     "id": "xu2022GLOBEM",
-    "title": "  Globem dataset: Multi-year datasets for longitudinal human behavior modeling generalization",
-    "authors": "Xuhai Xu, Han Zhang, Yasaman Sefidgar, Yiyi Ren, Xin Liu, Woosuk Seo, Jennifer Brown, Kevin Kuehn, Mike A. Merrill, Paula Nurius, Shwetak Patel, Tim Althoff, Margaret E. Morris, Eve Riskin, Jennifer Mankoff, and Anind K. Dey",
+    "title": "GLOBEM Dataset: Multi-Year Datasets for Longitudinal Human Behavior Modeling Generalization",
+    "authors": "Xuhai Xu and Han Zhang and Yasaman Sefidgar and Yiyi Ren and Xin Liu and Woosuk Seo and Jennifer Brown and Kevin Kuehn and Mike Merrill and Paula Nurius and Shwetak Patel and Tim Althoff and Margaret E. Morris and Eve Riskin and Jennifer Mankoff and Anind K. Dey",
     "year": 2022,
     "venue": "NeurIPS",
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/xu2022GLOBEM.pdf",
+    "pdf": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9c7e8a0821dfcb58a9a83cbd37cc8131-Paper-Datasets_and_Benchmarks.pdf",
     "image": "/resources/thumbnails/xu2022GLOBEM.png",
     "code": "",
-    "doi": "10.48550/ARXIV.2211.02733",
-    "url": "https://arxiv.org/abs/2211.02733",
+    "doi": "10.52202/068431-1790",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9c7e8a0821dfcb58a9a83cbd37cc8131-Abstract-Datasets_and_Benchmarks.html",
     "legacy": {
       "author": "Xuhai Xu, Han Zhang, Yasaman Sefidgar, Yiyi Ren, Xin Liu, Woosuk Seo, Jennifer Brown, Kevin Kuehn, Mike A. Merrill, Paula Nurius, Shwetak Patel, Tim Althoff, Margaret E. Morris, Eve Riskin, Jennifer Mankoff, and Anind K. Dey",
       "copyright": "Creative Commons Attribution 4.0 International",
@@ -531,7 +654,7 @@
       "Woosuk Seo",
       "Jennifer Brown",
       "Kevin Kuehn",
-      "Mike A. Merrill",
+      "Mike Merrill",
       "Paula Nurius",
       "Shwetak Patel",
       "Tim Althoff",
@@ -539,7 +662,16 @@
       "Eve Riskin",
       "Jennifer Mankoff",
       "Anind K. Dey"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4308610353",
+    "type": "conference",
+    "personIds": [
+      "mikemerrill",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2211.02733"
   },
   {
     "id": "miner2022computational",
@@ -586,7 +718,7 @@
   {
     "id": "weld2022adjusting_confounders",
     "title": "Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference",
-    "authors": "Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, and Tim Althoff",
+    "authors": "Galen Weld and Peter West and Maria Glenski and David Arbour and Ryan A. Rossi and Tim Althoff",
     "year": 2022,
     "venue": "ICWSM",
     "description": "",
@@ -595,8 +727,8 @@
     "pdf": "/resources/pubpdfs/weld2022adjusting_confounders.pdf",
     "image": "/resources/thumbnails/weld2022adjusting_confounders.JPG",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1609/icwsm.v16i1.19362",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19362",
     "legacy": {
       "author": "Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, and Tim Althoff",
       "booktitle": "ICWSM",
@@ -612,14 +744,23 @@
       "Peter West",
       "Maria Glenski",
       "David Arbour",
-      "Ryan Rossi",
+      "Ryan A. Rossi",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3088597222",
+    "type": "conference",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2009.09961"
   },
   {
     "id": "suhDisparateImpactsOnline2022",
     "title": "Disparate impacts on online information access during the Covid-19 pandemic",
-    "authors": "Suh, Jina and Horvitz, Eric and White, Ryen W. and Althoff, Tim",
+    "authors": "Jina Suh and Eric Horvitz and Ryen W. White and Tim Althoff",
     "year": 2022,
     "venue": "Nature Communications",
     "description": "The pandemic prompted increased digital engagement for health, economic, and educational resources. Analyzing 55 billion web searches across 25,150 US ZIP codes, we found differing use of digital resources based on socioeconomic and environmental factors. Lower-income areas accessed health information less than higher-income ones. ZIP codes with more Black or Hispanic residents used unemployment resources more, with unique patterns. These disparities raise important questions about the impact of information search behaviors on disadvantaged populations.",
@@ -656,7 +797,15 @@
       "Eric Horvitz",
       "Ryen W. White",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4309564255",
+    "type": "article",
+    "personIds": [
+      "jinasuh",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "mezlini2021estimating",
@@ -696,17 +845,17 @@
   {
     "id": "lin-etal-2022-gendered",
     "title": "Gendered Mental Health Stigma in Masked Language Models",
-    "authors": "Lin, Inna and Njoo, Lucille and Field, Anjalie and Sharma, Ashish and Reinecke, Katharina and Althoff, Tim and Tsvetkov, Yulia",
+    "authors": "Inna Wanyin Lin and Lucille Njoo and Anjalie Field and Ashish Sharma and Katharina Reinecke and Tim Althoff and Yulia Tsvetkov",
     "year": 2022,
     "venue": "EMNLP",
     "description": "If you have ever considered using NLP for Mental Health applications, it’s vital to know what the models have inadvertently learned about people with mental health issues. In our EMNLP 2022 paper, we find that masked LMs capture societal stigma about gender in mental health.",
     "highlight": true,
     "award": "",
-    "pdf": "/resources/pubpdfs/lin-etal-2022-gendered.pdf",
+    "pdf": "https://aclanthology.org/2022.emnlp-main.139.pdf",
     "image": "/resources/thumbnails/lin-etal-2022-gendered.png",
     "code": "",
-    "doi": "",
-    "url": "https://aclanthology.org/2022.emnlp-main.139",
+    "doi": "10.18653/v1/2022.emnlp-main.139",
+    "url": "https://aclanthology.org/2022.emnlp-main.139/",
     "legacy": {
       "abstract": "Mental health stigma prevents many individuals from receiving the appropriate care, and social psychology studies have shown that mental health tends to be overlooked in men. In this work, we investigate gendered mental health stigma in masked language models. In doing so, we operationalize mental health stigma by developing a framework grounded in psychology research: we use clinical psychology literature to curate prompts, then evaluate the models{'} propensity to generate gendered words. We find that masked language models capture societal stigma about gender in mental health: models are consistently more likely to predict female subjects than male in sentences about having a mental health condition (32{\\%} vs. 19{\\%}), and this disparity is exacerbated for sentences that indicate treatment-seeking behavior. Furthermore, we find that different models capture dimensions of stigma differently for men and women, associating stereotypes like anger, blame, and pity more with women with mental health conditions than with men. In showing the complex nuances of models{'} gendered mental health stigma, we demonstrate that context and overlapping dimensions of identity are important considerations when assessing computational models{'} social biases.",
       "address": "Abu Dhabi, United Arab Emirates",
@@ -724,14 +873,24 @@
       "year": "2022"
     },
     "authorNames": [
-      "Inna Lin",
+      "Inna Wanyin Lin",
       "Lucille Njoo",
       "Anjalie Field",
       "Ashish Sharma",
       "Katharina Reinecke",
       "Tim Althoff",
       "Yulia Tsvetkov"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W4385572715",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2210.15144"
   },
   {
     "id": "althoff2022diet",
@@ -810,8 +969,8 @@
   },
   {
     "id": "weld2022community_values",
-    "title": "What Makes Online Communities 'Better'? Measuring Values, Consensus, and Conflict across Thousands of Subreddits",
-    "authors": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
+    "title": "What Makes Online Communities ‘Better’? Measuring Values, Consensus, and Conflict across Thousands of Subreddits",
+    "authors": "Galen Weld and Amy X. Zhang and Tim Althoff",
     "year": 2022,
     "venue": "ICWSM",
     "description": "",
@@ -820,8 +979,8 @@
     "pdf": "/resources/pubpdfs/weld2022community_values.pdf",
     "image": "/resources/thumbnails/weld2022community_values.jpg",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1609/icwsm.v16i1.19363",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19363",
     "legacy": {
       "author": "Weld, Galen and Zhang, Amy X. and Althoff, Tim",
       "booktitle": "ICWSM",
@@ -836,12 +995,21 @@
       "Galen Weld",
       "Amy X. Zhang",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3213416073",
+    "type": "conference",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2111.05835"
   },
   {
     "id": "merrill_multiverse_2021",
     "title": "MULTIVERSE: Mining Collective Data Science Knowledge from Code on the Web to Suggest Alternative Analysis Approaches",
-    "authors": "Merrill, Mike A. and Zhang, Ge and Althoff, Tim",
+    "authors": "Mike A. Merrill and Ge Zhang and Tim Althoff",
     "year": 2021,
     "venue": "KDD",
     "description": "Data analyses are based on a series of “decision points” including data filtering, feature operationalization and selection, model specification, and parametric assumptions. In this work we mine Kaggle for hundreds of thousands of decision points and train a novel language model to suggest alternative analyses.",
@@ -851,7 +1019,7 @@
     "image": "/resources/thumbnails/merrill_multiverse_2021.png",
     "code": "",
     "doi": "10.1145/3447548.3467455",
-    "url": "https://dl.acm.org/doi/10.1145/3447548.3467455",
+    "url": "https://doi.org/10.1145/3447548.3467455",
     "legacy": {
       "abstract": "Data analyses are based on a series of “decision points” including data filtering, feature operationalization and selection, model specification, and parametric assumptions. “Multiverse Analysis” research has shown that a lack of exploration of these decisions can lead to non-robust conclusions based on highly sensitive decision points. Importantly, even if myopic analyses are technically correct, analysts’ focus on one set of decision points precludes them from exploring alternate formulations that may produce very different results. Prior work has also shown that analysts’ exploration is often limited based on their training, domain, and personal experience. However, supporting analysts in exploring alternative approaches is challenging and typically requires expert feedback that is costly and hard to scale.",
       "address": "Virtual Event Singapore",
@@ -878,12 +1046,20 @@
       "Mike A. Merrill",
       "Ge Zhang",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3167036993",
+    "type": "conference",
+    "personIds": [
+      "mikemerrill",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "Weld_Glenski_Althoff_2021",
     "title": "Political Bias and Factualness in News Sharing across more than 100,000 Online Communities",
-    "authors": "Weld, Galen and Glenski, Maria and Althoff, Tim",
+    "authors": "Galen Weld and Maria Glenski and Tim Althoff",
     "year": 2021,
     "venue": "ICWSM",
     "description": "Studying news shared online is challenging due to the massive volume of content which is shared. In this work, we conduct the largest study of news sharing to date, analyzing more than 550 million links to news articles posted on reddit over four years. Using non-partisan news source ratings of sources' political bias and factualness, we find that up- and down-voting mechanisms generally decrease the visibility of biased and low factual content, and that such content is very concentrated, being mostly shared in only a small fraction of all communities.",
@@ -892,7 +1068,7 @@
     "pdf": "/resources/pubpdfs/Weld_Glenski_Althoff_2021.pdf",
     "image": "/resources/thumbnails/Weld_Glenski_Althoff_2021.jpg",
     "code": "",
-    "doi": "",
+    "doi": "10.1609/icwsm.v15i1.18104",
     "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18104",
     "legacy": {
       "abstractnote": "As civil discourse increasingly takes place online, misinformation and the polarization of news shared in online communities have become ever more relevant concerns with real world harms across our society. Studying online news sharing at scale is challenging due to the massive volume of content which is shared by millions of users across thousands of communities. Therefore, existing research has largely focused on specific communities or specific interventions, such as bans. However, understanding the prevalence and spread of misinformation and polarization more broadly, across thousands of online communities, is critical for the development of governance strategies, interventions, and community design. Here, we conduct the largest study of news sharing on reddit to date, analyzing more than 550 million links spanning 4 years. We use non-partisan news source ratings from Media Bias/Fact Check to annotate links to news sources with their political bias and factualness. We find that, compared to left-leaning communities, right-leaning communities have 105% more variance in the political bias of their news sources, and more links to relatively-more biased sources, on average. We observe that reddit users’ voting and re-sharing behaviors generally decrease the visibility of extremely biased and low factual content, which receives 20% fewer upvotes and 30% fewer exposures from crossposts than more neutral or more factual content. This suggests that reddit is more resilient to low factual content than Twitter. We show that extremely biased and low factual content is very concentrated, with 99% of such content being shared in only 0.5% of communities, giving credence to the recent strategy of community-wide bans and quarantines.",
@@ -915,7 +1091,15 @@
       "Galen Weld",
       "Maria Glenski",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3131477973",
+    "type": "conference",
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "suh2020populationscale",
@@ -926,11 +1110,11 @@
     "description": "The COVID-19 pandemic has fundamentally changed our lives beyond just our physical health. To understand the impact of the pandemic and associated policy decisions on a multitude of human needs, we propose a computational methodology, building on Maslow's hierarchy of needs, that can capture a holistic view of relative changes in needs following the pandemic through a difference-in-differences approach that corrects for seasonality and volume variations. When applied to over 35 billion search interactions spanning over 36000 ZIP codes in the US, we found that the expression of basic human needs has increased exponentially while higher-level aspirations declined, that the durations of shelter-in-place mandates significantly impacted social-emotional needs, and that there are potential barriers to meeting critical needs online.",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/suh2020populationscale.pdf",
+    "pdf": "https://erichorvitz.com/Human_needs_pandemic_WSDM.pdf",
     "image": "/resources/thumbnails/suh2020populationscale.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3437963.3441788",
+    "url": "https://doi.org/10.1145/3437963.3441788",
     "legacy": {
       "archiveprefix": "arXiv",
       "author": "Jina Suh and Eric Horvitz and Ryen W. White and Tim Althoff",
@@ -949,7 +1133,16 @@
       "Eric Horvitz",
       "Ryen W. White",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3114914047",
+    "type": "conference",
+    "personIds": [
+      "jinasuh",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2008.07045"
   },
   {
     "id": "althoffModeration",
@@ -987,7 +1180,7 @@
   {
     "id": "sharma2021facilitating",
     "title": "Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach",
-    "authors": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
+    "authors": "Ashish Sharma and Inna W. Lin and Adam S. Miner and David C. Atkins and Tim Althoff",
     "year": 2021,
     "venue": "WWW",
     "description": "Access to mental health care is a global challenge that online peer support platforms like TalkLife can help mitigate. Millions of people seek and provide support online but they struggle to have effective conversations. In this paper, we work towards improving empathy in online mental health support conversations. We introduce empathic rewriting, a new task for transforming low-empathy conversations to higher empathy. We propose PARTNER, a deep reinforcement learning agent that learns to make sentence-level edits to conversations in order to increase the expressed level of empathy while maintaining conversation quality through specificity, fluency, and diversity.",
@@ -996,8 +1189,8 @@
     "pdf": "/resources/pubpdfs/sharma2021facilitating.pdf",
     "image": "/resources/thumbnails/sharma2021facilitating.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3442381.3450097",
+    "url": "https://doi.org/10.1145/3442381.3450097",
     "legacy": {
       "author": "Sharma, Ashish and Lin, Inna W and Miner, Adam S and Atkins, David C and Althoff, Tim",
       "booktitle": "WWW",
@@ -1011,11 +1204,20 @@
     },
     "authorNames": [
       "Ashish Sharma",
-      "Inna W Lin",
-      "Adam S Miner",
-      "David C Atkins",
+      "Inna W. Lin",
+      "Adam S. Miner",
+      "David C. Atkins",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3125287435",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "sharma2020computational",
@@ -1026,11 +1228,11 @@
     "description": "",
     "highlight": false,
     "award": "",
-    "pdf": "/resources/pubpdfs/sharma2020computational.pdf",
+    "pdf": "https://aclanthology.org/2020.emnlp-main.425.pdf",
     "image": "/resources/thumbnails/sharma2020computational.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.18653/v1/2020.emnlp-main.425",
+    "url": "https://aclanthology.org/2020.emnlp-main.425/",
     "legacy": {
       "archiveprefix": "arXiv",
       "author": "Ashish Sharma and Adam S. Miner and David C. Atkins and Tim Althoff",
@@ -1049,12 +1251,21 @@
       "Adam S. Miner",
       "David C. Atkins",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3084867291",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2009.08441"
   },
   {
     "id": "althoffPocketskills",
     "title": "Data-Driven Implications for Translating Evidence-Based Psychotherapies into Technology-Delivered Interventions",
-    "authors": "Jessica Schroeder and Jina Suh and Chelsey Wilks and Mary Czerwinski and Sean Munson and James Fogarty and Tim Althoff",
+    "authors": "Jessica Schroeder and Jina Suh and Chelsey Wilks and Mary Czerwinski and Sean A. Munson and James Fogarty and Tim Althoff",
     "year": 2020,
     "venue": "EAI Pervasive Health",
     "description": "",
@@ -1063,8 +1274,8 @@
     "pdf": "/resources/pubpdfs/althoffPocketskills.pdf",
     "image": "/resources/thumbnails/althoffPocketskills.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1145/3421937.3421975",
+    "url": "https://doi.org/10.1145/3421937.3421975",
     "legacy": {
       "author": "Jessica Schroeder and Jina Suh and Chelsey Wilks and Mary Czerwinski and Sean Munson and James Fogarty and Tim Althoff",
       "description": "",
@@ -1081,10 +1292,18 @@
       "Jina Suh",
       "Chelsey Wilks",
       "Mary Czerwinski",
-      "Sean Munson",
+      "Sean A. Munson",
       "James Fogarty",
       "Tim Althoff"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3016071931",
+    "type": "conference",
+    "personIds": [
+      "jinasuh",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "althoffTalklifeEngagement",
@@ -1098,8 +1317,8 @@
     "pdf": "/resources/pubpdfs/althoffTalklifeEngagement.pdf",
     "image": "/resources/thumbnails/althoffTalklifeEngagement.png",
     "code": "",
-    "doi": "",
-    "url": "",
+    "doi": "10.1609/icwsm.v14i1.7328",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/7328",
     "legacy": {
       "author": "Ashish Sharma and Monojit Choudhury and Tim Althoff and Amit Sharma",
       "description": "",
@@ -1116,7 +1335,15 @@
       "Monojit Choudhury",
       "Tim Althoff",
       "Amit Sharma"
-    ]
+    ],
+    "status": "published",
+    "openalexId": "W3015278215",
+    "type": "conference",
+    "personIds": [
+      "ashishsharma",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
   },
   {
     "id": "liupaths2020",
@@ -2116,5 +2343,248 @@
       "timalthoff"
     ],
     "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "openalex-w4415797292",
+    "title": "Are Language Models Actually Useful for Time Series Forecasting?",
+    "authors": "Mingtian Tan and Mike A. Merrill and Vinayak Gupta and Tim Althoff and Thomas Hartvigsen",
+    "authorNames": [
+      "Mingtian Tan",
+      "Mike A. Merrill",
+      "Vinayak Gupta",
+      "Tim Althoff",
+      "Thomas Hartvigsen"
+    ],
+    "year": 2024,
+    "venue": "NeurIPS",
+    "doi": "10.52202/079017-1922",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Abstract-Conference.html",
+    "status": "published",
+    "type": "conference",
+    "openalexId": "W4415797292",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "",
+    "image": "",
+    "code": "https://github.com/BennyTMT/LLMsForTimeSeries",
+    "legacy": {},
+    "personIds": [
+      "mikemerrill",
+      "vinayakgupta",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2406.16964"
+  },
+  {
+    "id": "openalex-w4396615168",
+    "title": "Rethinking technology innovation for mental health: framework for multi-sectoral collaboration",
+    "authors": "Jina Suh and Sachin R. Pendse and Robert Lewis and Esther Howe and Koustuv Saha and Ebele Okoli and Judith Amores and Gonzalo Ramos and Jenny Shen and Judith Borghouts and Ashish Sharma and Paola Pedrelli and Liz Friedman and Charmain Jackman and Yusra Benhalim and Desmond C. Ong and Sameer Segal and Tim Althoff and Mary Czerwinski",
+    "authorNames": [
+      "Jina Suh",
+      "Sachin R. Pendse",
+      "Robert Lewis",
+      "Esther Howe",
+      "Koustuv Saha",
+      "Ebele Okoli",
+      "Judith Amores",
+      "Gonzalo Ramos",
+      "Jenny Shen",
+      "Judith Borghouts",
+      "Ashish Sharma",
+      "Paola Pedrelli",
+      "Liz Friedman",
+      "Charmain Jackman",
+      "Yusra Benhalim",
+      "Desmond C. Ong",
+      "Sameer Segal",
+      "Tim Althoff",
+      "Mary Czerwinski"
+    ],
+    "year": 2024,
+    "venue": "Nature Mental Health",
+    "doi": "10.1038/s44220-024-00232-2",
+    "url": "https://www.nature.com/articles/s44220-024-00232-2",
+    "status": "published",
+    "type": "article",
+    "openalexId": "W4396615168",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "",
+    "image": "",
+    "code": "",
+    "legacy": {},
+    "personIds": [
+      "ashishsharma",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "openalex-w4385572158",
+    "title": "Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction",
+    "authors": "Ashish Sharma and Kevin Rushton and Inna Wanyin Lin and David Wadden and Khendra G. Lucas and Adam S. Miner and Theresa Nguyen and Tim Althoff",
+    "authorNames": [
+      "Ashish Sharma",
+      "Kevin Rushton",
+      "Inna Wanyin Lin",
+      "David Wadden",
+      "Khendra G. Lucas",
+      "Adam S. Miner",
+      "Theresa Nguyen",
+      "Tim Althoff"
+    ],
+    "year": 2023,
+    "venue": "ACL",
+    "doi": "10.18653/v1/2023.acl-long.555",
+    "url": "https://aclanthology.org/2023.acl-long.555/",
+    "status": "published",
+    "type": "conference",
+    "openalexId": "W4385572158",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "https://aclanthology.org/2023.acl-long.555.pdf",
+    "image": "",
+    "code": "https://github.com/behavioral-data/Cognitive-Reframing",
+    "legacy": {},
+    "personIds": [
+      "ashishsharma",
+      "innalin",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2305.02466"
+  },
+  {
+    "id": "openalex-w3082736604",
+    "title": "CORAL: COde RepresentAtion learning with weakly-supervised transformers for analyzing data analysis",
+    "authors": "Ge Zhang and Mike A. Merrill and Yang Liu and Jeffrey Heer and Tim Althoff",
+    "authorNames": [
+      "Ge Zhang",
+      "Mike A. Merrill",
+      "Yang Liu",
+      "Jeffrey Heer",
+      "Tim Althoff"
+    ],
+    "year": 2022,
+    "venue": "EPJ Data Science",
+    "doi": "10.1140/epjds/s13688-022-00327-9",
+    "url": "https://link.springer.com/article/10.1140/epjds/s13688-022-00327-9",
+    "status": "published",
+    "type": "article",
+    "openalexId": "W3082736604",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "",
+    "image": "",
+    "code": "",
+    "legacy": {},
+    "personIds": [
+      "mikemerrill",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "openalex-w3158487127",
+    "title": "Leveraging Community and Author Context to Explain the Performance and Bias of Text-Based Deception Detection Models",
+    "authors": "Galen Weld and Ellyn Ayton and Tim Althoff and Maria Glenski",
+    "authorNames": [
+      "Galen Weld",
+      "Ellyn Ayton",
+      "Tim Althoff",
+      "Maria Glenski"
+    ],
+    "year": 2021,
+    "venue": "NLP4IF",
+    "doi": "10.18653/v1/2021.nlp4if-1.5",
+    "url": "https://aclanthology.org/2021.nlp4if-1.5/",
+    "status": "published",
+    "type": "conference",
+    "openalexId": "W3158487127",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "https://aclanthology.org/2021.nlp4if-1.5.pdf",
+    "image": "",
+    "code": "",
+    "legacy": {},
+    "personIds": [
+      "galenweld",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09"
+  },
+  {
+    "id": "openalex-w4300886482",
+    "title": "Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models",
+    "authors": "Margaret Li and Suchin Gururangan and Tim Dettmers and Mike Lewis and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
+    "authorNames": [
+      "Margaret Li",
+      "Suchin Gururangan",
+      "Tim Dettmers",
+      "Mike Lewis",
+      "Tim Althoff",
+      "Noah A. Smith",
+      "Luke Zettlemoyer"
+    ],
+    "year": 2022,
+    "venue": "arXiv",
+    "doi": "10.48550/arxiv.2208.03306",
+    "url": "https://arxiv.org/abs/2208.03306",
+    "status": "preprint",
+    "type": "preprint",
+    "openalexId": "W4300886482",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "https://arxiv.org/pdf/2208.03306",
+    "image": "",
+    "code": "",
+    "legacy": {},
+    "personIds": [
+      "margaretli",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2208.03306"
+  },
+  {
+    "id": "openalex-w4361021241",
+    "title": "Scaling Expert Language Models with Unsupervised Domain Discovery",
+    "authors": "Suchin Gururangan and Margaret Li and Mike Lewis and Weijia Shi and Tim Althoff and Noah A. Smith and Luke Zettlemoyer",
+    "authorNames": [
+      "Suchin Gururangan",
+      "Margaret Li",
+      "Mike Lewis",
+      "Weijia Shi",
+      "Tim Althoff",
+      "Noah A. Smith",
+      "Luke Zettlemoyer"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "doi": "10.48550/arxiv.2303.14177",
+    "url": "https://arxiv.org/abs/2303.14177",
+    "status": "preprint",
+    "type": "preprint",
+    "openalexId": "W4361021241",
+    "description": "",
+    "highlight": false,
+    "award": "",
+    "pdf": "https://arxiv.org/pdf/2303.14177",
+    "image": "",
+    "code": "",
+    "legacy": {},
+    "personIds": [
+      "margaretli",
+      "timalthoff"
+    ],
+    "reviewedOn": "2026-09-09",
+    "arxivId": "2303.14177"
   }
 ]

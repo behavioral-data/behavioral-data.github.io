@@ -34,10 +34,10 @@ export default async function Publication({ params }) {
         </Link>
         <div className="eyebrow">
           {p.year} · {p.venue}
+          {p.status && !['published', 'accepted'].includes(p.status) && ` ${p.status}`}
         </div>
         <h1 className="paper-title">{p.title}</h1>
         <p>{p.authorNames?.join(', ') || p.authors}</p>
-        {p.status && p.status !== 'published' && <p className="tag">{p.status}</p>}
         {p.award && <div className="award">{p.award}</div>}
         <div className="hero-links">
           {p.pdf && (

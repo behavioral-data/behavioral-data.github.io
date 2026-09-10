@@ -54,6 +54,8 @@ Done when the roster and attribution policy are approved and each profile lists 
 
 GitHub: [#23](https://github.com/behavioral-data/behavioral-data.github.io/issues/23)
 
+September 9 publication passes: [seven historical additions](PUBLICATION_BACKFILL_REVIEW.md) bring the local site to 66 papers, and [reconciliation of 24 existing entries](PUBLICATION_RECONCILIATION_REVIEW.md) adds 20 missing DOIs, restores complete author lists and groups five preprint/final pairs. The maintainer declined all nine remaining candidate additions/updates; existing approved entries are preserved. This completes the current review pass. The other 264 pending candidates have not been individually rejected, and exhaustive coverage is not claimed. Next planned issue: #24, awards and news. Margaret’s two papers remain verified preprints until journal records are confirmed. Changes are local, not deployed.
+
 Phase: Before launch. Dependencies: 1.
 
 The migrated archive contains 47 papers spanning 2014–2024. It needs a verified backfill, beginning with 2025 onward and then older omissions.
@@ -62,7 +64,7 @@ The migrated archive contains 47 papers spanning 2014–2024. It needs a verifie
 - [ ] Submit candidates for human review with sources, lab-author links, ordered authors, dates, venue, DOI/arXiv IDs, and publication state.
 - [ ] Reconcile preprint/published versions and existing duplicates while retaining stable URLs and editorial descriptions.
 - [ ] Add available PDF, code, dataset, and project links; ordinary papers must not require a local PDF or thumbnail.
-- [ ] Verify current highlights with the lab; preserve original prose unless a replacement is explicitly approved.
+- [ ] Select the latest award-winning papers as homepage highlights (maintainer direction, September 9). Selection is deferred to the award verification in #24; it is not yet complete. Preserve original prose unless a replacement is explicitly approved.
 
 Done when an agreed bibliography has been reconciled, omissions or conflicts are recorded, and approved papers appear consistently in the archive and profiles.
 
@@ -73,6 +75,8 @@ GitHub: [#24](https://github.com/behavioral-data/behavioral-data.github.io/issue
 Phase: Before launch. Dependencies: 1, 2.
 
 The current site imports three news items and three paper award fields. It has no verified general honors collection.
+
+Homepage highlight selection is part of this step: after verifying the awards, choose the latest award-winning papers. This resolves the deferred highlight work from #23.
 
 - [ ] Collect missing paper awards, individual honors, and lab news from conference/award organizations, UW announcements, or member-submitted evidence.
 - [ ] Add structured award records with exact title, awarding body, date, recipients, optional paper link, and source URL.

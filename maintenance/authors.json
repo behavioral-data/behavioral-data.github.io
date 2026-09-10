@@ -320,5 +320,33 @@
     ],
     "requiresWorkVerification": true,
     "discover": false
+  },
+  {
+    "personId": "vinayakgupta",
+    "openalexId": "A5100720430",
+    "verified": true,
+    "verifiedOn": "2026-09-09",
+    "sourceUrl": "https://gvinayak.github.io/assets/Vinayak_Gupta_PhD.pdf",
+    "evidenceWorkIds": [
+      "W4415797292",
+      "W4400064538",
+      "W4394984217",
+      "W4404782449"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
+  },
+  {
+    "personId": "ashishsharma",
+    "openalexId": "A5074857072",
+    "verified": true,
+    "verifiedOn": "2026-09-09",
+    "sourceUrl": "https://arxiv.org/abs/2310.15461",
+    "evidenceWorkIds": [
+      "W4396832979",
+      "W4387947216"
+    ],
+    "requiresWorkVerification": true,
+    "discover": false
   }
 ]

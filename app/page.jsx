@@ -7,7 +7,7 @@ export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   const selected = papers.filter((p) => p.highlight).slice(0, 2);
   return (
-    <>
+    <div className="home-page">
       <header className="hero" id="home">
         <h1>Welcome to the Behavioral Data Science Lab</h1>
         <div className="prose">
@@ -74,6 +74,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }
