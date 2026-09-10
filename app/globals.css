@@ -891,7 +891,8 @@ h2 + .news-item {
 }
 @media (min-width: 761px) {
   .brand-caption,
-  .sidebar nav {
+  .sidebar nav,
+  .sidebar-bottom {
     width: var(--brand-width);
     max-width: 100%;
     margin-inline: auto;
