@@ -23,7 +23,7 @@ The 640px and 320px reflow checks correspond to the available layout widths at 2
 
 ## Approved content decisions
 
-- Restore the original two-paragraph hero description at the maintainer’s request. Only correct the Allen School name and use its current HTTPS link; substantive research-description changes need Tim’s approval. The original text is retained in pre-migration `_pages/home.md`.
+- Restore the original two-paragraph hero description at the maintainer’s request. Correct the Allen School name and use its current HTTPS link. Add the separately requested current-work sentence after the original paragraphs; broader research-description changes need Tim’s approval. The original text is retained in pre-migration `_pages/home.md`.
 - Use **Past and present support** for Adobe, AI2, the Gates Foundation, Microsoft Research, NIH, NSF, and ONR (maintainer reply, September 10).
 - Keep the smaller aligned sidebar and the approved **Allen School** wording.
 - Keep the reviewed recruitment guidance and its existing Tim-owned review dates; no new opening was invented during QA.

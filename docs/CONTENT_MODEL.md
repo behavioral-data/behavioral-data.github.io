@@ -42,7 +42,7 @@ Research and Pictures navigation entries appear when their respective collection
 
 The homepage describes the seven sponsor records as **Past and present support**, confirmed by the maintainer on September 10, 2026. Their presence does not assert that every sponsor is funding the lab currently.
 
-The homepage hero retains the original two-paragraph group description in `pages.json` (`home`). The maintainer requested restoration on September 10 and clarified that substantive changes require Tim’s approval. Keep factual copy edits separate from layout changes.
+The homepage hero retains the original two-paragraph group description in `pages.json` (`home`), followed by the maintainer-requested sentence naming current work in psychosocial AI, mental health, and human–AI collaboration. The maintainer requested restoration on September 10 and clarified that broader changes to the research description require Tim’s approval. Keep copy edits separate from layout changes.
 
 ## Verified discovery identities
 
