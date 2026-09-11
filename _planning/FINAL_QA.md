@@ -13,6 +13,7 @@ September 10, 2026. Checked the static export served at `http://127.0.0.1:3100/`
 - Browser navigation verifies the empty-page redirects: Research → Publications, Pictures → Team, About website and its `.html` legacy URL → Home. Canonical URLs and visible fallback links remain in the exported aliases.
 - The future-content fixture build confirms that populated Research and Pictures pages retain their records and sitemap entries instead of redirecting. Closed recruitment records use the neutral empty state.
 - The static export checker verifies all 106 HTML pages, internal assets/downloads, legacy URLs, anchors, heading order, signup action, and exclusion of review/configuration files. Existing production route and metadata checks are recorded in the launch runbook.
+- After restoring the longer original hero description, repeated the homepage check at all five viewport sizes. It remained readable with no overflow, clipping, browser errors, or automated accessibility violations.
 
 ## Manual follow-up to automated checks
 
@@ -22,6 +23,7 @@ The 640px and 320px reflow checks correspond to the available layout widths at 2
 
 ## Approved content decisions
 
+- Restore the original two-paragraph hero description at the maintainer’s request. Only correct the Allen School name and use its current HTTPS link; substantive research-description changes need Tim’s approval. The original text is retained in pre-migration `_pages/home.md`.
 - Use **Past and present support** for Adobe, AI2, the Gates Foundation, Microsoft Research, NIH, NSF, and ONR (maintainer reply, September 10).
 - Keep the smaller aligned sidebar and the approved **Allen School** wording.
 - Keep the reviewed recruitment guidance and its existing Tim-owned review dates; no new opening was invented during QA.

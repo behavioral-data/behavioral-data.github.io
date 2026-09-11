@@ -56,4 +56,6 @@ After activation, add one row per actual cycle. Record no-change weeks as well; 
 | First actual week | Pending activation | — | — | — |
 | Second actual week | Pending activation | — | — | — |
 
-A backup maintainer’s practical content update, preview/check, and rollback exercise is still required for the handoff issue. An agent’s local rehearsal does not establish that another person has completed the handoff.
+A temporary clean checkout of `5fd627e` passed formatting, all JS/Python tests, content validation, and the exported-site check. A local synthetic edit to the homepage description was committed, built, and confirmed in the export. Reverting that commit restored the exact original content bytes; a rebuilt export passed with a clean working tree. Shared local dependencies required the webpack build option in this isolated checkout. Nothing was pushed or deployed from the rehearsal.
+
+A backup maintainer’s practical content update, preview/check, and rollback exercise is still required for the handoff issue. This agent rehearsal does not establish that another person has completed the handoff.

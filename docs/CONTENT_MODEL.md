@@ -42,6 +42,8 @@ Research and Pictures navigation entries appear when their respective collection
 
 The homepage describes the seven sponsor records as **Past and present support**, confirmed by the maintainer on September 10, 2026. Their presence does not assert that every sponsor is funding the lab currently.
 
+The homepage hero retains the original two-paragraph group description in `pages.json` (`home`). The maintainer requested restoration on September 10 and clarified that substantive changes require Tim’s approval. Keep factual copy edits separate from layout changes.
+
 ## Verified discovery identities
 
 `maintenance/authors.json` maps OpenAlex identities to people using known-paper anchors. The initial registry is populated; mixed profiles still require per-paper authorship verification. Optional `evidenceWorkIds` record confirmed work IDs, `requiresWorkVerification` flags mixed or incompletely audited profiles, and `discover: false` enables coauthor recognition without fetching that person's complete publication list. See [Publication policy](PUBLICATION_POLICY.md).
