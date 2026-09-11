@@ -87,6 +87,20 @@
     "requiresWorkVerification": false
   },
   {
+    "personId": "rongwudannyxu",
+    "openalexId": "A5101295876",
+    "verified": true,
+    "verifiedOn": "2026-09-10",
+    "sourceUrl": "https://rongwuxu.com/",
+    "evidenceWorkIds": [
+      "W4402671159",
+      "W4389821167",
+      "W4404782813",
+      "W4392822502"
+    ],
+    "requiresWorkVerification": true
+  },
+  {
     "personId": "margaretli",
     "openalexId": "A5001224830",
     "verified": true,

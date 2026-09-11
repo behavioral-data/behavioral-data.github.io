@@ -50,13 +50,15 @@ export default function RootLayout({ children }) {
             <p>
               University of Washington
               <br />
-              Paul G. Allen School
+              Allen School
             </p>
             <a href="https://www.cs.washington.edu/">Seattle, WA</a>
           </div>
         </aside>
         <div className="site-body">
-          <main id="main">{children}</main>
+          <main id="main" tabIndex={-1}>
+            {children}
+          </main>
           <footer>
             <div>
               We are part of the{' '}

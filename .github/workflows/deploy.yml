@@ -1,5 +1,4 @@
-# Manual until the lab approves switching production to React.
-# After the first approved deployment, add a push trigger for master if desired.
+# Production is live. Keep deployment manual unless the maintainer requests automation.
 name: Deploy React website
 on:
   workflow_dispatch:

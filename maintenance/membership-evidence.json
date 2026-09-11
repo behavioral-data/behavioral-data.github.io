@@ -1,7 +1,7 @@
 {
   "version": 3,
   "checkedOn": "2026-09-09",
-  "purpose": "Source-backed reconstruction for issue #22; evidence only, not an automatic publication-policy input.",
+  "purpose": "Reviewed year-level membership evidence for issue #22 and automatic publication screening.",
   "datePrecision": "year",
   "conventions": {
     "dates": "YYYY uses the maintainer-requested year precision. Joining and leaving years are inclusive. Null means an unresolved year; differences within the same year do not block reconstruction.",
@@ -11,7 +11,7 @@
     "conflict": "Competing accounts retained in conflictingClaims; contested boundaries remain null or absent.",
     "unresolved": "No usable lab appointment boundary established; revisit only when better evidence is available.",
     "personId": "Matches content/people.json. Null denotes an alumni-only entry; this file does not create a new public profile.",
-    "policy": "Year-level research evidence; not an automatic publication-policy input. Do not expand years into invented calendar dates. Existing decisions, roster roles, and current/past status are preserved.",
+    "policy": "Consumed directly by publication screening as inclusive calendar years. Do not expand years into invented dates. Existing decisions, roster roles, and current/past status are preserved.",
     "confirmed": "A timeline completed or corrected by direct maintainer confirmation; this governs conflicting public profiles.",
     "omitted": "Membership range intentionally omitted at the maintainer\u2019s request; historical source claims are not selected ranges."
   },

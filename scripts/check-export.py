@@ -14,6 +14,8 @@ def check(root=ROOT):
     fragment_links = []
     class Links(HTMLParser):
         def handle_starttag(self, tag, attrs):
+            if tag == 'main' and dict(attrs).get('id') == 'main' and dict(attrs).get('tabindex') != '-1':
+                errors.add(f'{self.file.relative_to(exported)}: skip-link target must accept keyboard focus')
             if tag in ('h1','h2','h3','h4','h5','h6'):
                 level = int(tag[1])
                 if self.heading_level and level > self.heading_level + 1:
@@ -50,6 +52,16 @@ def check(root=ROOT):
     for name in required:
         if not (exported / name).is_file():
             errors.add('Missing required export: ' + name)
+    pages = json.loads((root / 'content/pages.json').read_text())
+    for route, field, collection, destination in [
+            ('research', 'research', 'projects', '/publications/'),
+            ('pictures', 'pictures', 'gallery', '/team/'),
+            ('aboutwebsite', 'about', None, '/')]:
+        records = json.loads((root / f'content/{collection}.json').read_text()) if collection else []
+        page = exported / route / 'index.html'
+        if not pages[field].strip() and not records:
+            if not page.exists() or f'content="0;url={destination}"' not in page.read_text():
+                errors.add(f'Empty legacy page must lead to useful content: /{route}/')
     signup = exported / 'idiofid/index.html'
     if signup.exists():
         settings = json.loads((root / 'content/site.json').read_text())

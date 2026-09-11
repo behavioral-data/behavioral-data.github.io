@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
       <section className="support">
-        <h2>Support From</h2>
+        <h2>Past and present support</h2>
         <div>
           {sponsors.map((s) => (
             <span key={s.name}>

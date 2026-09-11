@@ -2,7 +2,8 @@
 from datetime import date
 import re
 from discovery import ROOT, MANAGED_FIELDS, fingerprint, read, validate_authors, work_id
-from publication_policy import acceptance_review, validate_assessment, validate_policy
+from publication_policy import (acceptance_review, load_people, validate_assessment,
+                                validate_policy, validate_recorded_review)
 
 
 def validate(root=ROOT):
@@ -12,7 +13,7 @@ def validate(root=ROOT):
     for field, maximum in [('maxRequests',1000),('lookbackDays',365),('reconcileDays',365),('maxRunAgeDays',365),('maxReviewAgeDays',365)]:
         if type(config[field]) is not int or not 1 <= config[field] <= maximum:
             raise ValueError('Invalid maintenance setting: ' + field)
-    people = read(root / 'content/people.json')
+    people = load_people(root)
     policy_path = root / 'maintenance/publication-policy.json'
     if not policy_path.exists():
         raise ValueError('Missing maintenance/publication-policy.json')
@@ -55,14 +56,7 @@ def validate(root=ROOT):
         if not set(c['changes']) <= set(MANAGED_FIELDS) or not set(c['conflicts']) <= set(MANAGED_FIELDS):
             raise ValueError('Unsupported proposed fields')
         if c['status'] == 'accepted':
-            recorded = c.get('policyReview') or {}
-            expected = acceptance_review(c, recorded.get('personIds'), policy,
-                                         recorded.get('overrideReason'), recorded.get('evidenceUrls'))
-            if any(recorded.get(field) != value for field, value in expected.items()):
-                raise ValueError('Accepted candidate has an invalid policy review')
-            if recorded.get('reviewedOn') != c.get('reviewedOn'):
-                raise ValueError('Accepted candidate policy review date does not match its decision')
-            date.fromisoformat(recorded['reviewedOn'])
+            validate_recorded_review(c, policy)
     by_id = {c['id']: c for c in queue['candidates']}
     for c in queue['candidates']:
         if c.get('duplicateOf'):

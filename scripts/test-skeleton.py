@@ -41,6 +41,7 @@ def main():
         write(root,'gallery',[{'id':'fixture-photo','image':people[0]['image'],'alt':'Fixture photo','caption':'Fixture caption'}])
         # Webpack supports a shared dependency symlink outside this temporary project root.
         build(root)
+        subprocess.run(['node', 'scripts/export-aliases.mjs'], cwd=root, check=True)
         checks = {
             'news/index.html':['Fixture news','Fixture award'],
             'awards/index.html':['Fixture award'],
@@ -57,6 +58,12 @@ def main():
                 if value not in html: raise SystemExit(f'{name}: missing {value}')
         if 'Hidden closed opening' in (root/'out/join/index.html').read_text():
             raise SystemExit('Closed opportunity rendered')
+        sitemap = (root/'out/sitemap.xml').read_text()
+        for route in ['research', 'pictures']:
+            if f'/{route}/' not in sitemap:
+                raise SystemExit(f'Populated {route} page missing from sitemap')
+            if 'http-equiv="refresh"' in (root/f'out/{route}/index.html').read_text():
+                raise SystemExit(f'Populated {route} page was replaced with a redirect')
         if (root/'out/maintenance').exists():
             raise SystemExit('Review queue leaked to export')
         write(root,'opportunities',[{'id':'fixture-closed','title':'Hidden closed opening','url':'https://example.org/closed',**common_opportunity,'status':'closed'}])

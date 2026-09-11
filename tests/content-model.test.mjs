@@ -135,10 +135,10 @@ test('paper highlights use award dates, deduplicate papers and ignore individual
     'Updated award title',
   );
 });
-test('explicit person links override name matching, including an empty list', () => {
+test('profile attribution requires explicit person links even when a name matches', () => {
   const person = { id: 'p1', name: 'Ada Example' };
   const paper = { authors: 'Ada Example' };
-  assert.equal(paperBelongsTo(paper, person), true);
+  assert.equal(paperBelongsTo(paper, person), false);
   assert.equal(paperBelongsTo({ ...paper, personIds: [] }, person), false);
   assert.equal(filterPapers([{ ...paper, personIds: [] }], { person }).length, 0);
   assert.equal(paperBelongsTo({ authors: 'Different Name', personIds: ['p1'] }, person), true);
@@ -233,12 +233,25 @@ test('article, conference and preprint types produce correct citation entries wi
   );
 });
 
-test('name aliases preserve legacy attribution without overriding explicit person links', () => {
+test('renamed people retain explicit attribution without guessing from aliases', () => {
   const person = { id: 'deniznazarova', name: 'Deniz Nazar', aliases: ['Deniz Nazarova'] };
-  const paper = { title: 'Test', authors: 'Deniz Nazarova', year: 2024 };
+  const paper = {
+    title: 'Test',
+    authors: 'Deniz Nazarova',
+    year: 2024,
+    personIds: ['deniznazarova'],
+  };
   assert.equal(paperBelongsTo(paper, person), true);
   assert.equal(filterPapers([paper], { person }).length, 1);
   assert.equal(paperBelongsTo({ ...paper, personIds: [] }, person), false);
+});
+
+test('publications cannot silently fall back to name-based profile attribution', () => {
+  const data = fixture();
+  delete data.publications[0].personIds;
+  assert.match(validateContent(data).join(), /explicit personIds/);
+  data.publications[0].personIds = [];
+  assert.deepEqual(validateContent(data), []);
 });
 
 test('people highlights exclude paper and team awards and select the latest honors', () => {

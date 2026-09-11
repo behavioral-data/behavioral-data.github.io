@@ -70,6 +70,16 @@
     "evidence": "Linked from personal Notion homepage under Inna Wanyin Lin."
   },
   {
+    "personId": "rongwudannyxu",
+    "name": "Rongwu Danny Xu",
+    "googleScholarId": "HyjNrDMAAAAJ",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=HyjNrDMAAAAJ",
+    "status": "verified",
+    "checkedOn": "2026-09-10",
+    "sourceUrl": "https://rongwuxu.com/",
+    "evidence": "Linked from personal homepage. OpenAlex identity anchored to the ACL 2024 Earth is Flat paper and EMNLP 2024 Knowledge Conflicts survey (including their arXiv versions); retain per-paper verification for other provider matches. Scholar retrieval was stale, so this confirms identity, not current publication coverage."
+  },
+  {
     "personId": "margaretli",
     "name": "Margaret Li",
     "googleScholarId": "cUSS3fYAAAAJ",

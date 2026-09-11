@@ -44,29 +44,25 @@ Run `npm run format` after editing JavaScript, JSX, CSS, or root configuration f
 
 See [Content model](docs/CONTENT_MODEL.md) for field definitions and [Maintenance runbook](docs/MAINTENANCE.md) for submissions, discovery, review, activation and recovery. Keep stable IDs when editing existing records: they determine page URLs. Ordinary papers do not require a thumbnail or local PDF. Do not modify the `legacy` metadata unless correcting an import; it preserves original bibliographic details.
 
-Publications support explicit `personIds`; existing imports retain name matching until the roster/content pass supplies verified links. The discovery pipeline uses only the explicitly verified identities in the populated `maintenance/authors.json` registry. Eight current-member identities are used for discovery, while verified past-member and split-profile identities can match coauthors without expanding discovery into their later work.
+All 66 publications have reviewed `personIds`, which determine profile paper lists. The discovery pipeline queries nine current-member identities and recognizes anchored past-member and split-profile identities as coauthors. Reviewed membership evidence uses inclusive calendar years; uncertain identities and dates remain human-review cases.
 
 ## Review and deploy
 
 Create a branch and pull request. The check workflow runs content validation, tests and the production build, then saves the exported site as a downloadable artifact. Review the content and preview before merging.
 
-The React deployment workflow is **manual-only** until the lab approves the production switch. In the GitHub repository, set Pages → Source to GitHub Actions, then run “Deploy React website” after approval. It deploys `out/` at the existing organization site address. No production settings were changed during local migration. Once the lab wants automatic deployment, add a `push` trigger for `master`.
-
-Do not push the migration to the production branch while the old Pages branch-based Jekyll deployment remains enabled. Use a PR and coordinate the Pages source switch with the first React deployment.
+The React site is live at <https://behavioral-data.github.io/> from `master`, using GitHub Actions for Pages. Deployment remains **manual-only**: after reviewing and merging a change, run “Deploy React website” on `master`. Pushing a branch or merging a PR does not deploy it. The [runbook](docs/MAINTENANCE.md) covers verification and rollback without rewriting history.
 
 ## Migration and remaining work
 
 See [Next steps and GitHub issues](_planning/NEXT_STEPS.md) for the current delivery plan and completion criteria.
 
-All 47 publication records, 22 people records, 11 legacy alumni entries, three news records, seven sponsors and original asset files were preserved. Old route names remain available, including `/team/`, `/publications/`, `/allnews/`, `/allnews.html`, `/vacancies/` and `/idiofid/`. A duplicated PDF path in the old GLOBEM entry was repaired.
+The reviewed website contains 66 publications, 22 people records (nine current members), 11 legacy alumni entries, four news records, seven sponsors, and 69 honors. Sponsors are described as **Past and present support**, as confirmed by the maintainer. Original assets and stable publication URLs remain available. Empty Research, Pictures, and About website routes redirect to relevant live sections; historical news, recruitment, and IdioFid URLs are preserved.
 
-The current and past lab roster has been reviewed, and the publication rule requires Tim plus at least one other current or past lab member. Historical membership intervals, ambiguous author identities, and publication/award backfill still need work. No new papers or honors were added by the migration itself. The IdioFID form retains its existing Google Apps Script endpoint; a signup was not submitted during migration.
+The content and layout passes are complete. Keyboard, responsive, accessibility, and route checks are recorded in [final QA](_planning/FINAL_QA.md). The IdioFid form retains its existing Google Apps Script endpoint; the maintainer explicitly deferred a live signup test.
 
 The migration backup location and inventory are recorded in `_planning/migration-backup.json`. It includes the pre-migration legacy source and staged/unstaged Git patches. Generated Jekyll output and installed Ruby dependencies were not archived. Git's existing commit history is intact.
 
-**Infrastructure first; content last.** Structured collections and related page skeletons, submission forms, OpenAlex discovery, deduplication, persistent review decisions, weekly draft-PR workflows, health checks, and deployment validation are implemented. Empty future collections contain no invented lab records.
-
-**Live maintenance remains disabled.** Activation requires a verified author roster, configuration and reviewer ownership, repository permissions, and an independent scheduler/notification hookup. Two real weekly review cycles and the approved production switch remain to be done after the content pass. Private reviewer notes, credentials and signup addresses must stay out of this public repository.
+**Recurring maintenance remains disabled.** The isolated live discovery pilot passed; see [pilot evidence](_planning/MAINTENANCE_PILOT.md). Primary maintainer: [advaitmb](https://github.com/advaitmb). Activation still requires review safeguards, alert routing, an independent missed-run monitor, and two actual weekly review cycles. Automatic publication is out of scope. Private reviewer notes, credentials, and signup addresses stay outside this public repository.
 
 ## Credits
 
