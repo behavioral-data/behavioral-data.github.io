@@ -27,7 +27,12 @@
       "site": "https://advaitmb.com/",
       "title": "PhD Student"
     },
-    "reviewedOn": "2026-09-05"
+    "reviewedOn": "2026-09-05",
+    "photoCrop": {
+      "scale": 1.35,
+      "x": 50,
+      "y": 34
+    }
   },
   {
     "id": "antoniasaravanou",
