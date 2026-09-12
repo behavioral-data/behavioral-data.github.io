@@ -3,6 +3,7 @@ node_modules/
 out/
 _review/
 .DS_Store
+.vscode/
 __pycache__/
 *.pyc
 .env*
