@@ -4,7 +4,7 @@
     "name": "Advait Bhat",
     "role": "PhD Student",
     "website": "https://advaitmb.com/",
-    "image": "/resources/headshots/advait.jpeg",
+    "image": "/resources/headshots/advait-2026.jpeg",
     "status": "member",
     "priority": 3,
     "topics": [
@@ -27,12 +27,7 @@
       "site": "https://advaitmb.com/",
       "title": "PhD Student"
     },
-    "reviewedOn": "2026-09-05",
-    "photoCrop": {
-      "scale": 1.25,
-      "x": 50,
-      "y": 30
-    }
+    "reviewedOn": "2026-09-05"
   },
   {
     "id": "antoniasaravanou",
